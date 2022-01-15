@@ -1,0 +1,4 @@
+baseURL = 'xy-iii.github.io'
+languageCode = 'en-us'
+title = 'never knows best'
+theme = 'diary'
