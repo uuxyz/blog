@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hello world</title>
+	<title>math</title>
 	
 	
 	<link rel="stylesheet" href="/css/style.css">
@@ -18,13 +18,34 @@
 
 	
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
 
 	<main>
 		<article>
-			<h1>Hello world</h1>
-			<time datetime="2022-01-15T23:43:58">15.01.2022 23:43</time>
+			<h1>math</h1>
+			<time datetime="2022-03-15T23:43:58">15.03.2022 23:43</time>
 			<div>
-				<p>Hello world</p>
+				<p>$$f(a)=\frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\mathrm{d}z$$</p>
 
 			</div>
 			
