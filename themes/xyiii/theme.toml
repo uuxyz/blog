@@ -1,0 +1,13 @@
+name = "xyiii"
+license = "GPL"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.txt"
+description = "A Hugo theme"
+homepage = "xy-iii.github.io"
+demosite = "xy-iii.github.io"
+tags = ["blog", "plain", "xyiii",]
+features = ["blog"]
+min_version = "0.01"
+
+[author]
+  name = "xyiii"
+  homepage = "https://github.com/xy-iii"
