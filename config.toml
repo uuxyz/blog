@@ -3,3 +3,8 @@ languageCode = 'en-us'
 title = 'never knows best'
 theme = 'xyiii'
 publishDir = 'docs'
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 5
+    ordered = false
