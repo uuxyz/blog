@@ -7,7 +7,7 @@ math: true
 
 $$f(a)=\frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\mathrm{d}z$$
 
-$$\left(x-\frac{b}{2a}\right)^2=\frac{b}{2a}-\frac{c}{a}$$
+$$\left(x-\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
 
 $$\left(x+\frac{D}{2}\right)^2+\left(y+\frac{E}{2}\right)^2=\left(\frac{D}{2}\right)^2+\left(\frac{E}{2}\right)^2-F$$
 
