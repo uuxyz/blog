@@ -6,14 +6,28 @@
     <description>Recent content on never knows best</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Mar 2022 23:43:58 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 00:53:04 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linear algebra</title>
+      <link>https://xy-iii.github.io/posts/linear_algebra/</link>
+      <pubDate>Sun, 03 Jul 2022 00:53:04 +0800</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/linear_algebra/</guid>
+      <description>$$S_{\mathrm{triangle}}=\frac{1}{2} \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2\\ y_0 &amp;amp; y_1 &amp;amp; y_2\\ 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}$$
+$$V_{\mathrm{tetrahedron}}=\frac{1}{6} \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3\\ y_0 &amp;amp; y_1 &amp;amp; y_2 &amp;amp; y_3\\ z_0 &amp;amp; z_1 &amp;amp; z_2 &amp;amp; z_3\\ 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}$$
+$$\boldsymbol{a}\times\boldsymbol{b}= \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp; z_1\\ x_2 &amp;amp; y_2 &amp;amp; z_2\\ \boldsymbol i &amp;amp; \boldsymbol j &amp;amp; \boldsymbol k \end{vmatrix}$$</description>
+    </item>
+    
     <item>
       <title>math</title>
       <link>https://xy-iii.github.io/posts/math/</link>
       <pubDate>Tue, 15 Mar 2022 23:43:58 +0800</pubDate>
       
       <guid>https://xy-iii.github.io/posts/math/</guid>
-      <description>$$f(a)=\frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\mathrm{d}z$$</description>
+      <description>$$f(a)=\frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\mathrm{d}z$$
+$$\left(x-\frac{b}{2a}\right)^2=\frac{b}{2a}-\frac{c}{a}$$
+$$\left(x+\frac{D}{2}\right)^2+\left(y+\frac{E}{2}\right)^2=\left(\frac{D}{2}\right)^2+\left(\frac{E}{2}\right)^2-F$$
+$$S=\frac{x\sin\left(\frac{\tau}{x}\right)k^2}{4(1-\cos\left(\frac{\tau}{x}\right))}$$</description>
     </item>
     
     <item>
@@ -31,7 +45,7 @@
       <pubDate>Thu, 01 Jun 1871 00:00:00 +0000</pubDate>
       
       <guid>https://xy-iii.github.io/posts/the_international/</guid>
-      <description>Debout! les damnés de la terre Debout! les forçats de la faim La raison tonne en son cratère, C’est l’éruption de la fin. Du passé faisons table rase Foule esclave, debout! debout! Le monde va changer de base Nous ne sommes rien, soyons tout! Refrain C’est la lutte finale Groupons-nous et demain L’Internationale Sera le genre humain. Il n’est pas de sauveurs suprêmes: Ni dieu, ni césar, ni tribun, Producteurs, sauvons-nous nous-mêmes!</description>
+      <description>Debout! les damnés de la terreDebout! les forçats de la faimLa raison tonne en son cratère,C’est l’éruption de la fin.Du passé faisons table raseFoule esclave, debout! debout!Le monde va changer de baseNous ne sommes rien, soyons tout!RefrainC’est la lutte finaleGroupons-nous et demainL’InternationaleSera le genre humain.Il n’est pas de sauveurs suprêmes:Ni dieu, ni césar, ni tribun,Producteurs, sauvons-nous nous-mêmes!</description>
     </item>
     
     <item>
