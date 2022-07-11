@@ -48,27 +48,48 @@
 			
 			<div>
 							<h3>Table of contents</h3>
-							<nav id="TableOfContents"></nav>
+							<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#area-of-triangle">Area of Triangle</a></li>
+        <li><a href="#volume-of-tetrahedron">Volume of Tetrahedron</a></li>
+        <li><a href="#two-vector-cross-product">Two Vector Cross Product</a></li>
+        <li><a href="#gereral-quadratic-curve">Gereral Quadratic Curve</a></li>
+        <li><a href="#3-points-determine-a-circle">3 Points Determine a Circle</a></li>
+        <li><a href="#4-point-determine-a-sphere">4 Point Determine a Sphere</a></li>
+        <li><a href="#3-point-determine-a-plane">3 Point Determine a Plane</a></li>
+        <li><a href="#2-point-determine-a-line">2 Point Determine a Line</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 			</div>
-			<p>$$S_{\mathrm{triangle}}=\frac{1}{2}
+			<h2 id="area-of-triangle">Area of Triangle</h2>
+<p>$$S_{\mathrm{triangle}}=\frac{1}{2}
+\left|
 \begin{vmatrix}
 x_0 &amp; x_1 &amp; x_2\\ 
 y_0 &amp; y_1 &amp; y_2\\ 
 1 &amp; 1 &amp; 1
-\end{vmatrix}$$</p>
+\end{vmatrix}\right|$$</p>
+<h2 id="volume-of-tetrahedron">Volume of Tetrahedron</h2>
 <p>$$V_{\mathrm{tetrahedron}}=\frac{1}{6}
+\left|
 \begin{vmatrix}
 x_0 &amp; x_1 &amp; x_2 &amp; x_3\\ 
 y_0 &amp; y_1 &amp; y_2 &amp; y_3\\ 
 z_0 &amp; z_1 &amp; z_2 &amp; z_3\\ 
 1 &amp; 1 &amp; 1 &amp; 1
-\end{vmatrix}$$</p>
+\end{vmatrix}\right|$$</p>
+<h2 id="two-vector-cross-product">Two Vector Cross Product</h2>
 <p>$$\boldsymbol{a}\times\boldsymbol{b}=
 \begin{vmatrix}
 x_1 &amp; y_1 &amp; z_1\\ 
 x_2 &amp; y_2 &amp; z_2\\ 
 \boldsymbol i &amp; \boldsymbol j &amp;  \boldsymbol k
 \end{vmatrix}$$</p>
+<h2 id="gereral-quadratic-curve">Gereral Quadratic Curve</h2>
 <p>$$\begin{bmatrix}
 x &amp; y &amp; z
 \end{bmatrix}
@@ -83,6 +104,44 @@ y\\
 z
 \end{bmatrix}
 =0$$</p>
+<h2 id="3-points-determine-a-circle">3 Points Determine a Circle</h2>
+<p>$$
+\begin{vmatrix}
+x^2+y^2 &amp; x &amp; y &amp; 1\\
+x_1^2+y_1^2 &amp; x_1 &amp; y_1 &amp; 1\\
+x_2^2+y_2^2 &amp; x_2 &amp; y_2 &amp; 1\\
+x_3^2+y_3^2 &amp; x_3 &amp; y_3 &amp; 1
+\end{vmatrix}
+=0
+$$</p>
+<h2 id="4-point-determine-a-sphere">4 Point Determine a Sphere</h2>
+<p>$$
+\begin{vmatrix}
+x^2+y^2+z^2 &amp; x &amp; y &amp; z &amp; 1\\
+x_1^2+y_1^2+z_1^2 &amp; x_1 &amp; y_1 &amp; z_1 &amp; 1\\
+x_2^2+y_2^2+z_2^2 &amp; x_2 &amp; y_2 &amp; z_2 &amp; 1\\
+x_3^2+y_3^2+z_3^2 &amp; x_3 &amp; y_3 &amp; z_3 &amp; 1\\
+x_4^2+y_4^2+z_4^2 &amp; x_4 &amp; y_4 &amp; z_4 &amp; 1
+\end{vmatrix}
+=0
+$$</p>
+<h2 id="3-point-determine-a-plane">3 Point Determine a Plane</h2>
+<p>$$
+\begin{vmatrix}
+x &amp; y &amp; z&amp;1\\
+x_1 &amp; y_1 &amp; z_1&amp;1\\
+x_2 &amp; y_2 &amp; z_2&amp;1\\
+x_3 &amp; y_3 &amp; z_3&amp;1
+\end{vmatrix}
+$$</p>
+<h2 id="2-point-determine-a-line">2 Point Determine a Line</h2>
+<p>$$
+\begin{vmatrix}
+x &amp; y &amp; 1\\
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1
+\end{vmatrix}
+$$</p>
 
 			
 		</article>
@@ -92,6 +151,8 @@ z
 
 <br>
 
+  <a href="https://xy-iii.github.io/posts/math_in_ncee/">Next: Math in NCEE</a>
+
 <aside>
     <div>
         <div>
@@ -100,15 +161,15 @@ z
         <div>
             <ul>
                 
+                <li><a href="/posts/physics_in_ncee/">Physics in NCEE</a></li>
+                
+                <li><a href="/posts/math_in_ncee/">Math in NCEE</a></li>
+                
                 <li><a href="/posts/linear_algebra/">Linear algebra</a></li>
                 
                 <li><a href="/posts/math/">math</a></li>
                 
                 <li><a href="/posts/hello_world/">Hello world</a></li>
-                
-                <li><a href="/posts/the_international/">L&#39;Internationale</a></li>
-                
-                <li><a href="/posts/manifesto/">Manifesto of the Communist Party</a></li>
                 
             </ul>
         </div>

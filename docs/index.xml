@@ -6,16 +6,42 @@
     <description>Recent content on never knows best</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 00:53:04 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 01:13:45 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physics in NCEE</title>
+      <link>https://xy-iii.github.io/posts/physics_in_ncee/</link>
+      <pubDate>Tue, 12 Jul 2022 01:13:45 +0800</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/physics_in_ncee/</guid>
+      <description> $$ $$ $$ a,t,v $$ $$ a,t,v_0 $$ $$ a,t,x $$ $$ a,v,v_0 $$ $$ a,v,x $$ $$ a,v_0,x $$ $$ t,v,v_0 $$ $$ t,v,x $$ $$ t,v_0,x $$ $$ v,v_0,x $$ $$ a $$ $$ a $$ $$ a $$ $$ a $$ $$ a $$ $$ a $$ $$ a $$ $$ \frac{v-v_0}{t} $$ $$ \frac{2vt-2x}{t^2} $$ $$ \frac{2x-2v_0t}{t^2} $$ $$ \frac{v^2-v_0^2}{2x} $$ $$ t $$ $$ t $$ $$ t $$ $$ t $$ $$ \frac{v-v_0}{a} $$ $$ \sqrt{\frac{2vt-2x}{a}} $$ $$ \frac{\sqrt{v_0^2+2ax}-v_0}{a} $$ $$ t $$ $$ t $$ $$ t $$ $$ \frac{2x}{v_0+v} $$ $$ v $$ $$ v $$ $$ v_0+at $$ $$ \frac{1}{2}at+\frac{x}{t} $$ $$ v $$ $$ v $$ $$ \sqrt{2ax+v_0^2} $$ $$ v $$ $$ v $$ $$ \frac{2x}{t}-v_0 $$ $$ v $$ $$ v_0 $$ $$ v-at $$ $$ v_0 $$ $$ \frac{x}{t}-\frac{1}{2}at $$ $$ v_0 $$ $$ \sqrt{v^2-2ax} $$ $$ v_0 $$ $$ v_0 $$ $$ \frac{2x}{t}-v $$ $$ v_0 $$ $$ v_0 $$ $$ x $$ $$ vt-\frac{1}{2}at^2 $$ $$ v_0t+\frac{1}{2}at^2 $$ $$ x $$ $$ \frac{v^2-v_0^2}{2a} $$ $$ x $$ $$ x $$ $$ \frac{v+v_0}{2}t $$ $$ x $$ $$ x $$ $$ x $$ </description>
+    </item>
+    
+    <item>
+      <title>Math in NCEE</title>
+      <link>https://xy-iii.github.io/posts/math_in_ncee/</link>
+      <pubDate>Tue, 12 Jul 2022 00:17:50 +0800</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/math_in_ncee/</guid>
+      <description>Quadratic functions $$\left(x-\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
+$$f(x)=a(x-h)^2+k=a(x-x_1)(x-x_2)$$
+$$f(x)=a(x-x_0)^2+(kx+d)$$
+$$x=-\frac{b}{2a}=\frac{x_1+x_2}{2}$$
+$$\left(-\frac{b}{2a},c-\frac{b^2}{4a}\right)$$
+Functions $$f(x)$$ $$T$$ $$f(x+T)=f(x)$$ $$T$$ $$f(x+T)=-f(x)$$ $$2T$$ $$f(x+m)=f(x+n)$$ $$2|m-n|$$ $$f(x+T)=-\frac{1}{f(x)}$$ $$2T$$ axial symmetry $$f(x)$$ axial $$f(x+a)=f(b-x)$$ $$\frac{a+b}{2}$$ $$y=f(x+a),y=f(b-x)$$ $$\frac{b-a}{2}$$ $$\sqrt{a}\sqrt{b}=\sqrt{ab}$$ $$\sqrt{\frac{a}{b}}=\frac{\sqrt{a}}{\sqrt{b}}=\frac{\sqrt{ab}}{b}$$ $$a^{\frac{m}{n}}=\sqrt[n]{a^m}$$ $$a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$$ $$\log_{a^m}^{b^n}=\frac{n}{m}\log_a b$$
+Absolute $$a&amp;gt;0,|x|&amp;lt;a \Leftrightarrow -a&amp;lt;x&amp;lt;a$$ $$a&amp;gt;0,|x|&amp;gt;a \Leftrightarrow x&amp;lt;-a\ \mathrm{or}\ x&amp;gt;a$$ $$c&amp;gt;0,|ax+b|&amp;lt;c \Leftrightarrow -c &amp;lt; ax+b &amp;lt; c$$ $$c&amp;gt;0,|ax+b|&amp;gt;c \Leftrightarrow ax+b &amp;gt;c\ \mathrm{or}\ ax+b &amp;lt; -c$$
+Trigonometric functions $$1 \approx 57^\circ$$ $$c=2\pi r$$ $$S=\pi r^2$$ $$l=|a|r$$ $$S=\frac{1}{2}lr=\frac{1}{2}|a|r^2$$
+Calculus $$f(x)$$ $$f(x)&amp;rsquo;$$ $$c$$ $$0$$ $$x^a$$ $$ax^{a-1}$$ $$\sin x$$ $$\cos x$$ $$\cos x$$ $$-\sin x$$ $$a^x$$ $$a^x \ln a$$ $$e^x$$ $$e^x$$ $$\log_a x$$ $$\frac{1}{x\ln a}$$ $$\ln x$$ $$\frac{1}{x}$$ $$(uv)&amp;rsquo;=u&amp;rsquo;v+uv&amp;rsquo;$$</description>
+    </item>
+    
     <item>
       <title>Linear algebra</title>
       <link>https://xy-iii.github.io/posts/linear_algebra/</link>
       <pubDate>Sun, 03 Jul 2022 00:53:04 +0800</pubDate>
       
       <guid>https://xy-iii.github.io/posts/linear_algebra/</guid>
-      <description>$$S_{\mathrm{triangle}}=\frac{1}{2} \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2\\ y_0 &amp;amp; y_1 &amp;amp; y_2\\ 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}$$
-$$V_{\mathrm{tetrahedron}}=\frac{1}{6} \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3\\ y_0 &amp;amp; y_1 &amp;amp; y_2 &amp;amp; y_3\\ z_0 &amp;amp; z_1 &amp;amp; z_2 &amp;amp; z_3\\ 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}$$
-$$\boldsymbol{a}\times\boldsymbol{b}= \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp; z_1\\ x_2 &amp;amp; y_2 &amp;amp; z_2\\ \boldsymbol i &amp;amp; \boldsymbol j &amp;amp; \boldsymbol k \end{vmatrix}$$</description>
+      <description>Area of Triangle $$S_{\mathrm{triangle}}=\frac{1}{2} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2\\ y_0 &amp;amp; y_1 &amp;amp; y_2\\ 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$
+Volume of Tetrahedron $$V_{\mathrm{tetrahedron}}=\frac{1}{6} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3\\ y_0 &amp;amp; y_1 &amp;amp; y_2 &amp;amp; y_3\\ z_0 &amp;amp; z_1 &amp;amp; z_2 &amp;amp; z_3\\ 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$
+Two Vector Cross Product $$\boldsymbol{a}\times\boldsymbol{b}= \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp; z_1\\ x_2 &amp;amp; y_2 &amp;amp; z_2\\ \boldsymbol i &amp;amp; \boldsymbol j &amp;amp; \boldsymbol k \end{vmatrix}$$</description>
     </item>
     
     <item>
@@ -25,7 +51,6 @@ $$\boldsymbol{a}\times\boldsymbol{b}= \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp
       
       <guid>https://xy-iii.github.io/posts/math/</guid>
       <description>$$f(a)=\frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\mathrm{d}z$$
-$$\left(x-\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
 $$\left(x+\frac{D}{2}\right)^2+\left(y+\frac{E}{2}\right)^2=\left(\frac{D}{2}\right)^2+\left(\frac{E}{2}\right)^2-F$$
 $$S=\frac{x\sin\left(\frac{\tau}{x}\right)k^2}{4(1-\cos\left(\frac{\tau}{x}\right))}$$</description>
     </item>
