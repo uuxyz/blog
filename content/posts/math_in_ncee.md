@@ -89,8 +89,22 @@ $$ab\leq\left(\frac{a+b}{2}\right)^2\leq\frac{a^2+b^2}{2}$$
 
 ## Series
 
-$$a_n=a_1+nd$$
+$$a_n=a_1+(n-1)d$$
 $$S_n=\frac{n(a_1+a_n)}{2}=na_1+\frac{n(n-1)}{2}d$$
+$$\frac{S_n}{n}=a_1+\frac{(n-1)}{2}d$$
+
+$$\frac{1}{a_n}=\frac{1}{a_1+(n-1)d}$$
+$$S_n=\frac{1}{d}\ln\left(1+n\frac{2d}{2a-d}\right)$$
+
+$$a_n=a_1 q^{n-1}=a_mq^{n-m}$$
+$$S_n=a_1\frac{q^n-1}{q-1}=\frac{a_nq-a_1}{q-1}$$
+$$T_n=a_1^n\frac{q^{n(n-1)}}{2}$$
+
+$$\frac{1}{n(n-k)}=\frac{1}{k}\left(\frac{1}{n}-\frac{1}{n+k}\right)$$
+$$\frac{1}{4n^2-1}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)$$
+$$\frac{1}{\sqrt{n}+\sqrt{n+m}}=\frac{\sqrt{n+m}-\sqrt{n}}{m}$$
+$$\log_a\left(1+\frac{1}{n}\right)=\log_a(n-1)-\log_a n$$
+
 
 ## Vector
 
