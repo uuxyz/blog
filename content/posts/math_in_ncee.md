@@ -89,16 +89,25 @@ $$ab\leq\left(\frac{a+b}{2}\right)^2\leq\frac{a^2+b^2}{2}$$
 
 ## Series
 
-$$a_n=a_1+(n-1)d$$
-$$S_n=\frac{n(a_1+a_n)}{2}=na_1+\frac{n(n-1)}{2}d$$
-$$\frac{S_n}{n}=a_1+\frac{(n-1)}{2}d$$
+|Arithmetico sequence|Geometric sequence|
+|--|--|
+|$$a_n=a_0+nd=a_m+(n-m)d$$|$$a_n=a_0 q^n=a_mq^{n-m}$$|
+|$$S_n=na_0+\frac{n(n+1)}{2}d=\frac{n(a_1+a_n)}{2}$$|$$S_n=a_0q\frac{q^n-1}{q-1}=\frac{a_nq-a_1}{q-1}$$|
+|$$T_n=\frac{d^n\left(n+\frac{a_0}{d}\right)!}{\left(\frac{a_0}{d}\right)!}$$|$$T_n=a_0^n q^{\frac{n(n+1)}{2}}$$|
+|$$S_{(n+1)k}-S_{nk}=k(a_0+\frac{k+1}{2}d)+dk^2n$$|$$S_{(n+1)k}-S_{nk}=a_0\frac{q^k-1}{q-1}q^{kn+1}$$|
+
+$$S_n=\frac{A_1G_1-A_{n+1}G_{n+1}}{1-r}+\frac{dr}{(1-r)^2}\left(G_1-G_{n+1}\right)$$
+
+$$\sum_{x=1}^n A_{1_n} A_{2_n} = d_1d_2\frac{n^3}{2}+\left(a_0d_2+b_0d_1+d_1d_2\right)\frac{n^2}{2}+\left(6a_0b_0+3a_0d_2+3b_0d_1+d_1d_2\right)\frac{n}{6}$$
+
+$$\sum_{x=1}^n G_{1_n} G_{2_n} = \frac{a_0b_0q_1q_2(q_1^nq_2^n-1)}{q_1q_2-1}$$
+
+$$\frac{S_n}{n}=a_0+\frac{n+1}{2}d$$
 
 $$\frac{1}{a_n}=\frac{1}{a_1+(n-1)d}$$
-$$S_n=\frac{1}{d}\ln\left(1+n\frac{2d}{2a-d}\right)$$
+$$S_n=\frac{1}{d}\ln\left(1+n\frac{2d}{2a_0+d}\right)$$
 
-$$a_n=a_1 q^{n-1}=a_mq^{n-m}$$
-$$S_n=a_1\frac{q^n-1}{q-1}=\frac{a_nq-a_1}{q-1}$$
-$$T_n=a_1^n\frac{q^{n(n-1)}}{2}$$
+$$\sum_{k=1}^n\left[a_1+(k-1)d\right]r^{k-1}=\frac{a-[a+(n-1)d]r^n}{1-r}+\frac{dr(1-r^{n-1})}{(1-r)^2}$$
 
 $$\frac{1}{n(n-k)}=\frac{1}{k}\left(\frac{1}{n}-\frac{1}{n+k}\right)$$
 $$\frac{1}{4n^2-1}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)$$
