@@ -49,9 +49,9 @@ Calculus $$f(x)$$ $$f(x)&amp;rsquo;$$ $$c$$ $$0$$ $$x^a$$ $$ax^{a-1}$$ $$\sin x$
       <pubDate>Sun, 03 Jul 2022 00:53:04 +0800</pubDate>
       
       <guid>https://xy-iii.github.io/posts/linear_algebra/</guid>
-      <description>Area of Triangle $$S_{\mathrm{triangle}}=\frac{1}{2} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2\\ y_0 &amp;amp; y_1 &amp;amp; y_2\\ 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$
-Volume of Tetrahedron $$V_{\mathrm{tetrahedron}}=\frac{1}{6} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3\\ y_0 &amp;amp; y_1 &amp;amp; y_2 &amp;amp; y_3\\ z_0 &amp;amp; z_1 &amp;amp; z_2 &amp;amp; z_3\\ 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$
-Two Vector Cross Product $$\boldsymbol{a}\times\boldsymbol{b}= \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp; z_1\\ x_2 &amp;amp; y_2 &amp;amp; z_2\\ \boldsymbol i &amp;amp; \boldsymbol j &amp;amp; \boldsymbol k \end{vmatrix}$$</description>
+      <description>Determinant $$ \begin{vmatrix} x_1 &amp;amp; y_1 &amp;amp; z_1\ x_2 &amp;amp; y_2 &amp;amp; z_2\ x_3 &amp;amp; y_3 &amp;amp; z_3 \end{vmatrix}=-x_3 y_2 z_1 + x_2 y_3 z_1 + x_3 y_1 z_2 - x_1 y_3 z_2 - x_2 y_1 z_3 + x_1 y_2 z_3 $$
+Area of Triangle $$S_{\mathrm{triangle}}=\frac{1}{2} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2\\ y_0 &amp;amp; y_1 &amp;amp; y_2\\ 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$
+Volume of Tetrahedron $$V_{\mathrm{tetrahedron}}=\frac{1}{6} \left| \begin{vmatrix} x_0 &amp;amp; x_1 &amp;amp; x_2 &amp;amp; x_3\\ y_0 &amp;amp; y_1 &amp;amp; y_2 &amp;amp; y_3\\ z_0 &amp;amp; z_1 &amp;amp; z_2 &amp;amp; z_3\\ 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 \end{vmatrix}\right|$$</description>
     </item>
     
     <item>
