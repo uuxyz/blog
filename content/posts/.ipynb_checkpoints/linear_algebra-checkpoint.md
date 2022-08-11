@@ -25,16 +25,6 @@ y_0 & y_1 & y_2\\\\
 1 & 1 & 1
 \end{vmatrix}\right|$$
 
-## Area of triangle in complex number form
-
-$$S_{\mathrm{triangle}}=\frac{i}{4}
-\left|
-\begin{vmatrix}
-1 & 1 & 1\\\\ 
-z_1 & z_2 & z_3\\\\ 
-\bar{z_1} & \bar{z_2} & \bar{z_3}
-\end{vmatrix}\right|$$
-
 ## Volume of Tetrahedron
 
 $$V_{\mathrm{tetrahedron}}=\frac{1}{6}
