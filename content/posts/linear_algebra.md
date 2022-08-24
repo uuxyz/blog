@@ -72,6 +72,25 @@ z
 \end{bmatrix}
 =0$$
 
+## 5 Points Determine a Gereral Quadratic Curve
+
+$$\begin{bmatrix}
+x_1^2 & x_1 y_1 & y_1^2 & x_1 & y_1 & 1 \\\\
+x_2^2 & x_2 y_2 & y_2^2 & x_2 & y_2 & 1 \\\\
+x_3^2 & x_3 y_3 & y_3^2 & x_3 & y_3 & 1 \\\\
+x_4^2 & x_4 y_4 & y_4^2 & x_4 & y_4 & 1 \\\\
+x_5^2 & x_5 y_5 & y_5^2 & x_5 & y_5 & 1 \\\\
+\end{bmatrix}
+\begin{bmatrix}
+A\\\\
+B\\\\
+C\\\\
+D\\\\
+E\\\\
+F\\\\
+\end{bmatrix}
+=0$$
+
 ## 3 Points Determine a Circle
 
 $$
