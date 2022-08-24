@@ -12,7 +12,7 @@ $$
 x_1 & y_1 & z_1\\\\ 
 x_2 & y_2 & z_2\\\\ 
 x_3 & y_3 & z_3
-\end{vmatrix}=-x_3 y_2 z_1 + x_2 y_3 z_1 + x_3 y_1 z_2 - x_1 y_3 z_2 - x_2 y_1 z_3 + x_1 y_2 z_3
+\end{vmatrix}=x_1 y_2 z_3 + x_2 y_3 z_1 + x_3 y_1 z_2 - x_1 y_3 z_2 - x_2 y_1 z_3 - x_3 y_2 z_1
 $$
 
 ## Area of Triangle
@@ -27,7 +27,7 @@ y_0 & y_1 & y_2\\\\
 
 ## Area of triangle in complex number form
 
-$$S_{\mathrm{triangle}}=\frac{i}{4}
+$$S_{\mathrm{triangle}}=\frac{1}{4}
 \left|
 \begin{vmatrix}
 1 & 1 & 1\\\\ 
