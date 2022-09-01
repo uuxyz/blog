@@ -80,6 +80,9 @@ $$F=\mu F_N$$
 $$F=G\frac{Mm}{r^2}$$
 $$F=m\frac{v^2}{r}=m\omega^2 r=m\frac{\tau^2}{T^2}r$$
 
+$$v_{a}'=\left(\frac{m_a-m_b}{m_a+m_b}\right)v_a+\left(\frac{2m_b}{m_a+m_b}\right)v_b$$
+$$v_{b}'=\left(\frac{2m_a}{m_a+m_b}\right)v_a+\left(\frac{m_b-m_a}{m_a+m_b}\right)v_b$$
+
 ## Electrical
 
 $$E=\frac{F}{q}$$
