@@ -57,7 +57,6 @@
         <li><a href="#area-of-triangle-in-complex-number-form">Area of triangle in complex number form</a></li>
         <li><a href="#volume-of-tetrahedron">Volume of Tetrahedron</a></li>
         <li><a href="#two-vector-cross-product">Two Vector Cross Product</a></li>
-        <li><a href="#gereral-quadratic-curve">Gereral Quadratic Curve</a></li>
         <li><a href="#5-points-determine-a-gereral-quadratic-curve">5 Points Determine a Gereral Quadratic Curve</a></li>
         <li><a href="#3-points-determine-a-circle">3 Points Determine a Circle</a></li>
         <li><a href="#4-point-determine-a-sphere">4 Point Determine a Sphere</a></li>
@@ -108,38 +107,124 @@ x_1 &amp; y_1 &amp; z_1\\
 x_2 &amp; y_2 &amp; z_2\\ 
 \boldsymbol i &amp; \boldsymbol j &amp;  \boldsymbol k
 \end{vmatrix}$$</p>
-<h2 id="gereral-quadratic-curve">Gereral Quadratic Curve</h2>
-<p>$$\begin{bmatrix}
-x &amp; y &amp; z
-\end{bmatrix}
-\begin{bmatrix}
-A &amp; B &amp; D\\ 
-B &amp; C &amp; E\\ 
-D &amp; E &amp; F
-\end{bmatrix}
-\begin{bmatrix}
-x\\ 
-y\\ 
-z
-\end{bmatrix}
-=0$$</p>
 <h2 id="5-points-determine-a-gereral-quadratic-curve">5 Points Determine a Gereral Quadratic Curve</h2>
-<p>$$\begin{bmatrix}
+<p>$$\begin{vmatrix}
+x^2 &amp; xy &amp; y^2 &amp; x &amp; y &amp; 1 \\
 x_1^2 &amp; x_1 y_1 &amp; y_1^2 &amp; x_1 &amp; y_1 &amp; 1 \\
 x_2^2 &amp; x_2 y_2 &amp; y_2^2 &amp; x_2 &amp; y_2 &amp; 1 \\
 x_3^2 &amp; x_3 y_3 &amp; y_3^2 &amp; x_3 &amp; y_3 &amp; 1 \\
 x_4^2 &amp; x_4 y_4 &amp; y_4^2 &amp; x_4 &amp; y_4 &amp; 1 \\
 x_5^2 &amp; x_5 y_5 &amp; y_5^2 &amp; x_5 &amp; y_5 &amp; 1 \\
+\end{vmatrix}
+=\begin{bmatrix}
+x &amp; y &amp; 1
 \end{bmatrix}
 \begin{bmatrix}
-A\\
-B\\
-C\\
-D\\
-E\\
-F\\
+A &amp; B &amp; D\\
+B &amp; C &amp; E\\
+D &amp; E &amp; F
 \end{bmatrix}
-=0$$</p>
+\begin{bmatrix}
+x\\
+y\\
+1
+\end{bmatrix}
+=0
+$$</p>
+<p>$$\Delta = \begin{vmatrix}
+A &amp; B &amp; D\\
+B &amp; C &amp; E\\
+D &amp; E &amp; F
+\end{vmatrix}$$</p>
+<p>$$J = \begin{vmatrix}
+A &amp; B\\
+B &amp; C
+\end{vmatrix}$$</p>
+<p>$$I = a + c$$</p>
+<p>$$K=\begin{vmatrix}
+A &amp; D\\
+D &amp; F
+\end{vmatrix}+
+\begin{vmatrix}
+C &amp; E\\
+E &amp; F
+\end{vmatrix}$$</p>
+<table>
+<thead>
+<tr>
+<th>curve</th>
+<th>Delta</th>
+<th>J</th>
+<th>Delta/I</th>
+<th>K</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coincident lines</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td>ellipse (imaginary)</td>
+<td>!=0</td>
+<td>&gt;0</td>
+<td>&gt;0</td>
+<td></td>
+</tr>
+<tr>
+<td>ellipse (real)</td>
+<td>!=0</td>
+<td>&gt;0</td>
+<td>&lt;0</td>
+<td></td>
+</tr>
+<tr>
+<td>hyperbola</td>
+<td>!=0</td>
+<td>&lt;0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>intersecting lines (imaginary)</td>
+<td>0</td>
+<td>&gt;0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>intersecting lines (real)</td>
+<td>0</td>
+<td>&lt;0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>parabola</td>
+<td>!=0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>parallel lines (imaginary)</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td>&gt;0</td>
+</tr>
+<tr>
+<td>parallel lines (real)</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td>&lt;0</td>
+</tr>
+</tbody>
+</table>
 <h2 id="3-points-determine-a-circle">3 Points Determine a Circle</h2>
 <p>$$
 \begin{vmatrix}
@@ -148,6 +233,19 @@ x_1^2+y_1^2 &amp; x_1 &amp; y_1 &amp; 1\\
 x_2^2+y_2^2 &amp; x_2 &amp; y_2 &amp; 1\\
 x_3^2+y_3^2 &amp; x_3 &amp; y_3 &amp; 1
 \end{vmatrix}
+=\begin{bmatrix}
+x &amp; y &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+1 &amp; 0 &amp; D\\
+0 &amp; 1 &amp; E\\
+D &amp; E &amp; F
+\end{bmatrix}
+\begin{bmatrix}
+x\\
+y\\
+1
+\end{bmatrix}
 =0
 $$</p>
 <h2 id="4-point-determine-a-sphere">4 Point Determine a Sphere</h2>
