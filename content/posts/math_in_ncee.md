@@ -7,7 +7,7 @@ math: true
 
 ## Quadratic functions
 
-$$\left(x-\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
+$$\left(x+\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
 
 $$f(x)=a(x-h)^2+k=a(x-x_1)(x-x_2)$$
 
