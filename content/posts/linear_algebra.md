@@ -78,8 +78,29 @@ x\\\\
 y\\\\
 1
 \end{bmatrix}
+=\begin{bmatrix}
+x & y
+\end{bmatrix}
+\begin{bmatrix}
+A & B\\\\
+B & C
+\end{bmatrix}
+\begin{bmatrix}
+x\\\\
+y
+\end{bmatrix}
++\begin{bmatrix}
+D & E
+\end{bmatrix}
+\begin{bmatrix}
+x\\\\
+y
+\end{bmatrix}
++F
 =0
 $$
+
+$$Ax^2+2Bxy+Cy^2+2Dxz+2Eyz+Fz^2=0$$
 
 $$\Delta = \begin{vmatrix}
 A & B & D\\\\

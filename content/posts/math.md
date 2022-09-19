@@ -24,3 +24,22 @@ $$Ax^2+2Ex=0$$
 $$\frac{2 \sqrt{A_0^2+B_0^2} \sqrt{A_0^2 E^2+2B_0 C_0 A E}}{B_0^2 A}$$
 
 $$A=\frac{\tau}{2}\frac{\frac{D^2}{A}+\frac{E^2}{C}-F}{\sqrt{AC}}$$
+
+$$(Ax_0+By_0+D)(x-x_0)+(Cy_0+Bx_0+E)(y-y_0)=0$$
+
+$$\left(\frac{CD-BE}{B^2-AC},\frac{AE-BD}{B^2-AC}\right)$$
+
+$$e^2=\frac{2\sqrt{(A-C)^2+4B^2}}{\eta(A+C)+\sqrt{(A-C)^2+B^2}},\eta=\left\\{\begin{matrix}
+1 & e < 1\\\\
+-1 & e \geq 1
+\end{matrix}\right.$$
+
+$$x_1+x_2 =\frac{2(A_0 B_0 E + B_0 C_0 B - A_0 C_0 C - B_0^2 D)}{A_0^2 C + B_0^2 A -2 A_0 B_0 B}$$
+
+$$x_1 x_2 = \frac{C_0^2 C + B_0^2 F - 2 B_0 C_0 E}{A_0^2 C + B_0^2 A - 2 A_0 B_0 B}$$
+
+$$y_1 + y_2 = \frac{2(A_0 C_0 B + A_0 B_0 D - B_0 C_0 A - A_0^2 E)}{A_0^2 C + B_0^2 A -2 A_0 B_0 B}$$
+
+$$y_1 y_2 = \frac{C_0^2 A + 2 A_0^2 F - 2 A_0 C_0 D}{A_0^2 C + B_0^2 A - 2 A_0 B_0 B}$$
+
+$$Axx_0+B(x_0y+xy_0)+Cyy_0+D(x+x_0)+E(y-y_0)+F=0$$
