@@ -43,3 +43,6 @@ $$x_1 x_2 = \frac{C_0^2 C + B_0^2 F - 2 B_0 C_0 E}{A_0^2 C + B_0^2 A - 2 A_0 B_0
 $$y_1 y_2 = \frac{C_0^2 A + 2 A_0^2 F - 2 A_0 C_0 D}{A_0^2 C + B_0^2 A - 2 A_0 B_0 B}$$
 
 $$Axx_0+B(x_0y+xy_0)+Cyy_0+D(x+x_0)+E(y-y_0)+F=0$$
+
+$$(X,Y)=\left(\frac{x}{1-z},\frac{y}{1-z}\right)$$
+$$(x,y,z)=\left(\frac{2X}{X^2+Y^2+1},\frac{2Y}{X^2+Y^2+1},\frac{X^2+Y^2-1}{X^2+Y^2+1}\right)$$

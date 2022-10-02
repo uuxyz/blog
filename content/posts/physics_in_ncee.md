@@ -45,22 +45,22 @@ $$L_P = E^{-1} q_P^{-2} ℏ^2$$
 
 | Physical Quantity     | Symbol  | $$E$$ | $$q_P$$ | $$ℏ$$ | $$c$$ | $$k_B$$ |
 |-----------------------|---------|-------|---------|-------|-------|---------|
-| Mass                  | $$m_P$$ | 1     |         |       | -2    |         |
-| Time                  | $$t_P$$ | -1    |         | 1     |       |         |
-| Length                | $$l_P$$ | -1    |         | 1     | 1     |         |
-| Temperature           | $$T_P$$ | 1     |         |       |       | -1      |
-| Current               | $$I_P$$ | 1     | 1       | -1    |       |         |
-| Resistance            | $$R_P$$ |       | -2      | 1     |       |         |
-| Frequency             | $$f_P$$ | 1     |         | -1    |       |         |
-| Force                 | $$F_P$$ | 2     |         | -1    | -1    |         |
-| Pressure              | $$P_P$$ | 4     |         | -3    | -3    |         |
-| Power                 | $$P_P$$ | 2     |         | -1    |       |         |
-| Voltage               | $$V_P$$ | 1     | -1      |       |       |         |
-| Capacitance           | $$C_P$$ | -1    | 2       |       |       |         |
-| Conductance           | $$G_P$$ |       | 2       | -1    |       |         |
-| Magnetic flux         | $$φ_P$$ |       | -1      | 1     |       |         |
-| Magnetic induction    | $$B_P$$ | 2     | -1      | -1    | -2    |         |
-| Electrical inductance | $$L_P$$ | -1    | -2      | 2     |       |         |
+| Mass                  | $$m_P$$ | 1     | 0       | 0     | -2    | 0       |
+| Time                  | $$t_P$$ | -1    | 0       | 1     | 0     | 0       |
+| Length                | $$l_P$$ | -1    | 0       | 1     | 1     | 0       |
+| Temperature           | $$T_P$$ | 1     | 0       | 0     | 0     | -1      |
+| Current               | $$I_P$$ | 1     | 1       | -1    | 0     | 0       |
+| Resistance            | $$R_P$$ | 0     | -2      | 1     | 0     | 0       |
+| Frequency             | $$f_P$$ | 1     | 0       | -1    | 0     | 0       |
+| Force                 | $$F_P$$ | 2     | 0       | -1    | -1    | 0       |
+| Pressure              | $$P_P$$ | 4     | 0       | -3    | -3    | 0       |
+| Power                 | $$P_P$$ | 2     | 0       | -1    | 0     | 0       |
+| Voltage               | $$V_P$$ | 1     | -1      | 0     | 0     | 0       |
+| Capacitance           | $$C_P$$ | -1    | 2       | 0     | 0     | 0       |
+| Conductance           | $$G_P$$ | 0     | 2       | -1    | 0     | 0       |
+| Magnetic flux         | $$φ_P$$ | 0     | -1      | 1     | 0     | 0       |
+| Magnetic induction    | $$B_P$$ | 2     | -1      | -1    | -2    | 0       |
+| Electrical inductance | $$L_P$$ | -1    | -2      | 2     | 0     | 0       |
 
 ## Uniform acceleration
 
