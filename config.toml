@@ -1,6 +1,6 @@
 baseURL = 'https://xy-iii.github.io'
 languageCode = 'en-us'
-title = 'never knows best'
+title = '𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉'
 theme = 'xyiii'
 publishDir = 'docs'
 [markup]

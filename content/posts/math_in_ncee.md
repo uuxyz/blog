@@ -38,7 +38,7 @@ $$\sqrt{a}\sqrt{b}=\sqrt{ab}$$
 $$\sqrt{\frac{a}{b}}=\frac{\sqrt{a}}{\sqrt{b}}=\frac{\sqrt{ab}}{b}$$
 $$a^{\frac{m}{n}}=\sqrt[n]{a^m}$$
 $$a^{-\frac{m}{n}}=\frac{1}{\sqrt[n]{a^m}}$$
-$$\log_{a^m}^{b^n}=\frac{n}{m}\log_a b$$
+$$\log_{a^m}b^n=\frac{n}{m}\log_a b$$
 
 ## Absolute
 

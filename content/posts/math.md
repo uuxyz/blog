@@ -46,3 +46,11 @@ $$Axx_0+B(x_0y+xy_0)+Cyy_0+D(x+x_0)+E(y-y_0)+F=0$$
 
 $$(X,Y)=\left(\frac{x}{1-z},\frac{y}{1-z}\right)$$
 $$(x,y,z)=\left(\frac{2X}{X^2+Y^2+1},\frac{2Y}{X^2+Y^2+1},\frac{X^2+Y^2-1}{X^2+Y^2+1}\right)$$
+
+$$p_X(k)=Pr(X=k)=\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$
+
+$$n\frac{K}{N}$$
+
+$$n\frac{K}{N}\frac{N-K}{N}\frac{N-n}{N-1}$$
+
+$$\vec{a'}=\frac{\vec{a}\cdot\vec{b}}{\vec{b}\cdot\vec{b}}\vec{b}$$
