@@ -1,9 +1,25 @@
 @font-face {
   font-family: 'F0NT';
   font-style: normal;
-  font-weight: 400;
   src: url('/fonts/F0NT.woff2') format('woff2')
 }
 
 body {
     font-family: "F0NT";
+}
+
+a:link {
+  color: #20E0E0;
+}
+
+a:visited {
+  color: #e06020;
+}
+
+a:hover {
+  color: #20E0A0;
+}
+
+a:active {
+  color: #E0A0E0;
+}
