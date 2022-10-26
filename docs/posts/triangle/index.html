@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Triangle</title>
+	
+	
+	<style type="text/css" media="all">@import "/style.css";</style>
+	<style type="text/css" media="all">@import "/syntax.css";</style>
+	
+</head>
+<body>
+	<header>
+    <a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+</header>
+
+	
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [["$", "$"]],
+        },
+        displayMath: [
+            ["$$", "$$"],
+            ["\[\[", "\]\]"],
+        ],
+        svg: {
+            fontCache: "global",
+        },
+    };
+</script>
+<script src="/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
+
+
+	<main>
+		<article>
+		<header>
+			<h1>Triangle</h1>
+		</header>
+			<time datetime="2022-10-22T23:27:01">
+			2022.10.22 23:27
+			</time>
+			
+			<div>
+							<h3>Table of contents</h3>
+							<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#incenter">Incenter</a></li>
+        <li><a href="#centroid">Centroid</a></li>
+        <li><a href="#circumcenter">Circumcenter</a></li>
+        <li><a href="#orthocenter">Orthocenter</a></li>
+        <li><a href="#nine-point-center">Nine-point center</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+			</div>
+			<h2 id="incenter">Incenter</h2>
+<p>$$\left(\frac{ax_1+bx_2+cx_3}{a+b+c},\frac{ay_1+by_2+cy_3}{a+b+c}\right)$$</p>
+<h2 id="centroid">Centroid</h2>
+<p>$$\left(\frac{x_1+x_2+x_3}{3},\frac{y_1+y_2+y_3}{3}\right)$$</p>
+<h2 id="circumcenter">Circumcenter</h2>
+<p>$$\left(\frac{\begin{vmatrix}
+x_1^2+y_1^2 &amp; y_1 &amp; 1\\
+x_2^2+y_2^2 &amp; y_2 &amp; 1\\
+x_3^2+y_3^2 &amp; y_3 &amp; 1
+\end{vmatrix}}{2\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}},\frac{\begin{vmatrix}
+x_1 &amp; x_1^2+y_1^2 &amp; 1\\
+x_2 &amp; x_2^2+y_2^2 &amp; 1\\
+x_3 &amp; x_3^2+y_3^2 &amp; 1
+\end{vmatrix}}{2\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}}\right)$$</p>
+<h2 id="orthocenter">Orthocenter</h2>
+<p>$$\left(\frac{\begin{vmatrix}
+x_2x_3+y_2y_3 &amp; 1 &amp; y_1\\
+x_3x_1+y_3y_1 &amp; 1 &amp; y_2\\
+x_1x_2+y_1y_2 &amp; 1 &amp; y_3
+\end{vmatrix}}{\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}},\frac{\begin{vmatrix}
+x_2x_3+y_2y_3 &amp; x_1 &amp; 1\\
+x_3x_1+y_3y_1 &amp; x_2 &amp; 1\\
+x_1x_2+y_1y_2 &amp; x_3 &amp; 1
+\end{vmatrix}}{\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}}\right)$$</p>
+<h2 id="nine-point-center">Nine-point center</h2>
+<p>$$\left(\frac{\begin{vmatrix}
+x_1^2+y_1^2-2(x_2x_3+y_2y_3) &amp; y_1 &amp; 1\\
+x_2^2+y_2^2-2(x_3x_1+y_3y_1) &amp; y_2 &amp; 1\\
+x_3^2+y_3^2-2(x_1x_2+y_1y_2) &amp; y_3 &amp; 1
+\end{vmatrix}}{4\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}},\frac{\begin{vmatrix}
+x_1 &amp; x_1^2+y_1^2-2(x_2x_3+y_2y_3) &amp; 1\\
+x_2 &amp; x_2^2+y_2^2-2(x_3x_1+y_3y_1) &amp; 1\\
+x_3 &amp; x_3^2+y_3^2-2(x_1x_2+y_1y_2) &amp; 1
+\end{vmatrix}}{4\begin{vmatrix}
+x_1 &amp; y_1 &amp; 1\\
+x_2 &amp; y_2 &amp; 1\\
+x_3 &amp; y_3 &amp; 1
+\end{vmatrix}}\right)$$</p>
+
+			
+		</article>
+	</main>
+
+  <a href="https://xy-iii.github.io/posts/python_modules/">Prev: Python modules</a>
+
+<br>
+
+  <a href="https://xy-iii.github.io/posts/probability_theory/">Next: Probability theory</a>
+
+<aside>
+    <div>
+        <div>
+            <h3>LATEST POSTS</h3>
+        </div>
+        <div>
+            <ul>
+                
+                <li><a href="/posts/english/">English</a></li>
+                
+                <li><a href="/posts/calendar/">calendar</a></li>
+                
+                <li><a href="/posts/math_formula/">Math formula</a></li>
+                
+                <li><a href="/posts/probability_theory/">Probability theory</a></li>
+                
+                <li><a href="/posts/triangle/">Triangle</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</aside>
+
+
+	<footer>
+    <p>&copy; 2022 <a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a></p>
+</footer>
+
+</body>
+</html>

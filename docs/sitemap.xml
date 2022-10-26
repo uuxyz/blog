@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xy-iii.github.io/posts/english/</loc>
+    <lastmod>2022-10-26T12:51:40+08:00</lastmod>
+  </url><url>
     <loc>https://xy-iii.github.io/</loc>
-    <lastmod>2022-10-16T00:51:10+08:00</lastmod>
+    <lastmod>2022-10-26T12:51:40+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/</loc>
-    <lastmod>2022-10-16T00:51:10+08:00</lastmod>
+    <lastmod>2022-10-26T12:51:40+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/calendar/</loc>
+    <lastmod>2022-10-23T22:46:42+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/math_formula/</loc>
+    <lastmod>2022-10-23T02:27:46+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/probability_theory/</loc>
+    <lastmod>2022-10-23T00:11:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/triangle/</loc>
+    <lastmod>2022-10-22T23:27:01+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/python_modules/</loc>
     <lastmod>2022-10-16T00:51:10+08:00</lastmod>

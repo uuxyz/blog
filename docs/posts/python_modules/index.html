@@ -36,12 +36,14 @@
   <ul>
     <li>
       <ul>
+        <li><a href="#python">python</a></li>
         <li><a href="#turtle">turtle</a></li>
         <li><a href="#math">math</a></li>
         <li><a href="#random">random</a></li>
         <li><a href="#pilimage">PIL.Image</a></li>
         <li><a href="#numpy">numpy</a></li>
         <li><a href="#matplotlibpyplot">matplotlib.pyplot</a></li>
+        <li><a href="#file">file</a></li>
         <li><a href="#pandas">pandas</a></li>
         <li><a href="#os">os</a></li>
         <li><a href="#wordcloud">wordcloud</a></li>
@@ -58,24 +60,143 @@
   </ul>
 </nav>
 			</div>
-			<h2 id="turtle">turtle</h2>
-<h2 id="math">math</h2>
-<h2 id="random">random</h2>
-<h2 id="pilimage">PIL.Image</h2>
-<h2 id="numpy">numpy</h2>
-<h2 id="matplotlibpyplot">matplotlib.pyplot</h2>
-<h2 id="pandas">pandas</h2>
-<h2 id="os">os</h2>
-<h2 id="wordcloud">wordcloud</h2>
-<h2 id="jieba">jieba</h2>
-<h2 id="microbit">microbit</h2>
-<h2 id="serial">serial</h2>
-<h2 id="flask">flask</h2>
-<h2 id="json">json</h2>
-<h2 id="sqlite3">sqlite3</h2>
-<h2 id="datetime">datetime</h2>
-<h2 id="obloq">Obloq</h2>
-
+			<h2 id="python">python</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(x)
+</span></span><span style="display:flex;"><span>input([prompt])
+</span></span><span style="display:flex;"><span>int(object)
+</span></span><span style="display:flex;"><span>float(object)
+</span></span><span style="display:flex;"><span>abs(x)
+</span></span><span style="display:flex;"><span>help()
+</span></span><span style="display:flex;"><span>len(seq)
+</span></span><span style="display:flex;"><span>str(x)
+</span></span><span style="display:flex;"><span>chr(x)
+</span></span><span style="display:flex;"><span>ord(x)
+</span></span><span style="display:flex;"><span>round(x[,n])
+</span></span><span style="display:flex;"><span>max(s,[,args<span style="color:#f92672">...</span>])
+</span></span><span style="display:flex;"><span>min(s,[,args<span style="color:#f92672">...</span>])
+</span></span></code></pre></div><h2 id="turtle">turtle</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> turtle
+</span></span><span style="display:flex;"><span>n<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;n:&#34;</span>))
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;a:&#34;</span>))
+</span></span><span style="display:flex;"><span>d<span style="color:#f92672">=</span>(n<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">180</span><span style="color:#f92672">/</span>n
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span>turtle<span style="color:#f92672">.</span>Pen()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>forward(a)
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">180</span><span style="color:#f92672">-</span>d)
+</span></span><span style="display:flex;"><span>turtle<span style="color:#f92672">.</span>done()
+</span></span></code></pre></div><h2 id="math">math</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>math<span style="color:#f92672">.</span>e
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>pi
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>ceil(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>floor(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>pow(x,y)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>log(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>sin(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>cos(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>tan(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>degrees(x)
+</span></span><span style="display:flex;"><span>math<span style="color:#f92672">.</span>radians(x)
+</span></span></code></pre></div><h2 id="random">random</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>random<span style="color:#f92672">.</span>random()     <span style="color:#75715e"># [0,1)</span>
+</span></span><span style="display:flex;"><span>random<span style="color:#f92672">.</span>uniform(a,b) <span style="color:#75715e"># [a,b]</span>
+</span></span><span style="display:flex;"><span>random<span style="color:#f92672">.</span>randint(a,b) <span style="color:#75715e"># [a,b]</span>
+</span></span><span style="display:flex;"><span>random<span style="color:#f92672">.</span>choice(seq)
+</span></span><span style="display:flex;"><span>random<span style="color:#f92672">.</span>sample(seq,k)
+</span></span><span style="display:flex;"><span>random<span style="color:#f92672">.</span>shuffle(seq)
+</span></span></code></pre></div><h2 id="pilimage">PIL.Image</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;school.jpg&#34;</span>)
+</span></span><span style="display:flex;"><span>print(im<span style="color:#f92672">.</span>format)
+</span></span><span style="display:flex;"><span>print(im<span style="color:#f92672">.</span>size)
+</span></span><span style="display:flex;"><span>print(im<span style="color:#f92672">.</span>mode)
+</span></span><span style="display:flex;"><span>im<span style="color:#f92672">.</span>rotate(<span style="color:#ae81ff">45</span>)<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><h2 id="numpy">numpy</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span></code></pre></div><h2 id="matplotlibpyplot">matplotlib.pyplot</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>img<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>array(Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;lena.jpg&#34;</span>)<span style="color:#f92672">.</span>convert(<span style="color:#e6db74">&#34;L&#34;</span>))
+</span></span><span style="display:flex;"><span>rows,cols <span style="color:#f92672">=</span> img<span style="color:#f92672">.</span>shape
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(rows):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(cols):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (img[i,j]<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">128</span>):
+</span></span><span style="display:flex;"><span>            img[i,j]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            img[i,j]<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>figure(<span style="color:#e6db74">&#34;lena&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img,cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gray&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#34;off&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><h2 id="file">file</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>f <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;test.txt&#34;</span>,<span style="color:#e6db74">&#34;r&#34;</span>)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> f<span style="color:#f92672">.</span>readlines():
+</span></span><span style="display:flex;"><span>    print(line<span style="color:#f92672">.</span>strip())
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;Hello&#34;</span>)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;r&#39;       open for reading (default)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;w&#39;       open for writing, truncating the file first</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;x&#39;       create a new file and open it for writing</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;a&#39;       open for writing, appending to the end of the file if it exists</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;b&#39;       binary mode</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;t&#39;       text mode (default)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;+&#39;       open a disk file for updating (reading and writing)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    &#39;U&#39;       universal newline mode (deprecated)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>x_start <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>               <span style="color:#75715e"># 起始点坐标</span>
+</span></span><span style="display:flex;"><span>y_start <span style="color:#f92672">=</span> <span style="color:#ae81ff">92</span>
+</span></span><span style="display:flex;"><span>fill_width   <span style="color:#f92672">=</span> <span style="color:#ae81ff">24</span>          <span style="color:#75715e"># 信息点宽度</span>
+</span></span><span style="display:flex;"><span>fill_height  <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>          <span style="color:#75715e"># 信息点高度</span>
+</span></span><span style="display:flex;"><span>space_width  <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>          <span style="color:#75715e"># 间隔宽度</span>
+</span></span><span style="display:flex;"><span>space_height <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>          <span style="color:#75715e"># 间隔高度</span>
+</span></span><span style="display:flex;"><span>num_length <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>             <span style="color:#75715e"># 准考证号长度</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bw_judge</span>(R, G, B):     <span style="color:#75715e"># bw_judge用于判断一个像素的填涂情况</span>
+</span></span><span style="display:flex;"><span>    Gray_scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.299</span> <span style="color:#f92672">*</span> R <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.587</span> <span style="color:#f92672">*</span> G <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.114</span> <span style="color:#f92672">*</span> B
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> Gray_scale <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">132</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fill_judge</span>(x, y):      <span style="color:#75715e"># fill_judge用于判断信息点的填涂情况</span>
+</span></span><span style="display:flex;"><span>    count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(x, x <span style="color:#f92672">+</span> fill_width <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(y, y <span style="color:#f92672">+</span> fill_height <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            R, G, B <span style="color:#f92672">=</span> pixels[i, j]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> bw_judge(R, G, B) <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>                count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> count <span style="color:#f92672">&gt;=</span> fill_width <span style="color:#f92672">*</span> fill_height <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.64</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>total_width  <span style="color:#f92672">=</span> fill_width <span style="color:#f92672">+</span> space_width
+</span></span><span style="display:flex;"><span>total_height <span style="color:#f92672">=</span> fill_height <span style="color:#f92672">+</span> space_height
+</span></span><span style="display:flex;"><span>image <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;fill.bmp&#34;</span>)
+</span></span><span style="display:flex;"><span>pixels <span style="color:#f92672">=</span> image<span style="color:#f92672">.</span>load()
+</span></span><span style="display:flex;"><span>number <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> range(num_length):         <span style="color:#75715e"># x从左至右，y从上至下对填涂区进行检测</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> x_start <span style="color:#f92672">+</span> total_width  <span style="color:#f92672">*</span> col
+</span></span><span style="display:flex;"><span>        y <span style="color:#f92672">=</span> y_start <span style="color:#f92672">+</span> total_height <span style="color:#f92672">*</span> row
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> fill_judge(x, y) <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>            number <span style="color:#f92672">=</span> number <span style="color:#f92672">+</span> str(row)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:                            <span style="color:#75715e"># 10个信息点检测完毕后未发现有填涂</span>
+</span></span><span style="display:flex;"><span>        number <span style="color:#f92672">=</span> number <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;#&#39;</span>
+</span></span><span style="display:flex;"><span>print(number)
+</span></span></code></pre></div><h2 id="pandas">pandas</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="os">os</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="wordcloud">wordcloud</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="jieba">jieba</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="microbit">microbit</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="serial">serial</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="flask">flask</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="json">json</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="sqlite3">sqlite3</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="datetime">datetime</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div><h2 id="obloq">Obloq</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
 			
 		</article>
 	</main>
@@ -83,6 +204,8 @@
   <a href="https://xy-iii.github.io/posts/pandas/">Prev: Pandas</a>
 
 <br>
+
+  <a href="https://xy-iii.github.io/posts/triangle/">Next: Triangle</a>
 
 <aside>
     <div>
@@ -92,15 +215,15 @@
         <div>
             <ul>
                 
-                <li><a href="/posts/python_modules/">Python modules</a></li>
+                <li><a href="/posts/english/">English</a></li>
                 
-                <li><a href="/posts/pandas/">Pandas</a></li>
+                <li><a href="/posts/calendar/">calendar</a></li>
                 
-                <li><a href="/posts/4000_essential_english_words/">4000 essential english words</a></li>
+                <li><a href="/posts/math_formula/">Math formula</a></li>
                 
-                <li><a href="/posts/physics_in_ncee/">Physics in NCEE</a></li>
+                <li><a href="/posts/probability_theory/">Probability theory</a></li>
                 
-                <li><a href="/posts/math_in_ncee/">Math in NCEE</a></li>
+                <li><a href="/posts/triangle/">Triangle</a></li>
                 
             </ul>
         </div>
