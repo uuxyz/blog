@@ -2168,7 +2168,7 @@ draft: false
 1. abandon oneself to sth. 完全屈从于(某种感情或冲动)
 2. have a (the )ability to do sth. ( have the ability in doing sth.)有能力做某事
 3. to the best of one's ability 尽力
-4. be about to do when... 正准备做某事突然。。。
+4. be about to do when... 正准备做某事突然...
 5. above all 首先，最重要； in all 总计 after all 毕竟; 终究
 6. at home and abroad 在国内外 go abroad 出国
 7. in sb.'s absence 不在时 in the absence of (人)不在时 be absent from 缺席
@@ -2183,49 +2183,49 @@ draft: false
 16. be accustomed to sth.( to doing sth.)=be used to sth.(to doing sth.)习惯于干某事
 17. have some acquaintance with 熟悉；熟知
 18. come (run) across (偶然)碰到 ; get sth. across 使人理解；领会
-19. act as充当，担任 act out 表演(对话、故事)； act on(upon) 对。。。起作用
+19. act as充当，担任 act out 表演(对话、故事)； act on(upon) 对...起作用
 20. catch sb. in the act of doing sth. 抓住某人干某事； take action 采取行动
-21. be active in 在。。。积极 take an active part in 积极参加lead an active life过着积极的生活
-22. adapt oneself to 使自己适应 adapt sth. to 使某物适应 adapt from 根据。。。改写(改编)
-23. add in 包括； 加进去 add to 增加；加强 add... to 把。。。加到。。。上
+21. be active in 在...积极 take an active part in 积极参加lead an active life过着积极的生活
+22. adapt oneself to 使自己适应 adapt sth. to 使某物适应 adapt from 根据...改写(改编)
+23. add in 包括； 加进去 add to 增加；加强 add... to 把...加到...上
 add up to 合加起来
-24. be addicted to sth.( doing sth. ) 嗜好。。。的；上了。。。瘾的
+24. be addicted to sth.( doing sth. ) 嗜好...的；上了...瘾的
 25. in addtion/ in addtion to 此外
-26. deliver an address to 向。。发表演讲 giving a closing address 致闭幕词 an address of welcome 欢迎词
+26. deliver an address to 向...发表演讲 giving a closing address 致闭幕词 an address of welcome 欢迎词
 27. admit to sth.( doing sth.) 承认
 28. in advance=beforehand 提前
-29. be of great (no ) advantage to 对。。。大大有利(毫无裨益) gain(have) an advantage over优于；胜过； take advantage of sb. 利用某人；欺骗某人
+29. be of great (no ) advantage to 对...大大有利(毫无裨益) gain(have) an advantage over优于；胜过； take advantage of sb. 利用某人；欺骗某人
 30. put an advertisement 登广告
 31. ask for sb.'s advice 征求某人的建议 give sb. advice on how to do sth. 就如何干某事提出忠告
 32. advise sb. on sth. 就某事对某人提出忠告；advise sb. against( doing) sth.劝某人不干某事
 33. be afraid of 害怕；担心 be afraid to do 不敢做某事
 34. be after 寻求；追求
 35. be against one's proposal 反对(意见 go against nature违背自然stand against the wall 靠墙而立
-36. at the age of 在。。。岁时； be under age 未成年
+36. at the age of 在...岁时； be under age 未成年
 37. agree with sb.( what 从句 ); agree with the climate/饮食 对气候等的适应
-agree to +advice/suggestion/ idea/proposal ... agree on (upon) 。。。就。。达成一致意见
-38. ahead of ( time) 在。。。前面 go ahead 继续；前进
+agree to +advice/suggestion/ idea/proposal ... agree on (upon) ...就...达成一致意见
+38. ahead of ( time) 在...前面 go ahead 继续；前进
 39. aid sb. in sth./aid sb. with sth. 帮助某人做某事 in aid of 支持 ；give sb. first aid对某人实施急救
 40. aim at 瞄准
 41. on the air(用无线电、电视)播送 in the air 在空中； by air 乘飞机； put on (give oneself) airs 摆架子
 42. all along 一直；始终 all over the country(world)遍及全国(世界) all alone 单独；独自地 all but 几乎；差一点
 43. allow sb. to do sth. 允许某人做某事 allow doing sth. 允许做某事
 44. let alone 更不用说 There is not enough room for us,let alone six dogs.
-45. get along (on) with 在。。。方面有进展 take along with 随身携带
+45. get along (on) with 在...方面有进展 take along with 随身携带
 46. not only...but also
 47. make an analysis of 分析
 48. in the ancient time 在古代
 49. and so on/and so forth 等等
 50. be angry about sth.对某事生气 be angry at sth.因某事生气
 be be angry with sb.生某人的气
-51. annoy sb. with sth./annoy sb. by doing sth. 因。。。使某人生气；52 one after another 相继
-53. answer for 对。。。负责 answer sb.'s call 回电话 make no answer 不作回答
-54. be anxious about ( for) 为。。。担心 be anxious to do 渴望(急于)做某事
+51. annoy sb. with sth./annoy sb. by doing sth. 因...使某人生气；52 one after another 相继
+53. answer for 对...负责 answer sb.'s call 回电话 make no answer 不作回答
+54. be anxious about ( for) 为...担心 be anxious to do 渴望(急于)做某事
 55. apologize to sb. for sth./ make an apology to sb. for sth 因某事向某人道歉
 56. in appearance 外貌上 make one's appearance 登台 by/from all appearances 显然
-57. apply...to... 将。。应用于 apply for 申请 apply to 适应于 apply oneself to 专心致志于 ； apply to sb. for sth. 向某人申请某物
+57. apply...to... 将...应用于 apply for 申请 apply to 适应于 apply oneself to 专心致志于 ； apply to sb. for sth. 向某人申请某物
 58. appoint sb. to a post 派某人任某职; appoint a time for the meeting 约定开会时间
-59. approach to 接近 make an approach to 对。。。进行探讨
+59. approach to 接近 make an approach to 对...进行探讨
 60. approve of 赞同
 61. argue with/against sb. about/on sth. 与某人辩论某事；argue sb. into doing 说服某人做某事
 62. arm in arm 肩并肩 hand in hand 手拉手 ; shoulder to shoulder 肩并肩 take sth. in one's arms抱 be armed to the teeth 全副武装
@@ -2238,20 +2238,20 @@ make an arrangement( arrangements) for... 做好准备；安排
 68. ask for sth. 请求 ask sb. for sth. 向某人索取某物 ask sb. to do sth. 要求某人做某事
 69. every aspect of=all the aspects of 各个方面
 70. assist sb. with sth./assist sb. in doing sth./assist sb. to do sth. 帮助某人做某事
-71. associate..with... 把。。。和。。联系起来 ; in association with ... 与。。。联手
-72. be astonished( surprised) at (the news) 对。。感到惊奇
+71. associate..with... 把...和...联系起来 ; in association with ... 与...联手
+72. be astonished( surprised) at (the news) 对...感到惊奇
 73. at the latest 最迟
-74. e attached to 附属于。。。；依恋； attach sth. to... 把。。贴上 把。。系在。。。上
-75. attempt/try to do sth.(make an attempt to do sth.) 企图做。。。；attempt at sth. 试图获得
+74. e attached to 附属于...；依恋； attach sth. to... 把...贴上 把...系在...上
+75. attempt/try to do sth.(make an attempt to do sth.) 企图做...；attempt at sth. 试图获得
 76. attend on/to sb. 照看/护理某人； attend to 关心；照料
 77. attract/capture/catch/draw/get one's attention 吸引某人注意
 hold one's attention on 将注意力集中于 devote one's attention to 专心于
 turn one's attention to 将注意力转向 pay attention to 注意
-78. one's attitude towards... 某人的态度对。
+78. one's attitude towards... 某人的态度对...
 79. on (the ) average按平均； above( below) average 平均以上(下)
 80. be aware of 意识到，觉察
 81. back and forth 来回地(屋内)
-82. at the back of sb./at sb.'s back 支持某人；at the back of 在。。。后
+82. at the back of sb./at sb.'s back 支持某人；at the back of 在...后
 lie on one's back 朝天躺着
 83. go from bad to worse 每况愈下
 84. go bad(wrong/hungry) 变腐
@@ -2259,13 +2259,13 @@ lie on one's back 朝天躺着
 be in the balance 悬而未决
 86. ban( prohibit) sb.from doing sth. 禁止某人做某事
 be under a ban被禁止
-87. base sth. on/upon sth. 以。。。为基础； be based on 基于
-on...basis=on the basis of 以。。。为根据； 在。。。基础上
-88. battle against 向。。。开战； battle with 与。。。搏斗； battle for为。。。而战
+87. base sth. on/upon sth. 以...为基础； be based on 基于
+on...basis=on the basis of 以...为根据； 在...基础上
+88. battle against 向...开战； battle with 与...搏斗； battle for为...而战
 89. because of + 名词(代词、 what 从句)
 90. make the bed 整理床铺；in bed/on the bed 在床上
 91. beg sb. to do sth.恳求某人干某事； beg for sth. 请求得到 beg sth. of sb.恳求某人某事
-92. begin with 从。。。开始
+92. begin with 从...开始
 93. on behalf of 代表 ; on sb.'s behalf 以某人的名义
 94. believe in 信赖
 95. belong to (无被动语态) 属于
@@ -2282,8 +2282,8 @@ beyond description 无法用言语表达 beyond sb. 对某人来说难以理解
 104. be in the same boat 同舟共济
 105. keep body and soul together 维持生命(活)
 106. book (check ) in 办理登记手续
-107. borrow sth.from sb. 从。。。借到某物 ; lend sth. to sb. 把。。。借出
-108. bother about 打扰 have bother( difficulty/trouble/danger) in doing sth. 干。。。有麻烦
+107. borrow sth.from sb. 从...借到某物 ; lend sth. to sb. 把...借出
+108. bother about 打扰 have bother( difficulty/trouble/danger) in doing sth. 干...有麻烦
 109. from the bottom of one's heart 由衷地 ; from top to bottom 从上到下
 110. break down 出毛病 break away from 脱离 break in 打断； break into 破门而入
 break out爆发 break the law 违法 break off突然停止 break through突围 have/take a break
@@ -2293,12 +2293,12 @@ take (draw) breath 歇口气 take(draw) a deep breath 深呼吸 breathe in (out)
 113. bring in 吸引；引进
 bring down 降低； bring forward 提出； bring up 抚育； bring about 产生；导致
 114. build up one's health 健体强身； build a good reputation 树林名誉
-115. burn to the ground 把。。烧光； burn sth. down 焚为平地； burn up 烧(旺)起来
+115. burn to the ground 把...烧光； burn sth. down 焚为平地； burn up 烧(旺)起来
 116. burst out( crying) 爆发； burst into ( tears) 突然爆发
 117. be none of sb.'s business 不关某人的事； on business 因公出差
 118. be busy doing sth. be busy with sth. 忙于干某事
 119. by and by 不就以后； by and large 大体上
-120. call for 请求；要求； call at (+地点名词 )访问； call in 召集； call out 大声叫； call up 打电话；回忆起 make a call on sb.=make /give sb. a call =give sb. a ring 给。。。打电话
+120. call for 请求；要求； call at (+地点名词 )访问； call in 召集； call out 大声叫； call up 打电话；回忆起 make a call on sb.=make /give sb. a call =give sb. a ring 给...打电话
 121. calm down (使)平息
 122. go camping 去野营 ; summer camp 夏令营
 123. can't help doing sth. 禁不住做某事
@@ -2313,61 +2313,61 @@ bring down 降低； bring forward 提出； bring up 抚育； bring about 产�
 132. hold a celebration 举行庆祝会； in celebration of 庆祝
 133. perform the opening( closing) ceremony 举行开幕(闭幕)式； graduation ceremony毕业典礼 134 for a certain reason 为了某种原因； be certain of 确信
 for certain( sure) 肯定地； make certain of(that 从句)保证
-134. give a challenge to sb. 向某人挑战； challenge sb. to do sth. 向某人挑战做。。。
-accept one's challenge to do sth.接受某人的挑战做。。。
+134. give a challenge to sb. 向某人挑战； challenge sb. to do sth. 向某人挑战做...
+accept one's challenge to do sth.接受某人的挑战做...
 challenge one's interest/attention 引起某人的兴趣/注意
 135. take a chance(risk) 冒险；投机
-136. change...for 用。。。换。。。; change ..into... 把。。。变成 change one's mind 改变主意
+136. change...for 用...换...; change ..into... 把...变成 change one's mind 改变主意
 137. check out 查明(帐)；办理离店手续
-138. have no choice but to do 除做。。外别无选择
+138. have no choice but to do 除做...外别无选择
 139. go to( attend) church 去做礼拜； go to the church 去教堂(做其他的事)
 140. clear away 收拾；散去； clear up (天气)放晴 be good(clever) at 擅长
-141. close down 关门 bring to a close 使。。结束 come to a close结束 be close to 接近
+141. close down 关门 bring to a close 使...结束 come to a close结束 be close to 接近
 142. collect stamps 集邮
-143. combine...into 把。。。联合起来
+143. combine...into 把...联合起来
 144. come about 发生； come down 下降；倒下； come to 达到；共计
 145. take command of 指挥； have a good command of 掌握(语言)
-146. compare with 和。。。相比; compare ... to... 把。。。比作
-147. compete with/against sb. 与。。。竞争；compete for 为。。。而竞争；compete with sb. in 在。。。方面与某人竞争
-148. concentrate one's mind( attention) on/upon sth. 把注意力集中在。。。
-149. in conflict with 与。。。相冲突
-150. connect..with/to 把。。与。。相连接/相联系
-151. take delight in 以。。。为乐； to one's delight 使。。。高兴的是 be delighted to do... 高兴地做。。。
+146. compare with 和...相比; compare ... to... 把...比作
+147. compete with/against sb. 与...竞争；compete for 为...而竞争；compete with sb. in 在...方面与某人竞争
+148. concentrate one's mind( attention) on/upon sth. 把注意力集中在...
+149. in conflict with 与...相冲突
+150. connect..with/to 把...与...相连接/相联系
+151. take delight in 以...为乐； to one's delight 使...高兴的是 be delighted to do... 高兴地做...
 152. congratulate sb. on sth. 祝贺某人某事
-153. in connection with 与。。有联系
-154. in consequence 因此，结果 in consequence of ... 由于。。的结果
+153. in connection with 与...有联系
+154. in consequence 因此，结果 in consequence of ... 由于...的结果
 155. be considered as( to be/ to do )被看作；认为
-156. consider/regard/think of / treat...as... 认为(看待)。。。
+156. consider/regard/think of / treat...as... 认为(看待)...
 157. take into consideration 考虑到；顾及
-158. consist of=be made up of 由。。。构成consist with 与。。。一致
+158. consist of=be made up of 由...构成consist with 与...一致
 159. consult sb. 向某人请教 ；consult with 与交换意见
-160. contrary to 违反；和。。。相反 on the contrary相反
-161. contribute to 有助于；促使 make contribution to 为。。。做贡献
+160. contrary to 违反；和...相反 on the contrary相反
+161. contribute to 有助于；促使 make contribution to 为...做贡献
 162. out of control 失去控制;under control 在控制下
 163. convince sb.of sth.使某人信服某事be convinced of sth. 相信某人
 164. from all corners of the country来自全国各地
 165. corrupt the child 惯坏了孩子
-166. at the cost of 以。。。为代价;at all costs 不惜一切代价
+166. at the cost of 以...为代价;at all costs 不惜一切代价
 167. count on sb./sth. 依赖(指望)某人/某物
 168. lose courage 丧失勇气;take up courage 鼓起勇气
-169. in ( during) the course of 在。。。期间
-170. in the crowd(s) 在人群中；be crowded with 挤满了。。。
-171. cry out for help 大声呼救 cry over 为。。。哭泣
-172. be curious about 对。。感兴趣
+169. in ( during) the course of 在...期间
+170. in the crowd(s) 在人群中；be crowded with 挤满了...
+171. cry out for help 大声呼救 cry over 为...哭泣
+172. be curious about 对...感兴趣
 173. cut up 切碎;cut off 切断
-174. do damage( good/ harm) to ...毁坏；对有好处(坏处)。。。
+174. do damage( good/ harm) to ...毁坏；对有好处(坏处)...
 175. in danger( trouble) 处境危险(麻烦)； in danger of 在危险中
 176. from dawn till dark 从早到晚
 177. in the dark(darkness) 在黑暗中
-178. out of date 过时的； make a date 定一个日期； bring sth. up to date 使。。现代化；make a date with 。。与某人约会；date back/from 回溯； go out of date过时
+178. out of date 过时的； make a date 定一个日期； bring sth. up to date 使...现代化；make a date with ...与某人约会；date back/from 回溯； go out of date过时
 179. day after day 日复一日 day by day 逐日 the other day前几天; in a day or two 一两天内
 180. turn a deaf ear to 不理会
-181. a great/good deal of 大量的(后接不可数名词)deal with 与。。。交易；处理
+181. a great/good deal of 大量的(后接不可数名词)deal with 与...交易；处理
 182. put sb. to death 处死某人；sentence sb. to death 判死刑；
 183. in debt 欠债； pay off the debt 还清债务
 184. decide to do / be determined to do决定干某事 make a decision 做出决定
-185. declare war on 对。。。宣战
-186. on the decrease 在减少中 decrease to 减少到。。。
+185. declare war on 对...宣战
+186. on the decrease 在减少中 decrease to 减少到...
 187. do a good deed 做一件好事 ; do the deed生效
 188. be deep in( thought) 陷入(沉思)deep into the night 到深夜
 189. without delay立即
@@ -2377,26 +2377,26 @@ challenge one's interest/attention 引起某人的兴趣/注意
 193. be devoted to doing sth. /devote oneself /sth. to 专心于；投身于
 194. look sth. up in the dictionary ; turn/refer to the dictionary 查字典
 195. die of/from 死于 ;be dying for 渴望; be dying to do sth. 渴望做某事
-196. differ from/be different from与。。不同 the difference between( among) 。。之间的区别； make a difference 产生差异；有影响
-197. in all directions( in every direction) 朝四面八方； in the direction of 朝。。。的方向
-198. put(keep) sb. at a disadvantage 使处于不利地位 ; to one's disadvantage 对。。。不利
+196. differ from/be different from与...不同 the difference between( among) ...之间的区别； make a difference 产生差异；有影响
+197. in all directions( in every direction) 朝四面八方； in the direction of 朝...的方向
+198. put(keep) sb. at a disadvantage 使处于不利地位 ; to one's disadvantage 对...不利
 199. disagree with.sb./sth. 不同意某人(的话；意见等)
 200. have a discussion on/ about 讨论 ; under discussion在讨论中
 201. have a dislike for( of) 厌恶 likes and dislikes好恶； take a dislike to 讨厌
 202. in the distance 在远方; at a distance隔一段距离
-203. be distinguished as 以。。而著称 be distinguished by 以。。。为特征； be distinguished for 因。。。而著名； be distinguished from 不同于；与。。。加以区别；distinguish... from 辨别；distinguish oneself 使自己与众不同
-204. dive into 跳入 ;make a dive for 向。。。猛冲
-205. divide..into.. 把。。。分成
+203. be distinguished as 以...而著称 be distinguished by 以...为特征； be distinguished for 因...而著名； be distinguished from 不同于；与...加以区别；distinguish... from 辨别；distinguish oneself 使自己与众不同
+204. dive into 跳入 ;make a dive for 向...猛冲
+205. divide..into.. 把...分成
 206. do some cleaning/cooking/shopping/washing 扫除
-207. do away with 结束；废除 do up 整理；收拾 do with 处理 do sb. wrong 冤枉; have sth. to do with... 和。。。有关
+207. do away with 结束；废除 do up 整理；收拾 do with 处理 do sb. wrong 冤枉; have sth. to do with... 和...有关
 208. from door to door 挨家挨户地
 209. in doubt 怀疑; without doubt 毫无疑问
 210. up and down 上上下下；
 211. dozens of 很多的； by the dozen 按打计算
-212. draw a useful lesson from 从。。中吸取有益的教训; draw back 往后退 ；draw up (车辆等) 开近；走近
+212. draw a useful lesson from 从...中吸取有益的教训; draw back 往后退 ；draw up (车辆等) 开近；走近
 213. dream of (about) 梦想 dream of doing sth.
 214. dress sb./oneself; be/get dressed in (+ 衣服或表示衣服颜色的词)穿衣服 ； dress up 打扮
-215. drink up 喝光；drink to 为。。干杯;have a drink 喝一杯
+215. drink up 喝光；drink to 为...干杯;have a drink 喝一杯
 216. drop in顺便拜访 drop in on/upon sb.顺便拜访某人； drop in at a place顺便拜访某地
 217. be drunk with 陶醉于
 218. due to 由于
@@ -2405,67 +2405,67 @@ challenge one's interest/attention 引起某人的兴趣/注意
 221. have an ear for music 对音乐有鉴赏力
 222. in one's early thirties 三十出头
 223. on the earth 在地球上 on earth 究竟；到底
-224. in the east of 在。。。的东部(在该区域内)； to the east of 在。。以东(不在该区域内)；on the east of 在东部与。。。接壤(比邻)
+224. in the east of 在...的东部(在该区域内)； to the east of 在...以东(不在该区域内)；on the east of 在东部与...接壤(比邻)
 224. further education 进修；生造 receive/get an education 受教育
-225. be of no effect 无效come into effect 开始生效； have an effect on 对。。。产生影响
+225. be of no effect 无效come into effect 开始生效； have an effect on 对...产生影响
 226. make an effort(efforts) to do 努力干； spare no effort 不遗余力； without effort 轻松地
 227. be employed in 忙于(某事)； out of employment 失业
-228. at the end of ( 接时间或空间名词 ) 在。。。尽头(末尾) ；in the end=finally=at last 最后；终于by the end of(接过去时间名词) 。。。到。。。结束时； make ends meet 量入为出； end up with 以。。。结束
+228. at the end of ( 接时间或空间名词 ) 在...尽头(末尾) ；in the end=finally=at last 最后；终于by the end of(接过去时间名词) ...到...结束时； make ends meet 量入为出； end up with 以...结束
 229. enjoy oneself=have a good time 过得愉快
-230. equip...with... 用。。。装备 equip... for... 装备。。以备。。之用；
+230. equip...with... 用...装备 equip... for... 装备...以备...之用；
 231. in error 错误地 fall into error 误入歧途
 232. have a narrow escape 九死一生 ;escape punishment/being punished 逃避惩罚
-233. for example( instance) 例如； set an example to sb. 为。。树立榜样
+233. for example( instance) 例如； set an example to sb. 为...树立榜样
 234. exchange sth. with sb. 与某人交换某物
 235. on exhibition 展览中
 236. exist(lie) in 在于; come into existence 产生；出现 ;bring sth. into existence使某物出现；产生
-237. expect sth. from. Sb.对某人给予。。的期望 expect too much of sb. 对某人期望过高；as might have been expected 正如预料 against/contrary to expectation 出乎意料 beyond expectation出乎意料(地)
-238. spare no expense 不惜代价; be experienced in 在。。。有经验
-239. expose... to .使。。暴露在。。中； express an opinion 发表意见；express oneself 表达自己的意思
+237. expect sth. from. Sb.对某人给予...的期望 expect too much of sb. 对某人期望过高；as might have been expected 正如预料 against/contrary to expectation 出乎意料 beyond expectation出乎意料(地)
+238. spare no expense 不惜代价; be experienced in 在...有经验
+239. expose... to .使...暴露在...中； express an opinion 发表意见；express oneself 表达自己的意思
 240. keep an eye on 照看；注意 ;an eye for an eye 以牙还牙
-241. face to face面对面地 lose one's face 失面子 make a face(faces) 做鬼脸；in the face of 在。。面前 read sb's face 观察某人的脸色
+241. face to face面对面地 lose one's face 失面子 make a face(faces) 做鬼脸；in the face of 在...面前 read sb's face 观察某人的脸色
 242. in fact=actually=as a matter of fact实际上
-243. fade away 退色；消退 ;fail in 在。。。方面失败 ;fair and square 光明正大的
+243. fade away 退色；消退 ;fail in 在...方面失败 ;fair and square 光明正大的
 244. fall ill 生病 fall fast asleep很快睡熟 fall behind 落后 fall off 跌落 fall over 跌倒
-245. be famous( well-known) for 以。。而著名; be famous( well-known) as ... 作为。。而著名
+245. be famous( well-known) for 以...而著名; be famous( well-known) as ... 作为...而著名
 246. fancy oneself as自视为fancy doing sth. 想象做某事 have a fancy for 爱好
 247. far from 远非；决非； so far 到目前为止； as far as 就；至于
 248. on the farm 在农场
 249. put on fat(weight) 长胖
-250. find fault with 抱怨；对。。。挑剔
+250. find fault with 抱怨；对...挑剔
 251. do sb.a favour( do a favour for sb.) 帮助某人干...
 252. in favour of 赞同
-253. for fear of 惟恐； in fear of 担忧 for fear that 为防。。。起见
-254. feed oneself 自己吃东西;feed on(=live on) 以。。。为食 feed up (with ) 因多而厌烦 feed... to...用。。。喂养； feed...on/ feed... with 用。。。喂养
+253. for fear of 惟恐； in fear of 担忧 for fear that 为防...起见
+254. feed oneself 自己吃东西;feed on(=live on) 以...为食 feed up (with ) 因多而厌烦 feed... to...用...喂养； feed...on/ feed... with 用...喂养
 255. feel like doing sth. 想要做 ;feel one's way 摸索着走
-256. at the fewest 至少； no fewer than 不少于； fight one's way 打开一条路 fight against/with 与。。战斗； fight for 为。。。而斗争
+256. at the fewest 至少； no fewer than 不少于； fight one's way 打开一条路 fight against/with 与...战斗； fight for 为...而斗争
 257. figure out 计算出 figure on 料想；估计
-258. fill in 填写 fill...with 用。。。把。。。装满 be filled with 充满了
+258. fill in 填写 fill...with 用...把...装满 be filled with 充满了
 259. find oneself 在不知不觉中猛然发现
 260. finish up 完成
 261. catch fire失火 be on fire着火 set fire to 纵火 make a fire 生火
-262. hold firm 抓牢 stand firm 站稳立场 be firm( strict) with 对。。。要求严格
-263. fix a date for a meeting 确定会议的日期 fix one's eyes on 注视 fix one's mind/attention on 集中某人的思想/注意力于。。。
+262. hold firm 抓牢 stand firm 站稳立场 be firm( strict) with 对...要求严格
+263. fix a date for a meeting 确定会议的日期 fix one's eyes on 注视 fix one's mind/attention on 集中某人的思想/注意力于...
 264. be in flower 开花(状态)come into flower 开花(动作)
 265. focus one's attention/thoughts/efforts on 集中注意力于
-266. as follows 如下; follow(take)sb.'s advice 听某人的建议 follow the example of 以。。。为榜样
+266. as follows 如下; follow(take)sb.'s advice 听某人的建议 follow the example of 以...为榜样
 267. make a fool of sb. 愚弄某人；fool sb. into doing sth.哄骗某人干某事
-268at the foot of 在。。。脚下 ;rise to one's feet 站起来
-269. be for 赞成 be against 反对 for a time暂时；一度 for one thing...for another 一方面。。。另一方面； for the moment=for the time being 暂时
+268at the foot of 在...脚下 ;rise to one's feet 站起来
+269. be for 赞成 be against 反对 for a time暂时；一度 for one thing...for another 一方面...另一方面； for the moment=for the time being 暂时
 270. by force 强迫地 ;put...in(into) force 实施 force sb. to do sth. 强迫某人做某
 271. forget +doing/having done/to have done 忘记曾经做过某事；forget to do 忘记要做某事
 272. forgive sb. for(doing) sth. 宽恕某人干
-273. fill out(in) a form 填表；in the form of 以。。。形式
-274. the former...the latter 前者。。。后者
-275. be fortunate in 在。。。方面很幸运; try one's fortune碰运； make a fortune 发财
+273. fill out(in) a form 填表；in the form of 以...形式
+274. the former...the latter 前者...后者
+275. be fortunate in 在...方面很幸运; try one's fortune碰运； make a fortune 发财
 276. be/feel free to do sth. 自由地做某事;be free from 不受影响 ;be free from danger 脱离危险 ;set free 释放; get sth. for free 免费获得某物; 免费 free of charge 在in one's free/spare time 某人闲暇时间
-277. make friends with 与。。交朋友 be friendly to sb. 对某人很友好
-278. be frightened at( of doing) sth.对。。感到恐惧 frighten sb. into doing sth. 威胁某人做某事
-279. be made of由。。制成(看得出原材料)； be made from由。。制成(看不出原材料)；be made in 产于某地 be made up of 由。。组成
-280. in front of 在。。前面(在范围之外)；in the front of 在。。。的前部分(在范围之内)
+277. make friends with 与...交朋友 be friendly to sb. 对某人很友好
+278. be frightened at( of doing) sth.对...感到恐惧 frighten sb. into doing sth. 威胁某人做某事
+279. be made of由...制成(看得出原材料)； be made from由...制成(看不出原材料)；be made in 产于某地 be made up of 由...组成
+280. in front of 在...前面(在范围之外)；in the front of 在...的前部分(在范围之内)
 281. be full of=be filled with 充满 ;
 282. for fun开玩笑 make fun of sb. 同某人开玩笑
-283. furnish sb. with sth.= furnish sth. to sb. 用。。。装备某人
+283. furnish sb. with sth.= furnish sth. to sb. 用...装备某人
 284. in the future 在将来
 285. gain/lose weight 增加/减少体重
 286. in general 大体上
@@ -2475,17 +2475,17 @@ challenge one's interest/attention 引起某人的兴趣/注意
 290. get in a word 插话
 291. get down to sth.(doing sth.)开始认真干
 292. get over克服；摆脱
-293. have a gift for 对。。有天赋
+293. have a gift for 对...有天赋
 294. give away 送掉；分发(奖品等)
 295. give in屈服
 296. give off 发出(蒸汽；气味);
 297. give out 散发；分发
 298. give up 放弃
 299. give way to 让位于
-300. give one's regards/greeting to向。。。问候(好)
-301. take/give a glance at 对。。。一瞥 at the first glance第一眼 glance at对。。。一瞥
+300. give one's regards/greeting to向...问候(好)
+301. take/give a glance at 对...一瞥 at the first glance第一眼 glance at对...一瞥
 302. go on doing sth.继续做同一件事情 go on to do sth. 继续做另一件事情 ; go on with 继续做某事
-303. be good at善于 be good for 对。。有益；for the good of 为。。利益 It's no/some/any good +doing sth.做(干)是无()有用的
+303. be good at善于 be good for 对...有益；for the good of 为...利益 It's no/some/any good +doing sth.做(干)是无()有用的
 304. graduate from 毕业于
 305. grasp at 抓住;beyond grasp 某人不能理解
 306. a great deal 大量 a great deal of +不可数名词 a great( good) many+可数名词的复数
@@ -2493,40 +2493,40 @@ challenge one's interest/attention 引起某人的兴趣/注意
 308. grow up 长大 ;grow into 发展为
 309. on guard 在岗上； keep guard 放哨
 310. guide sb. to a place引导某人到某一地方; guide sb. in(out)领着某人进(出)
-311. get into (form) the habit of 养成。。。的习惯； break away from a habit 改掉一个习惯； out of habit 出于习惯
-312. by hand 用手(工)； from hand to hand 从一人手传到另一人手中；hand in 上交 ；hand out 分发； give(lend ) sb. a hand 给予某人帮助 on the one hand...on the other hand 一方面。。。另一方面
+311. get into (form) the habit of 养成...的习惯； break away from a habit 改掉一个习惯； out of habit 出于习惯
+312. by hand 用手(工)； from hand to hand 从一人手传到另一人手中；hand in 上交 ；hand out 分发； give(lend ) sb. a hand 给予某人帮助 on the one hand...on the other hand 一方面...另一方面
 313. hang on=hold on 不挂断(电话) hang up=ring off挂断(电话)
-314. have a word( a few words) with ; 和。。讲句话 have words with sb. 与。。。吵架 ;have much/nothing to do with 与。。。很有(没有)关系
-315. from head to foot 浑身 head for 朝。。行走； hold one's head high 趾高气扬
+314. have a word( a few words) with ; 和...讲句话 have words with sb. 与...吵架 ;have much/nothing to do with 与...很有(没有)关系
+315. from head to foot 浑身 head for 朝...行走； hold one's head high 趾高气扬
 316. be in good(poor,bad) health 健康(不健康);heart and soul 全心全意 ;learn sth. by heart 记住某事 ;put one's heart into 用全部精力做某事
 317. can't help (to )do 不能帮忙做 can't help doing 禁不住做
 318. say hello(sorry) to sb. 向某人问好(道歉)
-319. help oneself to 随便用(吃);help sb. with sth. 帮助某人做某事; with the help of (with one's help) 在。。帮助下;help out 帮助(解决困难)
-320. hesitate at/about/over sth. 对。。。迟疑不决 hesitate to do sth. 不好意思做某事
+319. help oneself to 随便用(吃);help sb. with sth. 帮助某人做某事; with the help of (with one's help) 在...帮助下;help out 帮助(解决困难)
+320. hesitate at/about/over sth. 对...迟疑不决 hesitate to do sth. 不好意思做某事
 321. on /for hire 供租用 ;
 322. hold back 阻止 ;hold on 坚持下去;hold up 举起; 阻挡 take( catch,get,seize) hold of 抓住
 323. on holiday 在休假中 take(have/spend) one's holiday 度(休)假
 324. be/feel at home 感觉舒适 ;on one's way home 在某人回家的路上
-325. in honour of 为。。纪念。。。 pay (give)honour to 向。。致敬
-326. in hope of( in the hope of/in the hope that) 怀着。。。的希望
+325. in honour of 为...纪念... pay (give)honour to 向...致敬
+326. in hope of( in the hope of/in the hope that) 怀着...的希望
 327. be in hospital 住院
 328. go hungry 挨饿 ;be hungry for 渴望
 329. hurry away( off)匆忙离去; in a hurry 匆忙
 330. speak ill of sb. 说某人坏话
-331. impress(sth.) on/upon(sb.) 使某人对某物印象深刻；be deeply impressed by 对。。。印象深刻
+331. impress(sth.) on/upon(sb.) 使某人对某物印象深刻；be deeply impressed by 对...印象深刻
 332. out of question 毫无疑问； out of the question =impossible 不可能
 333. increase to 增加到(指总数) ; increase by 增加了(指幅度)
-334. for an instant 一瞬间 ;the instant( 名词词组当连词用引导时间状语从句 )=as soon as一。。。就 。。。; in an instant 立刻；马上
+334. for an instant 一瞬间 ;the instant( 名词词组当连词用引导时间状语从句 )=as soon as一...就 ...; in an instant 立刻；马上
 335. instead of= in place of 代替
-336. intend to do sth. 企图做。。。intend sb. to do sth.打算让某人做某事
-337. with the intention of 抱有。。目的
-338. take(have,feel)(no) interest in 对。。感(不感)兴趣 ; to one's interest使某人感兴趣的是。。。 ； with interest 怀着兴趣 ； be/feel interested in 对。。。感兴趣
+336. intend to do sth. 企图做...intend sb. to do sth.打算让某人做某事
+337. with the intention of 抱有...目的
+338. take(have,feel)(no) interest in 对...感(不感)兴趣 ; to one's interest使某人感兴趣的是... ； with interest 怀着兴趣 ； be/feel interested in 对...感兴趣
 339. introduce sb( oneself ) to sb.else 把某人(自己)向他人介绍
-340. join...to... 把。。。和。。。连接起来; join up 连接起来 ;join sb. 和某人一起 ;join (sb.) in... 参加(某人)某项活动
-341. play a joke on sb. 开某人的玩笑； make a joke about sb. ( sth. )以某人(物)为笑柄 ; make/take a journey to 到。。。去旅行
+340. join...to... 把...和...连接起来; join up 连接起来 ;join sb. 和某人一起 ;join (sb.) in... 参加(某人)某项活动
+341. play a joke on sb. 开某人的玩笑； make a joke about sb. ( sth. )以某人(物)为笑柄 ; make/take a journey to 到...去旅行
 342. to one's joy 使某人高兴的是..
-343. judge by(from) 依据。。来判断
-344. jump off 跳下(离)； jump onto 跳到。。。上
+343. judge by(from) 依据...来判断
+344. jump off 跳下(离)； jump onto 跳到...上
 345. keep back 阻止 ;keep..in mind 记住 ;keep out 不让进入 ;keep up with 跟上 ;keep up 保持；继续 keep watch守望; keep one's promise 履行诺言
 346. keep (on) doing sth. 继续做某事
 347. kick off 踢落；
@@ -2535,7 +2535,7 @@ challenge one's interest/attention 引起某人的兴趣/注意
 350. know of(about) (间接)知道；了解
 351. make oneself known to 向某人介绍自己
 352. to one's knowledge 据某人所知
-353. for (through) lack of 因为缺乏; lack in 在。。方面缺乏
+353. for (through) lack of 因为缺乏; lack in 在...方面缺乏
 354. at large详细地 ; by and large 总的说来
 355. to the last直到最后
 356. late(far/deep) into the night 直到深夜
@@ -2545,36 +2545,36 @@ challenge one's interest/attention 引起某人的兴趣/注意
 360. lead to 导致；通向 lead sb. by the nose 牵着鼻子走; lead the way带路 ;lead sb.in doing 领导某人干
 361. leak out泄漏 learn of (间接)了解到
 362. not../. in the least一点也不
-363. leave alone 别管 leave... for ( leave for)离开。。前往; leave out 省略; leave a message for sb.给某人留口信;
+363. leave alone 别管 leave... for ( leave for)离开...前往; leave out 省略; leave a message for sb.给某人留口信;
 364. give a lecture 做演讲
 365. at length( at last)最后
 366. attend one's lesson 听某人的课； give sb. a lesson 给某人上课； teach sb.a lesson 给某人教训； do one's lesson 做功课
 367. let alone 更不用说; let out 泄露
 368. by letter 以书信形式
 369. at liberty 得到许可
-370. come back to life 复活;give one's life to 为。。。而献身
+370. come back to life 复活;give one's life to 为...而献身
 371. in line排队； line up 排队
 372. make a list 列表； as is listed above(below)如上(下)所列
-373. little by little 逐渐地 ;live through 度过 ;live out 活过(某一段时间) live on 靠。。。生活
-374. as( so )long as 只要。。。 long after 在。。后不久； no longer/not...any longer 不再 It's not long before 。。。不久。。就 long for 渴望
-375. look about (around) 环视;look back upon 回顾;look down upon(on) 看不起 ; look forward to(介词) 盼望；look into 调查 ;look on(upon) as... 把。。。看着。。。 look out 当心 ;look through 浏览
-376. lose heart 失去信心 be lost in( thought) 消失在。。。中
+373. little by little 逐渐地 ;live through 度过 ;live out 活过(某一段时间) live on 靠...生活
+374. as( so )long as 只要... long after 在...后不久； no longer/not...any longer 不再 It's not long before ...不久...就 long for 渴望
+375. look about (around) 环视;look back upon 回顾;look down upon(on) 看不起 ; look forward to(介词) 盼望；look into 调查 ;look on(upon) as... 把...看着... look out 当心 ;look through 浏览
+376. lose heart 失去信心 be lost in( thought) 消失在...中
 377. at a loss 不知所措 ; make up a loss弥补损失
-378. fall in love with 爱上。。。
-379. go mad( crazy) 发狂 drive sb. mad使某人发疯 be mad about(for) 对。。着迷
+378. fall in love with 爱上...
+379. go mad( crazy) 发狂 drive sb. mad使某人发疯 be mad about(for) 对...着迷
 380. be made into 制着成产品 ;find(meet) one's match (遇到)对手
 381. no matter what/how/where 无论什么/怎样/哪里； in the matter of
-在于；就。。。而论
+在于；就...而论
 382. in the meanwhile=at the same time 同时；
 383. by means of 凭借；用 ; by all means务必； by no means 决不； by this means通过这种方式
 384. meet sb's wishes 达到某人的愿望； meet with 遭遇意外；偶然碰到
-385. in memory(honour) of 为。。。纪念 ; from memory 凭记忆
+385. in memory(honour) of 为...纪念 ; from memory 凭记忆
 386. as mentioned above 如上所述； not to mention 更不用说； make mention of 提及
 387. make a mess of 弄乱 , get into a mess 陷入困境 ; in a mess 混乱，一团糟
 388. leave a message 留话； take a message for sb. 捎口信；
-389. in the middle of 在。。中间
+389. in the middle of 在...中间
 390. keep(bear) sth. in mind 记住某事 ; call/bring sth. to mind 回忆某事 ;make up one's mind 决定(心);speak one's mind 说出心里话; keep one's mind on 专心于
-391. the minute/moment...( 名词词组连词用)=as soon as 一。。。就。。。
+391. the minute/moment...( 名词词组连词用)=as soon as 一...就...
 392. make a mistake 犯错误
 393. mix up 搅和；混淆 ; be(get) mixed up 混杂
 394. make(earn) money 赚钱； collect money 筹款； save money省(存)钱
@@ -2584,64 +2584,64 @@ challenge one's interest/attention 引起某人的兴趣/注意
 398. no more... than 用于表达双方否定，"两者都不"；not more...than 用于表达"前者不如后者"
 399. make the most of 充分利用
 400. (all) by oneself 自己
-401. by name 名叫 ; by the name of 以。。为名 ; in name 只在名义上； in one's own name 以某人自己的名义
+401. by name 名叫 ; by the name of 以...为名 ; in name 只在名义上； in one's own name 以某人自己的名义
 402. by nature 天生的
 403. there is no need to do sth. 没有必要干某事; in need( of) 需要
-404. no sooner... than= hardly...when (用于倒装句) 一。。。就。。。
-405. not...nor...nor .. 既不。。。也不。。也不。。。
+404. no sooner... than= hardly...when (用于倒装句) 一...就...
+405. not...nor...nor .. 既不...也不...也不...
 406. lead sb. by the nose 牵着某人鼻子走； turn up one's nose at 瞧不起； nose to nose=face to face 面对面地
-407not only...but( also) 不但。。。而且
-408. not... but 不是。。。而是 not... until直到。。。才。。。
+407not only...but( also) 不但...而且
+408. not... but 不是...而是 not... until直到...才...
 409. from now( then) on 从现在(那时)起 ;now that=since 既然；由于; by now 到现在;till now 直到现在
 410. take office 就( 任)职； resign( leave) office 辞(离)职 ； in office 执政，任职
 411. once in a while 偶然
 412. one after another=one by one=one after the other 一个个地，一个接一个
 413. by oneself 独自地
 414. be open to 乐意接受； come into open 公开； open up 开发；开辟
-415. have a good opinion of sb. 对。。。印象好
+415. have a good opinion of sb. 对...印象好
 416. in one's opinion在某人看来
-417. whether...or... 是。。。还是不是。。。
+417. whether...or... 是...还是不是...
 418. or else= otherwise 否则
 419. in order 按顺序
 420. owing to( thanks to) 由于
 421. on one's own 独自，独立
-422. be parallel with 与。。。平行， 与。。。并列
+422. be parallel with 与...平行， 与...并列
 423. participate in a discussion 参加讨论;
 424. in particular=particularly尤其；特别
 425. pass by 从旁经过, 经过; pass on 传下去 ; pass through 穿过；经历
 426. pay attention to 注意
 427. pay a visit to 访问某人/地方
 428. at peace 处于和平局面;keep the peace 维持治安
-429. in person=personally 亲自； in the person of 代表； 以。。的资格
+429. in person=personally 亲自； in the person of 代表； 以...的资格
 430. persuade sb. to do sth. 说服某人做某事 ; persuade sb. into/out of doing sth. 说服某人做/不做某事
 431. pick out 挑选； pick up 拾起 ；用车接人(用车载物)
 432. take place 发生; take one's place/ take place of 代替 ; in place 在适当的位置
 433. play a joke on sb. 开某人的玩笑
 434. on the playground 在操场上
-435. in point of 就。。而言;on the point of 即将。。之时; to the point 中肯; to the point of 达到。。。的程度
+435. in point of 就...而言;on the point of 即将...之时; to the point 中肯; to the point of 达到...的程度
 436. polish up 擦亮(光)，温习(功课)
 437. put into practice 实行，成为现实; put theory into practice 把理论与实践结合
-438. sing sb's praise( think highly of sb. ) 赞扬某人 ； in praise of 为颂扬。。。
-439. without prejudice 无偏见 have a prejudice against= be prejudice against 对。。。有偏见(成见)
-440. make preparations for =prepare for 为。。。做准备 ; prepare sb. to do sth. 使某人准备做某事
-441. prepare sb. for 使某人为。。。做好准备； be/get (well) prepared for sth./to do sth. 对。。。有(充分)准备
+438. sing sb's praise( think highly of sb. ) 赞扬某人 ； in praise of 为颂扬...
+439. without prejudice 无偏见 have a prejudice against= be prejudice against 对...有偏见(成见)
+440. make preparations for =prepare for 为...做准备 ; prepare sb. to do sth. 使某人准备做某事
+441. prepare sb. for 使某人为...做好准备； be/get (well) prepared for sth./to do sth. 对...有(充分)准备
 442. at present=presently 目前; for the present =for the time being 暂时 ; up to the present 直到现在
-443. preserve...from 保护；保藏。。。以免
-444. under the pressure of 在。。。压力(迫) 下
+443. preserve...from 保护；保藏...以免
+444. under the pressure of 在...压力(迫) 下
 445. raise/bring up the price 提价； reduce/bring down the price 降价； ( the price) go up (价格)上升； ( the price) go down/ fall (价格)下降
 446. in principle 原则上 ; on principle 根据(按照)原则
 447. go to prison 入狱； be in prison 在坐牢
-448. in process 在进行中 in (the) process of 在。。。期间
-449. make a profit on 在。。上获利； make progress 取得进步(进展)
+448. in process 在进行中 in (the) process of 在...期间
+449. make a profit on 在...上获利； make progress 取得进步(进展)
 450. prohibit sb. from doing sth.=forbid sb. to do sth. 禁止某人做某事
 451. make( sb.) a promise to do sth. 许诺做某事 ; keep a promise守诺言;carry out a promise 履行诺言
-452. be proud of=take pride in 以。。而自豪
+452. be proud of=take pride in 以...而自豪
 453. provide sb. with sth.=provide sth. for sb. 给某人提供某物
 454. make a purchase 买东西
-455. for/with the purpose of 为了。。。的目的； on purpose 故意地
-456. push...aside 把。。。推倒在旁边; push on 推动；推进
-457. put aside 把。。放一边； put away 收拾好；put down 放下，平息 ； put off =delay推迟，延期； put on 穿(戴)，上演； put out 出版，消灭； put up 举起，建造，张贴； put down 记下；
-458. rather than 而不是; would rather do... than do... 宁愿做。。。而不做。。。
+455. for/with the purpose of 为了...的目的； on purpose 故意地
+456. push...aside 把...推倒在旁边; push on 推动；推进
+457. put aside 把...放一边； put away 收拾好；put down 放下，平息 ； put off =delay推迟，延期； put on 穿(戴)，上演； put out 出版，消灭； put up 举起，建造，张贴； put down 记下；
+458. rather than 而不是; would rather do... than do... 宁愿做...而不做...
 459. beyond (out of) one's reach 超出某人的能力
 460. be ready to do sth. 乐意做某事； be ready for sth. 为某事做准备； in reality 实际上
 461. by reason of( by reason that) 由于；因为
@@ -2649,39 +2649,39 @@ challenge one's interest/attention 引起某人的兴趣/注意
 463. set a record 创记录; keep a record 保持记录; break a record打破记录
 464. keep a record of 记录下来
 465. refer to 查阅，参考， 提及，求助
-466. have no relation to 与。。。无关； the relation between...and ... 和。。之间的关系
+466. have no relation to 与...无关； the relation between...and ... 和...之间的关系
 467. for rent( sale) 为出租(出售)的
 468. make repairs 修理; under repair 在修理中
 469. It is reported that 据报道
-470. live up to one's reputation 名副其实，have a reputation for 以。。。而闻名
+470. live up to one's reputation 名副其实，have a reputation for 以...而闻名
 471. request for 要求得到某物; at sb.'s request/at the request of sb. 应某人之邀
 472. come/go to sb's rescue 来/去营救某人
-473. make researches on 对。。进行研究； do research on sth. 对。。进行研究
+473. make researches on 对...进行研究； do research on sth. 对...进行研究
 474. without reservation 直率地 ; with reservation 有保留地; ticket reservation 留票 seat reservation预定席位
 475. a nature reserve 自然保护； in reserve 备用的； All rights (are) reserved 版权保留
-476. bear responsibility for 对。。。负有责任 ; on one's own responsibility自作主张地 ; take the responsibility for 负起。。。的责任
-477. result in ( lead to )导致，造成。。。的结果； result from 由于，因。。。而起
-478. in return( for) 作为(对)。。。的回报
+476. bear responsibility for 对...负有责任 ; on one's own responsibility自作主张地 ; take the responsibility for 负起...的责任
+477. result in ( lead to )导致，造成...的结果； result from 由于，因...而起
+478. in return( for) 作为(对)...的回报
 479. rid oneself of 摆脱，去掉 be (get) rid of 摆脱，除去
 480. the answer to a riddle 谜底; read a riddle 猜迷
 481. ring sb. up=ring sb.=call sb. up=give sb. a telephone call=call sb.=telephone sb.=give sb. a ring 打电话; ring back 回电话；ring off 挂断电话
 482. take a risk(risks) to do sth= risk doing sth.冒险做某事; at all risks/at any risk 无论冒什么危险
-483. play a role(part) in 在。。。起作用； play the role(part) of 扮演。。。角色
-484. make room for 为。。。 腾出地方 ； There is no room left for... 没有。。。的余地
+483. play a role(part) in 在...起作用； play the role(part) of 扮演...角色
+484. make room for 为... 腾出地方 ； There is no room left for... 没有...的余地
 485. root in 扎根于； be rooted in 起源于
 486. rot away 朽坏；(身体)衰弱
 487. rot off 因朽坏而断
 488. go into one's routine 做自己照例做的事; the day's routine=daily routine 日常工作
 489. in a row 排成一排； in rows 成排地
 490. come to ruin 使毁灭；in ruins 荒芜地； fall into ruin 成废墟
-491. break the rule违反规定; obey/follow the rules 遵守规定； as a rule一般来说; during the rule of 在。。。统治期间
+491. break the rule违反规定; obey/follow the rules 遵守规定； as a rule一般来说; during the rule of 在...统治期间
 492. run after 追赶； run for 竞选
 493. rush through 匆忙通过； ( the) rush hour交通高峰时间
 494. safe and sound安然无恙
 495. on sale 在销售中
 496. much the same 几乎一样
-497. with satisfaction 满意地； to one's satisfaction 使某人满意的是。。。
-498. be satisfied( pleased) with 对。。感到满意
+497. with satisfaction 满意地； to one's satisfaction 使某人满意的是...
+498. be satisfied( pleased) with 对...感到满意
 499. say hello( sorry/good-bye) to sb. 向某人问好(道歉，告别);say for oneself 为自己辩护 ; say to oneself 自言自语
 500. finish school完成学业
 501. scold sb. for sth/doing sth. 为某事责备某人
@@ -2689,7 +2689,7 @@ challenge one's interest/attention 引起某人的兴趣/注意
 503. scream for help 大声喊救命 ; let out a scream 尖叫
 504. at sea 在海上；在航海 by sea 乘船； at the sea 在海边，在海岸上； on the sea 在海边； go to sea 当水手； go to the sea 去海边
 505. in search for 寻找，追求 ; make a search for 搜索，追求
-506. keep sth. secret from 对。。。保密； in secret=secretly 秘密地
+506. keep sth. secret from 对...保密； in secret=secretly 秘密地
 507. see sb. off =send sb. off 送行 ; see sb. do sth.看见某人干了(过)某事 ; see sb. doing sth. 看见某人正在干某事; see to sth. 处理，负责 ; see about 负责处理(某事); see into 调查 ;see through 看透 ;see to it that ... 务必要
 508. seek to do sth. 试图干某事； seek after/for=search for 寻求
 509. seize sb. by the arm抓住某人的手臂; seize hold of 抓住
@@ -2697,17 +2697,17 @@ challenge one's interest/attention 引起某人的兴趣/注意
 511. send for sb.=call in sb. 派人去请(叫) send out 发出(光)； send up 发射
 512. in a sense 在某种意义上 ; make sense有意义; come to one's sense 苏醒过来
 513. sentence sb. to death 判某人的死刑
-514. separate... from... 把。。。与。。分开
-515. in service 在职，服役 ； be of service to 对。。。有用
-516. set about doing sth. 着手做。。。;set down 记下;set off ( start out) for...出发动身去。。。;set out to do sth. 着手做。。。;set up建立 ；set free 释放； set an example to 为。。。树立榜样； set fire to 放或烧。。。 set sail 启航 ； be set in
-以。。。为背景
+514. separate... from... 把...与...分开
+515. in service 在职，服役 ； be of service to 对...有用
+516. set about doing sth. 着手做...;set down 记下;set off ( start out) for...出发动身去...;set out to do sth. 着手做...;set up建立 ；set free 释放； set an example to 为...树立榜样； set fire to 放或烧... set sail 启航 ； be set in
+以...为背景
 517. settle down 定居; settle up 结帐
-518. shake hands with sb. 与。。握手； shake off 摆脱
-519. feel shame at 因。。。而感到羞愧 ; put sb. to shame 使某人难为情
-520. in the shape of 呈。。。的形状
-521. share...with sb. 与。。共享； share in 分享(担)； share out 分给(一些人)
+518. shake hands with sb. 与...握手； shake off 摆脱
+519. feel shame at 因...而感到羞愧 ; put sb. to shame 使某人难为情
+520. in the shape of 呈...的形状
+521. share...with sb. 与...共享； share in 分享(担)； share out 分给(一些人)
 522. ship off 运走；ship out 运出
-523. shoot st sb./sth. 向。。。射击 ;shoot sb./sth. 射中; shoot up 突然升起
+523. shoot st sb./sth. 向...射击 ;shoot sb./sth. 射中; shoot up 突然升起
 524. go shopping, do some shopping 购物，买东西
 525. on the shore(s) 在海滨
 526. in short supply 供应不足; be short of 缺乏， in short 总之; take a short cut 走捷径 ；for short 简称 ; run short of... 缺乏; cut short打断(某人的话)
@@ -2719,8 +2719,8 @@ challenge one's interest/attention 引起某人的兴趣/注意
 532. catch sight of 发现，看见; within sight 在视线范围内; out of sight 在视线范围外；
 lose sight of 看不见
 533. in silence 寂静地； keep silence 保持寂静(沉默)； break silence 打破寂静(沉默)
-534. be similar to 和。。。类似
-535. in size/colour/area... 在大小(颜色/面积。。。)方面
+534. be similar to 和...类似
+535. in size/colour/area... 在大小(颜色/面积...)方面
 536. be slow in doing sth. 干某事很迟钝;slow down 减速
 537. smooth away difficulties 消除困难
 538. and so on 等等 ； or so 大约； so far迄今为止
@@ -2728,7 +2728,7 @@ lose sight of 看不见
 540. throw one's heart and soul into the work 全神贯注地工作 ; heart and soul=whole-heartedly 全心全意地
 541. spare no efforts(pains) 不遗余力
 542. not to speak of 更不用说, speak( think) highly of 高度赞扬 ,speak out 大胆说出,speak up 大声(清楚)地讲, generally speaking 一般来讲
-543. with all( great) speed很快地， at full( top,high,low) speed 全(高、低)速； at a speed of...以。。。速度
+543. with all( great) speed很快地， at full( top,high,low) speed 全(高、低)速； at a speed of...以...速度
 544. keep up one's spirit 振作精神
 545. on the spot 当场，在现场
 546. spy on 暗中注视
@@ -2740,18 +2740,18 @@ lose sight of 看不见
 552. starve to death 饿死
 553. take steps( measures) to do 采取措施
 554. stick to 坚持，粘住
-555. bring ...to a stop 使。。。停(终)止; come to a stop 停止
+555. bring ...to a stop 使...停(终)止; come to a stop 停止
 556. be on a strike 在罢工
-557. struggle against/with同。。。作斗争 , struggle for=fight for为。。。而斗争, struggle to one's feet 挣扎着站起来
+557. struggle against/with同...作斗争 , struggle for=fight for为...而斗争, struggle to one's feet 挣扎着站起来
 558. substitute A for B用 A 代替 B, in substitution for 代替
 559. all of a sudden=suddenly 突然
-560. suffer from 受。。。的苦，患病
-561. suit.. into... 使。。适合。。。， follow the suit 跟着做
+560. suffer from 受...的苦，患病
+561. suit.. into... 使...适合...， follow the suit 跟着做
 562. be superior to 优于 , be inferior to 劣于
 563. supply sb./sth with sth. 向某人提供某物， supply sth.for sb. 向某人提供某物，be in short supply供应不足
 564. in support of 支持，拥护; make sure 弄确实 ; for sure(certain) 确切，肯定 ,be sure of oneself 有信心
 565. in surprise 惊奇地，to one's surprise 使某人吃惊的是； take...by surprise 突袭
-566. be surrounded by/with 被。。包围(围住)
+566. be surrounded by/with 被...包围(围住)
 567. swallow up 吞没
 568. go for a swim 去游泳
 569. switch off 关掉 ,switch on 打开
@@ -2762,9 +2762,9 @@ lose sight of 看不见
 574. tear up撕毁， tear down 扯下
 575. in one's teens 十几岁时，in his thirties 在他三十几岁时
 576. take one's temperature 量体温
-577. in terms of 用。。。的话，根据
-578. be terrified of 对。。。害怕
-579. to one's terror 使某人惊恐的是。。。， have terror of sth. 对某事感到恐慌
+577. in terms of 用...的话，根据
+578. be terrified of 对...害怕
+579. to one's terror 使某人惊恐的是...， have terror of sth. 对某事感到恐慌
 580. no other than 正是，就是 ; no other...than 除去(外)
 581. now and then 间或
 582. think about/of 考虑，想出 ;think of 想起 , 认为( as) think out想透 ; think over 熟虑
@@ -2772,17 +2772,17 @@ lose sight of 看不见
 584. all through 一直 be through with 完成; get through 接通电话 ;break through 突破
 585. throw away扔掉throw on 匆匆地穿上； throw off 匆匆地脱下； throw up 吐出
 586. at a time一次;at the same time 同时; at one time曾经，一度 ;in time 及时 ；on time 准时;have a good time 过得愉快 ;ahead of time 提前 ; at times/from time to time 间或 ;in no time =immediately=right now(then) 立刻
-587. tire out 疲劳 ; be tired of 对。。。厌烦
-588. together with 同。。一起； get together 聚集，召集
-589. too...to 太。。而不能 too much 太多(副词), 太多(形容词，后接不可数名词); too many 太多(形容词，后接可数名词复数); much too 太(修饰形容词或副词) 590 in total=in all 总计 a total of 总共
-591. keep in touch with 与。。。保持联络 ;get in touch with 与。。保持联系 ; make a tour/go on a tour 旅行; make a world tour 周游世界
-592. treat...as 把。。当作
-593. tremble with 因。。而发抖
-594. play a trick(tricks) on 开。。的玩笑
-595. get into trouble 陷入麻烦； have trouble( difficulty /danger...) in doing sth. 做。。。有麻烦(困难/危险)
+587. tire out 疲劳 ; be tired of 对...厌烦
+588. together with 同...一起； get together 聚集，召集
+589. too...to 太...而不能 too much 太多(副词), 太多(形容词，后接不可数名词); too many 太多(形容词，后接可数名词复数); much too 太(修饰形容词或副词) 590 in total=in all 总计 a total of 总共
+591. keep in touch with 与...保持联络 ;get in touch with 与...保持联系 ; make a tour/go on a tour 旅行; make a world tour 周游世界
+592. treat...as 把...当作
+593. tremble with 因...而发抖
+594. play a trick(tricks) on 开...的玩笑
+595. get into trouble 陷入麻烦； have trouble( difficulty /danger...) in doing sth. 做...有麻烦(困难/危险)
 596. come true 实现
 597. try on 试穿;try one's best to do尽最大的努力试验
-598. take turns to do sth. 轮流做某事； by turns 轮流地； turn down拒绝，把。。。开小； turn up 把。。。开大； turn in 上交； turn on( off) 开(关)； turn...into...使。。成为； turn out 结果是，生产； turn over 打翻，翻阅(书籍等)
+598. take turns to do sth. 轮流做某事； by turns 轮流地； turn down拒绝，把...开小； turn up 把...开大； turn in 上交； turn on( off) 开(关)； turn...into...使...成为； turn out 结果是，生产； turn over 打翻，翻阅(书籍等)
 599. up and down 上上下下 ，来回地
 600. up to 达到(某个数量)
 601. make use of 利用 ,It is no use doing sth. 干某事无用
@@ -2797,17 +2797,17 @@ lose sight of 看不见
 610. warm up (使)暖起来，(使)活泼起来
 611. wash away 冲掉
 612. by road ( water)走陆(水)路
-613. by way of 取道，经由； by the way 顺便说说； have a long way to go 还要做出努力； in this( that) way 用这种(那种)方法； on one's way to 在去。。的路上； stand in one's way 阻扰； lose one's way 迷路
+613. by way of 取道，经由； by the way 顺便说说； have a long way to go 还要做出努力； in this( that) way 用这种(那种)方法； on one's way to 在去...的路上； stand in one's way 阻扰； lose one's way 迷路
 614. wear out 穿破，磨坏
 615. be welcome to do sth./to sth. 可随意做某事，可随意取用某物
-616. do well in在某方面做得很好， as well 也，还； as well as 也，同样，又； be well( badly) off 富裕(贫穷)； may as well do 不妨做。。。
-617. take... as a whole 把。。。当一个整体 ; on the whole 整体上
+616. do well in在某方面做得很好， as well 也，还； as well as 也，同样，又； be well( badly) off 富裕(贫穷)； may as well do 不妨做...
+617. take... as a whole 把...当一个整体 ; on the whole 整体上
 618. against one's will 违反意愿地
-619. wipe away 擦掉，清楚掉 ,wipe off 擦去，把。。。擦干净
+619. wipe away 擦掉，清楚掉 ,wipe off 擦去，把...擦干净
 620. wish for sth. 希望得到 , wish sb. to do sth. 希望某人做某事 ,wish to do sth 希望做某事 , Best wishes. 祝好 wish sb sth.( wish you good luck)祝愿某人某事
-621. with the help of ( with sb's help) 在。。帮助下
+621. with the help of ( with sb's help) 在...帮助下
 622. It is no wonder that 不足为奇 ; do ( work) wonders 创造奇迹
-623. in other words 换言之； at work 在工作， work out 计算出，解出； work on 从事。。。
+623. in other words 换言之； at work 在工作， work out 计算出，解出； work on 从事...
 624. worry about=be worried about担心
 625. be worth (doing) 值得做某事 ,be worthy of 值得，配得上
 626. year by year 逐年
@@ -2816,543 +2816,555 @@ lose sight of 看不见
 ## 高中英语10大动词短语
 
 ### come
-come about发生，产生，出现
-come across 偶然发现,偶然遇到某人
-come after 跟在...后面
-come along(with sb.) 快，快来；(与某人)一道来，一起来
-come along with 进展；取得成功
-come at 达到；了解； 向...扑过来,向...袭击
-come away 离开；脱落
-come back 回来，复原，恢复
-come by 从旁边走过；(偶然)获得
-come between离间；干预...间的事；妨碍
-come down 倒下,(温度,价格)下降,病倒；传下来；
-come down with 付出；被感染上
-come from来自；生长于
-come forward 涌现,主动地响应要求做某事
-come for 为什么而来
-come in 进来,上市
-come in (into) sight /view出现，看见
-come into进入；获得；被卷入
-come into action/fashion 开始行动(流行)
-come into being 发生，开始存在；形成
-come into blossom开花
-come into force /effect 开始生效
-come into power/office 上台，掌握政权
-come into use 开始使用
-come of是...的后代；是...的结果
-come off脱落；离开；摔下；表现；(+adj.)结果是
-come on (演员)出台，跟着来；快点(口),开始,到来,举行,走吧,一起去
-come over 过来，从远处过来，转来
-come out 出来,出发,结果；(花)开；(秘密)泄露；出版
-come out of从...出来；由...引起；摆脱
-come over过来；顺便来访；改变观点；(+adj.)逐渐变得(v.+prep.)布满；胜过
-come round绕道而来；顺便来访；苏醒
-come through安然度过；安然度过；(声音经电话等)传来
-come to 苏醒,总共,达到,得到谅解
-come to a stop /an end 停止/结束
-come /get to know 逐渐认识
-come to oneself 苏醒过来
-come up 种子生长发育；升起；走过来；到场；出芽
-come up against 应付；对付(困难，反对等)
-come up against problems 遇到问题
-come up to 达到；等于
-come up to standard 合乎标准
-come up with 赶上；胜过 ，提出(建议)
-come up with a better plan 提出一个更好的计划
-come upon(偶然)碰上；攻击
-come to life 恢复知觉
-come to one’s rescuers 帮助
-come to stay 来定居；固定下来
-come to terms with 甘心忍受(不愉快的困境)
-come true 实现
 
+|English|中文|
+|--|--|
+|come about|发生，产生，出现|
+|come across |偶然发现,偶然遇到某人|
+|come after |跟在...后面|
+|come along(with sb.) |快，快来；(与某人)一道来，一起来|
+|come along with |进展；取得成功|
+|come at |达到；了解； 向...扑过来,向...袭击|
+|come away |离开；脱落|
+|come back |回来，复原，恢复|
+|come by |从旁边走过；(偶然)获得|
+|come between|离间；干预...间的事；妨碍|
+|come down |倒下,(温度,价格)下降,病倒；传下来；|
+|come down with |付出；被感染上|
+|come from|来自；生长于|
+|come forward |涌现,主动地响应要求做某事|
+|come for |为什么而来|
+|come in |进来,上市|
+|come in (into) sight /view|出现，看见|
+|come into|进入；获得；被卷入|
+|come into action/fashion |开始行动(流行)|
+|come into being |发生，开始存在；形成|
+|come into blossom|开花|
+|come into force /effect |开始生效|
+|come into power/office |上台，掌握政权|
+|come into use |开始使用|
+|come of|是...的后代；是...的结果|
+|come off|脱落；离开；摔下；表现；(+adj.)结果是|
+|come on |(演员)出台，跟着来；快点(口),开始,到来,举行,走吧,一起去|
+|come over |过来，从远处过来，转来|
+|come out |出来,出发,结果；(花)开；(秘密)泄露；出版|
+|come out of|从...出来；由...引起；摆脱|
+|come over|过来；顺便来访；改变观点；(+adj.)逐渐变得(v.+prep.)布满；胜过|
+|come round|绕道而来；顺便来访；苏醒|
+|come through|安然度过；安然度过；(声音经电话等)传来|
+|come to |苏醒,总共,达到,得到谅解|
+|come to a stop /an end |停止/结束|
+|come /get to know |逐渐认识|
+|come to oneself |苏醒过来|
+|come up |种子生长发育；升起；走过来；到场；出芽|
+|come up against |应付；对付(困难，反对等)|
+|come up against problems |遇到问题|
+|come up to |达到；等于|
+|come up to standard |合乎标准|
+|come up with |赶上；胜过 ，提出(建议)|
+|come up with a better plan |提出一个更好的计划|
+|come upon|(偶然)碰上；攻击|
+|come to life |恢复知觉|
+|come to one’s rescuers |帮助|
+|come to stay |来定居；固定下来|
+|come to terms with |甘心忍受(不愉快的困境)|
+|come true |实现|
 ### do
-do away with =get rid of 废除,去掉,取消
-do business 做买卖；做生意
-do down 胜过；欺骗；说...的坏话
-do experiments 做实验
-do for 符合...的需要；照料；毁掉
-do a good deed 做好事
-do good/harm to sb. 给某人带来好处/坏处
-do in 杀死某人；使精疲力竭；欺骗
-do right 做的好
-do some cleaning/shopping/cooking... 扫除/买东西/做饭...
-do sb. a/the fovour 帮某人一个忙
-do /try one’s best to do sth 尽力做某事
-do out 打扫,收拾
-do the bed/the room/the dishes 铺床/收拾房子/刷碗
-have something/nothing to do with...与...有/无关
-do up 修理；整理；梳理(头发)；扣好(女衫等)；打扮得漂漂亮亮
-do up one’s hair 盘起长发
-do well in 在...方面干得好
-do with 处理；对付
-do wrong 做坏事
-What to do ? 怎么办？
-How do you do ?你好！
-
+|English|中文|
+|--|--|
+|do away with =get rid of |废除,去掉,取消|
+|do business |做买卖；做生意|
+|do down |胜过；欺骗；说...的坏话|
+|do experiments |做实验|
+|do for |符合...的需要；照料；毁掉|
+|do a good deed |做好事|
+|do good/harm to sb. |给某人带来好处/坏处|
+|do in |杀死某人；使精疲力竭；欺骗|
+|do right |做的好|
+|do some cleaning/shopping/cooking... |扫除/买东西/做饭...|
+|do sb. a/the fovour |帮某人一个忙|
+|do /try one’s best to do sth |尽力做某事|
+|do out |打扫,收拾|
+|do the bed/the room/the dishes |铺床/收拾房子/刷碗|
+|have something/nothing to do with...|与...有/无关|
+|do up |修理；整理；梳理(头发)；扣好(女衫等)；打扮得漂漂亮亮|
+|do up one’s hair |盘起长发|
+|do well in |在...方面干得好|
+|do with |处理；对付|
+|do wrong |做坏事|
+|What to do ? |怎么办？|
+|How do you do ?|你好！|
 ### get
-get a laugh 大笑一场
-get a sight of 设法得到
-get a word in 插话
-get about 往来各处；(消息等)传开；着手干(某事)
-get above oneself 变得自高自大
-get across 穿过,讲清楚使人了解,领会
-get ahead 进步；胜过
-get ahead (of) 有进展，胜过，提前
-get after 攻击；责骂
-get away (from) 逃掉,离开,摆脱
-get along with sth 进展得
-get along with sb 相处
-get around =spread 传开
-get at 到达；抓住；走近；着手干；领会；贿赂
-get back 受贿，回来，恢复
-get behind 落后，识破 识破
-get burnt 烧着
-get by 走过；通过；勉强生存
-get close to 接近
-get down 从...下来,写下来,记下来,病了/使某人不安
-get down to 认真处理；着手
-get (seize,take,catch ,lay) hold of 抓住，捉住，掌握
-get in 进来；到达；回到家；当选；收集；请来
-get into进入；到达；穿上；陷入(困境等)
-get in a word 策划
-get into trouble 陷入麻烦
-get in touch with与...取得联系
-get in one’s way 妨碍某人
-get it 懂得
-get home 回家
-get off 下车，离去，脱掉(衣等)；摆脱
-get on 上车；穿上(衣等)；继续前进
-get on one’s feet 站立起来
-get out 出去；走开；逃出；取出；(+adj.)(天气)变得(晴朗等)
-get out of下车；脱(衣)；逐渐抛弃(习惯)等；离开
-get out of 从...出来，避免
-get out of hand失控
-get over 克服(困难),从病中恢复过来,不接
-get ready 就位；预备
-get rid of 摆脱,去掉
-get sb.into trouble 使某人陷入麻烦
-get stuck 遇到困难；陷进去
-get through 完成,通过,用完,从人群中通过,接通电话
-get /be tired of 对...感到厌烦；对...失去兴趣
-get to 到达,抓住问题的要害,本质
-get to know (逐渐)认识
-get to sleep 入睡；睡着
-get together 聚会,联欢；聚集
-get up 起床，站立，
-get with 着手，开始
-get broken 破碎了
-get caught in 困住了
-get changed 换衣服
-get drunk 喝醉酒
-get excited 兴奋
-get hurt 受伤
-get lost 迷路
-get married 结婚
-get paid 付酬劳
-get tired 累了
-get used to 习惯于；适应于...
-have got 有
-have got to (do) 不得不，必须
-get married 结婚
-get hurt 受伤
-get paid 付酬劳
-get lost 迷路
-get separated 分开
-get tired 累了
-
+|English|中文|
+|--|--|
+|get a laugh |大笑一场|
+|get a sight of |设法得到|
+|get a word in |插话|
+|get about |往来各处；(消息等)传开；着手干(某事)|
+|get above oneself |变得自高自大|
+|get across |穿过,讲清楚使人了解,领会|
+|get ahead |进步；胜过|
+|get ahead (of) |有进展，胜过，提前|
+|get after |攻击；责骂|
+|get away (from) |逃掉,离开,摆脱|
+|get along with sth |进展得|
+|get along with sb |相处|
+|get around =spread |传开|
+|get at |到达；抓住；走近；着手干；领会；贿赂|
+|get back |受贿，回来，恢复|
+|get behind |落后，识破 识破|
+|get burnt |烧着|
+|get by |走过；通过；勉强生存|
+|get close to |接近|
+|get down |从...下来,写下来,记下来,病了/使某人不安|
+|get down to |认真处理；着手|
+|get (seize,take,catch ,lay) hold of |抓住，捉住，掌握|
+|get in |进来；到达；回到家；当选；收集；请来|
+|get into|进入；到达；穿上；陷入(困境等)|
+|get in a word |策划|
+|get into trouble |陷入麻烦|
+|get in touch with|与...取得联系|
+|get in one’s way |妨碍某人|
+|get it |懂得|
+|get home |回家|
+|get off |下车，离去，脱掉(衣等)；摆脱|
+|get on |上车；穿上(衣等)；继续前进|
+|get on one’s feet |站立起来|
+|get out |出去；走开；逃出；取出；(+adj.)(天气)变得(晴朗等)|
+|get out of|下车；脱(衣)；逐渐抛弃(习惯)等；离开|
+|get out of |从...出来，避免|
+|get out of hand|失控|
+|get over |克服(困难),从病中恢复过来,不接|
+|get ready |就位；预备|
+|get rid of |摆脱,去掉|
+|get sb.into trouble |使某人陷入麻烦|
+|get stuck |遇到困难；陷进去|
+|get through |完成,通过,用完,从人群中通过,接通电话|
+|get /be tired of |对...感到厌烦；对...失去兴趣|
+|get to |到达,抓住问题的要害,本质|
+|get to know |(逐渐)认识|
+|get to sleep |入睡；睡着|
+|get together |聚会,联欢；聚集|
+|get up |起床，站立，|
+|get with |着手，开始|
+|get broken |破碎了|
+|get caught in |困住了|
+|get changed |换衣服|
+|get drunk |喝醉酒|
+|get excited |兴奋|
+|get hurt |受伤|
+|get lost |迷路|
+|get married |结婚|
+|get paid |付酬劳|
+|get tired |累了|
+|get used to |习惯于；适应于...|
+|have got 有|
+|have got to (do) |不得不，必须|
+|get married |结婚|
+|get hurt |受伤|
+|get paid |付酬劳|
+|get lost |迷路|
+|get separated |分开|
+|get tired |累了|
 ### go
-go about 走来走去；流通；着手进行；忙于；相处
-go abroad 出国
-go across 走过，经过
-go after 追逐；追捕；追求
-go after (a job,a prize)追求(职位)，争取(奖品)
-go against 违背；违反
-go ahead 前进；先走；着手干；取得进步做吧(口语),走在前面
-go along 前进；进行下去；走开
-go all out to do sth 全力以赴去做某事
-go all the way 完全同意
-go at 扑向；着手处理；售价为
-go away 离开；私奔
-go back 返回
-go back on 违背(诺言等); 毁(约)
-go back on one’s word 食言，说话不算数
-go back to 回到；追溯到
-go by(时间)过去；从旁边经过；(时机等)轻易放过；依照；凭...判断；顺便走访
-go beyond 超出
-go down 沿...下去；下去；倒塌；减少，下降
-go down on one’s knees 跪下
-go for 竭力想取得，喜爱，适用于
-go for a walk 去散步
-go home 回家
-go in for 从事，致力，爱好；追求
-go into 研究，调查，进入
-go into action 开始行动
-go off 爆炸，发射；动身，离开；去世；
-go off with 拿去；抢走；拐走
-go over 检查，审查；复习，重温
-go out 外出；熄灭
-go out of one’s way 特别费心(做事)
-go on 继续走下去；继续进行下去；(时间)过去；发生；过活；(上装等)穿得上
-go on doing sth 继续做 (同一件事)
-go on to do sth 继续做 (另一件事)
-go on with 继续进行
-go on with one’s work 继续某人的工作
-go out 出去；(灯等)熄灭
-go out for 拼命想要
-go out of 从...里出来；从...减少
-go out of one’s mind 变得神志不清
-go over 横穿；转向；复习
-go round/around 足够分配; (消息)流传
-go to bed 去睡觉
-go together 相配；恋爱
-go too far 太过分了,走太远了
-go through 经历，详细检查
-go though with 完成某事
-on the go 很忙
-to go 剩下的，未完成的
-go up 上升，增加，建起；(物价等)上涨
-go under 下沉，沉没；失败
-go well with 伴随，与...协调；与...持同一看法
-go with 相配=match=go along with
-go without 没有... 也行，将就
-go bad 变坏;变酸;腐败
-go red 变红
-go hungry 挨饿
-go wrong 出错;发生故障
-go boating 去滑船
-go bathing 去淋浴
-going camping 宿营
-go dancing 去跳舞
-go fishing 去钓鱼
-go hunting 去打猎
-go shooting 去射击
-go shopping 去购物
-go skating 去滑冰
-
+|English|中文|
+|--|--|
+|go about |走来走去；流通；着手进行；忙于；相处|
+|go abroad |出国|
+|go across |走过，经过|
+|go after |追逐；追捕；追求|
+|go after (a job,a prize)|追求(职位)，争取(奖品)|
+|go against |违背；违反|
+|go ahead |前进；先走；着手干；取得进步做吧(口语),走在前面|
+|go along |前进；进行下去；走开|
+|go all out to do sth |全力以赴去做某事|
+|go all the way |完全同意|
+|go at |扑向；着手处理；售价为|
+|go away |离开；私奔|
+|go back |返回|
+|go back on |违背(诺言等); 毁(约)|
+|go back on one’s word |食言，说话不算数|
+|go back to |回到；追溯到|
+|go by|(时间)过去；从旁边经过；(时机等)轻易放过；依照；凭...判断；顺便走访|
+|go beyond |超出|
+|go down |沿...下去；下去；倒塌；减少，下降|
+|go down on one’s knees |跪下|
+|go for |竭力想取得，喜爱，适用于|
+|go for a walk |去散步|
+|go home |回家|
+|go in for |从事，致力，爱好；追求|
+|go into |研究，调查，进入|
+|go into action |开始行动|
+|go off |爆炸，发射；动身，离开；去世；|
+|go off with |拿去；抢走；拐走|
+|go over |检查，审查；复习，重温|
+|go out |外出；熄灭|
+|go out of one’s way |特别费心(做事)|
+|go on |继续走下去；继续进行下去；(时间)过去；发生；过活；(上装等)穿得上|
+|go on doing sth |继续做 (同一件事)|
+|go on to do sth |继续做 (另一件事)|
+|go on with |继续进行|
+|go on with one’s work |继续某人的工作|
+|go out |出去；(灯等)熄灭|
+|go out for |拼命想要|
+|go out of |从...里出来；从...减少|
+|go out of one’s mind |变得神志不清|
+|go over |横穿；转向；复习|
+|go round/around |足够分配; (消息)流传|
+|go to bed |去睡觉|
+|go together |相配；恋爱|
+|go too far |太过分了,走太远了|
+|go through |经历，详细检查|
+|go though with |完成某事|
+|on the go |很忙|
+|to go |剩下的，未完成的|
+|go up |上升，增加，建起；(物价等)上涨|
+|go under |下沉，沉没；失败|
+|go well with |伴随，与...协调；与...持同一看法|
+|go with |相配=match=go along with|
+|go without |没有... 也行，将就|
+|go bad |变坏;变酸;腐败|
+|go red |变红|
+|go hungry |挨饿|
+|go wrong |出错;发生故障|
+|go boating |去滑船|
+|go bathing |去淋浴|
+|going camping |宿营|
+|go dancing |去跳舞|
+|go fishing |去钓鱼|
+|go hunting |去打猎|
+|go shooting |去射击|
+|go shopping |去购物|
+|go skating |去滑冰|
 ### have
-have breakfast/lunch/supper, 吃早(午、晚)餐
-have tea 喝茶
-have sports 进行体育活动
-have labor 劳动
-have deep affection on 对...有深刻影响
-have difficulty in doing sth. 费力(有困难地)做某事
-have fun 有趣
-have a smoke 抽烟
-have a discussion 讨论
-have a meeting 开会
-have a talk 谈话
-have a talk with sb 与某人谈话
-have a chat 聊天
-have a fight 打仗,斗架
-have a walk 步行;散步
-have a word with sb 与某人谈话
-have a few words with sb 与某人谈几句话
-have words with sb 与某人吵架
-have a quarrel 吵架
-have a run 跑步
-have a break (间,课间)歇
-have a haircut 理一发
-have a swim 游泳
-have a try 试一试
-have a rest 休息(一下)
-have a class 上课
-have a dance 跳舞
-have a stomachache 胃疼;肚疼
-have a toothache 牙疼
-have a cold 感冒
-have a fever 发烧
-have a holiday 度假
-have a day off 请一天假
-have a good time 过(玩)得愉快
-have a good / high opinion of sb 对某人评价高，对某人印象好
-have an exam 进行测试
-have nothing on 并不比什么强
-have sth in mind 牢记
-have sth on 穿/ 带着什么
-have sth done 让某人做某事
-have to =have got to 不得不，必须()
-
+|English|中文|
+|--|--|
+|have breakfast/lunch/supper, |吃早(午、晚)餐|
+|have tea |喝茶|
+|have sports |进行体育活动|
+|have labor |劳动|
+|have deep affection on |对...有深刻影响|
+|have difficulty in doing sth. |费力(有困难地)做某事|
+|have fun |有趣|
+|have a smoke |抽烟|
+|have a discussion |讨论|
+|have a meeting |开会|
+|have a talk |谈话|
+|have a talk with sb |与某人谈话|
+|have a chat |聊天|
+|have a fight |打仗,斗架|
+|have a walk |步行;散步|
+|have a word with sb |与某人谈话|
+|have a few words with sb |与某人谈几句话|
+|have words with sb |与某人吵架|
+|have a quarrel |吵架|
+|have a run |跑步|
+|have a break |(间,课间)歇|
+|have a haircut |理一发|
+|have a swim |游泳|
+|have a try |试一试|
+|have a rest |休息(一下)|
+|have a class |上课|
+|have a dance |跳舞|
+|have a stomachache |胃疼;肚疼|
+|have a toothache |牙疼|
+|have a cold |感冒|
+|have a fever |发烧|
+|have a holiday |度假|
+|have a day off |请一天假|
+|have a good time |过(玩)得愉快|
+|have a good / high opinion of sb |对某人评价高，对某人印象好|
+|have an exam |进行测试|
+|have nothing on |并不比什么强|
+|have sth in mind |牢记|
+|have sth on |穿/ 带着什么|
+|have sth done |让某人做某事|
+|have to =have got to |不得不，必须()|
 ### hear
-hear about 听到关于
-hear from 得到...的消息，收到...的来信
-hear of 听到...
-
+|English|中文|
+|--|--|
+|hear about |听到关于|
+|hear from |得到...的消息，收到...的来信|
+|hear of |听到...|
 ### keep
-keep about继续履行职责
-keep after紧紧追赶；反复提醒
-keep at坚持；不断对...施加压力
-keep away不接近；避开
-keep away from 离开。。。
-keep a diary 记日记
-keep a record 保持记录
-keep a record of 保存成绩;保留...记录
-keep a secret 保守秘密
-keep an eye on 照料；照管
-keep an eye out for sb /sth 留心或注意某人或某事
-keep back 留在后面,阻止,忍住，隐瞒
-keep down 下降,缩减开支
-keep doing 继续，一直做
-keep hold of 握住，抓住
-keep fit 保持健康；身体好
-keep from避免；忍住
-keep in 把...关在里面，闭门不出；留在家里；保守秘密
-keep... in mind 记着，不忘
-keep off 避开,远离,让开；使不接近；
-keep off the grass不要踏草
-keep on (doing) (其后不能接暂短动作的动词)继续(做)，不停地(做)
-keep one’s balance 保持平衡
-keep one’s feeling in 抑制住对。。。的感情
-keep order 维持秩序
-keep out 使其等在外面,不让进入，阻止
-keep...out of... 把某人制止在...外
-keep seeds 保存种子
-keep it up 坚持着做下去
-keep up 保持,维持,鼓足勇气；不减弱；坚持下去
-keep up with 跟上；熟悉；保持接触
-keep watch 注意；提防
-keep with 陪伴
-keep (stop/prevent )sb from doing 阻止某人做某事
-keep sb doing 使某人一直做某事
-keep sb.to oneself 保守秘密，不告诉别人
-keep sth in mind 记着。。。
-keep sth.a secret 对...保密
-keep in touch with 和...保持联系
-keep sth from sb 把某事瞒着某人()
-keep together 不分散
-keep time 按时，合拍子
-keep to 坚持某种习惯,遵循
-keep track of 记录；保持联系
-
+|English|中文|
+|--|--|
+|keep about|继续履行职责|
+|keep after|紧紧追赶；反复提醒|
+|keep at|坚持；不断对...施加压力|
+|keep away|不接近；避开|
+|keep away from |离开...|
+|keep a diary |记日记|
+|keep a record |保持记录|
+|keep a record of |保存成绩;保留...记录|
+|keep a secret |保守秘密|
+|keep an eye on |照料；照管|
+|keep an eye out for sb /sth |留心或注意某人或某事|
+|keep back |留在后面,阻止,忍住，隐瞒|
+|keep down |下降,缩减开支|
+|keep doing |继续，一直做|
+|keep hold of |握住，抓住|
+|keep fit |保持健康；身体好|
+|keep from|避免；忍住|
+|keep in |把...关在里面，闭门不出；留在家里；保守秘密|
+|keep... in mind |记着，不忘|
+|keep off |避开,远离,让开；使不接近；|
+|keep off the grass|不要踏草|
+|keep on (doing) |(其后不能接暂短动作的动词)继续(做)，不停地(做)|
+|keep one’s balance |保持平衡|
+|keep one’s feeling in |抑制住对...的感情|
+|keep order |维持秩序|
+|keep out |使其等在外面,不让进入，阻止|
+|keep...out of... |把某人制止在...外|
+|keep seeds |保存种子|
+|keep it up |坚持着做下去|
+|keep up |保持,维持,鼓足勇气；不减弱；坚持下去|
+|keep up with |跟上；熟悉；保持接触|
+|keep watch |注意；提防|
+|keep with |陪伴|
+|keep (stop/prevent )sb from doing |阻止某人做某事|
+|keep sb doing |使某人一直做某事|
+|keep sb.to oneself |保守秘密，不告诉别人|
+|keep sth in mind |记着...|
+|keep sth.a secret |对...保密|
+|keep in touch with |和...保持联系|
+|keep sth from sb |把某事瞒着某人()|
+|keep together |不分散|
+|keep time |按时，合拍子|
+|keep to |坚持某种习惯,遵循|
+|keep track of |记录；保持联系|
 ### look
-look about 环顾；四下环顾
-look after =watch out 照料;留神
-look ahead 朝前看；考虑到将来
-look at 看...
-look at...as... 把...看作...
-look away 把目光移开去
-look around 到处看
-look back 回头看； 回顾
-look down 向下看，俯视
-look down on (upon)sb 轻视某人，看不起
-look for 寻找；期待
-look forward 向前看
-look forward to doing 盼望；期待
-look in 顺便来访=drop in
-look in朝里面看；顺便看望
-look into sth 调查,了解某事,浏览(书报) ,窥视
-look like 看起来像...
-look on (upon) 旁观，看待
-look on (upon)...as 把...看作，认为是...
-look out 小心,当心,向外看
-look out for照看；密切注意；寻找
-look out of 向...外看
-look over 仔细检查；从...上面看过去；审阅,翻阅
-look through 浏览,仔细地检查
-look sb. in the face 直视某的脸
-look sb. into silence 用眼神让某人安静下来()
-look sb. up and down 上下打量某人
-look stronge/happy看起来(上去)强壮/高兴
-look to 负责,留意
-look up (从词典中)找出,查字典；向上看；好起来；寻找
-look up to sb 尊敬某人
-Look you! 注意！
-a disappointed look 失望的表情
-a shy look 害羞的表情
-a worried look 焦虑的表情
-judge a person by his(her) looks 以貌取人
-take /have a look at sb./sth. 看一下某人/某物
-
+|English|中文|
+|--|--|
+|look about |环顾；四下环顾|
+|look after =watch out |照料;留神|
+|look ahead |朝前看；考虑到将来|
+|look at |看...|
+|look at...as... |把...看作...|
+|look away |把目光移开去|
+|look around |到处看|
+|look back |回头看； 回顾|
+|look down |向下看，俯视|
+|look down on (upon)sb |轻视某人，看不起|
+|look for |寻找；期待|
+|look forward |向前看|
+|look forward to doing |盼望；期待|
+|look in |顺便来访=drop in|
+|look in|朝里面看；顺便看望|
+|look into sth |调查,了解某事,浏览(书报) ,窥视|
+|look like |看起来像...|
+|look on (upon) |旁观，看待|
+|look on (upon)...as |把...看作，认为是...|
+|look out |小心,当心,向外看|
+|look out for|照看；密切注意；寻找|
+|look out of |向...外看|
+|look over |仔细检查；从...上面看过去；审阅,翻阅|
+|look through |浏览,仔细地检查|
+|look sb. in the face |直视某的脸|
+|look sb. into silence |用眼神让某人安静下来()|
+|look sb. up and down |上下打量某人|
+|look stronge/happy|看起来(上去)强壮/高兴|
+|look to |负责,留意|
+|look up |(从词典中)找出,查字典；向上看；好起来；寻找|
+|look up to sb |尊敬某人|
+|Look you! |注意！|
+|a disappointed look |失望的表情|
+|a shy look |害羞的表情|
+|a worried look |焦虑的表情|
+|judge a person by his(her) looks |以貌取人|
+|take /have a look at sb./sth. |看一下某人/某物|
 ### make
-make a (some)difference 有关系；有影响
-make a dive for 冲向
-make a decision 作决定
-make a face(faces) 做鬼脸
-make a film 制作电影
-make a fire 生火
-make a fool of sb. 愚弄某人
-make a joke 开玩笑
-make a long face 拉长脸；不高兴
-make a living 谋生
-make a lot of enemies 树敌太多
-make a mistake犯错误
-make a record 制作唱片
-make a request 提要求
-make a round trip 乘往返车
-make a plan for 为...作计划
-make a promise 许诺
-make a search for 寻找
-make a sentence (with)(用)造句
-make a speech 作演讲
-make a stand 立正；站住
-make a study of sth. 研究什么
-make a suggestion 提建议
-make an appointment with 和...约定
-make an effort to do sth. 作出努力去做谋事
-make an excuse 找借口
-make an experiment 做实验
-make an impression on 给...印象
-make an apology to sb. 向某人道歉
-make away (急忙)离去；逃走
-make away with 携...而逃；摧毁；浪费()
-make as if 假装；装作
-make beds 铺床叠被
-make believe 假装，假扮
-make certain 弄清楚
-make coffee 冲咖啡
-make down 改小(衣服)
-make eyes at 向...送秋波
-make good marks 取得好的分数
-make friends with sb. 和某人朋友
-make fun of 开...玩笑
-make for 走向，向...前进；冲向
-make informed decision about ... 了解
-make it 办成，做到，成功；赶上，及时达到
-make laws 制定法律
-make money 赚钱
-make matters worse 更糟糕的是
-make no difference 没有关系；没有影响
-make off with 携...而逃
-make off 逃跑,匆匆离开
-make one’s way 前进；成功
-make one’s will 立遗嘱
-make one’s ends meet 收支相抵
-make oneself understood 使某人理解
-make out 开列；书写；辩认出;开(写)支票,假装
-make out of 用...制造出；理解
-make peace 讲和
-make peace with 与...和好
-make progress 取得进步
-make reference to 说道；提到；参考
-make room for 给某人让地方
-make sb do sth. 使某人做谋事
-make sense 有意义；有道理
-make sense of弄懂...的意思
-make sure 确信；一定
-make the best of 充分利用
-make the most of 充分利用
-make good use of 充分利用
-make up 拼凑；组成；补偿;捏造，临时编造，虚高；化装；和解
-make up for 补偿，弥补
-make up of 由...组成，由...构成
-make up one’s mind 下决心
-make up to 接近；巴结；向...求爱
-make use of 利用
-make yourself at home请不要客气
-make war 开战
-be made by... 是由...制造(做)的
-be made for... 是给...做(制)的
-be made of... 是由...制成的(物理变化)
-be made from... 是由...制成的(化学变化)
-be made in... 是由...制造的()
-be made into... 制成...(前面是原材料，后面是整体)
-be made up of... 是由...组成的(主语是整体，后面是部分)
-
+|English|中文|
+|--|--|
+|make a (some)difference |有关系；有影响|
+|make a dive for |冲向|
+|make a decision |作决定|
+|make a face(faces) |做鬼脸|
+|make a film |制作电影|
+|make a fire |生火|
+|make a fool of sb. |愚弄某人|
+|make a joke |开玩笑|
+|make a long face |拉长脸；不高兴|
+|make a living |谋生|
+|make a lot of enemies |树敌太多|
+|make a mistake|犯错误|
+|make a record |制作唱片|
+|make a request |提要求|
+|make a round trip |乘往返车|
+|make a plan for |为...作计划|
+|make a promise |许诺|
+|make a search for |寻找|
+|make a sentence (with)|(用)造句|
+|make a speech |作演讲|
+|make a stand |立正；站住|
+|make a study of sth. |研究什么|
+|make a suggestion |提建议|
+|make an appointment with |和...约定|
+|make an effort to do sth. |作出努力去做谋事|
+|make an excuse |找借口|
+|make an experiment |做实验|
+|make an impression on |给...印象|
+|make an apology to sb. |向某人道歉|
+|make away |(急忙)离去；逃走|
+|make away with |携...而逃；摧毁；浪费()|
+|make as if |假装；装作|
+|make beds |铺床叠被|
+|make believe |假装，假扮|
+|make certain |弄清楚|
+|make coffee |冲咖啡|
+|make down |改小(衣服)|
+|make eyes at |向...送秋波|
+|make good marks |取得好的分数|
+|make friends with sb. |和某人朋友|
+|make fun of |开...玩笑|
+|make for |走向，向...前进；冲向|
+|make informed decision about ... |了解|
+|make it |办成，做到，成功；赶上，及时达到|
+|make laws |制定法律|
+|make money |赚钱|
+|make matters worse |更糟糕的是|
+|make no difference |没有关系；没有影响|
+|make off with |携...而逃|
+|make off |逃跑,匆匆离开|
+|make one’s way |前进；成功|
+|make one’s will |立遗嘱|
+|make one’s ends meet |收支相抵|
+|make oneself understood |使某人理解|
+|make out |开列；书写；辩认出;开(写)支票,假装|
+|make out of |用...制造出；理解|
+|make peace |讲和|
+|make peace with |与...和好|
+|make progress |取得进步|
+|make reference to |说道；提到；参考|
+|make room for |给某人让地方|
+|make sb do sth. |使某人做谋事|
+|make sense |有意义；有道理|
+|make sense of|弄懂...的意思|
+|make sure |确信；一定|
+|make the best of |充分利用|
+|make the most of |充分利用|
+|make good use of |充分利用|
+|make up |拼凑；组成；补偿;捏造，临时编造，虚高；化装；和解|
+|make up for |补偿，弥补|
+|make up of |由...组成，由...构成|
+|make up one’s mind |下决心|
+|make up to |接近；巴结；向...求爱|
+|make use of |利用|
+|make yourself at home|请不要客气|
+|make war |开战|
+|be made by... |是由...制造(做)的|
+|be made for... |是给...做(制)的|
+|be made of... |是由...制成的(物理变化)|
+|be made from... |是由...制成的(化学变化)|
+|be made in... |是由...制造的()|
+|be made into... |制成...(前面是原材料，后面是整体)|
+|be made up of... |是由...组成的(主语是整体，后面是部分)|
 ### put
-put across/over 解释清楚；做成(交易)
-put an end to 结束；终止
-put aside 储存，保留；把...放在一边，暂不考虑
-put away 把...收起；储存，积攒
-put back 放在原处；拨回(钟表的针)；阻碍
-put by 把...放在一边；储蓄；推迟对...考虑
-put down 镇压,写下来
-put forth 发表；提出；出版
-put forward 提供；提出(要求、事实等)
-put in 花费；正式提出；把...放进
-put in for 申请
-put ...in prison 把...投进监狱
-put...into... 把什么放进什么里； 把什么译成什么
-put into production 把...投入生产
-put into use 投入使用
-put out 熄灭；关(灯)；出版；伸出；生产
-put on 穿上；上演；教唆；增加(体重)
-put on more pressure 增添更多压力
-put on a play 上演剧目
-put on speed 加速
-put on weight 增加体重
-put off 推迟，拖延；阻碍；下车
-put one’s heart into 全心全意投入
-put sb. out of job 使某人失业
-put one’s feeling into words 用语言表达感
-put up with 忍受，容忍(讨厌的人) 不斤斤计较
-put up 举起；安装；张贴；建造，搭起，支起；为...提供住宿；进行(抵抗)
-put to (船只顺避风等而)靠岸
-put together把...放到一起；合计；会合
-put through 使穿过；使从事；接通(电话)，为...接通电话
-
+|English|中文|
+|--|--|
+|put across/over |解释清楚；做成(交易)|
+|put an end to |结束；终止|
+|put aside |储存，保留；把...放在一边，暂不考虑|
+|put away |把...收起；储存，积攒|
+|put back |放在原处；拨回(钟表的针)；阻碍|
+|put by |把...放在一边；储蓄；推迟对...考虑|
+|put down |镇压,写下来|
+|put forth |发表；提出；出版|
+|put forward |提供；提出(要求、事实等)|
+|put in |花费；正式提出；把...放进|
+|put in for |申请|
+|put ...in prison |把...投进监狱|
+|put...into... |把什么放进什么里； 把什么译成什么|
+|put into production |把...投入生产|
+|put into use |投入使用|
+|put out |熄灭；关(灯)；出版；伸出；生产|
+|put on |穿上；上演；教唆；增加(体重)|
+|put on more pressure |增添更多压力|
+|put on a play |上演剧目|
+|put on speed |加速|
+|put on weight |增加体重|
+|put off |推迟，拖延；阻碍；下车|
+|put one’s heart into |全心全意投入|
+|put sb. out of job |使某人失业|
+|put one’s feeling into words |用语言表达感|
+|put up with |忍受，容忍(讨厌的人) 不斤斤计较|
+|put up |举起；安装；张贴；建造，搭起，支起；为...提供住宿；进行(抵抗)|
+|put to |(船只顺避风等而)靠岸|
+|put together|把...放到一起；合计；会合|
+|put through |使穿过；使从事；接通(电话)，为...接通电话|
 ### take
-It sb. st. to do sth 某人做某事花费多少时间
-take action 采取行动
-take along 随身携带
-take aim (at) 瞄准
-take a chance 碰运气
-take a deep breath 做深呼吸
-take advantage of 利用
-take a lead 带头
-take a look at 看一眼()
-take a picture 拍照
-take a photo of sb 给某人照相
-take a risk 冒险
-take a taxi 乘出租车
-take an exam 参加考试
-take A for B 把A误认为是B
-take apart 拆开(机器等) ；分辨；区分
-take...as 把...理解为 (作为)
-take away 拿走，夺去，使离去；减去
-take back 收回(说错的话)
-take back one’s words 收回(刚讲的话)
-take...by surprise 突然(吃惊)拿...；出奇兵攻占
-take...by mistake 由于疏忽而拿...
-take care of 照顾；照料
-take charge of 负责
-take down 取下；记下；拆卸
-take delight in 以...为乐
-take effect 生效
-take effective measures 采取有效措施
-take for 认为，以为；误认为
-take..sth.for granted 认为理所当然
-take hold of 抓住；掌握
-take in 收进；接受；吸收；带进
-take in sb 欺骗
-take interenst in 对...感兴趣
-take it (things) easy 别紧张；悠然自得；轻松
-take into account 把...考虑进去
-take...into consideration 考虑谋事物
-take notes 作笔记
-take medicine 吃药
-take off 拿走；脱下(衣帽等)；起飞
-take on 接受；包含；领会；承担，从事；呈现，具有；
-take on sb 雇用
-take on a new look 呈现新面貌
-take oneself off 走开，离去
-take one’s leave 告辞
-take one’s pace 代替某人位置(职位)
-take one’s seat 就坐
-take one’s time 不着急；慢慢干
-take one’s temperature 量体温
-take office 就职
-take out 拿出；去掉；扣除；(通过申请等)取得，办理
-take out on 对...发泄
-take over 占据；接任(职位)
-take pride in =be proud of 引以为豪
-take pains to do 努力做某事
-take part in 参与；参加
-take part with 袒护；支持
-take place 发生
-take possession of 占有；占领
-take the part of 袒护；支持
-take up 拿起；着手处理；占去；占据(时间,地方),从事于；接纳(乘客)
-take up with 与...成为朋友
-take sb. to task 责备某人，申斥某人
-take sb./sth. to 把某人/物带到(给)
-take the place of 代替，顶替
-take to 开始；对...产生好感；形成的习惯
-take (great) trouble to do sth不辞辛苦做
-take turns 轮流
-take turns to do sth.轮流做某事
-take in turn 依次
-
+|English|中文|
+|--|--|
+|It sb. st. to do sth |某人做某事花费多少时间|
+|take action |采取行动|
+|take along |随身携带|
+|take aim (at) |瞄准|
+|take a chance |碰运气|
+|take a deep breath |做深呼吸|
+|take advantage of |利用|
+|take a lead |带头|
+|take a look at |看一眼()|
+|take a picture |拍照|
+|take a photo of sb |给某人照相|
+|take a risk |冒险|
+|take a taxi |乘出租车|
+|take an exam |参加考试|
+|take A for B |把A误认为是B|
+|take apart |拆开(机器等) ；分辨；区分|
+|take...as |把...理解为 (作为)|
+|take away |拿走，夺去，使离去；减去|
+|take back |收回(说错的话)|
+|take back one’s words |收回(刚讲的话)|
+|take...by surprise |突然(吃惊)拿...；出奇兵攻占|
+|take...by mistake |由于疏忽而拿...|
+|take care of |照顾；照料|
+|take charge of |负责|
+|take down |取下；记下；拆卸|
+|take delight in |以...为乐|
+|take effect |生效|
+|take effective measures |采取有效措施|
+|take for |认为，以为；误认为|
+|take..sth.for granted |认为理所当然|
+|take hold of |抓住；掌握|
+|take in |收进；接受；吸收；带进|
+|take in sb |欺骗|
+|take interenst in |对...感兴趣|
+|take it (things) easy |别紧张；悠然自得；轻松|
+|take into account |把...考虑进去|
+|take...into consideration |考虑谋事物|
+|take notes |作笔记|
+|take medicine |吃药|
+|take off |拿走；脱下(衣帽等)；起飞|
+|take on |接受；包含；领会；承担，从事；呈现，具有；|
+|take on sb |雇用|
+|take on a new look |呈现新面貌|
+|take oneself off |走开，离去|
+|take one’s leave |告辞|
+|take one’s pace |代替某人位置(职位)|
+|take one’s seat |就坐|
+|take one’s time |不着急；慢慢干|
+|take one’s temperature |量体温|
+|take office |就职|
+|take out |拿出；去掉；扣除；(通过申请等)取得，办理|
+|take out on |对...发泄|
+|take over |占据；接任(职位)|
+|take pride in =be proud of |引以为豪|
+|take pains to do |努力做某事|
+|take part in |参与；参加|
+|take part with |袒护；支持|
+|take place |发生|
+|take possession of |占有；占领|
+|take the part of |袒护；支持|
+|take up |拿起；着手处理；占去；占据(时间,地方),从事于；接纳(乘客)|
+|take up with |与...成为朋友|
+|take sb. to task |责备某人，申斥某人|
+|take sb./sth. to |把某人/物带到(给)|
+|take the place of |代替，顶替|
+|take to |开始；对...产生好感；形成的习惯|
+|take (great) trouble to do sth|不辞辛苦做|
+|take turns |轮流|
+|take turns to do sth.|轮流做某事|
+|take in turn |依次|
 ## 高考英语词汇(补常见短语)
 
 ### A
@@ -6023,9 +6035,7 @@ nonsense n. 胡说，废话
 noodle n. 面条
 nor conj. 也不
 normal n.& a. 正常的(状态)
-north a. 北的，朝北的，从北来的
-ad. 向(在、从)北方
-n. 北，北方，北部
+north a. 北的，朝北的，从北来的 ad. 向(在、从)北方 n. 北，北方，北部
 northeast n. 东北(部)
 northwards ad. 向北
 northwest n. 西北
@@ -6033,8 +6043,7 @@ northern a. 北方的，北部的
 nose n. 鼻
 not ad. 不，没
 not only...but also不但...而且
-note n. 便条，笔记，注释，钞票，纸币，音符，音调
-vt. 记下，记录，注意，留意
+note n. 便条，笔记，注释，钞票，纸币，音符，音调 vt. 记下，记录，注意，留意
 notebook n. 笔记簿
 nothing n. 没有东西，没有什么 adv. 一点也不，并不
 notice n. 布告，通告，注意 vt. 注意，注意到
@@ -6188,14 +6197,12 @@ pale a. 苍白的，灰白的
 pan n. 平底锅
 panda n.熊猫
 panel n. 面； 板； 控制板, 仪表盘； 专门小组
-panic ( panicked, panicked) vt. & vi. (使)恐慌
-n. 恐慌, 惊慌, 慌乱
+panic ( panicked, panicked) vt. & vi. (使)恐慌 n. 恐慌, 惊慌, 慌乱
 pants n. 紧身的内裤
 paper n. 纸，报纸
 paperwork n.日常文书工作
 paragraph n. (文章的)段落
-parallel n. 平行线[面]
-adj.(指至少两条线)平行的
+parallel n. 平行线[面] adj.(指至少两条线)平行的
 parcel n. 包裹
 pardon n. 原谅，宽恕，对不起
 beg one’s pardon请原谅，请您再说一遍
@@ -6203,11 +6210,8 @@ parent n. 父(母)，双亲
 park n. 公园
 park vt.停放(汽车)
 parking n. 停车
-parrot n. 鹦鹉； 应声虫, 学舌者
-vt. 机械地重复
-part n.部分，成分，角色，部件，零件
-a. 局部的，部分的
-v. 分离，分开，分割
+parrot n. 鹦鹉； 应声虫, 学舌者 vt. 机械地重复
+part n.部分，成分，角色，部件，零件 a. 局部的，部分的 v. 分离，分开，分割
 take part in 参加
 participate vt. & vi. 参加, 参与
 participate in 参加
@@ -6225,8 +6229,7 @@ passenger n. 乘客，旅客
 passer-by n. 过客，过路人
 passive a. 被动的
 passport n. 护照
-past ad. 过
-n. 过去，昔日，往事
+past ad. 过 n. 过去，昔日，往事
 prep. 过...，走过某处
 patent n.专利, 专利权 adj. 专利的, 特评的
 path n. 小道，小径
@@ -6352,8 +6355,7 @@ poisonous a.有毒的，致命的
 pole n. 杆，电线杆，
 the North (South) pole(地球的)极，极地 北(南)极
 police n. 警察，警务人员
-policeman (复men) policewoman (复 women) n.
-警察，巡警 女警察
+policeman (复men) policewoman (复 women) n. 警察，巡警 女警察
 policy n.政策，方针，保险单
 polish vt. & vi. (使)光滑, 擦亮
 polite a.有礼貌的，有教养的
@@ -6366,8 +6368,7 @@ pond n.池塘
 pool n.水塘，水池
 poor a.贫穷的，可怜的，不好的，差的
 popcorn n. 爆米花
-popular=popa. (口语)(音乐、艺术等)大众的，
-通俗的，受欢迎的
+popular=popa. (口语)(音乐、艺术等)大众的，通俗的，受欢迎的
 population n. 人口，人数
 pork n. 猪肉
 porridge n. 粥, 麦片粥
@@ -6390,8 +6391,7 @@ postman n. 邮递员pl. postmen
 postpone vt. 推迟，延期
 pot n. 锅，壶，瓶，罐
 potato n. 土豆，马铃薯
-potential adj. 潜在的, 有可能的
-n. 潜力, 潜势, 可能性
+potential adj. 潜在的, 有可能的 n. 潜力, 潜势, 可能性
 pound n. 磅，英镑
 pour vi. 倾泻，不断流出
 poverty n. 贫穷, 贫困 低劣； 劣质
@@ -6415,8 +6415,7 @@ premier n. 总理, 首相 adj. 最好的, 最重要的
 preparation n.准备, 预备 安排, 筹备
 prepare vt.准备， 预备， 调制，配制
 presence n. 出席，在场
-present a. 出现的，出席的n. 礼物，赠品
-vt. 呈奉，奉送
+present a. 出现的，出席的n. 礼物，赠品 vt. 呈奉，奉送
 at present现在，目前
 presentation n. 提供, 显示； 报告； 表演
 preserve vt. 保护； 维持
@@ -17876,1314 +17875,1203 @@ be worth doing值得(做)... write down记下，写下
 
 ## 英语词组固定搭配汇总
 
-
-
-
-a close(narrow)shave 侥幸的脱险
-a few 有些，几个
-a great/good deal of 大量(的)，许多(的)
-a great/good many of 许多，大量
-a little 一点，稍微，一些，少许
-a little 一点；一些，少许
-a lot(of) 许多(的)，大量(的)
-a matter of (关于...)的问题
-a multitude of 大量(接复数名词)
-a number of 若干，许多
-a series of 一系列，一连串
-a variety of 种种，各种
-abide by 坚持；遵守
-above all 首先，毕竟
-above all 最重要的
-account for 说明(原因等)
-accuse...of... 控告；谴责
-accustom to 使习惯
-accustomed to 习惯于
-acquaint sb. With 使认识，使了解
-act on 作用
-adapt for 调整(以适应目标或需要)
-adapt to (使)适应，适合；改编
-add up to 合计，总计
-adhere to 粘附，胶着；坚持
-after a while 过了一会，不久
-after all 终于，毕竟；虽然这样
-against one's will 违心地
-agree on/upon 取得一致意见
-ahead of schedule 提前
-ahead of time 提前
-aim at 瞄准，针对
-aim at 目的在于，旨在；瞄准
-all at once 突然；同时，一起
-all but 几乎，差一点
-all out 全力以赴，竭尽全力
-all over 遍及，到处
-all right 好，行
-all round 周围，处处
-all the time 一直，始终
-all the way 从远道，从头至尾
-allow for 考虑到
-along with 与...一起
-and so on 等等
-and so on/forth 等等
-and yet 可是，然而
-anything but 除...以外任何事(物)，根本不
-apologize to，for 道歉，认错
-appeal to 呼吁，要求
-appeal to 呼吁，要求
-argue about 争论
-arrive at 达成，得出
-as a matter of fact 实际情况，真相
-as a result 结果，因此
-as a result of 由于...的结果
-as a rule 规章，规则；通常，照例
-as follows 如下
-as for 至于，就...方面说
-as if 好像，仿佛
-as regards 关于，至于
-as though 好像，仿佛
-as to 至于，关于
-as well 也，又
-as well as (除...之外)也，既...又
-as yet 到目前(那时)为止
-as/so far as 远至，到...程度
-as/so long as 只要，如果
-as...as 像...一样
-ask after 询问，问候
-ask for 请求，要求
-ask for 要价
-assure sb. of sth. 使某人对某事放心
-at a loss 困惑，不知所措
-at a time 每次，一次
-at all 完全，根本
-at all costs 不惜任何代价
-at all events 无论如何
-at any rate 无论如何，至少
-at ease 不拘束
-at fault 出差错
-at first sight 乍一看，初看起来
-at hand 在手边，在附近
-at heart 在内心；实质上
-at home 在家，在国内；自在，自如
-at intervals 不时，时时
-at last 最终，终于
-at last 最终，终于
-at least 至少，最低程度
-at least 至少，最低限度
-at length 终于，最后；详细地
-at no time 从不，决不
-at once 立刻，马上
-at one time 同时，曾经，从前曾
-at one's wits end 不知所措
-at present 目前，现在
-at random 随意地，任意地
-at stake 在危险中，利害攸关
-at the cost of 以...为代价
-at the mercy of 在...支配下
-at the moment 此刻
-at the moment 现在，此刻
-at the same time 但是，然而，同时
-at times 有时
-at will 随意
-at work 在工作，忙于
-at(the)best 充其量，至多
-at(the)most 最多，至少，不超过
-attach to 附属于，隶属于
-attempt at 企图，努力
-attitude to/towards 态度，看法
-avoid doing sth. 避免干某事
-back and forth 往返，来来往往地
-back of 在...后部，在...背部
-be able to(do) 能(做)，会(做)
-be about to(do) 即将，正要
-be absent from 缺勤，缺课
-be abundant in 富于，富有
-be accustomed to 习惯于
-be acquainted with 与...相识，熟悉
-be active in 积极于
-be advantageous to 对...有利
-be afraid of 恐怕，害怕，担忧
-be alive to 发觉，感觉，对...敏感
-be angry at 因某事生气
-be angry with 对...发怒
-be answerable for 应对...负责
-be anxious about 担心，为...担忧
-be anxious for 急切盼望，渴望
-be anxious to(do) 渴望(做)
-be ashamed of 为...感到害臊
-be assigned to 被分配给...
-be attached to 附属于
-be aware of 意识到
-be bad at 拙于，不善于
-be badly off 生活穷困
-be based on 根据，以...为基础
-be beneficial to 对...有益
-be bent on 热恋于，一心想
-be beside oneself 忘乎所以
-be better off 处境较好，情况好转
-be bored to death 烦死了
-be born in 出生于...
-be born of 出生于...(家庭)
-be bound to(do) 一定会，不得不
-be buried in 沉思，陷入，专心于
-be burned out 住所被烧光
-be busy about 忙于...
-be busy with 忙于...
-be busy(doing) 忙着(做某事)
-be capable of 能够
-be careful of 爱惜，注意
-be careful to(do) 务必注意(做)
-be certain to(do) 一定(做)，必然(做)
-be characterized by 以...为特征
-be clever at 擅长于
-be combined with 与...结合
-be composed of 由...组成
-be concerned about 关心，挂念
-be confident in 对...有信心
-be connected with 与...有关
-be coupled with 与...配合
-be covered with 被...覆盖
-be crowded with 挤满，拥塞
-be curious to(do) 很想(做)
-be dependent on/upon 取决于，依赖
-be derived from 由...得到
-be determined to(do) 决心(做)
-be different from 与...不同
-be different from 与...不同
-be divided by 被...除以
-be divided into 被分成
-be eager for 渴望
-be eager to(do) 急于要(做)
-be engaged in 忙于，从事于
-be equal to 等于
-be famous for 以...著名
-be fed up 因多而厌烦
-be fed up with 感到厌烦
-be filled with 充满
-be fit for 适合，胜任
-be fond of 喜欢，爱好
-be free from 没有...的，不受...影响的
-be friendly to 对...友好
-be friends with 对...友好，与...交上朋友
-be frightened at 受...惊吓
-be glad to(do) 乐于(做)，对...感到高兴
-be good at(doing) 善于，擅长
-be good for 适于，在...期间有效
-be grateful to 感谢，感激
-be identified as 被认为是
-be in demand 需要
-be independent of 脱离...而独立，与...无关
-be indispensable for 对...必不可少的
-be interested in 对...感兴趣
-be involved in 包括...中，被卷入
-be involved in 卷入，陷入
-be involved with 涉及
-be it that 即使
-be kind enough to(do) 承...好意，恳请
-be known as 被称作...，以...著称
-be known to 为...所熟知
-be lacking in 缺乏
-be late for 迟到
-be likely to(do) 可能要，像是要
-be lost in thought 沉思
-be mad about 迷恋
-be made from 由...制成(化学变化)
-be made of 由...制成(物理变化)
-be made up of 由...构成，由...组成
-be made up of 由...组成
-be mixed up 混杂，混在一起
-be obliged to(do) 被迫(做某事)
-be obliged to...for... 因...而感激
-be of little value 没什么价值
-be on good terms with sb. 与某人友好
-be on sale 出售
-be particular about 讲究
-be pleased to(do) 乐于
-be pleased with 对...感到满意
-be popular with 得人心的，受...欢迎的
-be possessed of 具有，拥有
-be prepared for 做...打算；对...做好准备
-be present at 出席
-be proud of 以...自豪，因...感到满意
-be provided with 装备有
-be ready for 为...准备好
-be ready to(do) 装备好(做)；乐意(做)
-be regarded as 被认为是，被当做是
-be rich in 富于
-be rid of 除去，摆脱
-be satisfied with 对...满意，满足于
-be satisfied with 满意
-be satisfied with 满足
-be second to 次于
-be short for 是...的缩写(简称)
-be short of 短缺
-be sick for 渴望
-be sick in bed 病在床上
-be sick of 对...感到厌倦
-be sorry for 对...感到抱歉
-be strict with 对...要求严格
-be subjected to 遭受
-be suited to 适合于
-be supposed to(do) 应该，非...不可
-be sure of 坚信，确信
-be sure to(do) 一定，必定
-be surprised at 对...感到惊奇
-be taken aback 吃惊
-be taken by surprise 被突袭
-be terrified at 被...吓一跳
-be through with 结束
-be tired from 因...而疲乏
-be tired of 厌烦；对...厌倦
-be tired out 疲倦极了
-be torn open 被撕开
-be true of 适用于
-be unconscious of 不知道...
-be unequal to 无法胜任...的
-be unfit for 不适合，不胜任
-be united as one 团结一致
-be used as 被...用作
-be used to 习惯于
-be useful to 对...有用
-be well off 生活富裕
-be well up in 精通，熟悉
-be wild with joy 欣喜若狂
-be willing to(do) 乐意...
-be worried about 为...而担心
-be worse off 处境较坏，情况恶化
-be worth(doing) 值得(做)
-be wrong with 有点毛病，有些不舒服
-bear/keep in mind 记住
-because of 由于，因为
-begin with 从开始
-beside the point 离题
-beyond one's power 超出某人的能力
-both...and 既...又...，两个都
-break away from 从...脱离
-break away(from) 脱离，逃跑
-break down 损坏，分解，瓦解
-break in 闯入；打断，插嘴
-break into 闯入
-break into tears(cheers) 突然哭(欢呼)起来
-break off 断绝，结束
-break out 逃出；突然发生，爆发
-break through 突破
-break up 中止，结束；打碎，折断
-bring about 带来，造成
-bring about 发生，引起
-bring down 打倒，挫伤；降低
-bring forth 产生，提上
-bring forward 提出
-bring out 使出现；公布；出版
-bring to 使恢复知觉
-bring to mind 使人想起
-bring up 教育，培 钩沙?/P>
-bring/carry into practice 实施，实行
-build up 积累；堵塞；树立，逐步建立；增进；锻炼
-burn out 烧掉
-burn up 烧起来，旺起来；烧完
-but for 除...以外，倘没有，除非
-by accident 偶然
-by all means 无论如何，必定
-by all means 务必
-by chance 偶然，碰巧
-by comparison 比较起来
-by far... 得多，最
-by hand 用手
-by heart 牢记，凭记忆
-by means of 借助于，用
-by mistake 错误地
-by no means 决不
-by oneself 独自地，单独地
-by reason of 由于
-by the moment 到...时
-by the way 顺便提一下，另外
-by turns 轮流，交替地
-by virtue of 由于
-by way of 经由，通过...方式
-call at 访问
-call for 邀请；要求；需求
-call forth 唤起，引起；振作起，鼓起
-call off 放弃，取消
-call on 号召
-call on/upon 访问，拜访；号召，呼吁
-call up 召集，动员；打电话
-cannot/couldn't help 禁不住；不得不
-care for 照管，关心；喜欢，意欲
-carry about 随身携带
-carry off 夺去
-carry on 继续下去；从事，经营
-carry out 贯彻，执行；实现
-carry through 完成
-carry/bring into effect 使生效，使起作用
-catch at 抓住(东西)
-catch fire 着火
-catch on 理解，明白
-catch one's breath 屏息，歇口气
-catch one's eye 引人注目
-catch the sight of 发现，突然看见
-catch up with 追上，赶上
-check in 办理登记手续
-check out 结账后离开；检验，核查
-check up(on) 校对，检查，检验
-cheer up 使高兴，使振奋
-clean up 打扫；清除
-clear away 扫除，收拾
-clear up 收拾；澄清；放晴
-cling to 粘住；依附；坚持
-collide with 抵触
-come about 发生，出现
-come after 跟随
-come off 实现，成功，奏效
-come on 请，来吧，快点；开始，出场，上演
-come out 出版；出现，显露；结果是
-come round(around) 来访，前来；苏醒，复原
-come through 经历，脱险
-come to 总计，达到；苏醒，复原
-come to a conclusion 得出结论
-come to stay 木已成舟
-come to the point 说到要点，扼要地说
-come true 实现，达到
-come up 走近，上来；发生，被提出
-come up to 达到，符合
-come up with 提出
-come up with 提出，提供
-come/go into effect 生效，实施
-come/go into force 生效，实施
-come/go into operation 使投入生产，使运转
-compensate for 补偿，赔偿
-compile dictionary 编字典
-comply with 照做，遵照，应允
-conceive of 设想，构思；以为
-concern with 关心，挂念；从事于
-conform to 遵守，依照，符合，顺应
-congratulations on 祝贺
-consult with 商量，商议
-cooperate with 合作，协作，相配合
-cope with 竞争，对抗；对付，应付；妥善处理
-correspondence with 通信
-count on 依靠；期待，指望
-count up 把...相加
-cover up 掩饰，掩盖
-credit card 信用卡
-cross out 删去，取消
-cure sb. Of 治好某人...
-cut across 走捷径，抄近路
-cut back 削减，减少
-cut down 削减，降低
-cut in (汽车)抢道；插嘴，打断
-cut off 切断；删去；停止
-cut out 删除
-cut short 突然停止
-deal with 处理，对付，安排
-decline invitation 辞谢邀请
-decline with thanks 婉言谢绝
-deduce from 演绎，推断
-depend on 取决于
-dependence on 依靠；依赖；信赖
-derive from 导出，由...来
-deviate from 背离，偏离
-devote to 奉献，致力
-die away (渐渐)消失
-die down 渐渐消失，平息
-die off 死去，凋谢
-die out 消失，灭绝
-dispose for 布置，安排
-dispose of 处理，处置
-dissatisfaction with/at 不满，不平
-do away with 废除，去掉
-do sth. for a living 靠做某事谋生
-do without 没有...也行
-do/try one's best 尽力，努力
-draw in (火车、汽车)到站
-draw up 写上，画上；草拟；停住
-dress up 穿上盛装，打扮得很漂亮
-drop by/in 顺便来访
-drop down 落下
-drop off 减弱，减少
-drop out 退出，离队
-dry out 干透，使干
-dry up 干涸，枯竭
-dwell on 凝思；详述
-each other 互相
-either...or 或...或，不是...就是；无论...还是
-engage in 从事于，忙着；订婚
-entitle sb.(to do)sth. 给予某人(干)某事的权利
-entrust sb. with sth. 委托某人某事
-escape doing sth. 躲避干某事
-even if/though 即使，虽然
-even then 即使那样，连，都
-ever since 从那时起，自那时以来
-ever so 非常，极其
-every now and then 有时，时时，偶尔
-every other 每隔一个地
-except for 除...之外
-exposure to 受到
-face to face 面对面地
-fair play 公平竞赛；公平对待
-fall away 背离
-fall back on 求助于，转而依靠
-fall behind 落后
-fall in love with 相爱，爱上
-fall in with 符合，与...一致
-fall off 下降
-fall out 争吵；结果是
-fall through 落空，失败
-far from 远非，远离
-feed in 输入
-feel like 欲，想要
-fill in/out 填充，填写
-find fault 埋怨，挑剔
-find out 查明
-first of all 首先
-first of all 首先，第一
-flare up 突然燃烧起来；突然发怒
-for a moment 片刻，一会儿
-for a while 暂时，一时
-for example 例如
-for instance 例如，举例说
-for one thing 首先，一则
-for the better 好转，改善
-for the moment 现在，暂时
-for the present 目前，暂时
-for the sake of 为了...起见
-for the time being 目前，暂时
-for(the)purpose of 为了
-from time to time 有时，不时
-from tip to toe 彻头彻尾，完全
-gain/have an advantage over 胜过，优于
-get across 解释清楚，使人了解
-get along/on with 有进展，有进步；生活得
-get around/round 走动，旅行；(消息)传开
-get at 得到，接近；意思是
-get away 逃脱，离开
-get by 通过，经过
-get down 从...下来；写下
-get down to 开始，着手
-get hold of 抓住，掌握
-get in 进入；收获，收集
-get into 进入，陷入
-get off 从...下来；离开，动身，开始
-get out 使...出去
-get out of 逃避，改掉
-get out of control 失控
-get over 克服；(从病中)恢复过来
-get rid of 摆脱，除掉
-get somewhere 有些结果
-get the best of 胜过
-get the better of 打败，致胜
-get the better of 占上风，胜过
-get through 到达，完成，及格
-get through 结束，完成；接通电话
-get to 开始；到达
-get together 集合，聚集
-get up 起床；增加，增强
-get used to 习惯于
-get/learn by heart 记住，背诵
-give away 泄露；分送
-give back 送还，恢复
-give in 交上；投降，屈服
-give off 放出，释放
-give oneself away 泄露，露马脚
-give oneself up 自首，投降，投案
-give out 分发，放出
-give reason to 对...进行解释
-give rise to 导致
-give rise to 引起，使发生
-give suspicion to 对...怀疑
-give up 停止，放弃
-give way 让路，让步
-give way to 给...让路，被...代替
-glance at 瞥见，一瞥
-glimpse of 瞥见，一瞥
-go after 追求
-go ahead 开始，前进；领先
-go along with 陪同前往，随行
-go back on 违背
-go before 居前
-go blank (头脑)变成空白
-go by 过去
-go dim (大脑)混沌
-go down 下降，降低；被载入，传下去
-go faint 晕过去
-go for 竭力想取得；喜爱；支持，拥护
-go in for 从事，致力于，追求
-go into 进入；研究，调查
-go off 爆炸，发射；动身，离开
-go on 继续；发生
-go on strike 罢工
-go out 外出；熄灭
-go over 检查，审查；复习，重温
-go round/around 足够分配
-go through 经历，经受；详细检查
-go through 通过，审查，完成
-go under 下沉，沉没；失败；破产
-go up 上升，增加；建起
-go with 伴随，与...协调
-go without 没有...也行
-go wrong 发生故障，出毛病
-had better 最好还是，应该
-hand down 流传下来，传给，往下传
-hand down to 往下传，传给(后代)
-hand in 交上，递交
-hand in hand 手拉手，携手
-hand on 传下来，依次传递
-hand out 分发，散发，发给
-hand over 交出，移交，让与
-hang about 闲荡，徘徊，逗留
-hang back 犹豫，踌躇，畏缩
-hang on 抓紧不放；继续下去
-hang on to 紧握住，坚持下去
-hang up 挂断(电话)
-hardly...when 刚...就...
-have back 要回，收回
-have desire to do sth. 想做某事
-have got 有
-have got to(do) 不得不，必须
-have in mind 记住，考虑到，想到
-have intention of 有意，打算
-have no desire for 对...没有欲望
-have not the least idea of 不知道
-have nothing to do with 和...毫无关系
-have on 穿着，戴着
-have something to do with 和...有点关系
-have sth. in stock 有现货
-have to do with 与...有关
-have to/have got to 不得不，必须
-have/gain access to 可以获得
-hear of 听到，听说
-heart and soul 全心全意
-help oneself 自取所需(食物)
-hinder from 阻止，妨碍
-hold back 踌躇，退缩；阻止，抑制
-hold on 继续，握住不放
-hold on to 紧紧抓住，坚持
-hold out 维持，支持；坚持，不屈服
-hold up 举起，阻挡，使停止；抢劫
-hundreds of 数以百计的
-hurry up (使)赶快，迅速完成
-if only 要是...就好了
-impose on 把...强加给
-improve on 改进
-in a hurry 匆忙地，立即
-in a moment 立刻，马上
-in a sense 从某种意义上说
-in a way 在某点，在某种程度上
-in a word 总而言之
-in accordance with 与...一致
-in addition 另外
-in addition to 除...之外(包括)
-in all 总共，总计
-in any case 无论如何，总之
-in any event 无论如何
-in case 假如，以防(万一)，免得
-in case of 假使，万一
-in charge(of) 负责，主管
-in common 共用，共有，共同
-in conclusion 最后，总之
-in confidence 信任
-in connection with 与...相连
-in connection with/to 关于
-in consequence 因此，结果
-in consequence of 由于...的缘故
-in contrast with/to 与...成对照
-in correspondence with 与...联系(通信)
-in danger 在危险中，垂危
-in debt 欠债
-in debt to sb. 欠某人的债
-in demand 有需要，销路好
-in detail 详细地
-in difficulties 处境困难
-in effect 有效；实际上
-in excess of 超过
-in fact 其实，实际上
-in favo(u)r of 有利于，赞成，支持
-in force 有效；实施中
-in front of 在...面前
-in general 通常，大体上
-in half 成两半
-in hand 在掌握中，在控制中
-in honor of 以纪念，向...表示敬意
-in itself 本身
-in line 成一直线，排成一行
-in line with 与...一致，按照
-in memory of 纪念
-in nature 本质上
-in no case 决不
-in no time 立即
-in no time 立即，马上
-in no way 决不
-in no way 决不
-in one's will 在...遗嘱中
-in one's/the way 妨碍，阻碍
-in order 秩序井然，整齐
-in order that 以便
-in order to 以便，为了
-in other words 换句话说，也就是说
-in particular 特别地，尤其，详细地
-in person 亲自
-in place 在适当的位置
-in place of 代替
-in practice 在实际中，实际上
-in proportion to 按...的比例
-in proportion to (与...)成比例的
-in public 公开地，当众
-in question 正在考虑
-in return 作为报答，作为回报
-in secret 秘密地，私下地
-in sequence 依次，逐一
-in shape 处于良好状态
-in sight 被看到，在望
-in spite of 不管，不顾；尽管，虽然
-in step 同步，合拍
-in stock 现有，备有
-in sum 总而言之
-in support of 支持
-in tears 流着泪，含泪，哭
-in terms of 依据，按照；用...措词
-in the air 在流行中，在传播中
-in the course of 在...过程中，在...期间
-in the distance 在远处
-in the event of 万一，如果发生
-in the face of 面对，不顾，即使
-in the first place 起初，首先
-in the last place 最后
-in the least 一点，丝毫
-in the light of 按照，根据
-in the long run 最终，从长远观点看
-in the mood for sth. 对某事有心境
-in the past 在过去，以往
-in the way of 妨碍
-in the world 到底，究竟动词+名词形式
-in time 及时
-in time 及时，适时地
-in truth 事实上，实际上，的确
-in turn 依次，轮流
-in vain 徒劳，无效
-in(the)future 今后，将来
-in/with relation to 关系到
-indifferent to 不在乎
-influence on 影响
-insist on 坚持
-interference in 干涉
-interference with 妨碍，打扰
-intervene in 干涉，干预；插入
-introduce to 介绍
-just now 刚才，一会儿以前
-keep an eye on 留意，照看
-keep back 阻止，阻挡；隐瞒，保留
-keep company with 与...交往
-keep down 控制，压制，镇压；压低
-keep from 使...不(做)
-keep house 管理家务，做家务
-keep in touch 保持联系
-keep off 不接近，避开
-keep on 继续不断，保持
-keep on with 坚持
-keep one's head 保持镇静
-keep one's word 遵守诺言
-keep out of 躲开，置身...之外
-keep to 保持，坚持
-keep track 通晓事态，注意动向
-keep up 保持，维持；继续，坚持
-keep up with 向...看齐，跟上...
-keep/hold pace with 跟上，与...同步
-lay up 搁置；贮存
-lead the way 带路，引路
-leave alone 听其自然，更不用说
-lend itself to 适用于，对...有用
-let alone 不干涉；更不用说
-let down 放下，降低；使失望
-let go 放开，松手
-let in 让...进入，放...进来
-let loose 放开，放松，释放
-let off 放(烟，烟火)，开(枪)
-let out 放掉，放出，发出
-lie in 在于
-lie up 躺着休息
-line up 排队，使排成一行
-little by little 逐渐地
-little by little 逐渐地
-live on/by 靠...生活，以...为食
-live through 度过，经受过
-live up to 不辜负
-live up to 做到，不负
-longing for 渴望
-look after 照管，照料
-look at 看望，注视
-look back 回顾，回头看
-look down on 看不起，轻视
-look for 寻找，寻求
-look forward to 盼望，期待
-look in 顺便看望
-look into 调查，观察，过问；窥视
-look on 旁观，观看；看待，视作
-look out 留神，注意，提防，警惕
-look over 检查，查看，调查
-look through 仔细查看，浏览，温习
-look up 查阅，查考；寻找(某人)
-look up to 尊敬，敬仰
-lose heart 丧失勇气，失去信心
-lose one's head 不知所措
-lose track 失去联系
-lots of 大量，很多
-make a name of oneself 出名，扬名
-make a/the difference 有影响，很重要
-make an attempt 试图
-make believe 假装
-make faces 做鬼脸
-make for 走向，驶向；有助于
-make friends 交朋友，友好相处
-make fun of 取笑，嘲弄
-make it clear that 弄清楚
-make one's way 前进，进行
-make out 辨认，区分；理解，了解
-make out of 用...做，从...得出
-make progress 进步，进展
-make provision for 为...作准备
-make sense 讲得通，有意义
-make the best of 充分利用，妥善处理
-make the most of 充分利用
-make up 构成，拼凑；弥补，赔偿；化装
-make up for 补偿，弥补
-make up for 弥补
-make up one's mind 下决心
-make use of 利用
-make way 让路，开路
-many a 许多的
-may(might)as well 还是...好
-mix up 混淆，混合，搞糊涂
-more and more 越来越
-more or less 或多或少
-neither...nor 既不...也不
-never mind 不要紧，没关系
-next door 隔壁
-no doubt 无疑，必定
-no intention of 无意，不打算
-no less than 决不少于，不亚(次)于
-no longer 不再，已不
-no matter 无论
-no more 不再
-no more than 不过，仅仅；和...一样不
-no wonder 难怪，怪不得
-not as/so...as 不如...那样
-not at all 一点也不
-not on any account 决不
-now and then 时而，不时
-now that 既唬 捎?/P>
-now that 既然，由于
-objection to 反对，异议
-occur to 被想到，被想起
-of course 当然，自然，无疑
-of one's free will 出于自愿
-off and on 断断续续，不时地
-off duty 下班
-off the way 远离正道
-on a large scale 大规模地
-on a small scale 小规模地
-on account of 因为，由于
-on behalf of 代表...，为了...
-on board 在船(车、飞机)上
-on business 因公，因事
-on condition that 在...条件下
-on duty 值班，上班
-on earth 究竟，到底
-on fire 烧着
-on foot 步行
-on guard 警惕，防范
-on hand 在手边，临近
-on occasion 有时，不时
-on one's honor 以名誉担保
-on one's own 独自地，独立地
-on purpose 故意，有意
-on sale 出售；贱卖
-on schedule 按预定时间
-on sight 一见就...，立即
-on the basis of 根据，在...的基础上
-on the contrary 反之，正相反
-on the other hand... 另一方面...
-on the point 即将...的时候
-on the road 在旅途中
-on the second thoughts 经重新考虑，一转念
-on the side 作为兼职，额外
-on the sly 偷偷地，冷不防地
-on the spot 当场，在现场
-on the way 在途中
-on the whole 总的来说
-on time 准时
-on top of 在...之上
-on try 试穿
-on(the)one hand... 一方面...，
-on(the/an)average 平均，一般来说
-once in a while 偶尔，有时
-once upon a time 从前
-once(and)for all 一劳永逸，限此一次
-one after another 一个接一个
-one another 互相
-or else 否则，要不然
-or so 大约，左右
-originate in/from 起源，发生；首创，创造
-other than 不同于
-out of breath 喘不过气来
-out of control 失去控制
-out of danger 脱离危险
-out of date 过期(时)的
-out of doors 在户外
-out of order 发生故障，失调
-out of place 不得其所的，不适当的
-out of practice 久不练习，荒疏
-out of sight 看不见，在视野之外
-out of step 步调不一致，不协调
-out of the question 绝不可能
-out of touch 失去联系
-out of work 失业
-over and over(again) 一再，再三
-part with 放弃，离开
-participate in 参与，参加；分享
-pass away 去世，逝世
-pass by 从...旁边经过
-pass for 被认为(当做)
-pass off 中止，停止
-pass out 失去知觉，昏倒
-pass over 不注意，忽视
-pass through 通过，经过
-pass to 转到，讨论，传到
-pay attention to 注意
-pay back 偿还，回报
-pay down 即时交付，用现金支付
-pay off 还清(债)
-pay the way for 为...铺平道路
-pay up 全部付清
-persist in 坚持，持续
-pick out 选出，挑出，拣出；辨认，辨别出
-pick up 拾起，(偶然)得到；(车船)中途搭(人)，学会
-play a part 起作用
-play with 以...为消遣，玩弄
-preference for to 偏爱，喜爱；优惠；优先选择
-prepare for 准备
-present sb. with sth. 送给某人某礼物
-preside at/over 主持
-prevail over/against 取胜，占优势；流行，盛行
-prevent from 预防，防止
-primary school 小学
-proficiency in 熟练，精通
-pull along 沿...拉
-pull back 撤退
-pull down 拆毁，拉倒；拉下，降低
-pull in (车)停下，进站，船(到岸)
-pull off 脱(帽、衣)
-pull on 穿，戴
-pull out 拔出，抽出；(车、船)驶出
-pull round 掉头，转向；康复
-pull together 齐心协力
-pull up (使)停下
-put across 解释清楚，说明
-put aside 储存，保留
-put away 放好，收好；储存
-put down 记下，放下；镇压，平定
-put forward 提出
-put in 驶进
-put in for 申请
-put in order 整理，检修
-put into effect 生效
-put into effect 实行，生效
-put into practice 落实
-put into use 使用，应用
-put off 推迟，推延
-put on 穿上，戴上；上演；增加(体重)
-put out 扑灭
-put out 熄灭，关(灯)；出版，发布；生产
-put right 改正(错误)，整理
-put sb. Through 为某人接通电话
-put to use 使用，利用
-put up 提起，举起，提(价)；为...提供食宿，投宿
-put up with 容忍，忍受
-put(set)right 使恢复正常，纠正错误
-queue up 排队，排队等待
-quite a few 还不少，有相当数目的
-quite a little 相当多，不少
-quite a little 相当多，不少
-reconcile to/with 使一致
-refer to 参考，查阅，涉及，提到
-refer to...as 把...称作，把...当做
-refresh one's memory 使人记起
-reign over 统治；盛行
-reply to 回答，答复
-requirement for 需要，需要的东西，要求
-rest room 厕所，盥洗室
-restrain from 抑制，制止
-ring off 挂断电话
-rub out 擦掉，拭去
-rule out 排斥
-run down 撞倒，撞沉；追捕，追查
-run for 竞选
-run into 陷入
-run into 撞上，偶然碰见
-run off 复印，打印
-run out of 用完，用尽，耗尽
-run over 略读，略述；辗过，浏览，匆匆复习
-sacrifice for/to 牺牲，献出，献祭
-scrape through 擦过，勉强通过
-see off 给...送行
-see through 看穿，识破；干完，干到底
-see to 注意，负责，照料，修理
-send for 派人去请，召唤；索取
-send in 呈报，递交，送来
-serve as 作为，用作
-serve right 活该，给应得的待遇
-set a limit to 限制
-set about 开始，着手
-set aside 挑出，拨出，留出；拒绝
-set back 推迟，延缓，阻碍
-set down 卸下，放下，记下，记入
-set forth 阐明，陈述
-set in 来临，流行
-set off 出发，动身；引起，使发生
-set out 陈列，显示；动身，启程；制定
-set out to 打算，着手
-set up 创立，建立，树立；资助，扶持
-show in 领入
-show off 炫耀，卖弄
-show up 使呈现，使醒目
-shut out 排除
-side by side 肩并肩，一个挨一个
-sit for 参加
-sit in 列席，旁听
-sit up 迟睡，熬夜
-so far 迄今为止
-so that 以便，为的是；结果是
-so...as to 结果是；如此...以至于
-so...that 如此...以至于
-something of 在某种程度(意义)上
-specialize in 专攻，专门研究，专业化
-speed up 使加速
-stand against 反抗，抵抗
-stand by 支持，帮助；袖手旁观
-stand for 代替，代表，意味着
-stand out 突出，显眼
-stand up 站起来，耐用
-stand up for 为...辩护；维护
-stand up to 面对，坚决抵抗；经得起
-stay by 守在一边
-step by step 逐步
-step in 插入，介入
-step into 插入，干涉
-step up 提高，加快，加紧
-stick out 伸出，突出；坚持到底，继续
-stick to 坚持，忠于，信守
-succeed in 成功
-such as 像...那样的；诸如，例如
-such...that 那样的...以致
-take a chance 冒险一试
-take a chance 冒一下险
-take advantage of 利用，趁...之机
-take after 与...相像
-take away 消除；消耗
-take care 小心，当心
-take care of 照顾，照料
-take charge of 担任，负责
-take charge of 负责
-take delight in 以...为乐
-take down 记下，写下
-take effect 生效，起作用
-take for 把...认为是，把...看成是
-take in 接受，吸收；了解，理解
-take interest in 对...发生兴趣
-take off 拿走，脱下；起飞
-take on 呈现；接纳，承担，从事
-take one's time 不急不忙，从容进行
-take over 接管，接办
-take pains to do sth. 费尽苦心做某事
-take place 发生，进行
-take the place of 代替
-take to 喜欢，亲近
-take up 占据；开始；拿起，接收
-take up with 和...交往，忍受，采用
-take(make)a stand against 反对
-take(make)a stand for 捍卫
-take...as 把...作为
-take...into account 考虑
-televise live 实况转播
-testify to 说明，证实
-thank for 感谢
-that is(=i. e.) 就是说，即
-the key to... 的答案(线索、办法)
-the moment(that) 一...就
-think better of 改变主意，重新考虑
-think of 想起，想到；想一想
-think of...as 把...看做是，以为...是
-think over 仔细考虑
-thirst for 渴望，热望
-throw about 乱丢(东西)，乱花(钱)
-throw away 扔掉，抛弃
-throw down 推倒
-throw(a)light on 照亮，阐明
-throw/cast light on 使明白，阐明
-to and fro 来来回回
-to the point 切中要害，切题
-touch on 关系到，涉及
-touch up 润色，改进
-trolley bus 无轨电车
-turn away 转变方向；拒绝
-turn back 翻过来
-turn down 拧小，调低；拒绝
-turn in 交出，上缴；转身进入
-turn into 变成
-turn off 关掉，断开；拐弯，叉开
-turn off 关上；出产；解雇
-turn on 接通，打开
-turn out 制造，生产；结果是
-turn over 翻过来；移交，转交
-turn to 变成；求助于，借助于
-turn up 开大；出现；来到；发生
-under control 被控制住
-up to 起来，从事于，忙于；直至
-up to date 时新的
-use up 用完，花完
-warm up 变热
-wear off 逐渐消失
-wear out 用破；耗尽，使精疲力竭
-what about (对于)...怎么样
-what if 如果...将会怎样，即使...又有什么要紧
-whether...or 是...还是，不管...还是
-while away 消磨(时间)
-wipe out 擦去，抹去；消灭，毁灭
-with delight 欣然，乐意地
-with ease 容易，不费力
-with respect to 关于
-with the exception of 除...之外
-with the purpose of 为了
-with/in regard to 对于，就...而论
-within the limit of 在...范围内
-without question 毫无疑问
-word for word 逐字地
-work on 从事于，努力做
-work out 解决，算出；弄懂，制定出
-work up 引起，激起；逐渐上升
-write off 报废，勾销
-
+|English|中文|
+|--|--|
+|a close(narrow)shave |侥幸的脱险|
+|a few |有些，几个|
+|a great/good deal of |大量(的)，许多(的)|
+|a great/good many of |许多，大量|
+|a little |一点，稍微，一些，少许|
+|a little |一点；一些，少许|
+|a lot(of) |许多(的)，大量(的)|
+|a matter of ||
+|a multitude of |大量(接复数名词)|
+|a number of |若干，许多|
+|a series of |一系列，一连串|
+|a variety of |种种，各种|
+|abide by |坚持；遵守|
+|above all |首先，毕竟|
+|above all |最重要的|
+|account for |说明(原因等)|
+|accuse...of... |控告；谴责|
+|accustom to |使习惯|
+|accustomed to |习惯于|
+|acquaint sb. With |使认识，使了解|
+|act on |作用|
+|adapt for |调整(以适应目标或需要)|
+|adapt to ||
+|add up to |合计，总计|
+|adhere to |粘附，胶着；坚持|
+|after a while |过了一会，不久|
+|after all |终于，毕竟；虽然这样|
+|against one's will |违心地|
+|agree on/upon |取得一致意见|
+|ahead of schedule |提前|
+|ahead of time |提前|
+|aim at |瞄准，针对|
+|aim at |目的在于，旨在；瞄准|
+|all at once |突然；同时，一起|
+|all but |几乎，差一点|
+|all out |全力以赴，竭尽全力|
+|all over |遍及，到处|
+|all right |好，行|
+|all round |周围，处处|
+|all the time |一直，始终|
+|all the way |从远道，从头至尾|
+|allow for |考虑到|
+|along with |与...一起|
+|and so on |等等|
+|and so on/forth |等等|
+|and yet |可是，然而|
+|anything but |除...以外任何事(物)，根本不|
+|apologize to，for |道歉，认错|
+|appeal to |呼吁，要求|
+|appeal to |呼吁，要求|
+|argue about |争论|
+|arrive at |达成，得出|
+|as a matter of fact |实际情况，真相|
+|as a result |结果，因此|
+|as a result of |由于...的结果|
+|as a rule |规章，规则；通常，照例|
+|as follows |如下|
+|as for |至于，就...方面说|
+|as if |好像，仿佛|
+|as regards |关于，至于|
+|as though |好像，仿佛|
+|as to |至于，关于|
+|as well |也，又|
+|as well as ||
+|as yet |到目前(那时)为止|
+|as/so far as |远至，到...程度|
+|as/so long as |只要，如果|
+|as...as |像...一样|
+|ask after |询问，问候|
+|ask for |请求，要求|
+|ask for |要价|
+|assure sb. of sth. |使某人对某事放心|
+|at a loss |困惑，不知所措|
+|at a time |每次，一次|
+|at all |完全，根本|
+|at all costs |不惜任何代价|
+|at all events |无论如何|
+|at any rate |无论如何，至少|
+|at ease |不拘束|
+|at fault |出差错|
+|at first sight |乍一看，初看起来|
+|at hand |在手边，在附近|
+|at heart |在内心；实质上|
+|at home |在家，在国内；自在，自如|
+|at intervals |不时，时时|
+|at last |最终，终于|
+|at last |最终，终于|
+|at least |至少，最低程度|
+|at least |至少，最低限度|
+|at length |终于，最后；详细地|
+|at no time |从不，决不|
+|at once |立刻，马上|
+|at one time |同时，曾经，从前曾|
+|at one's wits end |不知所措|
+|at present |目前，现在|
+|at random |随意地，任意地|
+|at stake |在危险中，利害攸关|
+|at the cost of |以...为代价|
+|at the mercy of |在...支配下|
+|at the moment |此刻|
+|at the moment |现在，此刻|
+|at the same time |但是，然而，同时|
+|at times |有时|
+|at will |随意|
+|at work |在工作，忙于|
+|at(the)best |充其量，至多|
+|at(the)most |最多，至少，不超过|
+|attach to |附属于，隶属于|
+|attempt at |企图，努力|
+|attitude to/towards |态度，看法|
+|avoid doing sth. |避免干某事|
+|back and forth |往返，来来往往地|
+|back of |在...后部，在...背部|
+|be able to(do) |能(做)，会(做)|
+|be about to(do) |即将，正要|
+|be absent from |缺勤，缺课|
+|be abundant in |富于，富有|
+|be accustomed to |习惯于|
+|be acquainted with |与...相识，熟悉|
+|be active in |积极于|
+|be advantageous to |对...有利|
+|be afraid of |恐怕，害怕，担忧|
+|be alive to |发觉，感觉，对...敏感|
+|be angry at |因某事生气|
+|be angry with |对...发怒|
+|be answerable for |应对...负责|
+|be anxious about |担心，为...担忧|
+|be anxious for |急切盼望，渴望|
+|be anxious to(do) |渴望(做)|
+|be ashamed of |为...感到害臊|
+|be assigned to |被分配给...|
+|be attached to |附属于|
+|be aware of |意识到|
+|be bad at |拙于，不善于|
+|be badly off |生活穷困|
+|be based on |根据，以...为基础|
+|be beneficial to |对...有益|
+|be bent on |热恋于，一心想|
+|be beside oneself |忘乎所以|
+|be better off |处境较好，情况好转|
+|be bored to death |烦死了|
+|be born in |出生于...|
+|be born of |出生于...(家庭)|
+|be bound to(do) |一定会，不得不|
+|be buried in |沉思，陷入，专心于|
+|be burned out |住所被烧光|
+|be busy about |忙于...|
+|be busy with |忙于...|
+|be busy(doing) |忙着(做某事)|
+|be capable of |能够|
+|be careful of |爱惜，注意|
+|be careful to(do) |务必注意(做)|
+|be certain to(do) |一定(做)，必然(做)|
+|be characterized by |以...为特征|
+|be clever at |擅长于|
+|be combined with |与...结合|
+|be composed of |由...组成|
+|be concerned about |关心，挂念|
+|be confident in |对...有信心|
+|be connected with |与...有关|
+|be coupled with |与...配合|
+|be covered with |被...覆盖|
+|be crowded with |挤满，拥塞|
+|be curious to(do) |很想(做)|
+|be dependent on/upon |取决于，依赖|
+|be derived from |由...得到|
+|be determined to(do) |决心(做)|
+|be different from |与...不同|
+|be different from |与...不同|
+|be divided by |被...除以|
+|be divided into |被分成|
+|be eager for |渴望|
+|be eager to(do) |急于要(做)|
+|be engaged in |忙于，从事于|
+|be equal to |等于|
+|be famous for |以...著名|
+|be fed up |因多而厌烦|
+|be fed up with |感到厌烦|
+|be filled with |充满|
+|be fit for |适合，胜任|
+|be fond of |喜欢，爱好|
+|be free from |没有...的，不受...影响的|
+|be friendly to |对...友好|
+|be friends with |对...友好，与...交上朋友|
+|be frightened at |受...惊吓|
+|be glad to(do) |乐于(做)，对...感到高兴|
+|be good at(doing) |善于，擅长|
+|be good for |适于，在...期间有效|
+|be grateful to |感谢，感激|
+|be identified as |被认为是|
+|be in demand |需要|
+|be independent of |脱离...而独立，与...无关|
+|be indispensable for |对...必不可少的|
+|be interested in |对...感兴趣|
+|be involved in |包括...中，被卷入|
+|be involved in |卷入，陷入|
+|be involved with |涉及|
+|be it that |即使|
+|be kind enough to(do) |承...好意，恳请|
+|be known as |被称作...，以...著称|
+|be known to |为...所熟知|
+|be lacking in |缺乏|
+|be late for |迟到|
+|be likely to(do) |可能要，像是要|
+|be lost in thought |沉思|
+|be mad about |迷恋|
+|be made from |由...制成(化学变化)|
+|be made of |由...制成(物理变化)|
+|be made up of |由...构成，由...组成|
+|be made up of |由...组成|
+|be mixed up |混杂，混在一起|
+|be obliged to(do) |被迫(做某事)|
+|be obliged to...for... |因...而感激|
+|be of little value |没什么价值|
+|be on good terms with sb. |与某人友好|
+|be on sale |出售|
+|be particular about |讲究|
+|be pleased to(do) |乐于|
+|be pleased with |对...感到满意|
+|be popular with |得人心的，受...欢迎的|
+|be possessed of |具有，拥有|
+|be prepared for |做...打算；对...做好准备|
+|be present at |出席|
+|be proud of |以...自豪，因...感到满意|
+|be provided with |装备有|
+|be ready for |为...准备好|
+|be ready to(do) |装备好(做)；乐意(做)|
+|be regarded as |被认为是，被当做是|
+|be rich in |富于|
+|be rid of |除去，摆脱|
+|be satisfied with |对...满意，满足于|
+|be satisfied with |满意|
+|be satisfied with |满足|
+|be second to |次于|
+|be short for |是...的缩写(简称)|
+|be short of |短缺|
+|be sick for |渴望|
+|be sick in bed |病在床上|
+|be sick of |对...感到厌倦|
+|be sorry for |对...感到抱歉|
+|be strict with |对...要求严格|
+|be subjected to |遭受|
+|be suited to |适合于|
+|be supposed to(do) |应该，非...不可|
+|be sure of |坚信，确信|
+|be sure to(do) |一定，必定|
+|be surprised at |对...感到惊奇|
+|be taken aback |吃惊|
+|be taken by surprise |被突袭|
+|be terrified at |被...吓一跳|
+|be through with |结束|
+|be tired from |因...而疲乏|
+|be tired of |厌烦；对...厌倦|
+|be tired out |疲倦极了|
+|be torn open |被撕开|
+|be true of |适用于|
+|be unconscious of |不知道...|
+|be unequal to |无法胜任...的|
+|be unfit for |不适合，不胜任|
+|be united as one |团结一致|
+|be used as |被...用作|
+|be used to |习惯于|
+|be useful to |对...有用|
+|be well off |生活富裕|
+|be well up in |精通，熟悉|
+|be wild with joy |欣喜若狂|
+|be willing to(do) |乐意...|
+|be worried about |为...而担心|
+|be worse off |处境较坏，情况恶化|
+|be worth(doing) |值得(做)|
+|be wrong with |有点毛病，有些不舒服|
+|bear/keep in mind |记住|
+|because of |由于，因为|
+|begin with |从开始|
+|beside the point |离题|
+|beyond one's power |超出某人的能力|
+|both...and |既...又...，两个都|
+|break away from |从...脱离|
+|break away(from) |脱离，逃跑|
+|break down |损坏，分解，瓦解|
+|break in |闯入；打断，插嘴|
+|break into |闯入|
+|break into tears(cheers) |突然哭(欢呼)起来|
+|break off |断绝，结束|
+|break out |逃出；突然发生，爆发|
+|break through |突破|
+|break up |中止，结束；打碎，折断|
+|bring about |带来，造成|
+|bring about |发生，引起|
+|bring down |打倒，挫伤；降低|
+|bring forth |产生，提上|
+|bring forward |提出|
+|bring out |使出现；公布；出版|
+|bring to |使恢复知觉|
+|bring to mind |使人想起|
+|bring up |教育，培 钩沙?/P>|
+|bring/carry into practice |实施，实行|
+|build up |积累；堵塞；树立，逐步建立；增进；锻炼|
+|burn out |烧掉|
+|burn up |烧起来，旺起来；烧完|
+|but for |除...以外，倘没有，除非|
+|by accident |偶然|
+|by all means |无论如何，必定|
+|by all means |务必|
+|by chance |偶然，碰巧|
+|by comparison |比较起来|
+|by far... |得多，最|
+|by hand |用手|
+|by heart |牢记，凭记忆|
+|by means of |借助于，用|
+|by mistake |错误地|
+|by no means |决不|
+|by oneself |独自地，单独地|
+|by reason of |由于|
+|by the moment |到...时|
+|by the way |顺便提一下，另外|
+|by turns |轮流，交替地|
+|by virtue of |由于|
+|by way of |经由，通过...方式|
+|call at |访问|
+|call for |邀请；要求；需求|
+|call forth |唤起，引起；振作起，鼓起|
+|call off |放弃，取消|
+|call on |号召|
+|call on/upon |访问，拜访；号召，呼吁|
+|call up |召集，动员；打电话|
+|cannot/couldn't help |禁不住；不得不|
+|care for |照管，关心；喜欢，意欲|
+|carry about |随身携带|
+|carry off |夺去|
+|carry on |继续下去；从事，经营|
+|carry out |贯彻，执行；实现|
+|carry through |完成|
+|carry/bring into effect |使生效，使起作用|
+|catch at |抓住(东西)|
+|catch fire |着火|
+|catch on |理解，明白|
+|catch one's breath |屏息，歇口气|
+|catch one's eye |引人注目|
+|catch the sight of |发现，突然看见|
+|catch up with |追上，赶上|
+|check in |办理登记手续|
+|check out |结账后离开；检验，核查|
+|check up(on) |校对，检查，检验|
+|cheer up |使高兴，使振奋|
+|clean up |打扫；清除|
+|clear away |扫除，收拾|
+|clear up |收拾；澄清；放晴|
+|cling to |粘住；依附；坚持|
+|collide with |抵触|
+|come about |发生，出现|
+|come after |跟随|
+|come off |实现，成功，奏效|
+|come on |请，来吧，快点；开始，出场，上演|
+|come out |出版；出现，显露；结果是|
+|come round(around) |来访，前来；苏醒，复原|
+|come through |经历，脱险|
+|come to |总计，达到；苏醒，复原|
+|come to a conclusion |得出结论|
+|come to stay |木已成舟|
+|come to the point |说到要点，扼要地说|
+|come true |实现，达到|
+|come up |走近，上来；发生，被提出|
+|come up to |达到，符合|
+|come up with |提出|
+|come up with |提出，提供|
+|come/go into effect |生效，实施|
+|come/go into force |生效，实施|
+|come/go into operation |使投入生产，使运转|
+|compensate for |补偿，赔偿|
+|compile dictionary |编字典|
+|comply with |照做，遵照，应允|
+|conceive of |设想，构思；以为|
+|concern with |关心，挂念；从事于|
+|conform to |遵守，依照，符合，顺应|
+|congratulations on |祝贺|
+|consult with |商量，商议|
+|cooperate with |合作，协作，相配合|
+|cope with |竞争，对抗；对付，应付；妥善处理|
+|correspondence with |通信|
+|count on |依靠；期待，指望|
+|count up |把...相加|
+|cover up |掩饰，掩盖|
+|credit card |信用卡|
+|cross out |删去，取消|
+|cure sb. Of |治好某人...|
+|cut across |走捷径，抄近路|
+|cut back |削减，减少|
+|cut down |削减，降低|
+|cut in ||
+|cut off |切断；删去；停止|
+|cut out |删除|
+|cut short |突然停止|
+|deal with |处理，对付，安排|
+|decline invitation |辞谢邀请|
+|decline with thanks |婉言谢绝|
+|deduce from |演绎，推断|
+|depend on |取决于|
+|dependence on |依靠；依赖；信赖|
+|derive from |导出，由...来|
+|deviate from |背离，偏离|
+|devote to |奉献，致力|
+|die away ||
+|die down |渐渐消失，平息|
+|die off |死去，凋谢|
+|die out |消失，灭绝|
+|dispose for |布置，安排|
+|dispose of |处理，处置|
+|dissatisfaction with/at |不满，不平|
+|do away with |废除，去掉|
+|do sth. for a living |靠做某事谋生|
+|do without |没有...也行|
+|do/try one's best |尽力，努力|
+|draw in ||
+|draw up |写上，画上；草拟；停住|
+|dress up |穿上盛装，打扮得很漂亮|
+|drop by/in |顺便来访|
+|drop down |落下|
+|drop off |减弱，减少|
+|drop out |退出，离队|
+|dry out |干透，使干|
+|dry up |干涸，枯竭|
+|dwell on |凝思；详述|
+|each other |互相|
+|either...or |或...或，不是...就是；无论...还是|
+|engage in |从事于，忙着；订婚|
+|entitle sb.(to do)sth. |给予某人(干)某事的权利|
+|entrust sb. with sth. |委托某人某事|
+|escape doing sth. |躲避干某事|
+|even if/though |即使，虽然|
+|even then |即使那样，连，都|
+|ever since |从那时起，自那时以来|
+|ever so |非常，极其|
+|every now and then |有时，时时，偶尔|
+|every other |每隔一个地|
+|except for |除...之外|
+|exposure to |受到|
+|face to face |面对面地|
+|fair play |公平竞赛；公平对待|
+|fall away |背离|
+|fall back on |求助于，转而依靠|
+|fall behind |落后|
+|fall in love with |相爱，爱上|
+|fall in with |符合，与...一致|
+|fall off |下降|
+|fall out |争吵；结果是|
+|fall through |落空，失败|
+|far from |远非，远离|
+|feed in |输入|
+|feel like |欲，想要|
+|fill in/out |填充，填写|
+|find fault |埋怨，挑剔|
+|find out |查明|
+|first of all |首先|
+|first of all |首先，第一|
+|flare up |突然燃烧起来；突然发怒|
+|for a moment |片刻，一会儿|
+|for a while |暂时，一时|
+|for example |例如|
+|for instance |例如，举例说|
+|for one thing |首先，一则|
+|for the better |好转，改善|
+|for the moment |现在，暂时|
+|for the present |目前，暂时|
+|for the sake of |为了...起见|
+|for the time being |目前，暂时|
+|for(the)purpose of |为了|
+|from time to time |有时，不时|
+|from tip to toe |彻头彻尾，完全|
+|gain/have an advantage over |胜过，优于|
+|get across |解释清楚，使人了解|
+|get along/on with |有进展，有进步；生活得|
+|get around/round |走动，旅行；(消息)传开|
+|get at |得到，接近；意思是|
+|get away |逃脱，离开|
+|get by |通过，经过|
+|get down |从...下来；写下|
+|get down to |开始，着手|
+|get hold of |抓住，掌握|
+|get in |进入；收获，收集|
+|get into |进入，陷入|
+|get off |从...下来；离开，动身，开始|
+|get out |使...出去|
+|get out of |逃避，改掉|
+|get out of control |失控|
+|get over |克服；(从病中)恢复过来|
+|get rid of |摆脱，除掉|
+|get somewhere |有些结果|
+|get the best of |胜过|
+|get the better of |打败，致胜|
+|get the better of |占上风，胜过|
+|get through |到达，完成，及格|
+|get through |结束，完成；接通电话|
+|get to |开始；到达|
+|get together |集合，聚集|
+|get up |起床；增加，增强|
+|get used to |习惯于|
+|get/learn by heart |记住，背诵|
+|give away |泄露；分送|
+|give back |送还，恢复|
+|give in |交上；投降，屈服|
+|give off |放出，释放|
+|give oneself away |泄露，露马脚|
+|give oneself up |自首，投降，投案|
+|give out |分发，放出|
+|give reason to |对...进行解释|
+|give rise to |导致|
+|give rise to |引起，使发生|
+|give suspicion to |对...怀疑|
+|give up |停止，放弃|
+|give way |让路，让步|
+|give way to |给...让路，被...代替|
+|glance at |瞥见，一瞥|
+|glimpse of |瞥见，一瞥|
+|go after |追求|
+|go ahead |开始，前进；领先|
+|go along with |陪同前往，随行|
+|go back on |违背|
+|go before |居前|
+|go blank ||
+|go by |过去|
+|go dim ||
+|go down |下降，降低；被载入，传下去|
+|go faint |晕过去|
+|go for |竭力想取得；喜爱；支持，拥护|
+|go in for |从事，致力于，追求|
+|go into |进入；研究，调查|
+|go off |爆炸，发射；动身，离开|
+|go on |继续；发生|
+|go on strike |罢工|
+|go out |外出；熄灭|
+|go over |检查，审查；复习，重温|
+|go round/around |足够分配|
+|go through |经历，经受；详细检查|
+|go through |通过，审查，完成|
+|go under |下沉，沉没；失败；破产|
+|go up |上升，增加；建起|
+|go with |伴随，与...协调|
+|go without |没有...也行|
+|go wrong |发生故障，出毛病|
+|had better |最好还是，应该|
+|hand down |流传下来，传给，往下传|
+|hand down to |往下传，传给(后代)|
+|hand in |交上，递交|
+|hand in hand |手拉手，携手|
+|hand on |传下来，依次传递|
+|hand out |分发，散发，发给|
+|hand over |交出，移交，让与|
+|hang about |闲荡，徘徊，逗留|
+|hang back |犹豫，踌躇，畏缩|
+|hang on |抓紧不放；继续下去|
+|hang on to |紧握住，坚持下去|
+|hang up |挂断(电话)|
+|hardly...when |刚...就...|
+|have back |要回，收回|
+|have desire to do sth. |想做某事|
+|have got 有|
+|have got to(do) |不得不，必须|
+|have in mind |记住，考虑到，想到|
+|have intention of |有意，打算|
+|have no desire for |对...没有欲望|
+|have not the least idea of |不知道|
+|have nothing to do with |和...毫无关系|
+|have on |穿着，戴着|
+|have something to do with |和...有点关系|
+|have sth. in stock |有现货|
+|have to do with |与...有关|
+|have to/have got to |不得不，必须|
+|have/gain access to |可以获得|
+|hear of |听到，听说|
+|heart and soul |全心全意|
+|help oneself |自取所需(食物)|
+|hinder from |阻止，妨碍|
+|hold back |踌躇，退缩；阻止，抑制|
+|hold on |继续，握住不放|
+|hold on to |紧紧抓住，坚持|
+|hold out |维持，支持；坚持，不屈服|
+|hold up |举起，阻挡，使停止；抢劫|
+|hundreds of |数以百计的|
+|hurry up ||
+|if only |要是...就好了|
+|impose on |把...强加给|
+|improve on |改进|
+|in a hurry |匆忙地，立即|
+|in a moment |立刻，马上|
+|in a sense |从某种意义上说|
+|in a way |在某点，在某种程度上|
+|in a word |总而言之|
+|in accordance with |与...一致|
+|in addition |另外|
+|in addition to |除...之外(包括)|
+|in all |总共，总计|
+|in any case |无论如何，总之|
+|in any event |无论如何|
+|in case |假如，以防(万一)，免得|
+|in case of |假使，万一|
+|in charge(of) |负责，主管|
+|in common |共用，共有，共同|
+|in conclusion |最后，总之|
+|in confidence |信任|
+|in connection with |与...相连|
+|in connection with/to |关于|
+|in consequence |因此，结果|
+|in consequence of |由于...的缘故|
+|in contrast with/to |与...成对照|
+|in correspondence with |与...联系(通信)|
+|in danger |在危险中，垂危|
+|in debt |欠债|
+|in debt to sb. |欠某人的债|
+|in demand |有需要，销路好|
+|in detail |详细地|
+|in difficulties |处境困难|
+|in effect |有效；实际上|
+|in excess of |超过|
+|in fact |其实，实际上|
+|in favo(u)r of |有利于，赞成，支持|
+|in force |有效；实施中|
+|in front of |在...面前|
+|in general |通常，大体上|
+|in half |成两半|
+|in hand |在掌握中，在控制中|
+|in honor of |以纪念，向...表示敬意|
+|in itself |本身|
+|in line |成一直线，排成一行|
+|in line with |与...一致，按照|
+|in memory of |纪念|
+|in nature |本质上|
+|in no case |决不|
+|in no time |立即|
+|in no time |立即，马上|
+|in no way |决不|
+|in no way |决不|
+|in one's will |在...遗嘱中|
+|in one's/the way |妨碍，阻碍|
+|in order |秩序井然，整齐|
+|in order that |以便|
+|in order to |以便，为了|
+|in other words |换句话说，也就是说|
+|in particular |特别地，尤其，详细地|
+|in person |亲自|
+|in place |在适当的位置|
+|in place of |代替|
+|in practice |在实际中，实际上|
+|in proportion to |按...的比例|
+|in proportion to ||
+|in public |公开地，当众|
+|in question |正在考虑|
+|in return |作为报答，作为回报|
+|in secret |秘密地，私下地|
+|in sequence |依次，逐一|
+|in shape |处于良好状态|
+|in sight |被看到，在望|
+|in spite of |不管，不顾；尽管，虽然|
+|in step |同步，合拍|
+|in stock |现有，备有|
+|in sum |总而言之|
+|in support of |支持|
+|in tears |流着泪，含泪，哭|
+|in terms of |依据，按照；用...措词|
+|in the air |在流行中，在传播中|
+|in the course of |在...过程中，在...期间|
+|in the distance |在远处|
+|in the event of |万一，如果发生|
+|in the face of |面对，不顾，即使|
+|in the first place |起初，首先|
+|in the last place |最后|
+|in the least |一点，丝毫|
+|in the light of |按照，根据|
+|in the long run |最终，从长远观点看|
+|in the mood for sth. |对某事有心境|
+|in the past |在过去，以往|
+|in the way of |妨碍|
+|in the world |到底，究竟动词+名词形式|
+|in time |及时|
+|in time |及时，适时地|
+|in truth |事实上，实际上，的确|
+|in turn |依次，轮流|
+|in vain |徒劳，无效|
+|in(the)future |今后，将来|
+|in/with relation to |关系到|
+|indifferent to |不在乎|
+|influence on |影响|
+|insist on |坚持|
+|interference in |干涉|
+|interference with |妨碍，打扰|
+|intervene in |干涉，干预；插入|
+|introduce to |介绍|
+|just now |刚才，一会儿以前|
+|keep an eye on |留意，照看|
+|keep back |阻止，阻挡；隐瞒，保留|
+|keep company with |与...交往|
+|keep down |控制，压制，镇压；压低|
+|keep from |使...不(做)|
+|keep house |管理家务，做家务|
+|keep in touch |保持联系|
+|keep off |不接近，避开|
+|keep on |继续不断，保持|
+|keep on with |坚持|
+|keep one's head |保持镇静|
+|keep one's word |遵守诺言|
+|keep out of |躲开，置身...之外|
+|keep to |保持，坚持|
+|keep track |通晓事态，注意动向|
+|keep up |保持，维持；继续，坚持|
+|keep up with |向...看齐，跟上...|
+|keep/hold pace with |跟上，与...同步|
+|lay up |搁置；贮存|
+|lead the way |带路，引路|
+|leave alone |听其自然，更不用说|
+|lend itself to |适用于，对...有用|
+|let alone |不干涉；更不用说|
+|let down |放下，降低；使失望|
+|let go |放开，松手|
+|let in |让...进入，放...进来|
+|let loose |放开，放松，释放|
+|let off |放(烟，烟火)，开(枪)|
+|let out |放掉，放出，发出|
+|lie in |在于|
+|lie up |躺着休息|
+|line up |排队，使排成一行|
+|little by little |逐渐地|
+|little by little |逐渐地|
+|live on/by |靠...生活，以...为食|
+|live through |度过，经受过|
+|live up to |不辜负|
+|live up to |做到，不负|
+|longing for |渴望|
+|look after |照管，照料|
+|look at |看望，注视|
+|look back |回顾，回头看|
+|look down on |看不起，轻视|
+|look for |寻找，寻求|
+|look forward to |盼望，期待|
+|look in |顺便看望|
+|look into |调查，观察，过问；窥视|
+|look on |旁观，观看；看待，视作|
+|look out |留神，注意，提防，警惕|
+|look over |检查，查看，调查|
+|look through |仔细查看，浏览，温习|
+|look up |查阅，查考；寻找(某人)|
+|look up to |尊敬，敬仰|
+|lose heart |丧失勇气，失去信心|
+|lose one's head |不知所措|
+|lose track |失去联系|
+|lots of |大量，很多|
+|make a name of oneself |出名，扬名|
+|make a/the difference |有影响，很重要|
+|make an attempt |试图|
+|make believe |假装|
+|make faces |做鬼脸|
+|make for |走向，驶向；有助于|
+|make friends |交朋友，友好相处|
+|make fun of |取笑，嘲弄|
+|make it clear that |弄清楚|
+|make one's way |前进，进行|
+|make out |辨认，区分；理解，了解|
+|make out of |用...做，从...得出|
+|make progress |进步，进展|
+|make provision for |为...作准备|
+|make sense |讲得通，有意义|
+|make the best of |充分利用，妥善处理|
+|make the most of |充分利用|
+|make up |构成，拼凑；弥补，赔偿；化装|
+|make up for |补偿，弥补|
+|make up for |弥补|
+|make up one's mind |下决心|
+|make use of |利用|
+|make way |让路，开路|
+|many a |许多的|
+|may(might)as well |还是...好|
+|mix up |混淆，混合，搞糊涂|
+|more and more |越来越|
+|more or less |或多或少|
+|neither...nor |既不...也不|
+|never mind |不要紧，没关系|
+|next door |隔壁|
+|no doubt |无疑，必定|
+|no intention of |无意，不打算|
+|no less than |决不少于，不亚(次)于|
+|no longer |不再，已不|
+|no matter |无论|
+|no more |不再|
+|no more than |不过，仅仅；和...一样不|
+|no wonder |难怪，怪不得|
+|not as/so...as |不如...那样|
+|not at all |一点也不|
+|not on any account |决不|
+|now and then |时而，不时|
+|now that |既唬 捎?/P>|
+|now that |既然，由于|
+|objection to |反对，异议|
+|occur to |被想到，被想起|
+|of course |当然，自然，无疑|
+|of one's free will |出于自愿|
+|off and on |断断续续，不时地|
+|off duty |下班|
+|off the way |远离正道|
+|on a large scale |大规模地|
+|on a small scale |小规模地|
+|on account of |因为，由于|
+|on behalf of |代表...，为了...|
+|on board |在船(车、飞机)上|
+|on business |因公，因事|
+|on condition that |在...条件下|
+|on duty |值班，上班|
+|on earth |究竟，到底|
+|on fire |烧着|
+|on foot |步行|
+|on guard |警惕，防范|
+|on hand |在手边，临近|
+|on occasion |有时，不时|
+|on one's honor |以名誉担保|
+|on one's own |独自地，独立地|
+|on purpose |故意，有意|
+|on sale |出售；贱卖|
+|on schedule |按预定时间|
+|on sight |一见就...，立即|
+|on the basis of |根据，在...的基础上|
+|on the contrary |反之，正相反|
+|on the other hand... |另一方面...|
+|on the point |即将...的时候|
+|on the road |在旅途中|
+|on the second thoughts |经重新考虑，一转念|
+|on the side |作为兼职，额外|
+|on the sly |偷偷地，冷不防地|
+|on the spot |当场，在现场|
+|on the way |在途中|
+|on the whole |总的来说|
+|on time |准时|
+|on top of |在...之上|
+|on try |试穿|
+|on(the)one hand... |一方面...，|
+|on(the/an)average |平均，一般来说|
+|once in a while |偶尔，有时|
+|once upon a time |从前|
+|once(and)for all |一劳永逸，限此一次|
+|one after another |一个接一个|
+|one another |互相|
+|or else |否则，要不然|
+|or so |大约，左右|
+|originate in/from |起源，发生；首创，创造|
+|other than |不同于|
+|out of breath |喘不过气来|
+|out of control |失去控制|
+|out of danger |脱离危险|
+|out of date |过期(时)的|
+|out of doors |在户外|
+|out of order |发生故障，失调|
+|out of place |不得其所的，不适当的|
+|out of practice |久不练习，荒疏|
+|out of sight |看不见，在视野之外|
+|out of step |步调不一致，不协调|
+|out of the question |绝不可能|
+|out of touch |失去联系|
+|out of work |失业|
+|over and over(again) |一再，再三|
+|part with |放弃，离开|
+|participate in |参与，参加；分享|
+|pass away |去世，逝世|
+|pass by |从...旁边经过|
+|pass for |被认为(当做)|
+|pass off |中止，停止|
+|pass out |失去知觉，昏倒|
+|pass over |不注意，忽视|
+|pass through |通过，经过|
+|pass to |转到，讨论，传到|
+|pay attention to |注意|
+|pay back |偿还，回报|
+|pay down |即时交付，用现金支付|
+|pay off |还清(债)|
+|pay the way for |为...铺平道路|
+|pay up |全部付清|
+|persist in |坚持，持续|
+|pick out |选出，挑出，拣出；辨认，辨别出|
+|pick up |拾起，(偶然)得到；(车船)中途搭(人)，学会|
+|play a part |起作用|
+|play with |以...为消遣，玩弄|
+|preference for to |偏爱，喜爱；优惠；优先选择|
+|prepare for |准备|
+|present sb. with sth. |送给某人某礼物|
+|preside at/over |主持|
+|prevail over/against |取胜，占优势；流行，盛行|
+|prevent from |预防，防止|
+|primary school |小学|
+|proficiency in |熟练，精通|
+|pull along |沿...拉|
+|pull back |撤退|
+|pull down |拆毁，拉倒；拉下，降低|
+|pull in ||
+|pull off |脱(帽、衣)|
+|pull on |穿，戴|
+|pull out |拔出，抽出；(车、船)驶出|
+|pull round |掉头，转向；康复|
+|pull together |齐心协力|
+|pull up ||
+|put across |解释清楚，说明|
+|put aside |储存，保留|
+|put away |放好，收好；储存|
+|put down |记下，放下；镇压，平定|
+|put forward |提出|
+|put in |驶进|
+|put in for |申请|
+|put in order |整理，检修|
+|put into effect |生效|
+|put into effect |实行，生效|
+|put into practice |落实|
+|put into use |使用，应用|
+|put off |推迟，推延|
+|put on |穿上，戴上；上演；增加(体重)|
+|put out |扑灭|
+|put out |熄灭，关(灯)；出版，发布；生产|
+|put right |改正(错误)，整理|
+|put sb. Through |为某人接通电话|
+|put to use |使用，利用|
+|put up |提起，举起，提(价)；为...提供食宿，投宿|
+|put up with |容忍，忍受|
+|put(set)right |使恢复正常，纠正错误|
+|queue up |排队，排队等待|
+|quite a few |还不少，有相当数目的|
+|quite a little |相当多，不少|
+|quite a little |相当多，不少|
+|reconcile to/with |使一致|
+|refer to |参考，查阅，涉及，提到|
+|refer to...as |把...称作，把...当做|
+|refresh one's memory |使人记起|
+|reign over |统治；盛行|
+|reply to |回答，答复|
+|requirement for |需要，需要的东西，要求|
+|rest room |厕所，盥洗室|
+|restrain from |抑制，制止|
+|ring off |挂断电话|
+|rub out |擦掉，拭去|
+|rule out |排斥|
+|run down |撞倒，撞沉；追捕，追查|
+|run for |竞选|
+|run into |陷入|
+|run into |撞上，偶然碰见|
+|run off |复印，打印|
+|run out of |用完，用尽，耗尽|
+|run over |略读，略述；辗过，浏览，匆匆复习|
+|sacrifice for/to |牺牲，献出，献祭|
+|scrape through |擦过，勉强通过|
+|see off |给...送行|
+|see through |看穿，识破；干完，干到底|
+|see to |注意，负责，照料，修理|
+|send for |派人去请，召唤；索取|
+|send in |呈报，递交，送来|
+|serve as |作为，用作|
+|serve right |活该，给应得的待遇|
+|set a limit to |限制|
+|set about |开始，着手|
+|set aside |挑出，拨出，留出；拒绝|
+|set back |推迟，延缓，阻碍|
+|set down |卸下，放下，记下，记入|
+|set forth |阐明，陈述|
+|set in |来临，流行|
+|set off |出发，动身；引起，使发生|
+|set out |陈列，显示；动身，启程；制定|
+|set out to |打算，着手|
+|set up |创立，建立，树立；资助，扶持|
+|show in |领入|
+|show off |炫耀，卖弄|
+|show up |使呈现，使醒目|
+|shut out |排除|
+|side by side |肩并肩，一个挨一个|
+|sit for |参加|
+|sit in |列席，旁听|
+|sit up |迟睡，熬夜|
+|so far |迄今为止|
+|so that |以便，为的是；结果是|
+|so...as to |结果是；如此...以至于|
+|so...that |如此...以至于|
+|something of |在某种程度(意义)上|
+|specialize in |专攻，专门研究，专业化|
+|speed up |使加速|
+|stand against |反抗，抵抗|
+|stand by |支持，帮助；袖手旁观|
+|stand for |代替，代表，意味着|
+|stand out |突出，显眼|
+|stand up |站起来，耐用|
+|stand up for |为...辩护；维护|
+|stand up to |面对，坚决抵抗；经得起|
+|stay by |守在一边|
+|step by step |逐步|
+|step in |插入，介入|
+|step into |插入，干涉|
+|step up |提高，加快，加紧|
+|stick out |伸出，突出；坚持到底，继续|
+|stick to |坚持，忠于，信守|
+|succeed in |成功|
+|such as |像...那样的；诸如，例如|
+|such...that |那样的...以致|
+|take a chance |冒险一试|
+|take a chance |冒一下险|
+|take advantage of |利用，趁...之机|
+|take after |与...相像|
+|take away |消除；消耗|
+|take care |小心，当心|
+|take care of |照顾，照料|
+|take charge of |担任，负责|
+|take charge of |负责|
+|take delight in |以...为乐|
+|take down |记下，写下|
+|take effect |生效，起作用|
+|take for |把...认为是，把...看成是|
+|take in |接受，吸收；了解，理解|
+|take interest in |对...发生兴趣|
+|take off |拿走，脱下；起飞|
+|take on |呈现；接纳，承担，从事|
+|take one's time |不急不忙，从容进行|
+|take over |接管，接办|
+|take pains to do sth. |费尽苦心做某事|
+|take place |发生，进行|
+|take the place of |代替|
+|take to |喜欢，亲近|
+|take up |占据；开始；拿起，接收|
+|take up with |和...交往，忍受，采用|
+|take(make)a stand against |反对|
+|take(make)a stand for |捍卫|
+|take...as |把...作为|
+|take...into account |考虑|
+|televise live |实况转播|
+|testify to |说明，证实|
+|thank for |感谢|
+|that is(=i. e.) |就是说，即|
+|the key to... |的答案(线索、办法)|
+|the moment(that) |一...就|
+|think better of |改变主意，重新考虑|
+|think of |想起，想到；想一想|
+|think of...as |把...看做是，以为...是|
+|think over |仔细考虑|
+|thirst for |渴望，热望|
+|throw about |乱丢(东西)，乱花(钱)|
+|throw away |扔掉，抛弃|
+|throw down |推倒|
+|throw(a)light on |照亮，阐明|
+|throw/cast light on |使明白，阐明|
+|to and fro |来来回回|
+|to the point |切中要害，切题|
+|touch on |关系到，涉及|
+|touch up |润色，改进|
+|trolley bus |无轨电车|
+|turn away |转变方向；拒绝|
+|turn back |翻过来|
+|turn down |拧小，调低；拒绝|
+|turn in |交出，上缴；转身进入|
+|turn into |变成|
+|turn off |关掉，断开；拐弯，叉开|
+|turn off |关上；出产；解雇|
+|turn on |接通，打开|
+|turn out |制造，生产；结果是|
+|turn over |翻过来；移交，转交|
+|turn to |变成；求助于，借助于|
+|turn up |开大；出现；来到；发生|
+|under control |被控制住|
+|up to |起来，从事于，忙于；直至|
+|up to date |时新的|
+|use up |用完，花完|
+|warm up |变热|
+|wear off |逐渐消失|
+|wear out |用破；耗尽，使精疲力竭|
+|what about ||
+|what if |如果...将会怎样，即使...又有什么要紧|
+|whether...or |是...还是，不管...还是|
+|while away |消磨(时间)|
+|wipe out |擦去，抹去；消灭，毁灭|
+|with delight |欣然，乐意地|
+|with ease |容易，不费力|
+|with respect to |关于|
+|with the exception of |除...之外|
+|with the purpose of |为了|
+|with/in regard to |对于，就...而论|
+|within the limit of |在...范围内|
+|without question |毫无疑问|
+|word for word |逐字地|
+|work on |从事于，努力做|
+|work out |解决，算出；弄懂，制定出|
+|work up |引起，激起；逐渐上升|
+|write off |报废，勾销|
 
 ## 英语词根前缀，后缀大全
 
+|词根|例词|
+|--|--|
+|ag|do, act 做，动 agent 代理人|
+|agri, agro|agriculture 田地，农田 agriculture 农业，农艺|
+|ann, enn|year 年 annual 每年的，年度的|
+|astro, aster|star 星 astronomy 天文学|
+|audi, audit|hear 听 audible 听得见的|
+|bell|war 战争 rebellion 反叛，反抗|
+|bio, bi|life 生命，生物 biology 生物学|
+|brev|short 短 abbreviate 缩短，节略|
+|ced, ceed|go 行走 precedent 先行的，在前|
+|cept|take 拿，取 exception 例外，除外|
+|circ|ring 环，,圆 circle 圆，圈，环状物|
+|cid, cis|cut, kill 切，杀 suicide 自杀|
+|claim, clam|cry, shout 喊叫 exclaim 呼喊，惊叫|
+|clar|clear 清楚的，明白的 clarify 澄清；使清楚|
+|clud, clus|close, shut 关闭 exclude 排斥，拒绝，接纳|
+|cogn|know 知道 cognition 认知|
+|cord|heart 心 cordial 衷心的，诚心的|
+|corpor, cor|body 体 corporation 团体，社团|
+|cred|believe, trust 相信，信任 credibility 可信，可靠，|
+|cruc|cross 十字 crucify把...钉在十字桇上；折磨|
+|cur|care 关心，挂念，注意 security 安全|
+|cru, curs, cour, cours|run 跑 cruise巡航舰|
+|di|day 日 diary 日记|
+|dit|give 给 edit 编辑|
+|dict,dic|say 言，说 dictator 独裁者，口授者|
+|duc, duct|lead 引导 conduct 引导，指导，经营|
+|ed|eat 吃 edible 可以吃的，食用的|
+|ev|age 年龄，时代 longevity 长寿，长命|
+|fact, fac|do, make 做，作 factory 工厂|
+|fer|bring, carry 带，拿 different 不同的，相异的|
+|flor, olour|flower 花 florid 如花的，华丽的|
+|flu|flow 流 fluency 流利，流畅|
+|fus|pour 灌，流，倾泻 refuse 拒绝，拒受|
+|geo|earth 地 geography 地理学|
+|gon|angle角 trigon 三角形|
+|grad|step, go, grade 步，走，级 gradual 逐步的|
+|gram|write 写 telegram 电报|
+|graph|write, writing 写，画 photograph 照相，拍照|
+|gress|go, walk 行走 progress 进步|
+|hap|chance,luck,accident 机会，偶发 happen 发生，巧遇|
+|hibit|hold 拿，持 exhibit 展出，展览|
+|hospit, hosp|guest 客人 hospitable 好客的|
+|idio|particular, own, private, proper 特殊的，个人的，专有的 idiom 惯用语，方言|
+|insul|island 岛 insular 岛的，偏狭的|
+|it|go 行走 exit 出口，退出|
+|ject|throw 投掷 projection 投掷，发射|
+|lect, leg, lig|choose, gather 选，收 elect 选举|
+|lev|raise 举、升 elevate 抬起，使升高|
+|liber|liberty 自由 liberation 解放|
+|lingu|language 语言 linguist 语言专家|
+|liter|letter 文字，字母 literate 识字的，有文化的|
+|loc|place 地方 local 当地的|
+|log|speak 言，说 dialogue 对话|
+|loqu|speak 言说 eloquent 有口才的，雄辩的|
+|lun|moon 月亮 lunar 月亮的，似月的|
+|nanu, man|hand 手 manuscript 手稿|
+|mar|sea 海 marine 海上的，航海的|
+|medi|middle 中间 mediate 居中调解，调停|
+|memor|memory,mindful 记忆，记住的 memory 记忆，记忆力|
+|milit|soldier 兵 military 军事的，军队的|
+|mini|small,less 小 minimum 最小数|
+|mir|wonder 惊奇，惊异 admire 赞赏，钦佩|
+|mort|death 死 mortal 终有一死的|
+|mot|move 移动 motion 运动，动|
+|nomin|name 名 nominal 名义上的，有名无实的|
+|nov|new 新 novel 新的，新奇的|
+|numer|number 数 numeral 数字，[语]数词|
+|oper|work 工作 operation 手术，工作，操作|
+|ori|rise 升起 orient 东方，东方的|
+|paci|peace 和平 pacify 使和平，抚慰|
+|past|feed 喂，食 pasture 放牧、牧场，吃草|
+|pel|push, drive 推，逐，驱 propel 推动|
+|pend, pens|hang 悬挂 pendent 悬空的，悬而未决的|
+|pet|seek 追求 compete 竞争，比赛|
+|phon|sound 声音 phone 电话|
+|plen|full 满，全 plenty 大量，丰富|
+|pone|put 放置 postpone 推后，推迟|
+|popul|people 人民 population 人口，全体居民|
+|port|carry 拿，带，运 import 输入，进口|
+|pos|put 放置 expose 揭露，揭发|
+|preci|price 价值 precious 宝贵的，珍贵的|
+|pur|pure 清，纯 purify 使纯净|
+|rect|right, straight 正，直 correct 改正，纠正|
+|rupt|break 破 rupture 破裂，使裂开|
+|sal|salt 盐 salary 薪水|
+|sci|know 知 science 科学|
+|sec, sequ|follow 跟随 sequence 继续，连续|
+|sect|cut 切割 section 切开，一部分|
+|sent, sens|feel 感觉 sentiment 感情，思想感情|
+|son|sound 声音 sonic 声音的，音速的|
+|spect|look 看 spectate 出席，观看|
+|spir|breathe 呼吸 inspire 鼓舞，吸入|
+|tail|cut 切，割 tailor 裁缝，成衣商|
+|tain, ten|hold 握，持，守 contain 容纳，包含，内装|
+|tect|cover 掩盖 detect 侦查，发觉|
+|tempor|time 时 temporary 暂时的，临时的|
+|tend, tens|draw 拉 tension 拉紧，引力|
+|tent, tract|draw 拉，抽，引 tractor 拖拉机|
+|urb|city 城市 suburb 郊区，近郊|
+|ut|use 用 utility 效用, 有用|
+|vac, vacu|empty 空 vacancy 空白，空虚|
+|vad, vas|walk, go 行走 invasion 入侵，侵略|
+|vari|change 变化 variable 可变的，反复的|
+|ven|come 来 convene 召集(会议)，集会|
+|vert, vers|turn 转 subvert 推翻，颠覆|
+|vi, via|way 路 via 取道，经由|
+|vis, vid|see 看 visible 可见的，看得见的|
+|vit|life 生命 vital 充满活力的|
+|viv|live 活 vivid 活泼的，有生气的|
 
 
-
-词根 例词
-
-ag=do, act 做，动 agent 代理人
-
-agri, agro=agriculture 田地，农田 agriculture 农业，农艺
-
-ann, enn=year 年 annual 每年的，年度的
-
-astro, aster=star 星 astronomy 天文学
-
-audi, audit=hear 听 audible 听得见的
-
-bell=war 战争 rebellion 反叛，反抗
-
-bio, bi=life 生命，生物 biology 生物学
-
-brev=short 短 abbreviate 缩短，节略
-
-ced, ceed=go 行走 precedent 先行的，在前
-
-cept=take 拿，取 exception 例外，除外
-
-circ=ring 环，,圆 circle 圆，圈，环状物
-
-cid, cis=cut, kill 切，杀 suicide 自杀
-
-claim, clam=cry, shout 喊叫 exclaim 呼喊，惊叫
-
-clar=clear 清楚的，明白的 clarify 澄清；使清楚
-
-clud, clus=close, shut 关闭 exclude 排斥，拒绝，接纳
-
-cogn=know 知道 cognition 认知
-
-cord=heart 心 cordial 衷心的，诚心的
-
-corpor, cor=body 体 corporation 团体，社团
-
-cred=believe, trust 相信，信任 credibility 可信，可靠，
-
-cruc=cross 十字 crucify把...钉在十字桇上；折磨
-
-cur=care 关心，挂念，注意 security 安全
-
-cru, curs, cour, cours=run 跑 cruise巡航舰
-
-di=day 日 diary 日记
-
-dit=give 给 edit 编辑
-
-dict,dic=say 言，说 dictator 独裁者，口授者
-
-duc, duct=lead 引导 conduct 引导，指导，经营
-
-ed=eat 吃 edible 可以吃的，食用的
-
-ev=age 年龄，时代 longevity 长寿，长命
-
-fact, fac=do, make 做，作 factory 工厂
-
-fer=bring, carry 带，拿 different 不同的，相异的
-
-flor, olour=flower 花 florid 如花的，华丽的
-
-flu=flow 流 fluency 流利，流畅
-
-fus=pour 灌，流，倾泻 refuse 拒绝，拒受
-
-geo=earth 地 geography 地理学
-
-gon=angle角 trigon 三角形
-
-grad=step, go, grade 步，走，级 gradual 逐步的
-
-gram=write 写 telegram 电报
-
-graph=write, writing 写，画 photograph 照相，拍照
-
-gress=go, walk 行走 progress 进步
-
-hap=chance,luck,accident 机会，偶发 happen 发生，巧遇
-
-hibit=hold 拿，持 exhibit 展出，展览
-
-hospit, hosp=guest 客人 hospitable 好客的
-
-idio=particular, own, private, proper 特殊的，个人的，专有的 idiom 惯用语，方言
-
-insul=island 岛 insular 岛的，偏狭的
-
-it=go 行走 exit 出口，退出
-
-ject=throw 投掷 projection 投掷，发射
-
-lect, leg, lig=choose, gather 选，收 elect 选举
-
-lev=raise 举、升 elevate 抬起，使升高
-
-liber=liberty 自由 liberation 解放
-
-lingu=language 语言 linguist 语言专家
-
-liter=letter 文字，字母 literate 识字的，有文化的
-
-loc=place 地方 local 当地的
-
-log=speak 言，说 dialogue 对话
-
-loqu=speak 言说 eloquent 有口才的，雄辩的
-
-lun=moon 月亮 lunar 月亮的，似月的
-
-nanu, man=hand 手 manuscript 手稿
-
-mar=sea 海 marine 海上的，航海的
-
-medi=middle 中间 mediate 居中调解，调停
-
-memor=memory,mindful 记忆，记住的 memory 记忆，记忆力
-
-milit=soldier 兵 military 军事的，军队的
-
-mini=small,less 小 minimum 最小数
-
-mir=wonder 惊奇，惊异 admire 赞赏，钦佩
-
-mort=death 死 mortal 终有一死的
-
-mot=move 移动 motion 运动，动
-
-nomin=name 名 nominal 名义上的，有名无实的
-
-nov=new 新 novel 新的，新奇的
-
-numer=number 数 numeral 数字，[语]数词
-
-oper=work 工作 operation 手术，工作，操作
-
-ori=rise 升起 orient 东方，东方的
-
-paci=peace 和平 pacify 使和平，抚慰
-
-past=feed 喂，食 pasture 放牧、牧场，吃草
-
-pel=push, drive 推，逐，驱 propel 推动
-
-pend, pens=hang 悬挂 pendent 悬空的，悬而未决的
-
-pet=seek 追求 compete 竞争，比赛
-
-phon=sound 声音 phone 电话
-
-plen=full 满，全 plenty 大量，丰富
-
-pone=put 放置 postpone 推后，推迟
-
-popul=people 人民 population 人口，全体居民
-
-port=carry 拿，带，运 import 输入，进口
-
-pos=put 放置 expose 揭露，揭发
-
-preci=price 价值 precious 宝贵的，珍贵的
-
-pur=pure 清，纯 purify 使纯净
-
-rect=right, straight 正，直 correct 改正，纠正
-
-rupt=break 破 rupture 破裂，使裂开
-
-sal=salt 盐 salary 薪水
-
-sci=know 知 science 科学
-
-sec, sequ=follow 跟随 sequence 继续，连续
-
-sect=cut 切割 section 切开，一部分
-
-sent, sens=feel 感觉 sentiment 感情，思想感情
-
-son=sound 声音 sonic 声音的，音速的
-
-spect=look 看 spectate 出席，观看
-
-spir=breathe 呼吸 inspire 鼓舞，吸入
-
-tail=cut 切，割 tailor 裁缝，成衣商
-
-tain, ten=hold 握，持，守 contain 容纳，包含，内装
-
-tect=cover 掩盖 detect 侦查，发觉
-
-tempor=time 时 temporary 暂时的，临时的
-
-tend, tens=draw 拉 tension 拉紧，引力
-
-tent, tract=draw 拉，抽，引 tractor 拖拉机
-
-urb=city 城市 suburb 郊区，近郊
-
-ut=use 用 utility 效用, 有用
-
-vac, vacu=empty 空 vacancy 空白，空虚
-
-vad, vas=walk, go 行走 invasion 入侵，侵略
-
-vari=change 变化 variable 可变的，反复的
-
-ven=come 来 convene 召集(会议)，集会
-
-vert, vers=turn 转 subvert 推翻，颠覆
-
-vi, via=way 路 via 取道，经由
-
-vis, vid=see 看 visible 可见的，看得见的
-
-vit=life 生命 vital 充满活力的
-
-viv=live 活 vivid 活泼的，有生气的
 
 前缀
 

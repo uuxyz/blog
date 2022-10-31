@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Code in ncee</title>
+	
+	
+	<style type="text/css" media="all">@import "/style.css";</style>
+	<style type="text/css" media="all">@import "/syntax.css";</style>
+	
+</head>
+<body>
+	<header>
+    <a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+</header>
+
+	
+
+
+	<main>
+		<article>
+		<header>
+			<h1>Code in ncee</h1>
+		</header>
+			<time datetime="2022-10-27T01:37:02">
+			2022.10.27 01:37
+			</time>
+			
+			<div>
+							<h3>Table of contents</h3>
+							<nav id="TableOfContents">
+  <ul>
+    <li><a href="#必修1--数据与计算">必修1  数据与计算</a>
+      <ul>
+        <li><a href="#必修1-第一章-素材">必修1 第一章 素材</a></li>
+        <li><a href="#必修1-第二章-素材">必修1 第二章 素材</a></li>
+        <li><a href="#必修1-第三章-素材">必修1 第三章 素材</a>
+          <ul>
+            <li><a href="#31-用计算机解决问题的一般过程">3.1 用计算机解决问题的一般过程</a></li>
+            <li><a href="#32-python语言程序设计">3.2 Python语言程序设计</a>
+              <ul>
+                <li><a href="#32-实践与体验编程实现图像的简单处理">3.2 实践与体验——编程实现图像的简单处理</a></li>
+              </ul>
+            </li>
+            <li><a href="#33-简单算法及其程序实现">3.3 简单算法及其程序实现</a>
+              <ul>
+                <li><a href="#33-实践与体验图像字符画">3.3 实践与体验——图像字符画</a></li>
+                <li><a href="#使用image模块实现填涂判断">使用Image模块实现填涂判断</a></li>
+                <li><a href="#准考证号填涂识别">准考证号填涂识别</a></li>
+                <li><a href="#判定黑白像素">判定黑白像素</a></li>
+                <li><a href="#统计5个像素中的黑色像素个数">统计5个像素中的黑色像素个数</a></li>
+                <li><a href="#读取文件数据实现填涂判断">读取文件数据实现填涂判断</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#必修1-第四章-素材">必修1 第四章 素材</a>
+          <ul>
+            <li><a href="#42-身边的百家姓">4.2 身边的百家姓</a></li>
+            <li><a href="#42-实践与体验-中文分词与标签云">4.2 实践与体验 中文分词与标签云</a></li>
+            <li><a href="#巩固提高-4选课python">巩固提高 4.选课python</a></li>
+          </ul>
+        </li>
+        <li><a href="#必修1-第五章-素材">必修1 第五章 素材</a></li>
+      </ul>
+    </li>
+    <li><a href="#必修2--信息系统与社会">必修2  信息系统与社会</a>
+      <ul>
+        <li><a href="#必修2-第一章">必修2 第一章</a></li>
+        <li><a href="#必修2-第二章">必修2 第二章</a>
+          <ul>
+            <li><a href="#24-实践与体验">2.4 实践与体验</a></li>
+            <li><a href="#243-传感器信息的获取">2.4.3 传感器信息的获取</a></li>
+            <li><a href="#263-编写网络应用程序">2.6.3 编写网络应用程序</a></li>
+            <li><a href="#264-调试发布">2.6.4 调试发布</a></li>
+          </ul>
+        </li>
+        <li><a href="#必修2-第三章">必修2 第三章</a>
+          <ul>
+            <li><a href="#32--凯撒密码加解密">3.2  凯撒密码加解密</a></li>
+            <li><a href="#32--巩固与提高--简单异或">3.2  巩固与提高  简单异或</a></li>
+            <li><a href="#32--思考与练习--换位密码">3.2  思考与练习  换位密码</a></li>
+          </ul>
+        </li>
+        <li><a href="#必修2-第四章">必修2 第四章</a>
+          <ul>
+            <li><a href="#get_json项目挑战-数据可视化">get_json（项目挑战-数据可视化）</a></li>
+            <li><a href="#iot-microbitdh11">iot-microbit（dh11）</a></li>
+            <li><a href="#iot-microbitdh11-完整-提示音">iot-microbit（dh11-完整-提示音）</a></li>
+            <li><a href="#iot-microbitdh11-完整-语音">iot-microbit（dh11-完整-语音）</a></li>
+            <li><a href="#iot-microbitlm35">iot-microbit（lm35）</a></li>
+            <li><a href="#iot-microbit自带温度">iot-microbit（自带温度）</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#选择性必修1-数据与数据结构">选择性必修1 数据与数据结构</a>
+      <ul>
+        <li><a href="#31-行程编码">3.1 行程编码</a></li>
+        <li><a href="#31-颜色编号">3.1 颜色编号</a></li>
+        <li><a href="#五子棋">五子棋</a></li>
+        <li><a href="#第三章-巩固与提高-软硬车厢">第三章 巩固与提高 软硬车厢</a></li>
+        <li><a href="#第三章-巩固与提高-餐馆取号叫号">第三章 巩固与提高 餐馆取号叫号</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+			</div>
+			<h1 id="必修1--数据与计算">必修1  数据与计算</h1>
+<h2 id="必修1-第一章-素材">必修1 第一章 素材</h2>
+<h2 id="必修1-第二章-素材">必修1 第二章 素材</h2>
+<h2 id="必修1-第三章-素材">必修1 第三章 素材</h2>
+<h3 id="31-用计算机解决问题的一般过程">3.1 用计算机解决问题的一般过程</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> turtle
+</span></span><span style="display:flex;"><span>n<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入正多边形的边数n：&#34;</span>))
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入边长a：&#34;</span>))
+</span></span><span style="display:flex;"><span>d<span style="color:#f92672">=</span>(n<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">180</span><span style="color:#f92672">/</span>n
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span>turtle<span style="color:#f92672">.</span>Pen()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):          <span style="color:#75715e">#重复执行n遍</span>
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>forward(a)            <span style="color:#75715e">#向前绘制长度为a的线段</span>
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">180</span><span style="color:#f92672">-</span>d)           <span style="color:#75715e">#向左旋转（180-d）度</span>
+</span></span></code></pre></div><h3 id="32-python语言程序设计">3.2 Python语言程序设计</h3>
+<h4 id="32-实践与体验编程实现图像的简单处理">3.2 实践与体验——编程实现图像的简单处理</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>img<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>array(Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#39;lena.jpg&#39;</span>)<span style="color:#f92672">.</span>convert(<span style="color:#e6db74">&#39;L&#39;</span>))
+</span></span><span style="display:flex;"><span>rows,cols<span style="color:#f92672">=</span>img<span style="color:#f92672">.</span>shape
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(rows):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(cols):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (img[i,j]<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">128</span>):
+</span></span><span style="display:flex;"><span>            img[i,j]<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            img[i,j]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>figure(<span style="color:#e6db74">&#34;lena &#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img,cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><h3 id="33-简单算法及其程序实现">3.3 简单算法及其程序实现</h3>
+<h4 id="33-实践与体验图像字符画">3.3 实践与体验——图像字符画</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>serarr<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;@&#39;</span>,<span style="color:#e6db74">&#39;#&#39;</span>,<span style="color:#e6db74">&#39;$&#39;</span>,<span style="color:#e6db74">&#39;%&#39;</span>,<span style="color:#e6db74">&#39;&amp;&#39;</span>,<span style="color:#e6db74">&#39;?&#39;</span>,<span style="color:#e6db74">&#39;*&#39;</span>,<span style="color:#e6db74">&#39;o&#39;</span>,<span style="color:#e6db74">&#39;/&#39;</span>,<span style="color:#e6db74">&#39;{&#39;</span>,<span style="color:#e6db74">&#39;[&#39;</span>,<span style="color:#e6db74">&#39;(&#39;</span>,<span style="color:#e6db74">&#39;|&#39;</span>,<span style="color:#e6db74">&#39;!&#39;</span>,<span style="color:#e6db74">&#39;^&#39;</span>,<span style="color:#e6db74">&#39;~&#39;</span>,<span style="color:#e6db74">&#39;-&#39;</span>,<span style="color:#e6db74">&#39;_&#39;</span>,<span style="color:#e6db74">&#39;:&#39;</span>,<span style="color:#e6db74">&#39;;&#39;</span>,<span style="color:#e6db74">&#39;,&#39;</span>,<span style="color:#e6db74">&#39;.&#39;</span>,<span style="color:#e6db74">&#39;`&#39;</span>,<span style="color:#e6db74">&#39; &#39;</span>]
+</span></span><span style="display:flex;"><span>count<span style="color:#f92672">=</span>len(serarr)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">toText</span>(image_file):
+</span></span><span style="display:flex;"><span>   asd <span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>                                      <span style="color:#75715e"># 储存字符串</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span> h <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,  image_file<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]):      <span style="color:#75715e"># 垂直方向</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">for</span> w <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, image_file<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]):    <span style="color:#75715e"># 水平方向</span>
+</span></span><span style="display:flex;"><span>         r,g,b <span style="color:#f92672">=</span>image_file<span style="color:#f92672">.</span>getpixel((w,h))
+</span></span><span style="display:flex;"><span>         gray <span style="color:#f92672">=</span>int(r<span style="color:#f92672">*</span> <span style="color:#ae81ff">0.299</span><span style="color:#f92672">+</span>g<span style="color:#f92672">*</span> <span style="color:#ae81ff">0.587</span><span style="color:#f92672">+</span>b<span style="color:#f92672">*</span> <span style="color:#ae81ff">0.114</span>)
+</span></span><span style="display:flex;"><span>         asd<span style="color:#f92672">=</span>asd<span style="color:#f92672">+</span>serarr[int(gray<span style="color:#f92672">/</span>(<span style="color:#ae81ff">255</span><span style="color:#f92672">/</span>(count<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)))]
+</span></span><span style="display:flex;"><span>      asd<span style="color:#f92672">=</span>asd<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\r\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> asd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>image_file <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;boy.jpg&#34;</span>)              <span style="color:#75715e"># 打开图片</span>
+</span></span><span style="display:flex;"><span>image_file<span style="color:#f92672">=</span>image_file<span style="color:#f92672">.</span>resize((int(image_file<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">0.9</span>), int(image_file<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">0.5</span>)))   <span style="color:#75715e">#调整图片大小</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#39;boy.txt&#39;</span>,<span style="color:#e6db74">&#39;a&#39;</span>)
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">.</span>write(toText(image_file))
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h4 id="使用image模块实现填涂判断">使用Image模块实现填涂判断</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bw_judge</span>(R,G,B):
+</span></span><span style="display:flex;"><span>    Gray_scale<span style="color:#f92672">=</span><span style="color:#ae81ff">0.299</span><span style="color:#f92672">*</span>R<span style="color:#f92672">+</span><span style="color:#ae81ff">0.587</span><span style="color:#f92672">*</span>G<span style="color:#f92672">+</span><span style="color:#ae81ff">0.114</span><span style="color:#f92672">*</span>B
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> Gray_scale<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">132</span>:
+</span></span><span style="display:flex;"><span>        color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;黑色&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;白色&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> color
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;RGB.bmp&#34;</span>)
+</span></span><span style="display:flex;"><span>pix <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>load()
+</span></span><span style="display:flex;"><span>width <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]                        <span style="color:#75715e"># size中有两个参数，第1个参数为图像宽度值</span>
+</span></span><span style="display:flex;"><span>height <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]                       <span style="color:#75715e"># 第2个参数为图像高度值</span>
+</span></span><span style="display:flex;"><span>count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(width):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range(height):
+</span></span><span style="display:flex;"><span>        R,G,B <span style="color:#f92672">=</span> pix[x, y]                 <span style="color:#75715e"># 根据像素坐标获得该点的 RGB 值</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> bw_judge(R,G,B)<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;黑色&#34;</span>:       <span style="color:#75715e"># bw_ judge函数用于判断黑、白像素</span>
+</span></span><span style="display:flex;"><span>            count<span style="color:#f92672">=</span>count<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> count<span style="color:#f92672">&gt;=</span>width<span style="color:#f92672">*</span>height<span style="color:#f92672">*</span><span style="color:#ae81ff">0.64</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;已填涂！&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;未填涂！&#34;</span>)
+</span></span></code></pre></div><h4 id="准考证号填涂识别">准考证号填涂识别</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>x_start <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>               <span style="color:#75715e"># 起始点坐标</span>
+</span></span><span style="display:flex;"><span>y_start <span style="color:#f92672">=</span> <span style="color:#ae81ff">92</span>
+</span></span><span style="display:flex;"><span>fill_width   <span style="color:#f92672">=</span> <span style="color:#ae81ff">24</span>          <span style="color:#75715e"># 信息点宽度</span>
+</span></span><span style="display:flex;"><span>fill_height  <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>          <span style="color:#75715e"># 信息点高度</span>
+</span></span><span style="display:flex;"><span>space_width  <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>          <span style="color:#75715e"># 间隔宽度</span>
+</span></span><span style="display:flex;"><span>space_height <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>          <span style="color:#75715e"># 间隔高度</span>
+</span></span><span style="display:flex;"><span>num_length <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>             <span style="color:#75715e"># 准考证号长度</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bw_judge</span>(R, G, B):     <span style="color:#75715e"># bw_judge用于判断一个像素的填涂情况</span>
+</span></span><span style="display:flex;"><span>    Gray_scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.299</span> <span style="color:#f92672">*</span> R <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.587</span> <span style="color:#f92672">*</span> G <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.114</span> <span style="color:#f92672">*</span> B
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> Gray_scale <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">132</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fill_judge</span>(x, y):      <span style="color:#75715e"># fill_judge用于判断信息点的填涂情况</span>
+</span></span><span style="display:flex;"><span>    count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(x, x <span style="color:#f92672">+</span> fill_width <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(y, y <span style="color:#f92672">+</span> fill_height <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            R, G, B <span style="color:#f92672">=</span> pixels[i, j]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> bw_judge(R, G, B) <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>                count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> count <span style="color:#f92672">&gt;=</span> fill_width <span style="color:#f92672">*</span> fill_height <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.64</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>total_width  <span style="color:#f92672">=</span> fill_width <span style="color:#f92672">+</span> space_width
+</span></span><span style="display:flex;"><span>total_height <span style="color:#f92672">=</span> fill_height <span style="color:#f92672">+</span> space_height
+</span></span><span style="display:flex;"><span>image <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;fill.bmp&#34;</span>)
+</span></span><span style="display:flex;"><span>pixels <span style="color:#f92672">=</span> image<span style="color:#f92672">.</span>load()
+</span></span><span style="display:flex;"><span>number <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> range(num_length):         <span style="color:#75715e"># x从左至右，y从上至下对填涂区进行检测</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> x_start <span style="color:#f92672">+</span> total_width  <span style="color:#f92672">*</span> col
+</span></span><span style="display:flex;"><span>        y <span style="color:#f92672">=</span> y_start <span style="color:#f92672">+</span> total_height <span style="color:#f92672">*</span> row
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> fill_judge(x, y) <span style="color:#f92672">==</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>            number <span style="color:#f92672">=</span> number <span style="color:#f92672">+</span> str(row)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:                            <span style="color:#75715e"># 10个信息点检测完毕后未发现有填涂</span>
+</span></span><span style="display:flex;"><span>        number <span style="color:#f92672">=</span> number <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;#&#39;</span>
+</span></span><span style="display:flex;"><span>print(number)
+</span></span></code></pre></div><h4 id="判定黑白像素">判定黑白像素</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>R<span style="color:#f92672">=</span><span style="color:#ae81ff">43</span>
+</span></span><span style="display:flex;"><span>G<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>B<span style="color:#f92672">=</span><span style="color:#ae81ff">241</span>
+</span></span><span style="display:flex;"><span>Gray_scale<span style="color:#f92672">=</span><span style="color:#ae81ff">0.299</span><span style="color:#f92672">*</span>R<span style="color:#f92672">+</span><span style="color:#ae81ff">0.587</span><span style="color:#f92672">*</span>G<span style="color:#f92672">+</span><span style="color:#ae81ff">0.114</span><span style="color:#f92672">*</span>B
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> Gray_scale<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">132</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;黑色&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;白色&#39;</span>)
+</span></span></code></pre></div><h4 id="统计5个像素中的黑色像素个数">统计5个像素中的黑色像素个数</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>Gray_scale<span style="color:#f92672">=</span>[<span style="color:#ae81ff">47</span>,<span style="color:#ae81ff">178</span>,<span style="color:#ae81ff">146</span>,<span style="color:#ae81ff">185</span>,<span style="color:#ae81ff">116</span>]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,len(Gray_scale)):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> Gray_scale[i]<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">132</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;第&#34;</span><span style="color:#f92672">+</span>str(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;个像素为黑色；&#34;</span>)
+</span></span><span style="display:flex;"><span>        count<span style="color:#f92672">=</span>count<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;黑色像素总共有：&#34;</span><span style="color:#f92672">+</span>str(count)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;个。&#34;</span>)
+</span></span></code></pre></div><h4 id="读取文件数据实现填涂判断">读取文件数据实现填涂判断</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fname <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Your text file name here: &#39;</span>)
+</span></span><span style="display:flex;"><span>f <span style="color:#f92672">=</span> open(fname,<span style="color:#e6db74">&#39;r+&#39;</span>)           <span style="color:#75715e"># 以读写的方式打开文件</span>
+</span></span><span style="display:flex;"><span>count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>line <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>readline()            <span style="color:#75715e"># 从文件中读取一行</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> line:                    <span style="color:#75715e"># 当line非空（从文件读取到了数据）</span>
+</span></span><span style="display:flex;"><span>    line <span style="color:#f92672">=</span> line<span style="color:#f92672">.</span>split()        <span style="color:#75715e"># 把空白字符去除，变成包含三个str的list</span>
+</span></span><span style="display:flex;"><span>    R, G, B <span style="color:#f92672">=</span> map(int, line)   <span style="color:#75715e"># 把line中三个str转化成int并赋值给R, G, B</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#ae81ff">0.299</span> <span style="color:#f92672">*</span> R <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.587</span> <span style="color:#f92672">*</span> G <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.144</span> <span style="color:#f92672">*</span> B <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">132</span>:
+</span></span><span style="display:flex;"><span>        count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    line <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>readline()        <span style="color:#75715e"># 继续读取一行</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> count <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">300</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.64</span>:
+</span></span><span style="display:flex;"><span>    f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">已填涂！&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">未填涂！&#34;</span>)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h2 id="必修1-第四章-素材">必修1 第四章 素材</h2>
+<h3 id="42-身边的百家姓">4.2 身边的百家姓</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#import numpy  as np</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#显示中文字体处理需要</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> matplotlib.font_manager <span style="color:#f92672">import</span> FontProperties
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 读文件</span>
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;names.csv&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 增加2列，存放 姓、名</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;xing&#39;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;ming&#39;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 定义复姓 list</span>
+</span></span><span style="display:flex;"><span>fx<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;欧阳&#39;</span>,<span style="color:#e6db74">&#39;太史&#39;</span>,<span style="color:#e6db74">&#39;端木&#39;</span>,<span style="color:#e6db74">&#39;上官&#39;</span>,<span style="color:#e6db74">&#39;司马&#39;</span>,<span style="color:#e6db74">&#39;东方&#39;</span>,<span style="color:#e6db74">&#39;独孤&#39;</span>,<span style="color:#e6db74">&#39;南宫&#39;</span>,<span style="color:#e6db74">&#39;万俟&#39;</span>,<span style="color:#e6db74">&#39;闻人&#39;</span>,<span style="color:#e6db74">&#39;夏侯&#39;</span>,<span style="color:#e6db74">&#39;诸葛&#39;</span>,<span style="color:#e6db74">&#39;尉迟&#39;</span>,<span style="color:#e6db74">&#39;公羊&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;赫连&#39;</span>,<span style="color:#e6db74">&#39;澹台&#39;</span>,<span style="color:#e6db74">&#39;皇甫&#39;</span>,<span style="color:#e6db74">&#39;宗政&#39;</span>,<span style="color:#e6db74">&#39;濮阳&#39;</span>,<span style="color:#e6db74">&#39;公冶&#39;</span>,<span style="color:#e6db74">&#39;太叔&#39;</span>,<span style="color:#e6db74">&#39;申屠&#39;</span>,<span style="color:#e6db74">&#39;公孙&#39;</span>,<span style="color:#e6db74">&#39;慕容&#39;</span>,<span style="color:#e6db74">&#39;仲孙&#39;</span>,<span style="color:#e6db74">&#39;钟离&#39;</span>,<span style="color:#e6db74">&#39;长孙&#39;</span>,<span style="color:#e6db74">&#39;宇文&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;司徒&#39;</span>,<span style="color:#e6db74">&#39;鲜于&#39;</span>,<span style="color:#e6db74">&#39;司空&#39;</span>,<span style="color:#e6db74">&#39;闾丘&#39;</span>,<span style="color:#e6db74">&#39;子车&#39;</span>,<span style="color:#e6db74">&#39;亓官&#39;</span>,<span style="color:#e6db74">&#39;司寇&#39;</span>,<span style="color:#e6db74">&#39;巫马&#39;</span>,<span style="color:#e6db74">&#39;公西&#39;</span>,<span style="color:#e6db74">&#39;颛孙&#39;</span>,<span style="color:#e6db74">&#39;壤驷&#39;</span>,<span style="color:#e6db74">&#39;公良&#39;</span>,<span style="color:#e6db74">&#39;漆雕&#39;</span>,<span style="color:#e6db74">&#39;乐正&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;宰父&#39;</span>,<span style="color:#e6db74">&#39;谷梁&#39;</span>,<span style="color:#e6db74">&#39;拓跋&#39;</span>,<span style="color:#e6db74">&#39;夹谷&#39;</span>,<span style="color:#e6db74">&#39;轩辕&#39;</span>,<span style="color:#e6db74">&#39;令狐&#39;</span>,<span style="color:#e6db74">&#39;段干&#39;</span>,<span style="color:#e6db74">&#39;百里&#39;</span>,<span style="color:#e6db74">&#39;呼延&#39;</span>,<span style="color:#e6db74">&#39;东郭&#39;</span>,<span style="color:#e6db74">&#39;南门&#39;</span>,<span style="color:#e6db74">&#39;羊舌&#39;</span>,<span style="color:#e6db74">&#39;微生&#39;</span>,<span style="color:#e6db74">&#39;公户&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;公玉&#39;</span>,<span style="color:#e6db74">&#39;公仪&#39;</span>,<span style="color:#e6db74">&#39;梁丘&#39;</span>,<span style="color:#e6db74">&#39;公仲&#39;</span>,<span style="color:#e6db74">&#39;公上&#39;</span>,<span style="color:#e6db74">&#39;公门&#39;</span>,<span style="color:#e6db74">&#39;公山&#39;</span>,<span style="color:#e6db74">&#39;公坚&#39;</span>,<span style="color:#e6db74">&#39;左丘&#39;</span>,<span style="color:#e6db74">&#39;公伯&#39;</span>,<span style="color:#e6db74">&#39;西门&#39;</span>,<span style="color:#e6db74">&#39;公祖&#39;</span>,<span style="color:#e6db74">&#39;第五&#39;</span>,<span style="color:#e6db74">&#39;公乘&#39;</span>
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 取姓、名</span>
+</span></span><span style="display:flex;"><span>j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> df[<span style="color:#e6db74">&#39;xm&#39;</span>]:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 不是复姓</span>
+</span></span><span style="display:flex;"><span>    df[<span style="color:#e6db74">&#39;xing&#39;</span>][j]<span style="color:#f92672">=</span>i[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    df[<span style="color:#e6db74">&#39;ming&#39;</span>][j]<span style="color:#f92672">=</span>i[<span style="color:#ae81ff">1</span>:]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#复姓处理</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">2</span>] <span style="color:#f92672">in</span> fx:
+</span></span><span style="display:flex;"><span>        df[<span style="color:#e6db74">&#39;xing&#39;</span>][j]<span style="color:#f92672">=</span>i[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>        df[<span style="color:#e6db74">&#39;ming&#39;</span>][j]<span style="color:#f92672">=</span>i[<span style="color:#ae81ff">2</span>:]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    j<span style="color:#f92672">=</span>j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 分组计数</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;xing&#39;</span>)<span style="color:#f92672">.</span>count()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># sort 排序   结果</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#s=s.sort(&#39;xm&#39;)</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span>s<span style="color:#f92672">.</span>sort_values(<span style="color:#e6db74">&#39;xm&#39;</span>,ascending<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#前20绘图</span>
+</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">=</span>s[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">20</span>]<span style="color:#f92672">.</span>plot(kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;bar&#39;</span>,rot<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#显示中文标签</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#font = FontProperties(fname=r&#34;c:\windows\fonts\simsun.ttc&#34;, size=14)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#for label in ax.get_xticklabels() :</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    label.set_fontproperties(font)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#显示图形</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#plt.show()</span>
+</span></span><span style="display:flex;"><span>df<span style="color:#f92672">.</span>bar
+</span></span></code></pre></div><h3 id="42-实践与体验-中文分词与标签云">4.2 实践与体验 中文分词与标签云</h3>
+<h3 id="巩固提高-4选课python">巩固提高 4.选课python</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">@author: hehy 7选3统计
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> itertools
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#读数据到 Pandas的DataFrame 结构中</span>
+</span></span><span style="display:flex;"><span>df<span style="color:#f92672">=</span>pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#34;xk73.csv&#34;</span>,sep<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;,&#39;</span>,header<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;infer&#39;</span>,encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>)
+</span></span><span style="display:flex;"><span>km<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;物理&#39;</span>,<span style="color:#e6db74">&#39;化学&#39;</span>,<span style="color:#e6db74">&#39;生物&#39;</span>,<span style="color:#e6db74">&#39;政治&#39;</span>,<span style="color:#e6db74">&#39;历史&#39;</span>,<span style="color:#e6db74">&#39;地理&#39;</span>,<span style="color:#e6db74">&#39;技术&#39;</span>]
+</span></span><span style="display:flex;"><span>zrs<span style="color:#f92672">=</span>len(df<span style="color:#f92672">.</span>index)   <span style="color:#75715e">#总人数</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#按学校分组计数</span>
+</span></span><span style="display:flex;"><span>sc<span style="color:#f92672">=</span>df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;学校代码&#39;</span>,as_index<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>)<span style="color:#f92672">.</span>count()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 对分组计数结果进行合计，合计结果转换为DF结构并转置为行</span>
+</span></span><span style="display:flex;"><span>df_sum<span style="color:#f92672">=</span>pd<span style="color:#f92672">.</span>DataFrame(data<span style="color:#f92672">=</span>sc<span style="color:#f92672">.</span>sum())<span style="color:#f92672">.</span>T
+</span></span><span style="display:flex;"><span>df_sum[<span style="color:#e6db74">&#39;学校代码&#39;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;合计&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 增加“合计&#34;行</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> sc<span style="color:#f92672">.</span>append(df_sum)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 百分比计算</span>
+</span></span><span style="display:flex;"><span>df_percent <span style="color:#f92672">=</span> df_sum
+</span></span><span style="display:flex;"><span>df_percent[<span style="color:#e6db74">&#39;学校代码&#39;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;比例&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> km:
+</span></span><span style="display:flex;"><span>    per <span style="color:#f92672">=</span> df_percent<span style="color:#f92672">.</span>at[<span style="color:#ae81ff">0</span>,k]<span style="color:#f92672">/</span>zrs
+</span></span><span style="display:flex;"><span>    df_percent[k]<span style="color:#f92672">=</span>per
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 增加“百分比”行</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span>append(df_percent)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">#删除“姓名”列</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span>result<span style="color:#f92672">.</span>drop(<span style="color:#e6db74">&#39;姓名&#39;</span>,axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#修改“学生编号”为“总人数”</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;学生编号&#39;</span>:<span style="color:#e6db74">&#39;总人数&#39;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#保存结果</span>
+</span></span><span style="display:flex;"><span>result<span style="color:#f92672">.</span>to_excel(<span style="color:#e6db74">&#34;学校人数统计.xlsx&#34;</span>)
+</span></span></code></pre></div><h2 id="必修1-第五章-素材">必修1 第五章 素材</h2>
+<h1 id="必修2--信息系统与社会">必修2  信息系统与社会</h1>
+<h2 id="必修2-第一章">必修2 第一章</h2>
+<h2 id="必修2-第二章">必修2 第二章</h2>
+<h3 id="24-实践与体验">2.4 实践与体验</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> uart<span style="color:#f92672">.</span>any():
+</span></span><span style="display:flex;"><span>        incoming <span style="color:#f92672">=</span> str(uart<span style="color:#f92672">.</span>readall(), <span style="color:#e6db74">&#34;UTF-8&#34;</span>)
+</span></span><span style="display:flex;"><span>        incoming<span style="color:#f92672">=</span>incoming<span style="color:#f92672">.</span>strip(<span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\r</span><span style="color:#e6db74">&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> incoming<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;H&#39;</span>:
+</span></span><span style="display:flex;"><span>            display<span style="color:#f92672">.</span>show(Image<span style="color:#f92672">.</span>HAPPY)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;I am happy&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> incoming<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;S&#39;</span>:
+</span></span><span style="display:flex;"><span>            display<span style="color:#f92672">.</span>show(Image<span style="color:#f92672">.</span>SAD)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;I am sad&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;err&#34;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> serial
+</span></span><span style="display:flex;"><span>ser <span style="color:#f92672">=</span> serial<span style="color:#f92672">.</span>Serial()
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>baudrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">115200</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>port <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;COM3&#39;</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>open()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> serial<span style="color:#f92672">,</span>time
+</span></span><span style="display:flex;"><span>ser <span style="color:#f92672">=</span> serial<span style="color:#f92672">.</span>Serial()
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>baudrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">115200</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>port <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;COM3&#39;</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>open()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    ser<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;H&#39;</span><span style="color:#f92672">.</span>encode())
+</span></span><span style="display:flex;"><span>    time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    ser<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;S&#39;</span><span style="color:#f92672">.</span>encode())
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> serial<span style="color:#f92672">,</span>time
+</span></span><span style="display:flex;"><span>ser <span style="color:#f92672">=</span> serial<span style="color:#f92672">.</span>Serial()
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>baudrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">115200</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>port <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;COM3&#39;</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>open()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    name<span style="color:#f92672">=</span>input()
+</span></span><span style="display:flex;"><span>    ser<span style="color:#f92672">.</span>write(name<span style="color:#f92672">.</span>encode())
+</span></span><span style="display:flex;"><span>    line <span style="color:#f92672">=</span> ser<span style="color:#f92672">.</span>readline()
+</span></span><span style="display:flex;"><span>    print(line<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>decode())
+</span></span></code></pre></div><h3 id="243-传感器信息的获取">2.4.3 传感器信息的获取</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    print(temperature())
+</span></span><span style="display:flex;"><span>    sleep(<span style="color:#ae81ff">200</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> serial
+</span></span><span style="display:flex;"><span>ser <span style="color:#f92672">=</span> serial<span style="color:#f92672">.</span>Serial()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置通讯波特率，需要与micro:bit中设定的通讯速率一致</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>baudrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">115200</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置串口号</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>port <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;COM3&#39;</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>open()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    print(ser<span style="color:#f92672">.</span>readline())
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> serial
+</span></span><span style="display:flex;"><span>ser <span style="color:#f92672">=</span> serial<span style="color:#f92672">.</span>Serial()
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>baudrate <span style="color:#f92672">=</span> <span style="color:#ae81ff">115200</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>port <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;COM3&#39;</span>
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>open()
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#39;microbit.txt&#39;</span>, <span style="color:#e6db74">&#39;wb&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#读取20行的数据</span>
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> a<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>	a<span style="color:#f92672">-=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    line<span style="color:#f92672">=</span>ser<span style="color:#f92672">.</span>readline()
+</span></span><span style="display:flex;"><span>	print(line)
+</span></span><span style="display:flex;"><span>	f<span style="color:#f92672">.</span>write(line)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>ser<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h3 id="263-编写网络应用程序">2.6.3 编写网络应用程序</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_script <span style="color:#f92672">import</span> Server,Manager
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Flask(__name__)
+</span></span><span style="display:flex;"><span>manager <span style="color:#f92672">=</span> Manager(app)
+</span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> Server(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0.0.0.0&#34;</span>,port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>,threaded<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>manager<span style="color:#f92672">.</span>add_command(<span style="color:#e6db74">&#34;runserver&#34;</span>,server)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;这是我的第一个网页程序！&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    manager<span style="color:#f92672">.</span>run()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask, render_template
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_script <span style="color:#f92672">import</span> Server, Manager
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_bootstrap <span style="color:#f92672">import</span> Bootstrap
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_moment <span style="color:#f92672">import</span> Moment
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_wtf <span style="color:#f92672">import</span> FlaskForm
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> wtforms <span style="color:#f92672">import</span> StringField, SubmitField
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> wtforms.validators <span style="color:#f92672">import</span> Required
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>insert(<span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;../&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> aiml
+</span></span><span style="display:flex;"><span>k <span style="color:#f92672">=</span> aiml<span style="color:#f92672">.</span>Kernel()
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>learn(<span style="color:#e6db74">&#34;cn-startup.xml&#34;</span>)
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>respond(<span style="color:#e6db74">&#34;load aiml cn&#34;</span>)
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>respond(<span style="color:#e6db74">&#34;start&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Flask(__name__)
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SECRET_KEY&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;hard to guess string&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>manager <span style="color:#f92672">=</span> Manager(app)
+</span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> Server(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;127.0.0.1&#34;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>, threaded<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>manager<span style="color:#f92672">.</span>add_command(<span style="color:#e6db74">&#34;runserver&#34;</span>, server)
+</span></span><span style="display:flex;"><span>bootstrap <span style="color:#f92672">=</span> Bootstrap(app)
+</span></span><span style="display:flex;"><span>moment <span style="color:#f92672">=</span> Moment(app)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">NameForm</span>(FlaskForm):
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> StringField(<span style="color:#e6db74">&#39;请开始交谈：&#39;</span>, validators<span style="color:#f92672">=</span>[Required()])
+</span></span><span style="display:flex;"><span>    submit <span style="color:#f92672">=</span> SubmitField(<span style="color:#e6db74">&#39;提交&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    form <span style="color:#f92672">=</span> NameForm()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> form<span style="color:#f92672">.</span>validate_on_submit():
+</span></span><span style="display:flex;"><span>        name <span style="color:#f92672">=</span> form<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>data
+</span></span><span style="display:flex;"><span>        form<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>data <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;index.html&#39;</span>, form<span style="color:#f92672">=</span>form, name<span style="color:#f92672">=</span>k<span style="color:#f92672">.</span>respond(name))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    manager<span style="color:#f92672">.</span>run()
+</span></span></code></pre></div><h3 id="264-调试发布">2.6.4 调试发布</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_script <span style="color:#f92672">import</span> Server, Manager
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_sqlalchemy <span style="color:#f92672">import</span> SQLAlchemy
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#导入数据库支持模块SQLAlchemy</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>basedir <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>abspath(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>dirname(__file__))   <span style="color:#75715e">#获取应用程序路径</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Flask(__name__)
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SQLALCHEMY_DATABASE_URI&#39;</span>] <span style="color:#f92672">=</span>\
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;sqlite:///&#39;</span> <span style="color:#f92672">+</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(basedir, <span style="color:#e6db74">&#39;db</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">tlkDB.db&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置数据库为运行文件目录下的db\tlkDB.db</span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SQLALCHEMY_COMMIT_ON_TEARDOWN&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>manager <span style="color:#f92672">=</span> Manager(app)
+</span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> Server(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0.0.0.0&#34;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>, threaded<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>manager<span style="color:#f92672">.</span>add_command(<span style="color:#e6db74">&#34;runserver&#34;</span>, server)
+</span></span><span style="display:flex;"><span>db <span style="color:#f92672">=</span> SQLAlchemy(app) <span style="color:#75715e">#建立应用app的数据库对象db</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#定义表tlkTxt的模型CltkTxt，在Python代码中CltkTxt就代表tlkTxt表。</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CtlkTxt</span>(db<span style="color:#f92672">.</span>Model):
+</span></span><span style="display:flex;"><span>    __tablename__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;tlkTxt&#39;</span>
+</span></span><span style="display:flex;"><span>    id <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>Integer, primary_key<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, index<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>    own <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>Integer)
+</span></span><span style="display:flex;"><span>    txt <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>String(<span style="color:#ae81ff">256</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __repr__(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;&lt;CtlkTxt </span><span style="color:#e6db74">%r</span><span style="color:#e6db74">&gt;&#39;</span> <span style="color:#f92672">%</span> self<span style="color:#f92672">.</span>txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    db<span style="color:#f92672">.</span>create_all()      <span style="color:#75715e">#创建数据库db\tlkDB.db</span>
+</span></span><span style="display:flex;"><span>    manager<span style="color:#f92672">.</span>run()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#SSH，再次测试SSH</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask, render_template, session, redirect, url_for, flash
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#from flask_debugtoolbar import DebugToolbarExtension</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_script <span style="color:#f92672">import</span> Server, Manager
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_bootstrap <span style="color:#f92672">import</span> Bootstrap
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_moment <span style="color:#f92672">import</span> Moment
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_wtf <span style="color:#f92672">import</span> FlaskForm
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> wtforms <span style="color:#f92672">import</span> StringField, SubmitField
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> wtforms.validators <span style="color:#f92672">import</span> Required
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> flask_sqlalchemy <span style="color:#f92672">import</span> SQLAlchemy
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>insert(<span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#34;../&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> aiml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>k <span style="color:#f92672">=</span> aiml<span style="color:#f92672">.</span>Kernel()
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>learn(<span style="color:#e6db74">&#34;cn-startup.xml&#34;</span>)
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>respond(<span style="color:#e6db74">&#34;load aiml cn&#34;</span>)
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">.</span>respond(<span style="color:#e6db74">&#34;start&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>basedir <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>abspath(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>dirname(__file__))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> Flask(__name__)
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SECRET_KEY&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&lt;replace with a secret key&gt;&#39;</span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SQLALCHEMY_DATABASE_URI&#39;</span>] <span style="color:#f92672">=</span> \
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;sqlite:///&#39;</span> <span style="color:#f92672">+</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(basedir, <span style="color:#e6db74">&#39;db</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">tlkDB.db&#39;</span>)
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SQLALCHEMY_COMMIT_ON_TEARDOWN&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>app<span style="color:#f92672">.</span>config[<span style="color:#e6db74">&#39;SQLALCHEMY_TRACK_MODIFICATIONS&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#app.debug = True</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#toolbar = DebugToolbarExtension(app)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>manager <span style="color:#f92672">=</span> Manager(app)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#server = Server(host=&#34;0.0.0.0&#34;, port=80, use_debugger=True)</span>
+</span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> Server(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0.0.0.0&#34;</span>, port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>)
+</span></span><span style="display:flex;"><span>manager<span style="color:#f92672">.</span>add_command(<span style="color:#e6db74">&#34;runserver&#34;</span>, server)
+</span></span><span style="display:flex;"><span>bootstrap <span style="color:#f92672">=</span> Bootstrap(app)
+</span></span><span style="display:flex;"><span>moment <span style="color:#f92672">=</span> Moment(app)
+</span></span><span style="display:flex;"><span>db <span style="color:#f92672">=</span> SQLAlchemy(app)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CtlkTxt</span>(db<span style="color:#f92672">.</span>Model):
+</span></span><span style="display:flex;"><span>    __tablename__ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;tlkTxt&#39;</span>
+</span></span><span style="display:flex;"><span>    id <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>Integer, primary_key<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, index<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>    own <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>Integer)
+</span></span><span style="display:flex;"><span>    txt <span style="color:#f92672">=</span> db<span style="color:#f92672">.</span>Column(db<span style="color:#f92672">.</span>String(<span style="color:#ae81ff">256</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __repr__(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;&lt;CtlkTxt </span><span style="color:#e6db74">%r</span><span style="color:#e6db74">&gt;&#39;</span> <span style="color:#f92672">%</span> self<span style="color:#f92672">.</span>txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">NameForm</span>(FlaskForm):
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> StringField(<span style="color:#e6db74">&#39;请开始交谈：&#39;</span>, validators<span style="color:#f92672">=</span>[Required()])
+</span></span><span style="display:flex;"><span>    submit <span style="color:#f92672">=</span> SubmitField(<span style="color:#e6db74">&#39;提交&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    submit1 = SubmitField(&#39;清除&#39;)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>errorhandler(<span style="color:#ae81ff">404</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">page_not_found</span>(e):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;404.html&#39;</span>), <span style="color:#ae81ff">404</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>errorhandler(<span style="color:#ae81ff">500</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">internal_server_error</span>(e):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;500.html&#39;</span>), <span style="color:#ae81ff">500</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
+</span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    rp_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    form <span style="color:#f92672">=</span> NameForm()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> form<span style="color:#f92672">.</span>validate_on_submit():
+</span></span><span style="display:flex;"><span>        name <span style="color:#f92672">=</span> form<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>data
+</span></span><span style="display:flex;"><span>        form<span style="color:#f92672">.</span>name<span style="color:#f92672">.</span>data <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        rp_name <span style="color:#f92672">=</span> k<span style="color:#f92672">.</span>respond(name)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> rp_name <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
+</span></span><span style="display:flex;"><span>            rp_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;......(沉默）&#34;</span>
+</span></span><span style="display:flex;"><span>        my_txt <span style="color:#f92672">=</span> CtlkTxt(own <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, txt <span style="color:#f92672">=</span> name)
+</span></span><span style="display:flex;"><span>        robot_txt <span style="color:#f92672">=</span> CtlkTxt(own <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, txt <span style="color:#f92672">=</span> rp_name)
+</span></span><span style="display:flex;"><span>        db<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>add(my_txt)
+</span></span><span style="display:flex;"><span>        db<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>add(robot_txt)
+</span></span><span style="display:flex;"><span>        db<span style="color:#f92672">.</span>session<span style="color:#f92672">.</span>commit()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    n <span style="color:#f92672">=</span> CtlkTxt<span style="color:#f92672">.</span>query<span style="color:#f92672">.</span>count()
+</span></span><span style="display:flex;"><span>    MtlkTxt <span style="color:#f92672">=</span> CtlkTxt<span style="color:#f92672">.</span>query<span style="color:#f92672">.</span>all()
+</span></span><span style="display:flex;"><span>    i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    tdstr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> i<span style="color:#f92672">&lt;</span>n:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> MtlkTxt[i]<span style="color:#f92672">.</span>own:
+</span></span><span style="display:flex;"><span>            whostr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;我：&#34;</span>
+</span></span><span style="display:flex;"><span>            clrstr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;font color=#ff0000&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            whostr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;机器人：&#34;</span>
+</span></span><span style="display:flex;"><span>            clrstr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;font color=#0000ff&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>        tdstr <span style="color:#f92672">=</span> tdstr <span style="color:#f92672">+</span> clrstr <span style="color:#f92672">+</span> whostr <span style="color:#f92672">+</span> MtlkTxt[i]<span style="color:#f92672">.</span>txt <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&lt;/font&gt;&lt;br /&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>        i <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;index.html&#39;</span>, tdstr<span style="color:#f92672">=</span>tdstr, form<span style="color:#f92672">=</span>form, name<span style="color:#f92672">=</span>rp_name)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#@app.route(&#39;/&#39;)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#def index():</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    return render_template(&#39;index.html&#39;)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#@app.route(&#39;/talk/&lt;word&gt;&#39;)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#def talk(word):</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    return render_template(&#39;user.html&#39;, webword=k.respond(word))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    manager<span style="color:#f92672">.</span>run()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    app.run()</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#    app.run(debug=True)</span>
+</span></span></code></pre></div><h2 id="必修2-第三章">必修2 第三章</h2>
+<h3 id="32--凯撒密码加解密">3.2  凯撒密码加解密</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span>  <span style="color:#a6e22e">change</span>(code,key):
+</span></span><span style="display:flex;"><span>    code<span style="color:#f92672">=</span> code<span style="color:#f92672">.</span>lower()
+</span></span><span style="display:flex;"><span>    m <span style="color:#f92672">=</span> ord(code)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> m <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">97</span> <span style="color:#f92672">and</span> m <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">122</span>:
+</span></span><span style="display:flex;"><span>        m <span style="color:#f92672">=</span> <span style="color:#ae81ff">97</span> <span style="color:#f92672">+</span> ((m <span style="color:#f92672">-</span> <span style="color:#ae81ff">97</span>) <span style="color:#f92672">+</span> key) <span style="color:#f92672">%</span> <span style="color:#ae81ff">26</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> chr(m)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span>  <span style="color:#a6e22e">encrypt</span>(code,key):
+</span></span><span style="display:flex;"><span>    code_new <span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> s <span style="color:#f92672">in</span> code:
+</span></span><span style="display:flex;"><span>        code_new <span style="color:#f92672">+=</span> change(s,key)
+</span></span><span style="display:flex;"><span>    print(code_new)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> code_new
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span>  <span style="color:#a6e22e">decrypt</span>(code,key):
+</span></span><span style="display:flex;"><span>    code_new <span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> s <span style="color:#f92672">in</span> code:
+</span></span><span style="display:flex;"><span>        m<span style="color:#f92672">=</span>ord(s)
+</span></span><span style="display:flex;"><span>        code_new <span style="color:#f92672">+=</span>chr(m<span style="color:#f92672">-</span>key)
+</span></span><span style="display:flex;"><span>    print(code_new)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> code_new
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;请选择数字1或2：&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;1：加密&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;2：解密&#34;</span>)
+</span></span><span style="display:flex;"><span>    select <span style="color:#f92672">=</span> input()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> select <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;1&#34;</span>:
+</span></span><span style="display:flex;"><span>        code <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;请输入加密字符串：&#34;</span>)
+</span></span><span style="display:flex;"><span>        key <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;请输入偏移位数：&#34;</span>))
+</span></span><span style="display:flex;"><span>        encrypt(code,key)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> select <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;2&#34;</span>:
+</span></span><span style="display:flex;"><span>        code <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;请输入解密字符串：&#34;</span>)
+</span></span><span style="display:flex;"><span>        key <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;请输入偏移位数：&#34;</span>))
+</span></span><span style="display:flex;"><span>        decrypt(code,key)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;输入错误，请重试！&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><h3 id="32--巩固与提高--简单异或">3.2  巩固与提高  简单异或</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">encrypt</span>(code, key):
+</span></span><span style="display:flex;"><span>  code_new <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(code)):
+</span></span><span style="display:flex;"><span>    code_new <span style="color:#f92672">+=</span> str(int(code[i]) <span style="color:#f92672">^</span> int(key[i]))
+</span></span><span style="display:flex;"><span>  print(code_new)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> code_new
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    code <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;请输入加密字符串：&#34;</span>)
+</span></span><span style="display:flex;"><span>    key <span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入密钥字符串：&#34;</span>)
+</span></span><span style="display:flex;"><span>    encrypt(code,key)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><h3 id="32--思考与练习--换位密码">3.2  思考与练习  换位密码</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">encrypt</span>(code, key):
+</span></span><span style="display:flex;"><span>    code_new <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(code)):
+</span></span><span style="display:flex;"><span>        code_new <span style="color:#f92672">+=</span> code[(i<span style="color:#f92672">+</span>key)<span style="color:#f92672">%</span>len(code)]
+</span></span><span style="display:flex;"><span>    print(code_new)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> code_new
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    code <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;请输入加密字符串：&#34;</span>)
+</span></span><span style="display:flex;"><span>    key <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;请输入偏移位数：&#34;</span>))
+</span></span><span style="display:flex;"><span>    encrypt(code,key)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>   main()
+</span></span></code></pre></div><h2 id="必修2-第四章">必修2 第四章</h2>
+<h3 id="get_json项目挑战-数据可视化">get_json（项目挑战-数据可视化）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#读取传感器编号为1的json数据，并绘图</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys<span style="color:#f92672">,</span> urllib.request<span style="color:#f92672">,</span> json
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://127.0.0.1:8080/get?id=1&#39;</span>
+</span></span><span style="display:flex;"><span>req <span style="color:#f92672">=</span> urllib<span style="color:#f92672">.</span>request<span style="color:#f92672">.</span>Request(url)
+</span></span><span style="display:flex;"><span>resp <span style="color:#f92672">=</span> urllib<span style="color:#f92672">.</span>request<span style="color:#f92672">.</span>urlopen(req)
+</span></span><span style="display:flex;"><span>content <span style="color:#f92672">=</span> resp<span style="color:#f92672">.</span>read()<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#39;utf-8&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#content=open(&#39;new-json.txt&#39;).read()</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (content):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#print(content)</span>
+</span></span><span style="display:flex;"><span>    data <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>loads(content)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#节点可以这样读出</span>
+</span></span><span style="display:flex;"><span>    print(data[<span style="color:#e6db74">&#39;sensorid&#39;</span>])
+</span></span><span style="display:flex;"><span>    val<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;value&#34;</span>]
+</span></span><span style="display:flex;"><span>    print(val[<span style="color:#ae81ff">0</span>])
+</span></span><span style="display:flex;"><span>    df<span style="color:#f92672">=</span>pd<span style="color:#f92672">.</span>DataFrame(val)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#print(df)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#绘图，默认是折线图</span>
+</span></span><span style="display:flex;"><span>    ax<span style="color:#f92672">=</span>df<span style="color:#f92672">.</span>plot()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#显示图形</span>
+</span></span><span style="display:flex;"><span>    plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><h3 id="iot-microbitdh11">iot-microbit（dh11）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> Obloq
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> dht11
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#DH11接在pin16</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.43.184&#34;</span>
+</span></span><span style="display:flex;"><span>PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8080&#34;</span>
+</span></span><span style="display:flex;"><span>SSID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jf&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20040404&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>uart<span style="color:#f92672">.</span>init(baudrate<span style="color:#f92672">=</span><span style="color:#ae81ff">115200</span>, bits<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, parity<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, stop<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, tx<span style="color:#f92672">=</span>pin2, rx<span style="color:#f92672">=</span>pin1)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> Obloq<span style="color:#f92672">.</span>connectWifi(SSID,PASSWORD,<span style="color:#ae81ff">10000</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  display<span style="color:#f92672">.</span>show(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>display<span style="color:#f92672">.</span>scroll(Obloq<span style="color:#f92672">.</span>ifconfig())
+</span></span><span style="display:flex;"><span>Obloq<span style="color:#f92672">.</span>httpSet(IP,PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  temp,hum<span style="color:#f92672">=</span>dht11<span style="color:#f92672">.</span>read(<span style="color:#ae81ff">16</span>)
+</span></span><span style="display:flex;"><span>  errno,resp<span style="color:#f92672">=</span>Obloq<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;input?id=1&amp;val=&#34;</span><span style="color:#f92672">+</span>str(temp),<span style="color:#ae81ff">10000</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> errno <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(resp)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
+</span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><h3 id="iot-microbitdh11-完整-提示音">iot-microbit（dh11-完整-提示音）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> Obloq
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> dht11
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> music
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#DH11接在pin16</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.43.184&#34;</span>
+</span></span><span style="display:flex;"><span>PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8080&#34;</span>
+</span></span><span style="display:flex;"><span>SSID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jf&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20040404&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>uart<span style="color:#f92672">.</span>init(baudrate<span style="color:#f92672">=</span><span style="color:#ae81ff">115200</span>, bits<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, parity<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, stop<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, tx<span style="color:#f92672">=</span>pin2, rx<span style="color:#f92672">=</span>pin1)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> Obloq<span style="color:#f92672">.</span>connectWifi(SSID,PASSWORD,<span style="color:#ae81ff">10000</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  display<span style="color:#f92672">.</span>show(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>display<span style="color:#f92672">.</span>scroll(Obloq<span style="color:#f92672">.</span>ifconfig())
+</span></span><span style="display:flex;"><span>Obloq<span style="color:#f92672">.</span>httpSet(IP,PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  temp,hum<span style="color:#f92672">=</span>dht11<span style="color:#f92672">.</span>read(<span style="color:#ae81ff">16</span>)
+</span></span><span style="display:flex;"><span>  errno,resp<span style="color:#f92672">=</span>Obloq<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;input?id=1&amp;val=&#34;</span><span style="color:#f92672">+</span>str(temp),<span style="color:#ae81ff">10000</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> errno <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(resp)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> resp<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span>:
+</span></span><span style="display:flex;"><span>      music<span style="color:#f92672">.</span>pitch(<span style="color:#ae81ff">440</span>, <span style="color:#ae81ff">2000</span>)
+</span></span><span style="display:flex;"><span>      display<span style="color:#f92672">.</span>scroll(<span style="color:#e6db74">&#34;SOS&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
+</span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><h3 id="iot-microbitdh11-完整-语音">iot-microbit（dh11-完整-语音）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> Obloq
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> dht11
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> speech
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#DH11接在pin16</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.43.184&#34;</span>
+</span></span><span style="display:flex;"><span>PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8080&#34;</span>
+</span></span><span style="display:flex;"><span>SSID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jf&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20040404&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>uart<span style="color:#f92672">.</span>init(baudrate<span style="color:#f92672">=</span><span style="color:#ae81ff">115200</span>, bits<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, parity<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, stop<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, tx<span style="color:#f92672">=</span>pin2, rx<span style="color:#f92672">=</span>pin1)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> Obloq<span style="color:#f92672">.</span>connectWifi(SSID,PASSWORD,<span style="color:#ae81ff">10000</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  display<span style="color:#f92672">.</span>show(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>display<span style="color:#f92672">.</span>scroll(Obloq<span style="color:#f92672">.</span>ifconfig())
+</span></span><span style="display:flex;"><span>Obloq<span style="color:#f92672">.</span>httpSet(IP,PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  temp,hum<span style="color:#f92672">=</span>dht11<span style="color:#f92672">.</span>read(<span style="color:#ae81ff">16</span>)
+</span></span><span style="display:flex;"><span>  errno,resp<span style="color:#f92672">=</span>Obloq<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;input?id=1&amp;val=&#34;</span><span style="color:#f92672">+</span>str(temp),<span style="color:#ae81ff">10000</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> errno <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(resp)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> resp<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span>:
+</span></span><span style="display:flex;"><span>      speech<span style="color:#f92672">.</span>say(<span style="color:#e6db74">&#34;Be careful,Be careful&#34;</span>)
+</span></span><span style="display:flex;"><span>      display<span style="color:#f92672">.</span>scroll(<span style="color:#e6db74">&#34;SOS&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
+</span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><h3 id="iot-microbitlm35">iot-microbit（lm35）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> Obloq
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Lm35接在pin0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.43.184&#34;</span>
+</span></span><span style="display:flex;"><span>PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8080&#34;</span>
+</span></span><span style="display:flex;"><span>SSID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jf&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;20040404&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>uart<span style="color:#f92672">.</span>init(baudrate<span style="color:#f92672">=</span><span style="color:#ae81ff">115200</span>, bits<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, parity<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, stop<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, tx<span style="color:#f92672">=</span>pin2, rx<span style="color:#f92672">=</span>pin1)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> Obloq<span style="color:#f92672">.</span>connectWifi(SSID,PASSWORD,<span style="color:#ae81ff">10000</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  display<span style="color:#f92672">.</span>show(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>display<span style="color:#f92672">.</span>scroll(Obloq<span style="color:#f92672">.</span>ifconfig())
+</span></span><span style="display:flex;"><span>Obloq<span style="color:#f92672">.</span>httpSet(IP,PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  errno,resp<span style="color:#f92672">=</span>Obloq<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;input?id=1&amp;val=&#34;</span><span style="color:#f92672">+</span>str(pin0<span style="color:#f92672">.</span>read_analog()),<span style="color:#ae81ff">10000</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> errno <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(resp)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
+</span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><h3 id="iot-microbit自带温度">iot-microbit（自带温度）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> microbit <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> Obloq
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;192.168.0.103&#34;</span>
+</span></span><span style="display:flex;"><span>PORT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;8080&#34;</span>
+</span></span><span style="display:flex;"><span>SSID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jys16f&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zjjys.16&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>uart<span style="color:#f92672">.</span>init(baudrate<span style="color:#f92672">=</span><span style="color:#ae81ff">115200</span>, bits<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, parity<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, stop<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, tx<span style="color:#f92672">=</span>pin2, rx<span style="color:#f92672">=</span>pin1)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> Obloq<span style="color:#f92672">.</span>connectWifi(SSID,PASSWORD,<span style="color:#ae81ff">10000</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>  display<span style="color:#f92672">.</span>show(<span style="color:#e6db74">&#34;.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>display<span style="color:#f92672">.</span>scroll(Obloq<span style="color:#f92672">.</span>ifconfig())
+</span></span><span style="display:flex;"><span>Obloq<span style="color:#f92672">.</span>httpSet(IP,PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  errno,resp<span style="color:#f92672">=</span>Obloq<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;input?id=1&amp;val=&#34;</span><span style="color:#f92672">+</span>str(temperature()),<span style="color:#ae81ff">10000</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> errno <span style="color:#f92672">==</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(resp)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
+</span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><h1 id="选择性必修1-数据与数据结构">选择性必修1 数据与数据结构</h1>
+<h2 id="31-行程编码">3.1 行程编码</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pickle
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bian</span>(word <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>):
+</span></span><span style="display:flex;"><span>    new_word <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    renum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    pre <span style="color:#f92672">=</span> word[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(word)):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> word[i] <span style="color:#f92672">==</span> pre:
+</span></span><span style="display:flex;"><span>            renum <span style="color:#f92672">=</span> renum <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> len(word) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>: new_word <span style="color:#f92672">+=</span> str(renum)<span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> pre
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> i <span style="color:#f92672">!=</span> len(word) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>            new_word <span style="color:#f92672">+=</span> str(renum)<span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; &#39;</span> <span style="color:#f92672">+</span> pre <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; &#39;</span>
+</span></span><span style="display:flex;"><span>            renum <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            pre <span style="color:#f92672">=</span> word[i]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> new_word
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;图像编码.txt&#34;</span>,<span style="color:#e6db74">&#34;rb&#34;</span>)
+</span></span><span style="display:flex;"><span>st<span style="color:#f92672">=</span>pickle<span style="color:#f92672">.</span>load(f)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span>b1<span style="color:#f92672">=</span>bian(st)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;行程编码.txt&#34;</span>,<span style="color:#e6db74">&#34;wb&#34;</span>)
+</span></span><span style="display:flex;"><span>pickle<span style="color:#f92672">.</span>dump(b1,f)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h2 id="31-颜色编号">3.1 颜色编号</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">readImage</span>(filename<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>    im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(filename)
+</span></span><span style="display:flex;"><span>    im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>convert(<span style="color:#e6db74">&#39;1&#39;</span>)
+</span></span><span style="display:flex;"><span>    im_list <span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    pix <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>load()
+</span></span><span style="display:flex;"><span>    width <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]          <span style="color:#75715e"># size中有两个参数，第1个为图像宽度值</span>
+</span></span><span style="display:flex;"><span>    height <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]         <span style="color:#75715e"># 第2个参数为图像高度值</span>
+</span></span><span style="display:flex;"><span>    count<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    im<span style="color:#f92672">.</span>show(filename)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(width):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range(height):
+</span></span><span style="display:flex;"><span>            im_list <span style="color:#f92672">+=</span> str(pix[x, y]<span style="color:#f92672">//</span><span style="color:#ae81ff">255</span>)      <span style="color:#75715e"># 根据像素点坐标获得该点的 RGB 值</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> im_list
+</span></span><span style="display:flex;"><span>im_list1 <span style="color:#f92672">=</span> readImage(<span style="color:#e6db74">&#39;黑白图片.bmp&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pickle
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#保存数据</span>
+</span></span><span style="display:flex;"><span>f <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#39;图像编码.txt&#39;</span>, <span style="color:#e6db74">&#39;wb&#39;</span>)
+</span></span><span style="display:flex;"><span>pickle<span style="color:#f92672">.</span>dump(im_list1, f)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h2 id="五子棋">五子棋</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>n<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>qp<span style="color:#f92672">=</span>[[<span style="color:#ae81ff">0</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n)] <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(n)]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>    print(qp[i])
+</span></span><span style="display:flex;"><span>emp<span style="color:#f92672">=</span>n<span style="color:#f92672">*</span>n
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>long<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (long<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">5</span>)<span style="color:#f92672">and</span>(emp<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>):
+</span></span><span style="display:flex;"><span>    long<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;请黑方落子&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;请白方落子&#34;</span>)
+</span></span><span style="display:flex;"><span>    x,y<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入落子位置：&#34;</span>)<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>    x<span style="color:#f92672">=</span>int(x)
+</span></span><span style="display:flex;"><span>    y<span style="color:#f92672">=</span>int(y)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">or</span>(x<span style="color:#f92672">&gt;=</span>n)<span style="color:#f92672">or</span>(y<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">or</span>(y<span style="color:#f92672">&gt;=</span>n)<span style="color:#f92672">or</span>(qp[x][y]<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;该位置不能落子，请重新输入落子位置！&#34;</span>)
+</span></span><span style="display:flex;"><span>        x,y<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入落子位置：&#34;</span>)<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>        x<span style="color:#f92672">=</span>int(x)
+</span></span><span style="display:flex;"><span>        y<span style="color:#f92672">=</span>int(y)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        qp[x][y]<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        qp[x][y]<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>        print(qp[i])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longx<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longx<span style="color:#f92672">=</span>longx<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longx:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longx
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longy<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longy<span style="color:#f92672">=</span>longy<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longy:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longy
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>longz<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longz:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longz
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>longz<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longz:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longz
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longx<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longx<span style="color:#f92672">=</span>longx<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longx:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longx
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longy<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longy<span style="color:#f92672">=</span>longy<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longy:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longy
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>longz<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longz:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longz
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(y<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">+</span>t][y<span style="color:#f92672">-</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>t
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (x<span style="color:#f92672">-</span>t<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(y<span style="color:#f92672">+</span>t<span style="color:#f92672">&lt;</span>n)<span style="color:#f92672">and</span>(qp[x<span style="color:#f92672">-</span>t][y<span style="color:#f92672">+</span>t]<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>t<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        longz<span style="color:#f92672">=</span>longz<span style="color:#f92672">+</span>t<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> long<span style="color:#f92672">&lt;</span>longz:
+</span></span><span style="display:flex;"><span>            long<span style="color:#f92672">=</span>longz
+</span></span><span style="display:flex;"><span>    emp<span style="color:#f92672">=</span>emp<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (emp<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">and</span>(long<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>            f<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            f<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> emp<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;游戏结束，平局！&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">elif</span> long<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;游戏结束，黑方胜！&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;游戏结束，白方胜！&#34;</span>)
+</span></span></code></pre></div><h2 id="第三章-巩固与提高-软硬车厢">第三章 巩固与提高 软硬车厢</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#S:软</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#H:硬</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入n节软硬车厢的序列：&#34;</span>)
+</span></span><span style="display:flex;"><span>stack<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;&#34;</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>top<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(s)):
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> s[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;H&#34;</span>:
+</span></span><span style="display:flex;"><span>            top<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            stack[top]<span style="color:#f92672">=</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;第</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">节车厢入栈&#34;</span><span style="color:#f92672">%</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            top<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;第</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">节车厢入栈&#34;</span><span style="color:#f92672">%</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>            top<span style="color:#f92672">-=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;第</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">节车厢出栈&#34;</span><span style="color:#f92672">%</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> top<span style="color:#f92672">&gt;-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>       print(<span style="color:#e6db74">&#34;第</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">节车厢出栈&#34;</span><span style="color:#f92672">%</span>(stack[top]))
+</span></span><span style="display:flex;"><span>       top<span style="color:#f92672">-=</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h2 id="第三章-巩固与提高-餐馆取号叫号">第三章 巩固与提高 餐馆取号叫号</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>queuetwo<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>queuefour<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>queuesix<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>headtwo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>tailtwo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>headfour<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>tailfour<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>headsix<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>tailsix<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;请输入具体的操作：&#34;</span>)
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">=</span>int(input())
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> x<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>        queuetwo[tailtwo]<span style="color:#f92672">=</span>queuetwo[tailtwo]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;您当前的号码为：TWO</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">，需要等待的人数为</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(tailtwo,tailtwo<span style="color:#f92672">-</span>headtwo))
+</span></span><span style="display:flex;"><span>        tailtwo<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">4</span>:
+</span></span><span style="display:flex;"><span>        queuefour[tailfour]<span style="color:#f92672">=</span>queuefour[tailfour]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;您当前的号码为：FOUR</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">，需要等待的人数为</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(tailfour,tailfour<span style="color:#f92672">-</span>headfour))
+</span></span><span style="display:flex;"><span>        tailfour<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">6</span>:
+</span></span><span style="display:flex;"><span>        queuesix[tailsix]<span style="color:#f92672">=</span>queuesix[tailsix]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;您当前的号码为：SIX</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">，需要等待的人数为</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(tailsix,tailsix<span style="color:#f92672">-</span>headsix))
+</span></span><span style="display:flex;"><span>        tailsix<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">12</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> headtwo<span style="color:#f92672">==</span>tailtwo:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;对不起，没有等待的人&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;请TWO</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">号客户准备，马上帮您安排&#34;</span><span style="color:#f92672">%</span>(headtwo))
+</span></span><span style="display:flex;"><span>              headtwo<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">14</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> headfour<span style="color:#f92672">==</span>tailfour:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;对不起，没有等待的人&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;请FOUR</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">号客户准备，马上帮您安排&#34;</span><span style="color:#f92672">%</span>(headfour))
+</span></span><span style="display:flex;"><span>              headfour<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">16</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> headsix<span style="color:#f92672">==</span>tailsix:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;对不起，没有等待的人&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;请SIX</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">号客户准备，马上帮您安排&#34;</span><span style="color:#f92672">%</span>(headsix))
+</span></span><span style="display:flex;"><span>              headsix<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    x<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入操作：&#34;</span>))
+</span></span></code></pre></div>
+			
+		</article>
+	</main>
+
+  <a href="https://xy-iii.github.io/posts/english/">Prev: English</a>
+
+<br>
+
+<aside>
+    <div>
+        <div>
+            <h3>LATEST POSTS</h3>
+        </div>
+        <div>
+            <ul>
+                
+                <li><a href="/posts/code_in_ncee/">Code in ncee</a></li>
+                
+                <li><a href="/posts/english/">English</a></li>
+                
+                <li><a href="/posts/calendar/">calendar</a></li>
+                
+                <li><a href="/posts/math_formula/">Math formula</a></li>
+                
+                <li><a href="/posts/probability_theory/">Probability theory</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</aside>
+
+
+	<footer>
+    <p>&copy; 2022 <a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a></p>
+</footer>
+
+</body>
+</html>

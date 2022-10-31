@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Oct 2022 12:51:40 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 01:37:02 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code in ncee</title>
+      <link>https://xy-iii.github.io/posts/code_in_ncee/</link>
+      <pubDate>Thu, 27 Oct 2022 01:37:02 +0800</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/code_in_ncee/</guid>
+      <description>必修1 数据与计算 必修1 第一章 素材 必修1 第二章 素材 必修1 第三章 素材 3.1 用计算机解决问题的一般过程 import turtle n=int(input(&amp;#34;请输入正多边形的边数n：&amp;#34;)) a=int(input(&amp;#34;请输入边长a：&amp;#34;)) d=(n-2)*180/n t=turtle.Pen() for i in range(n): #重复执行n遍 t.forward(a) #向前绘制长度为a的线段 t.left(180-d) #向左旋转（180-d）度 3.2 Python语言程序设计 3.2 实践与体验——编程实现图像的简单处理 from PIL import Image import numpy as np import matplotlib.pyplot as plt img=np.array(Image.open(&amp;#39;lena.jpg&amp;#39;).convert(&amp;#39;L&amp;#39;)) rows,cols=img.shape for i in range(rows): for j in range(cols): if (img[i,j]&amp;lt;=128): img[i,j]=0 else: img[i,j]=1 plt.figure(&amp;#34;lena &amp;#34;) plt.imshow(img,cmap=&amp;#39;gray&amp;#39;) plt.axis(&amp;#39;off&amp;#39;) plt.show() 3.3 简单算法及其程序实现 3.3 实践与体验——图像字符画 from PIL import Image serarr=[&amp;#39;@&amp;#39;,&amp;#39;#&amp;#39;,&amp;#39;$&amp;#39;,&amp;#39;%&amp;#39;,&amp;#39;&amp;amp;&amp;#39;,&amp;#39;?</description>
+    </item>
+    
     <item>
       <title>English</title>
       <link>https://xy-iii.github.io/posts/english/</link>
