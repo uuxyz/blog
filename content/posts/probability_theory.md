@@ -7,6 +7,58 @@ math: true
 
 # Bernoulli distribution
 
+| Mean     | $$p$$         |
+|----------|---------------|
+| Variance | $$p(1-p)=pq$$ |
+
+# Binomial distribution
+
+| Notation   | $$B(n,p)$$                                                  |
+|------------|-------------------------------------------------------------|
+| Parameters | $$n\in \\{0,1,2,\ldots \\}  $$  $$ p\in [0,1] $$ $$ q=1-p$$ |
+| Support    | $$k\in \\{0,1,\ldots ,n\\}$$                                |
+| PMF        | $$\binom {n}{k}p^kq^{n-k}$$                                 |
+| Mean       | $$np$$                                                      |
+| Median     | $$\lfloor np\rfloor$$       $$\lceil np\rceil$$             |
+| Variance   | $$npq$$                                                     |
+
+# Normal distribution
+
+| Notation | $$\mathcal{N}(\mu,\sigma^2)$$                                                                           |
+|----------|---------------------------------------------------------------------------------------------------------|
+| PDF      | $${\frac{1}{\sigma{\sqrt{2\pi}}}}\exp\left(-{\frac{1}{2}}\left({\frac{x-\mu}{\sigma}}\right)^2\right)$$ |
+| Mean     | $$\mu$$                                                                                                 |
+| Median   | $$\mu$$                                                                                                 |
+| Variance | $$\sigma^2$$                                                                                            |
+
+# Geometric distribution
+
+| Parameters | $$0<p\leq 1$$               | $$0<p\leq 1$$                 |
+|------------|-----------------------------|-------------------------------|
+| Support    | $$k\in \\{1,2,3,\dots \\}$$ | $$k\in \\{0,1,2,3,\dots \\}$$ |
+| PMF        | $$(1-p)^{k-1}p$$            | $$(1-p)^{k}p$$                |
+| Mean       | $$\frac{1}{p}$$             | $$\frac {1-p}{p}$$            |
+| Variance   | $$\frac{1-p}{p^{2}}$$       | $$\frac{1-p}{p^{2}}$$         |
+
+# Hypergeometric distribution
+
+| Parameters | $$\begin{aligned}N&\in \left\\{0,1,2,\dots \right\\}\\\\K&\in \left\\{0,1,2,\dots,N\right\\}\\\\n&\in \left\\{0,1,2,\dots,N\right\\}\end{aligned}$$ |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| PMF        | $${{K\choose k}{{N-K} \choose {n-k}}} \over {N \choose n} $$                                                                                        |
+| Mean       | $$n{K\over N} $$                                                                                                                                    |
+| Variance   | $$n{K\over N}{N-K \over N}{N-n \over N-1} $$                                                                                                        |
+
+# Chi-squared distribution
+
+| Notation   | $$\chi_{k}^{2}$$                                                        |
+|------------|-------------------------------------------------------------------------|
+| Parameters | $$k\in \mathbb {N} ^{*}$$                                               |
+| PDF        | $$\frac{1}{2^{k/2}\Gamma (k/2)}x^{k/2-1}\exp\left(-\frac{x}{2}\right)$$ |
+
+<!--
+
+# Bernoulli distribution
+
 | Parameters         | $$0\leq p\leq 1$$   $$q=1-p$$                                                                                    |
 |--------------------|------------------------------------------------------------------------------------------------------------------|
 | Support            | $$ k\in \\{0,1\\} $$                                                                                             |
@@ -116,3 +168,5 @@ math: true
 |      MGF     |    $$ (1-2t)^{-k/2}{\text{ for }}t<{\frac {1}{2}}$$|
 |      CF      |          $$ (1-2it)^{-k/2}$$|
 |      PGF     |                  $$ (1-2\ln t)^{-k/2}{\text{ for }}0<t<{\sqrt {e}}$$|
+
+-->
