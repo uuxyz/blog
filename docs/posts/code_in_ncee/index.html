@@ -442,7 +442,7 @@
 </span></span><span style="display:flex;"><span>server <span style="color:#f92672">=</span> Server(host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0.0.0.0&#34;</span>,port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>,threaded<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
 </span></span><span style="display:flex;"><span>manager<span style="color:#f92672">.</span>add_command(<span style="color:#e6db74">&#34;runserver&#34;</span>,server)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#39;/&#39;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;这是我的第一个网页程序！&#39;</span>
 </span></span><span style="display:flex;"><span>
@@ -478,7 +478,7 @@
 </span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> StringField(<span style="color:#e6db74">&#39;请开始交谈：&#39;</span>, validators<span style="color:#f92672">=</span>[Required()])
 </span></span><span style="display:flex;"><span>    submit <span style="color:#f92672">=</span> SubmitField(<span style="color:#e6db74">&#39;提交&#39;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
 </span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
 </span></span><span style="display:flex;"><span>    form <span style="color:#f92672">=</span> NameForm()
@@ -579,15 +579,15 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#    submit1 = SubmitField(&#39;清除&#39;)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>errorhandler(<span style="color:#ae81ff">404</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.errorhandler</span>(<span style="color:#ae81ff">404</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">page_not_found</span>(e):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;404.html&#39;</span>), <span style="color:#ae81ff">404</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>errorhandler(<span style="color:#ae81ff">500</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.errorhandler</span>(<span style="color:#ae81ff">500</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">internal_server_error</span>(e):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> render_template(<span style="color:#e6db74">&#39;500.html&#39;</span>), <span style="color:#ae81ff">500</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#39;/&#39;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;POST&#39;</span>])
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">index</span>():
 </span></span><span style="display:flex;"><span>    name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
 </span></span><span style="display:flex;"><span>    rp_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
@@ -1115,6 +1115,8 @@
         <div>
             <ul>
                 
+                <li><a href="/posts/biology/">Biology</a></li>
+                
                 <li><a href="/posts/chinese/">中文</a></li>
                 
                 <li><a href="/posts/code_in_ncee/">Code in ncee</a></li>
@@ -1122,8 +1124,6 @@
                 <li><a href="/posts/english/">English</a></li>
                 
                 <li><a href="/posts/calendar/">calendar</a></li>
-                
-                <li><a href="/posts/math_formula/">Math formula</a></li>
                 
             </ul>
         </div>

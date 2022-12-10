@@ -64,70 +64,14 @@
 <table>
 <thead>
 <tr>
-<th>Parameters</th>
-<th>$$0\leq p\leq 1$$   $$q=1-p$$</th>
+<th>Mean</th>
+<th>$$p$$</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Support</td>
-<td>$$ k\in \{0,1\} $$</td>
-</tr>
-<tr>
-<td>PMF</td>
-<td>$$  \begin{cases}q=1-p&amp;{\text{if }}k=0\\p&amp;{\text{if }}k=1\end{cases} $$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$ \begin{cases}0&amp;{\text{if }}k&lt;0\\1-p&amp;{\text{if }}0\leq k&lt;1\\1&amp;{\text{if }}k\geq 1\end{cases} $$</td>
-</tr>
-<tr>
-<td>Mean</td>
-<td>$$   p $$</td>
-</tr>
-<tr>
-<td>Median</td>
-<td>$$  \begin{cases}0&amp;{\text{if }}p&lt;1/2\\\left[0,1\right]&amp;{\text{if  }}p=1/2\\1&amp;{\text{if }}p&gt;1/2\end{cases} $$</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>$$  \begin{cases}0&amp;{\text{if }}p&lt;1/2\\0,1&amp;{\text{if }}p=1/2\\1&amp;{\text{if }}p&gt;1/2\end{cases}$$</td>
-</tr>
-<tr>
 <td>Variance</td>
-<td>$$          p(1-p)=pq  $$</td>
-</tr>
-<tr>
-<td>MAD</td>
-<td>$$ \frac {1}{2}$$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$ \frac {q-p}{\sqrt {pq}} $$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$ \frac {1-6pq}{pq}   $$</td>
-</tr>
-<tr>
-<td>Entropy</td>
-<td>$$  -q\ln q-p\ln p $$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$  q+pe^{t} $$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$    q+pe^{it}  $$</td>
-</tr>
-<tr>
-<td>PGF</td>
-<td>$$  q+pz $$</td>
-</tr>
-<tr>
-<td>Fisher information</td>
-<td>$$  \frac {1}{pq}$$</td>
+<td>$$p(1-p)=pq$$</td>
 </tr>
 </tbody>
 </table>
@@ -142,19 +86,15 @@
 <tbody>
 <tr>
 <td>Parameters</td>
-<td>$$ n\in \{0,1,2,\ldots \}  $$  $$ p\in [0,1] $$ $$ q=1-p$$</td>
+<td>$$n\in \{0,1,2,\ldots \}  $$  $$ p\in [0,1] $$ $$ q=1-p$$</td>
 </tr>
 <tr>
 <td>Support</td>
-<td>$$ k\in \{0,1,\ldots ,n\}$$</td>
+<td>$$k\in \{0,1,\ldots ,n\}$$</td>
 </tr>
 <tr>
 <td>PMF</td>
-<td>$$ \binom {n}{k}p^kq^{n-k} $$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$ I_q(n-k,1+k)$$</td>
+<td>$$\binom {n}{k}p^kq^{n-k}$$</td>
 </tr>
 <tr>
 <td>Mean</td>
@@ -165,40 +105,8 @@
 <td>$$\lfloor np\rfloor$$       $$\lceil np\rceil$$</td>
 </tr>
 <tr>
-<td>Mode</td>
-<td>$$\lfloor (n+1)p\rfloor $$      $$ \lceil (n+1)p\rceil -1$$</td>
-</tr>
-<tr>
 <td>Variance</td>
-<td>$$ npq$$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$\frac {q-p}{\sqrt {npq}}$$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$ {\frac {1-6pq}{npq}}$$</td>
-</tr>
-<tr>
-<td>Entropy</td>
-<td>$$ {\frac {1}{2}}\log _{2}(2\pi enpq)+O\left({\frac {1}{n}}\right)$$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$(q+pe^{t})^{n}$$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$(q+pe^{it})^{n}$$</td>
-</tr>
-<tr>
-<td>PGF</td>
-<td>$$G(z)=[q+pz]^{n}$$</td>
-</tr>
-<tr>
-<td>Fisher information</td>
-<td>$$g_{n}(p)={\frac {n}{pq}}$$    $$n$$</td>
+<td>$$npq$$</td>
 </tr>
 </tbody>
 </table>
@@ -212,72 +120,20 @@
 </thead>
 <tbody>
 <tr>
-<td>Parameters</td>
-<td>$$ \mu \in \mathbb {R}$$ $$\sigma^2\in \mathbb{R}_{&gt;0}$$</td>
-</tr>
-<tr>
-<td>Support</td>
-<td>$$ x\in \mathbb {R} $$</td>
-</tr>
-<tr>
 <td>PDF</td>
-<td>$$ {\frac {1}{\sigma {\sqrt {2\pi }}}}e^{-{\frac {1}{2}}\left({\frac {x-\mu }{\sigma }}\right)^{2}}$$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$ {\frac {1}{2}}\left[1+\operatorname {erf} \left({\frac {x-\mu }{\sigma {\sqrt {2}}}}\right)\right]$$</td>
-</tr>
-<tr>
-<td>Quantile</td>
-<td>$$ \mu +\sigma {\sqrt {2}}\operatorname {erf} ^{-1}(2p-1)$$</td>
+<td>$${\frac{1}{\sigma{\sqrt{2\pi}}}}\exp\left(-{\frac{1}{2}}\left({\frac{x-\mu}{\sigma}}\right)^2\right)$$</td>
 </tr>
 <tr>
 <td>Mean</td>
-<td>$$ \mu $$</td>
+<td>$$\mu$$</td>
 </tr>
 <tr>
 <td>Median</td>
-<td>$$ \mu $$</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>$$ \mu $$</td>
+<td>$$\mu$$</td>
 </tr>
 <tr>
 <td>Variance</td>
-<td>$$ \sigma ^{2}$$</td>
-</tr>
-<tr>
-<td>MAD</td>
-<td>$$ \sigma {\sqrt {2/\pi }}$$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$ 0$$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$ 0$$</td>
-</tr>
-<tr>
-<td>Entropy</td>
-<td>$$ {\frac{1}{2}}\log(2\pi \sigma ^{2})+{\frac {1}{2}}$$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$ \exp(\mu t+\sigma^2t^2/2)$$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$ \exp(i\mu t-\sigma^2t^2/2)$$</td>
-</tr>
-<tr>
-<td>Fisher information</td>
-<td>$$ \mathcal{I}(\mu,\sigma)=\begin{pmatrix}1/\sigma^2&amp;0\\0&amp;2/\sigma^2\end{pmatrix}$$ $$\mathcal{I}(\mu,\sigma^2)=\begin{pmatrix}1/\sigma^2&amp;0\\0&amp;1/(2\sigma^4)\end{pmatrix}$$</td>
-</tr>
-<tr>
-<td>Kullback-Leibler divergence</td>
-<td>$$ {1 \over 2}\left\{\left({\frac{\sigma_0}{\sigma_1}}\right)^2+{\frac{(\mu_1-\mu_0)^2}{\sigma_1^2}}-1+\ln {\sigma_1^2 \over \sigma _0^2}\right\}$$</td>
+<td>$$\sigma^2$$</td>
 </tr>
 </tbody>
 </table>
@@ -286,25 +142,20 @@
 <thead>
 <tr>
 <th>Parameters</th>
-<th>$$ 0&lt;p\leq 1$$</th>
-<th>$$ 0&lt;p\leq 1$$</th>
+<th>$$0&lt;p\leq 1$$</th>
+<th>$$0&lt;p\leq 1$$</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Support</td>
-<td>$$ k\in \{1,2,3,\dots \}$$</td>
-<td>$$ k\in \{0,1,2,3,\dots \}$$</td>
+<td>$$k\in \{1,2,3,\dots \}$$</td>
+<td>$$k\in \{0,1,2,3,\dots \}$$</td>
 </tr>
 <tr>
 <td>PMF</td>
-<td>$$ (1-p)^{k-1}p$$</td>
-<td>$$ (1-p)^{k}p$$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$ 1-(1-p)^{\lfloor k\rfloor }$$ $$ k\geq 1$$ $$0$$ $$k&lt;1$$</td>
-<td>$$1-(1-p)^{\lfloor k\rfloor +1}$$ $$k\geq 0$$ $$0$$ $$k&lt;0$$</td>
+<td>$$(1-p)^{k-1}p$$</td>
+<td>$$(1-p)^{k}p$$</td>
 </tr>
 <tr>
 <td>Mean</td>
@@ -312,44 +163,9 @@
 <td>$$\frac {1-p}{p}$$</td>
 </tr>
 <tr>
-<td>Median</td>
-<td>$$\left\lceil \frac{-1}{\log_{2}(1-p)}\right\rceil $$  $$-1/\log_{2}(1-p)$$</td>
-<td>$$\left\lceil\frac{-1}{\log_{2}(1-p)}\right\rceil -1 $$ $$ -1/\log_{2}(1-p)$$</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>$$1$$</td>
-<td>$$0$$</td>
-</tr>
-<tr>
 <td>Variance</td>
 <td>$$\frac{1-p}{p^{2}}$$</td>
 <td>$$\frac{1-p}{p^{2}}$$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$\frac {2-p}{\sqrt {1-p}} $$</td>
-<td>$$\frac {2-p}{\sqrt {1-p}} $$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$6+\frac{p^{2}}{1-p}$$</td>
-<td>$$6+\frac{p^{2}}{1-p}$$</td>
-</tr>
-<tr>
-<td>Entropy</td>
-<td>$$\tfrac{-(1-p)\log_{2}(1-p)-p\log _{2}p}{p}$$</td>
-<td>$$\tfrac{-(1-p)\log_{2}(1-p)-p\log _{2}p}{p}$$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$\frac {pe^{t}}{1-(1-p)e^{t}}$$ $$t&lt;-\ln(1-p)$$</td>
-<td>$$\frac {p}{1-(1-p)e^{t}}$$ $$t&lt;-\ln(1-p)$$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$\frac {pe^{it}}{1-(1-p)e^{it}}$$</td>
-<td>$$\frac {p}{1-(1-p)e^{it}}$$</td>
 </tr>
 </tbody>
 </table>
@@ -363,44 +179,16 @@
 </thead>
 <tbody>
 <tr>
-<td>Support</td>
-<td>$$k\in\left\{\max {(0,n+K-N)},\dots,\min {(n,K)}\right\}$$</td>
-</tr>
-<tr>
 <td>PMF</td>
-<td>$${{K \choose k}{{N-K} \choose {n-k}}} \over {N \choose n} $$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$1-{{{n \choose {k+1}}{{N-n} \choose {K-k-1}}}\over{N \choose K}}{}_3F_2\left[\begin{array}{c}1, k+1-K, k+1-n\\k+2, N+k+2-K-n  \end{array};1\right] $$</td>
+<td>$${{K\choose k}{{N-K} \choose {n-k}}} \over {N \choose n} $$</td>
 </tr>
 <tr>
 <td>Mean</td>
-<td>$$ n{K \over N} $$</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>$$ \left\lceil {\frac {(n+1)(K+1)}{N+2}}\right\rceil -1,\left\lfloor {\frac {(n+1)(K+1)}{N+2}}\right\rfloor$$</td>
+<td>$$n{K\over N} $$</td>
 </tr>
 <tr>
 <td>Variance</td>
-<td>$$   n{K \over N}{N-K \over N}{N-n \over N-1} $$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$  {\frac {(N-2K)(N-1)^{\frac {1}{2}}(N-2n)}{[nK(N-K)(N-n)]^{\frac {1}{2}}(N-2)}}$$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$ \frac{1}{nK(N-K)(N-n)(N-2)(N-3)}\cdot\Big[(N-1)N^2\Big(N(N+1)-6K(N-K)-6n(N-n)\Big)+6nK(N-K)(N-n)(5N-6)\Big]  $$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$   \frac{{N-K \choose n}{}_2F_1(-n,-K;N-K-n+1;e^{t})}{N \choose n}$$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$   \frac{{N-K \choose n}{}_2F_1(-n,-K;N-K-n+1;e^{it})}{N \choose n}$$</td>
+<td>$$n{K\over N}{N-K \over N}{N-n \over N-1} $$</td>
 </tr>
 </tbody>
 </table>
@@ -409,7 +197,7 @@
 <thead>
 <tr>
 <th>Notation</th>
-<th>$$\chi^{2}(k)$$ $$\chi_{k}^{2}$$</th>
+<th>$$\chi_{k}^{2}$$</th>
 </tr>
 </thead>
 <tbody>
@@ -418,55 +206,13 @@
 <td>$$k\in \mathbb {N} ^{*}$$</td>
 </tr>
 <tr>
-<td>Support</td>
-<td>$$ x\in(0,+\infty )$$ $$k=1$$ $$x\in [0,+\infty )$$</td>
-</tr>
-<tr>
 <td>PDF</td>
-<td>$$\frac{1}{2^{k/2}\Gamma (k/2)}x^{k/2-1}e^{-x/2}$$</td>
-</tr>
-<tr>
-<td>CDF</td>
-<td>$$\frac{1}{\Gamma (k/2)}\gamma\left({\frac {k}{2}}{\frac {x}{2}}\right)$$</td>
-</tr>
-<tr>
-<td>Mean</td>
-<td>$$k$$</td>
-</tr>
-<tr>
-<td>Median</td>
-<td>$$\approx k{\bigg (}1-{\frac {2}{9k}}{\bigg )}^{3}$$</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>$$\max(k-2,0)$$ $$2k$$</td>
-</tr>
-<tr>
-<td>Skewness</td>
-<td>$$\sqrt {8/k}$$</td>
-</tr>
-<tr>
-<td>Ex. kurtosis</td>
-<td>$$\frac{12}{k}$$</td>
-</tr>
-<tr>
-<td>Entropy</td>
-<td>$$\begin{aligned}{\frac {k}{2}}&amp;+\ln(2\Gamma ({\frac  {k}{2}}))\\&amp;!+(1-{\frac {k}{2}})\psi ({\frac  {k}{2}})\end{aligned}$$</td>
-</tr>
-<tr>
-<td>MGF</td>
-<td>$$ (1-2t)^{-k/2}{\text{ for }}t&lt;{\frac {1}{2}}$$</td>
-</tr>
-<tr>
-<td>CF</td>
-<td>$$ (1-2it)^{-k/2}$$</td>
-</tr>
-<tr>
-<td>PGF</td>
-<td>$$ (1-2\ln t)^{-k/2}{\text{ for }}0&lt;t&lt;{\sqrt {e}}$$</td>
+<td>$$\frac{1}{2^{k/2}\Gamma (k/2)}x^{k/2-1}\exp\left(-\frac{x}{2}\right)$$</td>
 </tr>
 </tbody>
 </table>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 			
 		</article>
@@ -486,6 +232,8 @@
         <div>
             <ul>
                 
+                <li><a href="/posts/biology/">Biology</a></li>
+                
                 <li><a href="/posts/chinese/">中文</a></li>
                 
                 <li><a href="/posts/code_in_ncee/">Code in ncee</a></li>
@@ -493,8 +241,6 @@
                 <li><a href="/posts/english/">English</a></li>
                 
                 <li><a href="/posts/calendar/">calendar</a></li>
-                
-                <li><a href="/posts/math_formula/">Math formula</a></li>
                 
             </ul>
         </div>
