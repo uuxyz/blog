@@ -13,7 +13,7 @@
 </head>
 <body>
 	<header>
-    <a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a>
+    <h1><a href="https://xy-iii.github.io">𝒩𝑒𝓋𝑒𝓇 𝓀𝓃𝑜𝓌𝓈 𝒷𝑒𝓈𝓉</a></h1>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     
 </header>
@@ -100,11 +100,55 @@
     </li>
     <li><a href="#选择性必修1-数据与数据结构">选择性必修1 数据与数据结构</a>
       <ul>
+        <li><a href="#21-数组">2.1 数组</a></li>
+        <li><a href="#22-链表">2.2 链表</a></li>
+        <li><a href="#31字符串">3.1字符串</a>
+          <ul>
+            <li><a href="#回文串">回文串</a></li>
+            <li><a href="#机动车违章识别系统">机动车违章识别系统</a></li>
+            <li><a href="#正则表达式">正则表达式</a></li>
+          </ul>
+        </li>
+        <li><a href="#32-队列">3.2 队列</a>
+          <ul>
+            <li><a href="#信息的加密">信息的加密</a></li>
+            <li><a href="#银行叫号排队系统">银行叫号排队系统</a></li>
+          </ul>
+        </li>
+        <li><a href="#33-栈">3.3 栈</a>
+          <ul>
+            <li><a href="#十进制转二进制进出栈方式">十进制转二进制进出栈方式</a></li>
+            <li><a href="#括号匹配">括号匹配</a></li>
+          </ul>
+        </li>
         <li><a href="#31-行程编码">3.1 行程编码</a></li>
         <li><a href="#31-颜色编号">3.1 颜色编号</a></li>
         <li><a href="#五子棋">五子棋</a></li>
         <li><a href="#第三章-巩固与提高-软硬车厢">第三章 巩固与提高 软硬车厢</a></li>
         <li><a href="#第三章-巩固与提高-餐馆取号叫号">第三章 巩固与提高 餐馆取号叫号</a></li>
+        <li><a href="#41-树与二叉树">4.1 树与二叉树</a></li>
+        <li><a href="#42-二叉树的基本操作">4.2 二叉树的基本操作</a>
+          <ul>
+            <li><a href="#二叉树遍历的python程序实现">二叉树遍历的Python程序实现</a></li>
+          </ul>
+        </li>
+        <li><a href="#43-抽象数据类型">4.3 抽象数据类型</a></li>
+        <li><a href="#52-迭代与递归">5.2 迭代与递归</a>
+          <ul>
+            <li><a href="#欧几里得算法">欧几里得算法</a></li>
+            <li><a href="#汉诺塔游戏">汉诺塔游戏</a></li>
+            <li><a href="#走迷宫">走迷宫</a></li>
+            <li><a href="#冒泡排序">冒泡排序</a></li>
+            <li><a href="#奥运排行榜">奥运排行榜</a></li>
+          </ul>
+        </li>
+        <li><a href="#54-数据查找">5.4 数据查找</a>
+          <ul>
+            <li><a href="#顺序查找">顺序查找</a></li>
+            <li><a href="#二分查找">二分查找</a></li>
+            <li><a href="#航空公司vip会员积分查询">航空公司VIP会员积分查询</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -867,7 +911,302 @@
 </span></span><span style="display:flex;"><span>    display<span style="color:#f92672">.</span>scroll(str(errno))
 </span></span><span style="display:flex;"><span>  sleep(<span style="color:#ae81ff">1000</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
 </span></span></code></pre></div><h1 id="选择性必修1-数据与数据结构">选择性必修1 数据与数据结构</h1>
-<h2 id="31-行程编码">3.1 行程编码</h2>
+<h2 id="21-数组">2.1 数组</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>b<span style="color:#f92672">=</span>[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">15</span>
+</span></span><span style="display:flex;"><span>c<span style="color:#f92672">=</span>[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">35</span>
+</span></span><span style="display:flex;"><span>a[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span>randint(<span style="color:#ae81ff">95</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>):
+</span></span><span style="display:flex;"><span>    a[i]<span style="color:#f92672">=</span>a[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">-</span>randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>b[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span>randint(<span style="color:#ae81ff">95</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">15</span>):
+</span></span><span style="display:flex;"><span>    b[i]<span style="color:#f92672">=</span>b[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">-</span>randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;原始数据序列一为：&#34;</span>)
+</span></span><span style="display:flex;"><span>print(a)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;原始数据序列二为：&#34;</span>)
+</span></span><span style="display:flex;"><span>print(b)
+</span></span><span style="display:flex;"><span>i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>(i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">20</span> <span style="color:#f92672">and</span> j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">15</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> a[i]<span style="color:#f92672">&gt;=</span>b[j]:
+</span></span><span style="display:flex;"><span>        c[k]<span style="color:#f92672">=</span>a[i]
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">=</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        k<span style="color:#f92672">=</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        c[k]<span style="color:#f92672">=</span>b[j]
+</span></span><span style="display:flex;"><span>        j<span style="color:#f92672">=</span>j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        k<span style="color:#f92672">=</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">20</span>:
+</span></span><span style="display:flex;"><span>    c[k]<span style="color:#f92672">=</span>a[i]
+</span></span><span style="display:flex;"><span>    i<span style="color:#f92672">=</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    k<span style="color:#f92672">=</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">15</span>:
+</span></span><span style="display:flex;"><span>    c[k]<span style="color:#f92672">=</span>b[j]
+</span></span><span style="display:flex;"><span>    j<span style="color:#f92672">=</span>j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    k<span style="color:#f92672">=</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;合并后的数据序列为：&#34;</span>)
+</span></span><span style="display:flex;"><span>print(c)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>[[<span style="color:#ae81ff">100</span><span style="color:#f92672">-</span><span style="color:#ae81ff">4</span><span style="color:#f92672">*</span>i<span style="color:#f92672">+</span>randint(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>),i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">15</span>)]
+</span></span><span style="display:flex;"><span>b<span style="color:#f92672">=</span>[[<span style="color:#ae81ff">100</span><span style="color:#f92672">-</span><span style="color:#ae81ff">4</span><span style="color:#f92672">*</span>i<span style="color:#f92672">+</span>randint(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>),i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">20</span>)]
+</span></span><span style="display:flex;"><span>a[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>b[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>ptr_a<span style="color:#f92672">=</span>ptr_b<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> ptr_b<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> a[ptr_a][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">&gt;</span>b[ptr_b][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">and</span> a[ptr_a][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        ptr_a<span style="color:#f92672">=</span>a[ptr_a][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> a[ptr_a][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">&lt;=</span>b[ptr_b][<span style="color:#ae81ff">0</span>]:
+</span></span><span style="display:flex;"><span>        a[ptr_a][<span style="color:#ae81ff">0</span>],b[ptr_b][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">=</span>b[ptr_b][<span style="color:#ae81ff">0</span>],a[ptr_a][<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    a<span style="color:#f92672">.</span>append([b[ptr_b][<span style="color:#ae81ff">0</span>],a[ptr_a][<span style="color:#ae81ff">1</span>]])
+</span></span><span style="display:flex;"><span>    a[ptr_a][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>len(a)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    ptr_b<span style="color:#f92672">=</span>b[ptr_b][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>ptr_c<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> ptr_c<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    print(a[ptr_c][<span style="color:#ae81ff">0</span>],end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>    ptr_c<span style="color:#f92672">=</span>a[ptr_c][<span style="color:#ae81ff">1</span>]
+</span></span></code></pre></div><h2 id="22-链表">2.2 链表</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randint
+</span></span><span style="display:flex;"><span>data_a<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span>head_a<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>data_b<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span>head_b<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">=</span>randint(<span style="color:#ae81ff">95</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>data_a<span style="color:#f92672">.</span>append([tmp,head_a])
+</span></span><span style="display:flex;"><span>head_a<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>):
+</span></span><span style="display:flex;"><span>    tmp<span style="color:#f92672">=</span>data_a[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">-</span>randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    data_a<span style="color:#f92672">.</span>append([tmp,data_a[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]])
+</span></span><span style="display:flex;"><span>    data_a[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>i
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;链表结构的原始数据序列一&#34;</span>)
+</span></span><span style="display:flex;"><span>print(data_a)
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">=</span>randint(<span style="color:#ae81ff">95</span>, <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>data_b<span style="color:#f92672">.</span>append([tmp,head_b])
+</span></span><span style="display:flex;"><span>head_b<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">25</span>):
+</span></span><span style="display:flex;"><span>    tmp<span style="color:#f92672">=</span>data_b[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">-</span>randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    data_b<span style="color:#f92672">.</span>append([tmp,data_b[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]])
+</span></span><span style="display:flex;"><span>    data_b[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>i
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;链表结构的原始数据序列二&#34;</span>)
+</span></span><span style="display:flex;"><span>print(data_b)
+</span></span><span style="display:flex;"><span>k_a<span style="color:#f92672">=</span>head_a
+</span></span><span style="display:flex;"><span>q_a<span style="color:#f92672">=</span>head_a
+</span></span><span style="display:flex;"><span>k_b<span style="color:#f92672">=</span>head_b
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (k_a<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">and</span> k_b<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> data_a[k_a][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">&gt;=</span>data_b[k_b][<span style="color:#ae81ff">0</span>]:
+</span></span><span style="display:flex;"><span>        q_a<span style="color:#f92672">=</span>k_a
+</span></span><span style="display:flex;"><span>        k_a<span style="color:#f92672">=</span>data_a[k_a][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> k_a<span style="color:#f92672">==</span>head_a:
+</span></span><span style="display:flex;"><span>            data_a<span style="color:#f92672">.</span>append([data_b[k_b][<span style="color:#ae81ff">0</span>],head_a])
+</span></span><span style="display:flex;"><span>            head_a<span style="color:#f92672">=</span>len(data_a)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            q_a<span style="color:#f92672">=</span>head_a
+</span></span><span style="display:flex;"><span>            k_b<span style="color:#f92672">=</span>data_b[k_b][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            data_a<span style="color:#f92672">.</span>append([data_b[k_b][<span style="color:#ae81ff">0</span>],k_a])
+</span></span><span style="display:flex;"><span>            data_a[q_a][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>len(data_a)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            q_a<span style="color:#f92672">=</span>data_a[q_a][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>            k_b<span style="color:#f92672">=</span>data_b[k_b][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> k_b<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    data_a<span style="color:#f92672">.</span>append([data_b[k_b][<span style="color:#ae81ff">0</span>],<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    data_a[q_a][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>len(data_a)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    q_a<span style="color:#f92672">=</span>data_a[q_a][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    k_b<span style="color:#f92672">=</span>data_b[k_b][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;链表结构合并后数据序列&#34;</span>)
+</span></span><span style="display:flex;"><span>print(data_a)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;按链表链接顺序输出数据序列&#34;</span>)
+</span></span><span style="display:flex;"><span>tmp<span style="color:#f92672">=</span>head_a
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> data_a[tmp][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    print(data_a[tmp][<span style="color:#ae81ff">0</span>],end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>    tmp<span style="color:#f92672">=</span>data_a[tmp][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>print(data_a[tmp][<span style="color:#ae81ff">0</span>])
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>llist<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span>n<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入参与人数(N):&#34;</span>))
+</span></span><span style="display:flex;"><span>m<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入淘汰数(M):&#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    llist<span style="color:#f92672">.</span>append([i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>llist<span style="color:#f92672">.</span>append([n,<span style="color:#ae81ff">0</span>])
+</span></span><span style="display:flex;"><span>head<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>long<span style="color:#f92672">=</span>n
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">=</span>head
+</span></span><span style="display:flex;"><span>i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> long <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    i<span style="color:#f92672">=</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i<span style="color:#f92672">==</span>m:
+</span></span><span style="display:flex;"><span>        t<span style="color:#f92672">=</span>llist[k][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        llist[k][<span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>llist[t][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> t<span style="color:#f92672">==</span>head:
+</span></span><span style="display:flex;"><span>            head<span style="color:#f92672">=</span>llist[k][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        long<span style="color:#f92672">=</span>long<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    k<span style="color:#f92672">=</span>llist[k][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>print(llist[head][<span style="color:#ae81ff">0</span>])
+</span></span></code></pre></div><h2 id="31字符串">3.1字符串</h2>
+<h3 id="回文串">回文串</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>s<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入一个字符串:&#34;</span>)
+</span></span><span style="display:flex;"><span>length<span style="color:#f92672">=</span>len(s)
+</span></span><span style="display:flex;"><span>mid<span style="color:#f92672">=</span>length<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>left<span style="color:#f92672">=</span>s[<span style="color:#ae81ff">0</span>:mid]
+</span></span><span style="display:flex;"><span>temp<span style="color:#f92672">=</span>s[<span style="color:#f92672">-</span>mid:]
+</span></span><span style="display:flex;"><span>right<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(temp)):
+</span></span><span style="display:flex;"><span>    right<span style="color:#f92672">=</span>right<span style="color:#f92672">+</span>temp[len(temp)<span style="color:#f92672">-</span>i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> left<span style="color:#f92672">==</span>right:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Yes&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;No&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入一个字符串:&#34;</span>)
+</span></span><span style="display:flex;"><span>s1<span style="color:#f92672">=</span>s[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> s<span style="color:#f92672">==</span>s1:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Yes&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;No&#34;</span>)
+</span></span></code></pre></div><h3 id="机动车违章识别系统">机动车违章识别系统</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> csv
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;车辆号码csv&#34;</span>,<span style="color:#e6db74">&#34;r&#34;</span>)
+</span></span><span style="display:flex;"><span>f_csv<span style="color:#f92672">=</span>csv<span style="color:#f92672">.</span>reader(f)
+</span></span><span style="display:flex;"><span>k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> f_csv:       <span style="color:#75715e">#逐一枚举所有车辆信息</span>
+</span></span><span style="display:flex;"><span>    k<span style="color:#f92672">=</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> k<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        print(row[<span style="color:#ae81ff">0</span>],<span style="color:#e6db74">&#34;&#34;</span>,row[<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>    car<span style="color:#f92672">=</span>row[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>    name<span style="color:#f92672">=</span>row[<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    w<span style="color:#f92672">=</span>row[<span style="color:#ae81ff">3</span>]
+</span></span><span style="display:flex;"><span>    week<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;12345&#34;</span>
+</span></span><span style="display:flex;"><span>    pos<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> letter <span style="color:#f92672">in</span> car:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> letter <span style="color:#f92672">&gt;=</span><span style="color:#e6db74">&#39;A&#39;</span> <span style="color:#f92672">and</span> letter <span style="color:#f92672">&lt;=</span><span style="color:#e6db74">&#39;Z&#39;</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> letter <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;B&#39;</span>:
+</span></span><span style="display:flex;"><span>                pos<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> pos <span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> w<span style="color:#f92672">!=</span><span style="color:#ae81ff">6</span> <span style="color:#f92672">and</span> w<span style="color:#f92672">!=</span><span style="color:#ae81ff">7</span>:
+</span></span><span style="display:flex;"><span>        print(car,<span style="color:#e6db74">&#34; &#34;</span>,name)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> pos<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">=</span>len(car)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> i<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            i<span style="color:#f92672">=</span>i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            ch<span style="color:#f92672">=</span>car[i]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> ch<span style="color:#f92672">&gt;=</span><span style="color:#e6db74">&#39;0&#39;</span> <span style="color:#f92672">and</span> ch<span style="color:#f92672">&lt;=</span><span style="color:#e6db74">&#39;9&#39;</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>        num<span style="color:#f92672">=</span>int(ch)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> i<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> num<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>week[<span style="color:#ae81ff">4</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> num<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>week[int(ch)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            t<span style="color:#f92672">=</span>week[<span style="color:#ae81ff">9</span><span style="color:#f92672">-</span>int(ch)]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> t<span style="color:#f92672">==</span>w:
+</span></span><span style="display:flex;"><span>            print(car,<span style="color:#e6db74">&#34; &#34;</span>,name)
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h3 id="正则表达式">正则表达式</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">findphone</span>(text):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, len(text)):
+</span></span><span style="display:flex;"><span>        flag<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> text[i]<span style="color:#f92672">.</span>isdecimal() <span style="color:#f92672">and</span> i<span style="color:#f92672">&lt;</span>len(text)<span style="color:#f92672">-</span><span style="color:#ae81ff">12</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, i<span style="color:#f92672">+</span><span style="color:#ae81ff">4</span>):
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> text[j]<span style="color:#f92672">.</span>isdecimal():         <span style="color:#75715e">#判断是否为数字 </span>
+</span></span><span style="display:flex;"><span>                    flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> text[i<span style="color:#f92672">+</span><span style="color:#ae81ff">4</span>]<span style="color:#f92672">!=</span><span style="color:#e6db74">&#39;-&#39;</span>:
+</span></span><span style="display:flex;"><span>                flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">+</span><span style="color:#ae81ff">5</span>, i<span style="color:#f92672">+</span><span style="color:#ae81ff">13</span>):
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> text[j]<span style="color:#f92672">.</span>isdecimal():
+</span></span><span style="display:flex;"><span>                    flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> flag:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> text[i:i<span style="color:#f92672">+</span><span style="color:#ae81ff">13</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入一串字符&#34;</span>)
+</span></span><span style="display:flex;"><span>result<span style="color:#f92672">=</span>findphone(x)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> result<span style="color:#f92672">==</span><span style="color:#66d9ef">False</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;没有找到电话号码&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;电话号码为：&#34;</span>,result)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> re
+</span></span><span style="display:flex;"><span>phone<span style="color:#f92672">=</span>re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;\d\d\d\d-\d\d\d\d\d\d\d\d&#39;</span>)
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入一串字符&#34;</span>)
+</span></span><span style="display:flex;"><span>mo<span style="color:#f92672">=</span>phone<span style="color:#f92672">.</span>search(x)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> mo:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;电话号码为：&#34;</span>,mo<span style="color:#f92672">.</span>group())
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;没有找到电话号码&#34;</span>)
+</span></span></code></pre></div><h2 id="32-队列">3.2 队列</h2>
+<h3 id="信息的加密">信息的加密</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>s<span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;请输入字符串:&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;加密后的串为:&#34;</span>)
+</span></span><span style="display:flex;"><span>que<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;&#34;</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>head<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>tail<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(s)):
+</span></span><span style="display:flex;"><span>    que[tail]<span style="color:#f92672">=</span>s[i]
+</span></span><span style="display:flex;"><span>    tail<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> head<span style="color:#f92672">&lt;</span>tail:
+</span></span><span style="display:flex;"><span>    print(que[head],end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>    head<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> head<span style="color:#f92672">&lt;</span>tail:
+</span></span><span style="display:flex;"><span>        que[tail]<span style="color:#f92672">=</span>que[head]
+</span></span><span style="display:flex;"><span>        tail<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        head<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h3 id="银行叫号排队系统">银行叫号排队系统</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>que<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>head<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>tail<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;请输入具体的操作编号:&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;1.新到顾客(取号)&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;2.下一个顾客(叫号)&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;3.程序结束&#34;</span>)
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">=</span>int(input())
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> x<span style="color:#f92672">!=</span><span style="color:#ae81ff">3</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        que[tail]<span style="color:#f92672">=</span>que[tail]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;您当前的号码为:A</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">,需要等待的人数为</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(tail, tail<span style="color:#f92672">-</span>head))
+</span></span><span style="display:flex;"><span>        tail<span style="color:#f92672">=</span>tail<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x<span style="color:#f92672">==</span><span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> head<span style="color:#f92672">==</span>tail:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;对不起,没有等待的客户&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;请A</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">号客户准备,马上将为您办理业务。&#34;</span><span style="color:#f92672">%</span>head)
+</span></span><span style="display:flex;"><span>            head<span style="color:#f92672">=</span>head<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    x<span style="color:#f92672">=</span>int(input(<span style="color:#960050;background-color:#1e0010">“</span>请输入操作\n<span style="color:#e6db74">&#34;))</span>
+</span></span></code></pre></div><h2 id="33-栈">3.3 栈</h2>
+<h3 id="十进制转二进制进出栈方式">十进制转二进制进出栈方式</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>st<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>top<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>number<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入十进制整数:&#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> number <span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    x<span style="color:#f92672">=</span>number <span style="color:#f92672">%</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    top<span style="color:#f92672">=</span>top<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    st[top]<span style="color:#f92672">=</span>x
+</span></span><span style="display:flex;"><span>    number<span style="color:#f92672">=</span>number<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> top<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    print(st[top],end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>    top<span style="color:#f92672">=</span>top<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><h3 id="括号匹配">括号匹配</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>st<span style="color:#f92672">=</span>[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>top<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>flag<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>s<span style="color:#f92672">=</span>input(<span style="color:#e6db74">&#34;请输入数学计算式:&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(s)):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> s[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;(&#34;</span>:
+</span></span><span style="display:flex;"><span>        top<span style="color:#f92672">=</span>top<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        st[top]<span style="color:#f92672">=</span>s[i]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> s[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;)&#34;</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> top<span style="color:#f92672">==-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>            flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            top<span style="color:#f92672">=</span>top<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> top<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>    flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> flag:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;括号匹配&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;括号不匹配&#34;</span>)
+</span></span></code></pre></div><h2 id="31-行程编码">3.1 行程编码</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pickle
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bian</span>(word <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>):
 </span></span><span style="display:flex;"><span>    new_word <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
@@ -1096,6 +1435,244 @@
 </span></span><span style="display:flex;"><span>              print(<span style="color:#e6db74">&#34;请SIX</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">号客户准备，马上帮您安排&#34;</span><span style="color:#f92672">%</span>(headsix))
 </span></span><span style="display:flex;"><span>              headsix<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>    x<span style="color:#f92672">=</span>int(input(<span style="color:#e6db74">&#34;请输入操作：&#34;</span>))
+</span></span></code></pre></div><h2 id="41-树与二叉树">4.1 树与二叉树</h2>
+<h2 id="42-二叉树的基本操作">4.2 二叉树的基本操作</h2>
+<h3 id="二叉树遍历的python程序实现">二叉树遍历的Python程序实现</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Node</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self,value<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>,left<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>,right<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>value<span style="color:#f92672">=</span>value
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>left<span style="color:#f92672">=</span>left
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>right<span style="color:#f92672">=</span>right
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">preTraverse</span>(root):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> root<span style="color:#f92672">==</span><span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    print(root<span style="color:#f92672">.</span>value)
+</span></span><span style="display:flex;"><span>    preTraverse(root<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>    preTraverse(root<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">midTraverse</span>(root):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> root<span style="color:#f92672">==</span><span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    midTraverse(root<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>    print(root<span style="color:#f92672">.</span>value)
+</span></span><span style="display:flex;"><span>    midTraverse(root<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">afterTraverse</span>(root):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> root<span style="color:#f92672">==</span><span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    afterTraverse(root<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>    midTraverse(root<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>    print(root<span style="color:#f92672">.</span>value)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    root<span style="color:#f92672">=</span>Node(<span style="color:#e6db74">&#39;A&#39;</span>,Node(<span style="color:#e6db74">&#39;B&#39;</span>,Node(<span style="color:#e6db74">&#39;D&#39;</span>),Node(<span style="color:#e6db74">&#39;E&#39;</span>)),Node(<span style="color:#e6db74">&#39;C&#39;</span>,right<span style="color:#f92672">=</span>Node(<span style="color:#e6db74">&#39;F&#39;</span>,Node(<span style="color:#e6db74">&#39;G&#39;</span>))))
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;前序遍历&#39;</span>)
+</span></span><span style="display:flex;"><span>    preTraverse(root)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;中序遍历&#39;</span>)
+</span></span><span style="display:flex;"><span>    midTraverse(root)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;后序遍历&#39;</span>)
+</span></span><span style="display:flex;"><span>    afterTraverse(root)
+</span></span></code></pre></div><h2 id="43-抽象数据类型">4.3 抽象数据类型</h2>
+<h2 id="52-迭代与递归">5.2 迭代与递归</h2>
+<pre tabindex="0"><code>a=int(input(&#34;请输入一个需要求其平方根的数：&#34;))
+x=a/2
+while ((abs((x+a/x)/2-x))&gt;0.00001):
+    x=(x+a/x)/2
+print(a,&#34;的平方根约为&#34;,round((x+a/x)/2,6))
+</code></pre><h3 id="欧几里得算法">欧几里得算法</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gcd</span>(m,n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> n<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        temp<span style="color:#f92672">=</span>n
+</span></span><span style="display:flex;"><span>        n<span style="color:#f92672">=</span>m<span style="color:#f92672">%</span>n
+</span></span><span style="display:flex;"><span>        m<span style="color:#f92672">=</span>temp
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> m
+</span></span></code></pre></div><h3 id="汉诺塔游戏">汉诺塔游戏</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">move</span>(n, a, b, c):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(n<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        print(a, <span style="color:#e6db74">&#34;-&gt;&#34;</span>,c)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    move(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, a, c, b)
+</span></span><span style="display:flex;"><span>    move(<span style="color:#ae81ff">1</span>, a, b, c)
+</span></span><span style="display:flex;"><span>    move(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, b, a, c)
+</span></span><span style="display:flex;"><span>move(<span style="color:#ae81ff">3</span>,<span style="color:#e6db74">&#34;A&#34;</span>,<span style="color:#e6db74">&#34;B&#34;</span>,<span style="color:#e6db74">&#34;C&#34;</span>)
+</span></span></code></pre></div><h3 id="走迷宫">走迷宫</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>maze <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>        [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">valid</span>(maze, x, y):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(x <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> x <span style="color:#f92672">&lt;</span> len(maze) <span style="color:#f92672">and</span> y <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> y <span style="color:#f92672">&lt;</span> len(maze[<span style="color:#ae81ff">0</span>]) <span style="color:#f92672">and</span> maze[x][y] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">walk</span>(maze, x, y):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 如果位置是迷宫的出口,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(x <span style="color:#f92672">==</span> <span style="color:#ae81ff">8</span> <span style="color:#f92672">and</span> y <span style="color:#f92672">==</span> <span style="color:#ae81ff">8</span>):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;successful&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> valid(maze, x, y):
+</span></span><span style="display:flex;"><span>        maze[x][y] <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 做标记,防止折回</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 针对四个方向依次试探</span>
+</span></span><span style="display:flex;"><span>        walk(maze, x<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, y)
+</span></span><span style="display:flex;"><span>        walk(maze, x, y<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>        walk(maze, x<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, y)
+</span></span><span style="display:flex;"><span>        walk(maze, x, y<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>walk(maze, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><h3 id="冒泡排序">冒泡排序</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bubble_sort</span>(L):
+</span></span><span style="display:flex;"><span>    length<span style="color:#f92672">=</span>len(L)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#序列长度为length,需要执行length-1遍加工</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,length):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, length<span style="color:#f92672">-</span>i):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> L[j]<span style="color:#f92672">&gt;</span>L[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]:
+</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">=</span>L[j]
+</span></span><span style="display:flex;"><span>                L[j]<span style="color:#f92672">=</span>L[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>                L[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>temp
+</span></span></code></pre></div><h3 id="奥运排行榜">奥运排行榜</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> csv
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#数据读入</span>
+</span></span><span style="display:flex;"><span>csvFile<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;jp.csv&#34;</span>,<span style="color:#e6db74">&#34;r&#34;</span>)
+</span></span><span style="display:flex;"><span>reader<span style="color:#f92672">=</span>csv<span style="color:#f92672">.</span>reader(csvFile)
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> reader:
+</span></span><span style="display:flex;"><span>    a<span style="color:#f92672">.</span>append(item)
+</span></span><span style="display:flex;"><span>csvFile<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#排序</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, len(a)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, len(a)<span style="color:#f92672">-</span>i):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> int(a[j][<span style="color:#ae81ff">3</span>])<span style="color:#f92672">&lt;</span>int(a[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">3</span>]):
+</span></span><span style="display:flex;"><span>            temp<span style="color:#f92672">=</span>a[j]
+</span></span><span style="display:flex;"><span>            a[j]<span style="color:#f92672">=</span>a[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>            a[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>temp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#数据写入</span>
+</span></span><span style="display:flex;"><span>csvFile2<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#39;jp2.csv&#39;</span>, <span style="color:#e6db74">&#39;w&#39;</span>, newline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>)
+</span></span><span style="display:flex;"><span>writer<span style="color:#f92672">=</span>csv<span style="color:#f92672">.</span>writer(csvFile2, dialect<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;excel&#39;</span>)
+</span></span><span style="display:flex;"><span>m<span style="color:#f92672">=</span>len(a)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(m):
+</span></span><span style="display:flex;"><span>    writer<span style="color:#f92672">.</span>writerow(a[i])
+</span></span><span style="display:flex;"><span>csvFile2<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h2 id="54-数据查找">5.4 数据查找</h2>
+<h3 id="顺序查找">顺序查找</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>d<span style="color:#f92672">=</span>[<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">22</span>,<span style="color:#ae81ff">13</span>,<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">14</span>,<span style="color:#ae81ff">11</span>,<span style="color:#ae81ff">17</span>,<span style="color:#ae81ff">19</span>]
+</span></span><span style="display:flex;"><span>key<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>
+</span></span><span style="display:flex;"><span>flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>length<span style="color:#f92672">=</span>len(d)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(length):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> d[i]<span style="color:#f92672">==</span>key:
+</span></span><span style="display:flex;"><span>        flag<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> flag<span style="color:#f92672">==</span><span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;查找成功!&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#960050;background-color:#1e0010">“</span>未找到<span style="color:#e6db74">&#34;)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">seq_search</span>(s,a):
+</span></span><span style="display:flex;"><span>    length<span style="color:#f92672">=</span>len(d)
+</span></span><span style="display:flex;"><span>    flag<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(length):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> d[i]<span style="color:#f92672">==</span>key:
+</span></span><span style="display:flex;"><span>            flag<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> flag<span style="color:#f92672">==</span><span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> i
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>d<span style="color:#f92672">=</span>[<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">22</span>,<span style="color:#ae81ff">13</span>,<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">14</span>,<span style="color:#ae81ff">11</span>,<span style="color:#ae81ff">17</span>,<span style="color:#ae81ff">19</span>]
+</span></span><span style="display:flex;"><span>key<span style="color:#f92672">=</span><span style="color:#ae81ff">15</span>
+</span></span><span style="display:flex;"><span>result<span style="color:#f92672">=</span>seq_search(d,key)
+</span></span><span style="display:flex;"><span>print(result)
+</span></span></code></pre></div><h3 id="二分查找">二分查找</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>key<span style="color:#f92672">=</span><span style="color:#ae81ff">12</span>
+</span></span><span style="display:flex;"><span>d<span style="color:#f92672">=</span>[<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">12</span>,<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">22</span>,<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">28</span>,<span style="color:#ae81ff">35</span>,<span style="color:#ae81ff">46</span>,<span style="color:#ae81ff">58</span>,<span style="color:#ae81ff">60</span>]
+</span></span><span style="display:flex;"><span>f<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#和定义子数组的边界,一开始搜索的是整个数组</span>
+</span></span><span style="display:flex;"><span>i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>j<span style="color:#f92672">=</span>len(d)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;=</span> j: 
+</span></span><span style="display:flex;"><span>    m<span style="color:#f92672">=</span>(i<span style="color:#f92672">+</span>j)<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> d[m] <span style="color:#f92672">==</span> key:
+</span></span><span style="display:flex;"><span>        f<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>        b<span style="color:#f92672">=</span>m
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> key <span style="color:#f92672">&lt;</span> d[m]:
+</span></span><span style="display:flex;"><span>        j<span style="color:#f92672">=</span>m<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        i<span style="color:#f92672">=</span>m<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> f<span style="color:#f92672">==</span><span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;查找成功!第&#34;</span><span style="color:#f92672">+</span>str(b)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;个&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;没有找到!&#34;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bsearch</span>(s, array):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> len(array)<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;未找到!&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>    mid<span style="color:#f92672">=</span>(len(array)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> array[mid] <span style="color:#f92672">==</span> s:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;找到了!第&#34;</span><span style="color:#f92672">+</span>str(mid<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;个&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> s <span style="color:#f92672">&lt;</span> array[mid]:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bsearch(s, array[:mid<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bsearch(s, array[mid<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>:])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>key<span style="color:#f92672">=</span><span style="color:#ae81ff">12</span>
+</span></span><span style="display:flex;"><span>d<span style="color:#f92672">=</span>[<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">12</span>,<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">18</span>,<span style="color:#ae81ff">22</span>,<span style="color:#ae81ff">25</span>,<span style="color:#ae81ff">28</span>,<span style="color:#ae81ff">35</span>,<span style="color:#ae81ff">46</span>,<span style="color:#ae81ff">58</span>,<span style="color:#ae81ff">60</span>]
+</span></span><span style="display:flex;"><span>print(bsearch(key, d))
+</span></span></code></pre></div><h3 id="航空公司vip会员积分查询">航空公司VIP会员积分查询</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> csv
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#数据读入</span>
+</span></span><span style="display:flex;"><span>csvFlle<span style="color:#f92672">=</span>open(<span style="color:#e6db74">&#34;vip.csv&#34;</span>,<span style="color:#e6db74">&#34;r&#34;</span>)
+</span></span><span style="display:flex;"><span>reader<span style="color:#f92672">=</span>csv<span style="color:#f92672">.</span>reader(csvFile)
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span>[]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> reader:
+</span></span><span style="display:flex;"><span>    a<span style="color:#f92672">.</span>append(item)
+</span></span><span style="display:flex;"><span>csvFlle<span style="color:#f92672">.</span>close()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#排序</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bubble_sort</span>(d):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, len(d)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, len(d)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> int(d[j][<span style="color:#ae81ff">0</span>])<span style="color:#f92672">&lt;</span>int(d[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]):
+</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">=</span>d[j]
+</span></span><span style="display:flex;"><span>                d[j]<span style="color:#f92672">=</span>d[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>                d[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>temp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#二分查找</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bsearch</span>(s, array):
+</span></span><span style="display:flex;"><span>    i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>                       		<span style="color:#75715e">#查找范围不包含第一行数据</span>
+</span></span><span style="display:flex;"><span>    j<span style="color:#f92672">=</span>len(array)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;=</span> j: 
+</span></span><span style="display:flex;"><span>        m<span style="color:#f92672">=</span>(i<span style="color:#f92672">+</span>j)<span style="color:#f92672">//</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> int(array[m][<span style="color:#ae81ff">0</span>]) <span style="color:#f92672">==</span> s:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> m
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> s <span style="color:#f92672">&lt;</span> int(array[m][<span style="color:#ae81ff">0</span>]):
+</span></span><span style="display:flex;"><span>            j<span style="color:#f92672">=</span>m<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            i<span style="color:#f92672">=</span>m<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>						<span style="color:#75715e">#未找到返回-1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>bubble_sort(a)
+</span></span><span style="display:flex;"><span>key <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;请输入要查询的VP号:&#39;</span>))
+</span></span><span style="display:flex;"><span>m<span style="color:#f92672">=</span>bsearch(key, a)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> m<span style="color:#f92672">!=-</span><span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>    print(a[m][<span style="color:#ae81ff">1</span>],<span style="color:#e6db74">&#34;先生/女士，您的积分为:&#34;</span>,a[m][<span style="color:#ae81ff">3</span>])
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;找不到VP号对应的用户信息!&#39;</span>)
 </span></span></code></pre></div>
 			
 		</article>
@@ -1115,15 +1692,15 @@
         <div>
             <ul>
                 
+                <li><a href="/posts/mock_test/">mock test</a></li>
+                
+                <li><a href="/posts/four_books_and_five_classics/">四書五經</a></li>
+                
+                <li><a href="/posts/algorithms/">Algorithms</a></li>
+                
                 <li><a href="/posts/biology/">Biology</a></li>
                 
                 <li><a href="/posts/chinese/">中文</a></li>
-                
-                <li><a href="/posts/code_in_ncee/">Code in ncee</a></li>
-                
-                <li><a href="/posts/english/">English</a></li>
-                
-                <li><a href="/posts/calendar/">calendar</a></li>
                 
             </ul>
         </div>

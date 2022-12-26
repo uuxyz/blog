@@ -878,6 +878,334 @@ while True:
 
 # 选择性必修1 数据与数据结构
 
+## 2.1 数组
+
+```python
+from random import randint
+a=[0]*20
+b=[0]*15
+c=[0]*35
+a[0]=randint(95, 100)
+for i in range(1,20):
+    a[i]=a[i-1]-randint(1, 5)
+b[0]=randint(95, 100)
+for i in range(1,15):
+    b[i]=b[i-1]-randint(1, 5)
+print("原始数据序列一为：")
+print(a)
+print("原始数据序列二为：")
+print(b)
+i=0
+j=0
+k=0
+while(i<20 and j<15):
+    if a[i]>=b[j]:
+        c[k]=a[i]
+        i=i+1
+        k=k+1
+    else:
+        c[k]=b[j]
+        j=j+1
+        k=k+1
+while i<20:
+    c[k]=a[i]
+    i=i+1
+    k=k+1
+while j<15:
+    c[k]=b[j]
+    j=j+1
+    k=k+1
+print("合并后的数据序列为：")
+print(c)
+```
+
+```python
+from random import randint
+a=[[100-4*i+randint(-1,1),i+1] for i in range(0,15)]
+b=[[100-4*i+randint(-1,1),i+1] for i in range(0,20)]
+a[-1][-1]=b[-1][-1]=-1
+ptr_a=ptr_b=0
+while ptr_b!=-1:
+    while a[ptr_a][0]>b[ptr_b][0] and a[ptr_a][1]!=-1:
+        ptr_a=a[ptr_a][1]
+    if a[ptr_a][0]<=b[ptr_b][0]:
+        a[ptr_a][0],b[ptr_b][0]=b[ptr_b][0],a[ptr_a][0]
+    a.append([b[ptr_b][0],a[ptr_a][1]])
+    a[ptr_a][1]=len(a)-1
+    ptr_b=b[ptr_b][1]
+ptr_c=0
+while ptr_c!=-1:
+    print(a[ptr_c][0],end=" ")
+    ptr_c=a[ptr_c][1]
+```
+
+## 2.2 链表
+
+```python
+from random import randint
+data_a=[]
+head_a=-1
+data_b=[]
+head_b=-1
+tmp=randint(95, 100)
+data_a.append([tmp,head_a])
+head_a=0
+for i in range(1,20):
+    tmp=data_a[i-1][0]-randint(1, 5)
+    data_a.append([tmp,data_a[i-1][1]])
+    data_a[i-1][1]=i
+print("链表结构的原始数据序列一")
+print(data_a)
+tmp=randint(95, 100)
+data_b.append([tmp,head_b])
+head_b=0
+for i in range(1,25):
+    tmp=data_b[i-1][0]-randint(1, 5)
+    data_b.append([tmp,data_b[i-1][1]])
+    data_b[i-1][1]=i
+print("链表结构的原始数据序列二")
+print(data_b)
+k_a=head_a
+q_a=head_a
+k_b=head_b
+while (k_a!=-1 and k_b!=-1):
+    if data_a[k_a][0]>=data_b[k_b][0]:
+        q_a=k_a
+        k_a=data_a[k_a][1]
+    else:
+        if k_a==head_a:
+            data_a.append([data_b[k_b][0],head_a])
+            head_a=len(data_a)-1
+            q_a=head_a
+            k_b=data_b[k_b][1]
+        else:
+            data_a.append([data_b[k_b][0],k_a])
+            data_a[q_a][1]=len(data_a)-1
+            q_a=data_a[q_a][1]
+            k_b=data_b[k_b][1]
+while k_b!=-1:
+    data_a.append([data_b[k_b][0],-1])
+    data_a[q_a][1]=len(data_a)-1
+    q_a=data_a[q_a][1]
+    k_b=data_b[k_b][1]
+print("链表结构合并后数据序列")
+print(data_a)
+print("按链表链接顺序输出数据序列")
+tmp=head_a
+while data_a[tmp][1]!=-1:
+    print(data_a[tmp][0],end=" ")
+    tmp=data_a[tmp][1]
+print(data_a[tmp][0])
+```
+
+```python
+llist=[]
+n=int(input("请输入参与人数(N):"))
+m=int(input("请输入淘汰数(M):"))
+for i in range(n-1):
+    llist.append([i+1,i+1])
+llist.append([n,0])
+head=0
+long=n
+k=head
+i=1
+while long > 1:
+    i=i+1
+    if i==m:
+        t=llist[k][1]
+        llist[k][1]=llist[t][1]
+        if t==head:
+            head=llist[k][1]
+        i=1
+        long=long-1
+    k=llist[k][1]
+print(llist[head][0])
+```
+
+## 3.1字符串
+### 回文串
+```python
+s=input("请输入一个字符串:")
+length=len(s)
+mid=length//2
+left=s[0:mid]
+temp=s[-mid:]
+right=""
+for i in range(len(temp)):
+    right=right+temp[len(temp)-i-1]
+if left==right:
+    print("Yes")
+else:
+    print("No")
+
+s=input("请输入一个字符串:")
+s1=s[::-1]
+if s==s1:
+    print("Yes")
+else:
+    print("No")
+```
+### 机动车违章识别系统
+```python
+import csv
+f=open("车辆号码csv","r")
+f_csv=csv.reader(f)
+k=0
+for row in f_csv:       #逐一枚举所有车辆信息
+    k=k+1
+    if k==1:
+        print(row[0],"",row[1])
+        continue
+    car=row[0]
+    name=row[1]
+    w=row[3]
+    week="12345"
+    pos=0
+    for letter in car:
+        if letter >='A' and letter <='Z':
+            if letter == 'B':
+                pos=1
+            break
+    if pos ==0 and w!=6 and w!=7:
+        print(car," ",name)
+    if pos==1:
+        i=len(car)
+        while i>=0:
+            i=i-1
+            ch=car[i]
+            if ch>='0' and ch<='9':
+                break
+        num=int(ch)
+        if i<0:
+            continue
+        elif num==0:
+            t=week[4]
+        elif num<=5:
+            t=week[int(ch)-1]
+        else:
+            t=week[9-int(ch)]
+        if t==w:
+            print(car," ",name)
+f.close()
+```
+### 正则表达式
+```python
+def findphone(text):
+    for i in range(0, len(text)):
+        flag=True
+        if text[i].isdecimal() and i<len(text)-12:
+            for j in range(i+1, i+4):
+                if not text[j].isdecimal():         #判断是否为数字 
+                    flag=False
+            if text[i+4]!='-':
+                flag=False
+            for j in range(i+5, i+13):
+                if not text[j].isdecimal():
+                    flag=False
+            if flag:
+                return text[i:i+13]
+    else:
+        return False
+x=input("请输入一串字符")
+result=findphone(x)
+if result==False:
+    print("没有找到电话号码")
+else:
+    print("电话号码为：",result)
+```
+
+```python
+import re
+phone=re.compile(r'\d\d\d\d-\d\d\d\d\d\d\d\d')
+x=input("请输入一串字符")
+mo=phone.search(x)
+if mo:
+    print("电话号码为：",mo.group())
+else:
+    print("没有找到电话号码")
+```
+
+## 3.2 队列
+### 信息的加密
+```python
+s= input("请输入字符串:")
+print("加密后的串为:")
+que=[""]*100
+head=0
+tail=0
+for i in range(len(s)):
+    que[tail]=s[i]
+    tail+=1
+while head<tail:
+    print(que[head],end="")
+    head+=1
+    if head<tail:
+        que[tail]=que[head]
+        tail+=1
+        head+=1
+```
+
+### 银行叫号排队系统
+```python
+que=[-1]*1000
+head=0
+tail=0
+print("请输入具体的操作编号:")
+print("1.新到顾客(取号)")
+print("2.下一个顾客(叫号)")
+print("3.程序结束")
+x=int(input())
+while x!=3:
+    if x==1:
+        que[tail]=que[tail]+1
+        print("您当前的号码为:A%d,需要等待的人数为%d"%(tail, tail-head))
+        tail=tail+1
+    if x==2:
+        if head==tail:
+            print("对不起,没有等待的客户")
+        else:
+            print("请A%d号客户准备,马上将为您办理业务。"%head)
+            head=head+1
+    x=int(input(“请输入操作\n"))
+```
+## 3.3 栈
+### 十进制转二进制进出栈方式
+```python
+st=[-1]*100
+top=-1
+number=int(input("请输入十进制整数:"))
+while number >0:
+    x=number %2
+    top=top+1
+    st[top]=x
+    number=number//2
+while top>=0:
+    print(st[top],end="")
+    top=top-1
+```
+### 括号匹配
+```python
+st=[-1]*100
+top=-1
+flag=True
+s=input("请输入数学计算式:")
+for i in range(len(s)):
+    if s[i]=="(":
+        top=top+1
+        st[top]=s[i]
+    elif s[i]==")":
+        if top==-1:
+            flag=False
+            break
+        else:
+            top=top-1
+if top>=0:
+    flag=False
+if flag:
+    print("括号匹配")
+else:
+    print("括号不匹配")
+```
 ## 3.1 行程编码
 ```python
 import pickle
@@ -1120,4 +1448,269 @@ while x!=0:
               print("请SIX%d号客户准备，马上帮您安排"%(headsix))
               headsix+=1
     x=int(input("请输入操作："))
+```
+## 4.1 树与二叉树
+## 4.2 二叉树的基本操作
+### 二叉树遍历的Python程序实现
+```python
+class Node:
+    def __init__(self,value=None,left=None,right=None):
+        self.value=value
+        self.left=left
+        self.right=right
+
+def preTraverse(root):
+    if root==None:
+        return
+    print(root.value)
+    preTraverse(root.left)
+    preTraverse(root.right)
+
+def midTraverse(root):
+    if root==None:
+        return
+    midTraverse(root.left)
+    print(root.value)
+    midTraverse(root.right)
+
+def afterTraverse(root):
+    if root==None:
+        return
+    afterTraverse(root.left)
+    midTraverse(root.right)
+    print(root.value)
+
+if __name__=='__main__':
+    root=Node('A',Node('B',Node('D'),Node('E')),Node('C',right=Node('F',Node('G'))))
+    print('前序遍历')
+    preTraverse(root)
+    print('中序遍历')
+    midTraverse(root)
+    print('后序遍历')
+    afterTraverse(root)
+```
+## 4.3 抽象数据类型
+
+## 5.2 迭代与递归
+```
+a=int(input("请输入一个需要求其平方根的数："))
+x=a/2
+while ((abs((x+a/x)/2-x))>0.00001):
+    x=(x+a/x)/2
+print(a,"的平方根约为",round((x+a/x)/2,6))
+```
+### 欧几里得算法
+```python
+def gcd(m,n):
+    while n!=0:
+        temp=n
+        n=m%n
+        m=temp
+    return m
+```
+
+### 汉诺塔游戏
+```python
+def move(n, a, b, c):
+    if(n==1):
+        print(a, "->",c)
+        return
+    move(n-1, a, c, b)
+    move(1, a, b, c)
+    move(n-1, b, a, c)
+move(3,"A","B","C")
+```
+### 走迷宫
+```python
+maze = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 0, 1, 1, 1, 0, 1, 0],
+        [0, 1, 1, 0, 1, 1, 1, 0, 1, 0],
+        [0, 1, 1, 1, 1, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 1, 1, 1, 1, 0],
+        [0, 1, 1, 1, 0, 1, 1, 1, 1, 0],
+        [0, 1, 0, 1, 1, 1, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 1, 0, 0, 1, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+def valid(maze, x, y):
+    if(x >= 0 and x < len(maze) and y >= 0 and y < len(maze[0]) and maze[x][y] == 1):
+        return True
+    else:
+        return False
+
+
+def walk(maze, x, y):
+    # 如果位置是迷宫的出口,
+    if(x == 8 and y == 8):
+        print("successful")
+        return True
+    if valid(maze, x, y):
+        maze[x][y] = 2
+        # 做标记,防止折回
+        # 针对四个方向依次试探
+        walk(maze, x-1, y)
+        walk(maze, x, y-1)
+        walk(maze, x+1, y)
+        walk(maze, x, y+1)
+
+
+walk(maze, 1, 1)
+```
+### 冒泡排序
+```python
+def bubble_sort(L):
+    length=len(L)
+    #序列长度为length,需要执行length-1遍加工
+    for i in range(1,length):
+        for j in range(0, length-i):
+            if L[j]>L[j+1]:
+                temp=L[j]
+                L[j]=L[j+1]
+                L[j+1]=temp
+```
+### 奥运排行榜
+```python
+import csv
+
+#数据读入
+csvFile=open("jp.csv","r")
+reader=csv.reader(csvFile)
+a=[]
+for item in reader:
+    a.append(item)
+csvFile.close()
+#排序
+for i in range(1, len(a)-1):
+    for j in range(1, len(a)-i):
+        if int(a[j][3])<int(a[j+1][3]):
+            temp=a[j]
+            a[j]=a[j+1]
+            a[j+1]=temp
+
+#数据写入
+csvFile2=open('jp2.csv', 'w', newline='')
+writer=csv.writer(csvFile2, dialect='excel')
+m=len(a)
+for i in range(m):
+    writer.writerow(a[i])
+csvFile2.close()
+
+```
+## 5.4 数据查找
+### 顺序查找
+```python
+d=[25,22,13,18,14,11,17,19]
+key=18
+flag=False
+length=len(d)
+for i in range(length):
+    if d[i]==key:
+        flag=True
+        break
+if flag==True:
+    print("查找成功!")
+else:
+    print(“未找到")
+```
+```python
+def seq_search(s,a):
+    length=len(d)
+    flag=False
+    for i in range(length):
+        if d[i]==key:
+            flag=True
+            break
+    if flag==True:
+        return i
+    else:
+        return False
+
+d=[25,22,13,18,14,11,17,19]
+key=15
+result=seq_search(d,key)
+print(result)
+```
+### 二分查找
+```python
+key=12
+d=[6,12,15,18,22,25,28,35,46,58,60]
+f=False
+#和定义子数组的边界,一开始搜索的是整个数组
+i=0
+j=len(d)-1
+while i <= j: 
+    m=(i+j)//2
+    if d[m] == key:
+        f=True
+        b=m
+        break
+    if key < d[m]:
+        j=m-1
+    else:
+        i=m+1
+
+if f==True:
+    print("查找成功!第"+str(b)+"个")
+else:
+    print("没有找到!")
+```
+```python
+def bsearch(s, array):
+    if len(array)==0:
+        print("未找到!")
+        return False
+    mid=(len(array)-1)//2
+    if array[mid] == s:
+        print("找到了!第"+str(mid+1)+"个")
+        return True
+    elif s < array[mid]:
+        return bsearch(s, array[:mid-1])
+    else:
+        return bsearch(s, array[mid+1:])
+
+key=12
+d=[6,12,15,18,22,25,28,35,46,58,60]
+print(bsearch(key, d))
+```
+### 航空公司VIP会员积分查询
+```python
+import csv
+#数据读入
+csvFlle=open("vip.csv","r")
+reader=csv.reader(csvFile)
+a=[]
+for item in reader:
+    a.append(item)
+csvFlle.close()
+#排序
+def bubble_sort(d):
+    for i in range(1, len(d)-1):
+        for j in range(1, len(d)-1):
+            if int(d[j][0])<int(d[j+1][0]):
+                temp=d[j]
+                d[j]=d[j+1]
+                d[j+1]=temp
+
+#二分查找
+def bsearch(s, array):
+    i=1                       		#查找范围不包含第一行数据
+    j=len(array)-1
+    while i <= j: 
+        m=(i+j)//2
+        if int(array[m][0]) == s:
+            return m
+        if s < int(array[m][0]):
+            j=m-1
+        else:
+            i=m+1
+    return -1						#未找到返回-1
+
+bubble_sort(a)
+key = int(input('请输入要查询的VP号:'))
+m=bsearch(key, a)
+if m!=-1:
+    print(a[m][1],"先生/女士，您的积分为:",a[m][3])
+else:
+    print('找不到VP号对应的用户信息!')
 ```
