@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xy-iii.github.io/posts/mock_test/</loc>
-    <lastmod>2022-12-26T12:26:54+08:00</lastmod>
-  </url><url>
     <loc>https://xy-iii.github.io/</loc>
-    <lastmod>2022-12-26T12:26:54+08:00</lastmod>
+    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/</loc>
+    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/stack/</loc>
+    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
+  </url><url>
+    <loc>https://xy-iii.github.io/posts/mock_test/</loc>
     <lastmod>2022-12-26T12:26:54+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/four_books_and_five_classics/</loc>

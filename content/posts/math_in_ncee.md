@@ -92,11 +92,14 @@ $$ab\leq\left(\frac{a+b}{2}\right)^2\leq\frac{a^2+b^2}{2}$$
 |Arithmetico sequence|Geometric sequence|
 |--|--|
 |$$a_n=a_0+nd=a_m+(n-m)d$$|$$a_n=a_0 q^n=a_mq^{n-m}$$|
-|$$S_n=na_0+\frac{n(n+1)}{2}d=\frac{n(a_1+a_n)}{2}$$|$$S_n=a_0q\frac{q^n-1}{q-1}=\frac{a_nq-a_1}{q-1}$$|
+|$$S_n=na_0+\frac{n(n+1)}{2}d=\frac{(n-1)a_0+(n+1)a_n}{2}$$|$$S_n=a_0q\frac{q^n-1}{q-1}=\frac{a_nq-a_0q}{q-1}$$|
+|$$S_{[m,n)}=(n-m)a_0+\frac{n(n-1)-m(m-1)}{2}d=\frac{(n-m)(a_0+a_n)}{2}$$|$$S_{[m,n)}=\frac{a_0}{q-1}\left(q^n-q^m\right)=\frac{a_n-a_m}{q-1}$$|
 |$$T_n=\frac{d^n\left(n+\frac{a_0}{d}\right)!}{\left(\frac{a_0}{d}\right)!}$$|$$T_n=a_0^n q^{\frac{n(n+1)}{2}}$$|
 |$$S_{(n+1)k}-S_{nk}=k(a_0+\frac{k+1}{2}d)+dk^2n$$|$$S_{(n+1)k}-S_{nk}=a_0\frac{q^k-1}{q-1}q^{kn+1}$$|
 
 $$S_n=\frac{A_1G_1-A_{n+1}G_{n+1}}{1-r}+\frac{dr}{(1-r)^2}\left(G_1-G_{n+1}\right)$$
+
+$$S_n=\frac{r}{1-r}\left(A_0G_0-A_nG_n\right)+\frac{d}{1-r}S_{G_n}$$
 
 $$\sum_{x=1}^n A_{1_n} A_{2_n} = d_1d_2\frac{n^3}{2}+\left(a_0d_2+b_0d_1+d_1d_2\right)\frac{n^2}{2}+\left(6a_0b_0+3a_0d_2+3b_0d_1+d_1d_2\right)\frac{n}{6}$$
 
