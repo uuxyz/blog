@@ -1,7 +1,7 @@
 ---
 title: "Biology"
 date: 2022-11-07T01:37:48+08:00
-draft: false
+draft: true
 ---
 
 ## terms

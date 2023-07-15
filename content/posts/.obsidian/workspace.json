@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "d6e1da7ae15533af",
+    "type": "split",
+    "children": [
+      {
+        "id": "234e96496ae78107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6e624df38fe2991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "triangle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "813df821346c0d40",
+    "type": "split",
+    "children": [
+      {
+        "id": "f37615e186be7040",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb770de48065b390",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3227dea1ad3f43ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97cffb82ccc9cde1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "64d5cde1e86359ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "cefa4df858552e67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35c8f8745b2cac0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "triangle.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "782e37ee14251b41",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "triangle.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7fcc46bef85949c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5816d82398c7cddd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "triangle.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b6e624df38fe2991",
+  "lastOpenFiles": [
+    "4000_essential_english_words.md",
+    "stack.md",
+    "python_modules.md",
+    "the_international.md",
+    "triangle.md",
+    "probability_theory.md",
+    "physics_in_ncee.md",
+    "pandas.md",
+    "mock_test.md",
+    "math_in_ncee.md",
+    "math_formula.md",
+    "math.md",
+    "manifesto.md",
+    "lorem_ipsum.md",
+    "linear_algebra.md",
+    "hello_world.md",
+    "four_books_and_five_classics.md",
+    "english.md",
+    "code_in_ncee.md",
+    "chinese.md",
+    "calendar.md",
+    "biology.md",
+    "algorithms.md"
+  ]
+}

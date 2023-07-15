@@ -2,40 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xy-iii.github.io/</loc>
-    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
+    <loc>https://xy-iii.github.io/posts/math_formula/</loc>
+    <lastmod>2022-10-23T02:27:46+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/</loc>
-    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
+    <lastmod>2022-10-23T02:27:46+08:00</lastmod>
   </url><url>
-    <loc>https://xy-iii.github.io/posts/stack/</loc>
-    <lastmod>2022-12-29T14:44:24+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/mock_test/</loc>
-    <lastmod>2022-12-26T12:26:54+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/four_books_and_five_classics/</loc>
-    <lastmod>2022-12-11T00:07:19+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/algorithms/</loc>
-    <lastmod>2022-12-10T23:08:26+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/biology/</loc>
-    <lastmod>2022-11-07T01:37:48+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/chinese/</loc>
-    <lastmod>2022-11-01T02:24:27+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/code_in_ncee/</loc>
-    <lastmod>2022-10-27T01:37:02+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/english/</loc>
-    <lastmod>2022-10-26T12:51:40+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/calendar/</loc>
-    <lastmod>2022-10-23T22:46:42+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/math_formula/</loc>
+    <loc>https://xy-iii.github.io/</loc>
     <lastmod>2022-10-23T02:27:46+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/probability_theory/</loc>
@@ -46,12 +19,6 @@
   </url><url>
     <loc>https://xy-iii.github.io/posts/python_modules/</loc>
     <lastmod>2022-10-16T00:51:10+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/pandas/</loc>
-    <lastmod>2022-10-14T01:13:34+08:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/4000_essential_english_words/</loc>
-    <lastmod>2022-09-24T16:55:11+08:00</lastmod>
   </url><url>
     <loc>https://xy-iii.github.io/posts/physics_in_ncee/</loc>
     <lastmod>2022-07-12T01:13:45+08:00</lastmod>
@@ -68,15 +35,7 @@
     <loc>https://xy-iii.github.io/posts/hello_world/</loc>
     <lastmod>2022-01-15T23:43:58+08:00</lastmod>
   </url><url>
-    <loc>https://xy-iii.github.io/posts/the_international/</loc>
-    <lastmod>1871-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/manifesto/</loc>
-    <lastmod>1848-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xy-iii.github.io/categories/</loc>
-  </url><url>
-    <loc>https://xy-iii.github.io/posts/lorem_ipsum/</loc>
   </url><url>
     <loc>https://xy-iii.github.io/tags/</loc>
   </url>

@@ -1,7 +1,7 @@
 ---
 title: "Code in ncee"
 date: 2022-10-27T01:37:02+08:00
-draft: false
+draft: true
 ---
 
 # 必修1  数据与计算

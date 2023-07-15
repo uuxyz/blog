@@ -1,7 +1,7 @@
 ---
 title: "mock test"
 date: 2022-12-26T12:26:54+08:00
-draft: false
+draft: true
 ---
 
 ## 技术

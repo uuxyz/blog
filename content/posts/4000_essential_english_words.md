@@ -1,7 +1,7 @@
 ---
 title: "4000 essential english words"
 date: 2022-09-24T16:55:11+08:00
-draft: false
+draft: true
 ---
 
 |word|pronunciation|mean|example|
