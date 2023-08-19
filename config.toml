@@ -1,6 +1,6 @@
 baseURL = 'https://xy-iii.github.io'
 languageCode = 'en-us'
-title = "Subtle Epiphanies"
+title = "up under us"
 theme = 'xyiii'
 publishDir = 'docs'
 [markup]
