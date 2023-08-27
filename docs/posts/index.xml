@@ -16,5 +16,60 @@
       <description>Scheme (display &amp;#34;Hello world!&amp;#34;) Python print(&amp;#34;Hello world!&amp;#34;) Rust fn main() { print!(&amp;#34;Hello world!&amp;#34;); } C #include&amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;\nHello world!&amp;#34;); return 0; } C++ #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;; return 0; } </description>
     </item>
     
+    <item>
+      <title>University</title>
+      <link>https://xy-iii.github.io/posts/university/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senior high school</title>
+      <link>https://xy-iii.github.io/posts/senior_high_school/</link>
+      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/senior_high_school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>18 years old</title>
+      <link>https://xy-iii.github.io/posts/18_years_old/</link>
+      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/18_years_old/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Junior high school</title>
+      <link>https://xy-iii.github.io/posts/junior_high_school/</link>
+      <pubDate>Tue, 30 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/junior_high_school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elementray school</title>
+      <link>https://xy-iii.github.io/posts/elementray_school/</link>
+      <pubDate>Fri, 30 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/elementray_school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Happy birthday</title>
+      <link>https://xy-iii.github.io/posts/birthday/</link>
+      <pubDate>Thu, 31 Mar 1994 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/birthday/</guid>
+      <description>No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.
+Ecclesiastes 1:11 NIV</description>
+    </item>
+    
   </channel>
 </rss>

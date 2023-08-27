@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "234e96496ae78107",
+        "id": "7f046c18b515c14c",
         "type": "tabs",
         "children": [
           {
-            "id": "b6e624df38fe2991",
+            "id": "d93585a781160189",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hello_world.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello_world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello_world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "hello_world.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb770de48065b390",
+  "active": "d93585a781160189",
   "lastOpenFiles": [
+    "elementray_school.md",
+    "junior_high_school.md",
+    "senior_high_school.md",
+    "18_years_old.md",
+    "university.md",
+    "hello_world.md",
+    "birthday.md",
+    "Untitled",
     "draft/4000_essential_english_words.md",
     "draft/triangle.md",
     "draft",
@@ -164,13 +164,9 @@
     "draft/manifesto.md",
     "draft/lorem_ipsum.md",
     "draft/linear_algebra.md",
-    "hello_world.md",
     "draft/four_books_and_five_classics.md",
     "draft/english.md",
     "draft/code_in_ncee.md",
-    "draft/chinese.md",
-    "draft/calendar.md",
-    "draft/biology.md",
-    "draft/algorithms.md"
+    "draft/chinese.md"
   ]
 }
