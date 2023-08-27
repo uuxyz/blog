@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "triangle.md",
+                "file": "hello_world.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "triangle.md",
+                "file": "hello_world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "triangle.md",
+                "file": "hello_world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "triangle.md"
+                "file": "hello_world.md"
               }
             }
           }
@@ -146,30 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6e624df38fe2991",
+  "active": "fb770de48065b390",
   "lastOpenFiles": [
-    "4000_essential_english_words.md",
-    "stack.md",
-    "python_modules.md",
-    "the_international.md",
-    "triangle.md",
-    "probability_theory.md",
-    "physics_in_ncee.md",
-    "pandas.md",
-    "mock_test.md",
-    "math_in_ncee.md",
-    "math_formula.md",
-    "math.md",
-    "manifesto.md",
-    "lorem_ipsum.md",
-    "linear_algebra.md",
+    "draft/4000_essential_english_words.md",
+    "draft/triangle.md",
+    "draft",
+    "draft/the_international.md",
+    "draft/stack.md",
+    "draft/python_modules.md",
+    "draft/probability_theory.md",
+    "draft/physics_in_ncee.md",
+    "draft/pandas.md",
+    "draft/mock_test.md",
+    "draft/math_in_ncee.md",
+    "draft/math_formula.md",
+    "draft/math.md",
+    "draft/manifesto.md",
+    "draft/lorem_ipsum.md",
+    "draft/linear_algebra.md",
     "hello_world.md",
-    "four_books_and_five_classics.md",
-    "english.md",
-    "code_in_ncee.md",
-    "chinese.md",
-    "calendar.md",
-    "biology.md",
-    "algorithms.md"
+    "draft/four_books_and_five_classics.md",
+    "draft/english.md",
+    "draft/code_in_ncee.md",
+    "draft/chinese.md",
+    "draft/calendar.md",
+    "draft/biology.md",
+    "draft/algorithms.md"
   ]
 }

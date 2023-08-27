@@ -1,7 +1,7 @@
 ---
 title: "Linear algebra"
 date: 2022-07-03T00:53:04+08:00
-draft: false
+draft: true
 math: true
 ---
 

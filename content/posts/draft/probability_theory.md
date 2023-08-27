@@ -1,7 +1,7 @@
 ---
 title: "Probability theory"
 date: 2022-10-23T00:11:22+08:00
-draft: false
+draft: true
 math: true
 ---
 

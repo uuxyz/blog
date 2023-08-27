@@ -1,7 +1,7 @@
 ---
 title: "Math formula"
 date: 2022-10-23T02:27:46+08:00
-draft: false
+draft: true
 math: true
 ---
 

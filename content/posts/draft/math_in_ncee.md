@@ -1,7 +1,7 @@
 ---
 title: "Math in NCEE"
 date: 2022-07-12T00:17:50+08:00
-draft: false
+draft: true
 math: true
 ---
 

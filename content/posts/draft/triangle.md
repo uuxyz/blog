@@ -1,7 +1,7 @@
 ---
 title: "Triangle"
 date: 2022-10-22T23:27:01+08:00
-draft: false
+draft: true
 math: true
 ---
 

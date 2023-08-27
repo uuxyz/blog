@@ -1,7 +1,7 @@
 ---
 title: "Physics in NCEE"
 date: 2022-07-12T01:13:45+08:00
-draft: false
+draft: true
 math: true
 ---
 
