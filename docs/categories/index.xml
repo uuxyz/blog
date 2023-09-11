@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on up under us</title>
-    <link>https://xy-iii.github.io/categories/</link>
+    <link>https://xycos.eu.org/categories/</link>
     <description>Recent content in Categories on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://xy-iii.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://xycos.eu.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

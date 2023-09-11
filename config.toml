@@ -1,7 +1,7 @@
-baseURL = 'https://xy-iii.github.io'
+baseURL = 'https://xycos.eu.org'
 languageCode = 'en-us'
 title = "up under us"
-theme = 'xyiii'
+theme = 'uuu'
 publishDir = 'docs'
 [markup]
   [markup.tableOfContents]
