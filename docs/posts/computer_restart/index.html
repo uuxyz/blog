@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>computer restart</title>
+	
+	
+	<style type="text/css" media="all">@import "/style.css";</style>
+	<style type="text/css" media="all">@import "/syntax.css";</style>
+	
+</head>
+<body>
+	<header>
+    <a href="https://xy-iii.github.io" class="site-title" style="font-size:30px">up under us</a>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+</header>
+
+	
+
+
+	<main>
+		<article>
+		<header>
+			<h1>computer restart</h1>
+		</header>
+			<time datetime="2023-01-25T00:00:00">
+			2023.01.25 00:00
+			</time>
+			
+			Reading time:
+			
+			
+			
+			
+			3 min
+			
+			8 s.
+			<div>
+							<h3>Table of contents</h3>
+							<nav id="TableOfContents"></nav>
+			</div>
+			<p>Oh, it&rsquo;s you. Welcome, welcome! Let me guess why you&rsquo;re here. What? You&rsquo;ve managed to wreck your computer again? Lost all your data? But that&rsquo;s not surprising, it&rsquo;s quite in line with your personality, isn&rsquo;t it?</p>
+<p>Even though everything needs a fresh start sometimes, life goes on, so let&rsquo;s fix it all! First things first, let&rsquo;s install a new system, don&rsquo;t waste time on those pointless questions. Trust me, just install Manjaro! Do you really need the freedom of Debian and Arch Linux? What have LFS and Gentoo brought you besides trouble? BSD, Unix, Hurd, or even LispOS? Don&rsquo;t even think about them until you&rsquo;re proficient enough.</p>
+<p>After installing Manjaro, remember to leave some space for Windows. You&rsquo;ll definitely need the most widely used operating system in the world. Assuming you have 1TB or more of storage space, allocate 256GB to each system, and the rest can be used for file storage.</p>
+<p>You can use <code>visudo</code> to edit the <code>/etc/sudoers</code> file. Insert the following line at the appropriate location, replacing &lsquo;u&rsquo; with your own username:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>u ALL<span style="color:#f92672">=(</span>ALL:ALL<span style="color:#f92672">)</span> ALL
+</span></span></code></pre></div><p>Perhaps you&rsquo;ve noticed that the time on Windows and Linux is always off, then it&rsquo;s definitely Windows&rsquo; fault. Try running this piece of code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+</span></span></code></pre></div><p>Once you&rsquo;ve sorted out the system installation, it&rsquo;s time to relax online. Let&rsquo;s open Firefox and log into your Mozilla account. Passwords and bookmarks should sync automatically. Now it&rsquo;s time to access Google. Oops, it&rsquo;s blocked, but that&rsquo;s okay, where there&rsquo;s a will, there&rsquo;s a way.</p>
+<p>Remember to update Manjaro&rsquo;s mirrors:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman-mirrors -i -c China -m rank
+</span></span><span style="display:flex;"><span>sudo pacman -Syyu
+</span></span></code></pre></div><p>Note: This information may change rapidly over time!</p>
+<p>First, let&rsquo;s download a fantastic piece of software: <a href="https://github.com/v2fly/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip">v2ray</a> .
+Next, let&rsquo;s download its graphical interface: <a href="https://github.com/v2rayA/v2rayA/releases/download/v2.2.4/v2raya_linux_x64_2.2.4">v2rayA</a> .
+But where can we get some <a href="https://ghproxy.com/https://raw.githubusercontent.com/freefq/free/master/v2">free proxy nodes</a> ?
+If you only want to access blocked websites through a proxy, this list can be very helpful: <a href="https://ghproxy.com/https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt">gfwlist.txt</a>
+Now you should know what to do!</p>
+<p>After enjoying a smooth internet experience, it&rsquo;s time to ditch the ugly bash shell. Just go for oh-my-zsh with the robbyrussell theme; no need for more tinkering.</p>
+<p>If you wish to input Chinese, please install the Rime input method and add <code>LC_CTYPE=&quot;zh_CN.UTF-8&quot;</code> to <code>/etc/environment</code>.</p>
+<p>And now it&rsquo;s time to configure your text editor, Emacs.
+Your own configuration? Don&rsquo;t kid yourself. You should unashamedly borrow Purcell&rsquo;s configuration, well, I mean, learn from it; it&rsquo;s almost the same thing.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/purcell/emacs.d.git ~/.emacs.d
+</span></span></code></pre></div><p>Don&rsquo;t forget to update it from time to time:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
+</span></span></code></pre></div><p>Next, let&rsquo;s go over the essential software that you just can&rsquo;t live without:</p>
+<p>First, in the realm of calculation, you rely on qalc even for simple tasks like 1+1. Then there&rsquo;s WolframKernel, which has saved you countless times during those intense calculus sessions. And there&rsquo;s Matlab too, even though you&rsquo;ve never actually used it, you can&rsquo;t help but think it&rsquo;s incredibly useful.</p>
+<p>Moving on to management software, you must have Obsidian to keep your notes organized, or they&rsquo;d turn into chaos. And you use Jellyfin to manage all those hard-earned videos and images you&rsquo;ve collected.</p>
+<p>Finally, in the realm of programming, you definitely need Python. And let&rsquo;s not forget about GCC, and Guile Scheme is also a must-have.</p>
+<p>Now, let me list some more software that might bring back many memories. Do you recall the times when you used FFmpeg to edit videos? How about those moments spent with TexLive writing research papers? VLC and MPV were your companions for countless nights of dull solitude, playing numerous videos. Yay, on the other hand, helped you install so many applications. You were initially impressed by OnlyOffice&rsquo;s elegant interface. You got used to opening files with Kate, regardless of their size. You haven&rsquo;t used Docker yet, but one day, you might just fall in love with it.</p>
+<p>Why has your life been so bleak that most of your time has been occupied by these seemingly meaningless tools? Perhaps you should consider finding a boyfriend or girlfriend—my apologies, you don&rsquo;t even have friends. But even so, even so, I hope that everyone can drop their masks and find love.</p>
+
+			
+		</article>
+	</main>
+
+  <a href="https://xy-iii.github.io/posts/git_usage/">Prev: git usage</a>
+
+<br>
+
+<aside class="latest-posts">
+    <div>
+        <div class="section-header">
+            <h3>LATEST POSTS</h3>
+        </div>
+        <div class="post-list">
+            <ul>
+                
+                <li><a href="/posts/computer_restart/">computer restart</a></li>
+                
+                <li><a href="/posts/git_usage/">git usage</a></li>
+                
+                <li><a href="/posts/latex_usage/">latex usage</a></li>
+                
+                <li><a href="/posts/grub_usage/">grub usage</a></li>
+                
+                <li><a href="/posts/emacs_usage/">emacs_usage</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</aside>
+
+
+	<footer class="site-footer">
+    <p>2023 <a href="https://xy-iii.github.io">up under us</a></p>
+</footer>
+
+</body>
+</html>

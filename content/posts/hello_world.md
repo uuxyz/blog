@@ -1,8 +1,8 @@
 ---
-title: "Hello world"
+title: hello world
 date: 2022-01-15T23:43:58+08:00
-draft: false
 ---
+Here, I showcase several ways to write a "Hello world" program in some of my favorite programming languages.
 ## Scheme
 ```scheme
 (display "Hello world!")

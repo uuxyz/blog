@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f046c18b515c14c",
+        "id": "920af8274d0fe823",
         "type": "tabs",
         "children": [
           {
-            "id": "d93585a781160189",
+            "id": "2a8a837bffe72aaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elementray_school.md",
+                "file": "latex_usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "64d5cde1e86359ec",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "elementray_school.md",
+                "file": "latex_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "elementray_school.md",
+                "file": "latex_usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elementray_school.md"
+                "file": "latex_usage.md"
               }
             }
           }
@@ -146,19 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d93585a781160189",
+  "active": "2a8a837bffe72aaa",
   "lastOpenFiles": [
     "hello_world.md",
-    "junior_high_school.md",
-    "senior_high_school.md",
-    "university.md",
-    "18_years_old.md",
+    "grub_usage.md",
+    "git_usage.md",
+    "emacs_usage.md",
+    "computer_restart.md",
     "birthday.md",
-    "elementray_school.md",
-    "Untitled",
-    "draft/4000_essential_english_words.md",
+    "28_years_old.md",
+    "21_years_old.md",
+    "14_years_old.md",
+    "7_years_old.md",
+    "latex_usage.md",
     "draft/triangle.md",
-    "draft",
     "draft/the_international.md",
     "draft/stack.md",
     "draft/python_modules.md",
@@ -173,8 +174,7 @@
     "draft/lorem_ipsum.md",
     "draft/linear_algebra.md",
     "draft/four_books_and_five_classics.md",
-    "draft/english.md",
-    "draft/code_in_ncee.md",
-    "draft/chinese.md"
+    "Untitled",
+    "draft"
   ]
 }

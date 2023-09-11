@@ -1,13 +1,13 @@
-@font-face {
-  /*font-family: "F0NT";*/
+/*@font-face {
+  font-family: "F0NT";
   font-style: normal;
   src: url("/fonts/F0NT.woff2") format("woff2")
-}
+}*/
 
 body {
     color: white;
     background-color:rgb(34,34,34);
-    font-family: "F0NT";
+    /*font-family: "F0NT";*/
     max-width: 80ch;
     margin-left:auto;
     margin-right:auto;

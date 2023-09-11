@@ -6,73 +6,80 @@
     <description>Recent content on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jan 2022 23:43:58 +0800</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xy-iii.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello world</title>
+      <title>computer restart</title>
+      <link>https://xy-iii.github.io/posts/computer_restart/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/computer_restart/</guid>
+      <description>Oh, it&amp;rsquo;s you. Welcome, welcome! Let me guess why you&amp;rsquo;re here. What? You&amp;rsquo;ve managed to wreck your computer again? Lost all your data? But that&amp;rsquo;s not surprising, it&amp;rsquo;s quite in line with your personality, isn&amp;rsquo;t it?
+Even though everything needs a fresh start sometimes, life goes on, so let&amp;rsquo;s fix it all! First things first, let&amp;rsquo;s install a new system, don&amp;rsquo;t waste time on those pointless questions. Trust me, just install Manjaro!</description>
+    </item>
+    
+    <item>
+      <title>git usage</title>
+      <link>https://xy-iii.github.io/posts/git_usage/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/git_usage/</guid>
+      <description>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:
+Install Git: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&amp;rsquo;s usually no need for additional installation. However, if you&amp;rsquo;re using Manjaro, you can install Git with the following command: sudo pacman -S git Configure Your Personal Information: Configure your personal information like your username and email, which will be associated with your Git commits.</description>
+    </item>
+    
+    <item>
+      <title>latex usage</title>
+      <link>https://xy-iii.github.io/posts/latex_usage/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/latex_usage/</guid>
+      <description>Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.
+First, let&amp;rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:
+sudo pacman -S texlive After completing the installation, it&amp;rsquo;s advisable to create a Git repository for better document management.
+Before you begin writing your paper, it&amp;rsquo;s best to use a template from a professional organization like IEEE.</description>
+    </item>
+    
+    <item>
+      <title>grub usage</title>
+      <link>https://xy-iii.github.io/posts/grub_usage/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/grub_usage/</guid>
+      <description>When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.
+In GRUB&amp;rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.
+To begin, you should use insmod to load the necessary modules, such as:
+insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your system configuration If you are using a Linux system, you should load the kernel like this:</description>
+    </item>
+    
+    <item>
+      <title>emacs_usage</title>
+      <link>https://xy-iii.github.io/posts/emacs_usage/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://xy-iii.github.io/posts/emacs_usage/</guid>
+      <description>Save and Exit Use Ctrl-x Ctrl-s to save the file. Use Ctrl-x Ctrl-c to exit Emacs. Cut, Copy, and Paste Use Ctrl-Space to begin selecting text. Use Ctrl-w to cut the selected text. Use M-w (or Alt-w or Esc-w, depending on your terminal settings) to copy the selected text. Use Ctrl-y to paste the cut or copied text. Search and Replace Use Ctrl-s for text search, then input the text you want to search for.</description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
       <link>https://xy-iii.github.io/posts/hello_world/</link>
       <pubDate>Sat, 15 Jan 2022 23:43:58 +0800</pubDate>
       
       <guid>https://xy-iii.github.io/posts/hello_world/</guid>
-      <description>Scheme (display &amp;#34;Hello world!&amp;#34;) Python print(&amp;#34;Hello world!&amp;#34;) Rust fn main() { print!(&amp;#34;Hello world!&amp;#34;); } C #include&amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;\nHello world!&amp;#34;); return 0; } C++ #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;; return 0; } </description>
+      <description>Here, I showcase several ways to write a &amp;ldquo;Hello world&amp;rdquo; program in some of my favorite programming languages.
+Scheme (display &amp;#34;Hello world!&amp;#34;) Python print(&amp;#34;Hello world!&amp;#34;) Rust fn main() { print!(&amp;#34;Hello world!&amp;#34;); } C #include&amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;\nHello world!&amp;#34;); return 0; } C++ #include &amp;lt;iostream&amp;gt; int main() { std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;; return 0; } </description>
     </item>
     
     <item>
-      <title>University</title>
-      <link>https://xy-iii.github.io/posts/university/</link>
-      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://xy-iii.github.io/posts/university/</guid>
-      <description>I have much more to say to you, more than you can now bear.
-John 16:12 (NIV)</description>
-    </item>
-    
-    <item>
-      <title>Senior high school</title>
-      <link>https://xy-iii.github.io/posts/senior_high_school/</link>
-      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://xy-iii.github.io/posts/senior_high_school/</guid>
-      <description>I have much more to say to you, more than you can now bear.
-John 16:12 (NIV)</description>
-    </item>
-    
-    <item>
-      <title>18 years old</title>
-      <link>https://xy-iii.github.io/posts/18_years_old/</link>
-      <pubDate>Sat, 31 Mar 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://xy-iii.github.io/posts/18_years_old/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Junior high school</title>
-      <link>https://xy-iii.github.io/posts/junior_high_school/</link>
-      <pubDate>Tue, 30 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://xy-iii.github.io/posts/junior_high_school/</guid>
-      <description>I have much more to say to you, more than you can now bear.
-John 16:12 (NIV)</description>
-    </item>
-    
-    <item>
-      <title>Elementray school</title>
-      <link>https://xy-iii.github.io/posts/elementray_school/</link>
-      <pubDate>Fri, 30 Jun 2006 00:00:00 +0000</pubDate>
-      
-      <guid>https://xy-iii.github.io/posts/elementray_school/</guid>
-      <description>I have much more to say to you, more than you can now bear.
-John 16:12 (NIV)</description>
-    </item>
-    
-    <item>
-      <title>Happy birthday</title>
+      <title>Birthday</title>
       <link>https://xy-iii.github.io/posts/birthday/</link>
       <pubDate>Thu, 31 Mar 1994 00:00:00 +0000</pubDate>
       
       <guid>https://xy-iii.github.io/posts/birthday/</guid>
       <description>No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.
-Ecclesiastes 1:11 NIV</description>
+Ecclesiastes 1:11 NIV
+Today is my birthday, and yet there&amp;rsquo;s a slight dilemma: Who asked! But does it truly matter? At times, I can&amp;rsquo;t help but feel that I shouldn&amp;rsquo;t have been born; it&amp;rsquo;s as though it&amp;rsquo;s all my doing.
+If someone were to remember and celebrate this day with me, I believe I might just find myself falling in love with them.</description>
     </item>
     
   </channel>
