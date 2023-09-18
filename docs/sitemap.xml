@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xycos.eu.org/posts/computer_restart/</loc>
-    <lastmod>2023-01-25T00:00:00+00:00</lastmod>
+    <loc>https://xycos.eu.org/posts/docker_usage/</loc>
+    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xycos.eu.org/posts/</loc>
-    <lastmod>2023-01-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xycos.eu.org/</loc>
+    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xycos.eu.org/posts/latina/</loc>
+    <lastmod>2023-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xycos.eu.org/posts/computer_restart/</loc>
     <lastmod>2023-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xycos.eu.org/posts/git_usage/</loc>

@@ -6,7 +6,36 @@
     <description>Recent content in Posts on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xycos.eu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xycos.eu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker usage</title>
+      <link>https://xycos.eu.org/posts/docker_usage/</link>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://xycos.eu.org/posts/docker_usage/</guid>
+      <description>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.
+Installation of Docker:
+On Manjaro, you can simply enter the following command:
+sudo pacman -S docker Using Docker:
+Let&amp;rsquo;s take WolframEngine as an example:
+Step 1: Download the image from a proxy website:
+shell
+docker pull dockerproxy.com/wolframresearch/wolframengine
+Step 2: Rename the image:
+sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine Step 3: Remove the proxy image:</description>
+    </item>
+    
+    <item>
+      <title>latin knowledge</title>
+      <link>https://xycos.eu.org/posts/latina/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://xycos.eu.org/posts/latina/</guid>
+      <description>Some Latin Language Insights to Enhance Your Literary Knowledge
+The study of Latin can be a gateway to a deeper understanding of literature and culture. In this article, we&amp;rsquo;ll explore various aspects of Latin language and its relevance to literature and the cosmos.
+1. Seasons in Latin Language In Latin, the seasons are referred to as &amp;ldquo;tempora.&amp;rdquo; The four seasons of the year—spring, summer, autumn, and winter—are represented by the following terms:</description>
+    </item>
+    
     <item>
       <title>computer restart</title>
       <link>https://xycos.eu.org/posts/computer_restart/</link>

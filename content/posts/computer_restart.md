@@ -18,6 +18,7 @@ Perhaps you've noticed that the time on Windows and Linux is always off, then it
 ```cmd
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
+
 Once you've sorted out the system installation, it's time to relax online. Let's open Firefox and log into your Mozilla account. Passwords and bookmarks should sync automatically. Now it's time to access Google. Oops, it's blocked, but that's okay, where there's a will, there's a way.
 
 Remember to update Manjaro's mirrors:
@@ -25,6 +26,12 @@ Remember to update Manjaro's mirrors:
 ```bash
 sudo pacman-mirrors -i -c China -m rank
 sudo pacman -Syyu
+```
+
+Install pip and accelerate pip downloads with the following line of code:
+
+```bash
+python -m pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
 ```
 
 Note: This information may change rapidly over time!
