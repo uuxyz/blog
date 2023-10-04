@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>docker usage</title>
-	
-	
-	<style type="text/css" media="all">@import "/style.css";</style>
-	<style type="text/css" media="all">@import "/syntax.css";</style>
-	
-</head>
-<body>
-	<header>
-    <a href="https://xycos.eu.org" class="site-title" style="font-size:30px">up under us</a>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>docker usage</title>
     
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://xycos.eu.org"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
 </header>
 
-	
+    
 
 
-	<main>
-		<article>
-		<header>
-			<h1>docker usage</h1>
-		</header>
-			<time datetime="2023-09-18T00:00:00">
-			2023.09.18 00:00
-			</time>
-			
-			Reading time:
-			
-			
-			
-			
-			35 s.
-			<div>
-							<h3>Table of contents</h3>
-							<nav id="TableOfContents"></nav>
-			</div>
-			<p>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.</p>
+<main>
+  <article>
+    <header>
+      <h1>docker usage</h1>
+    </header>
+    <time datetime="2023-09-18T00:00:00">
+      2023.09.18 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    34 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents"></nav>
+    </div>
+    <p>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.</p>
 <p><strong>Installation of Docker:</strong></p>
 <p>On Manjaro, you can simply enter the following command:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S docker
@@ -52,48 +52,50 @@
 <p><strong>Step 2:</strong> Rename the image:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine
 </span></span></code></pre></div><p><strong>Step 3:</strong> Remove the proxy image:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker rmi dockerproxy.com/yanwk/sd-webui-base:latest
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker rmi dockerproxy.com/wolframresearch/wolframengine
 </span></span></code></pre></div><p>You can check the images you have with the <code>docker images</code> command.</p>
 <p><strong>To enter the image:</strong></p>
 <p>shell</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker run wolframresearch/wolframengine /bin/echo <span style="color:#e6db74">&#34;Hello, world&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker run wolframresearch/wolframengine
 </span></span></code></pre></div><p>Using Docker provides a streamlined approach to deploying your applications or accessing pre-built ones. It simplifies the process, making it efficient for both personal and collaborative projects.</p>
 
-			
-		</article>
-	</main>
+    
+  </article>
+</main>
 
-  <a href="https://xycos.eu.org/posts/latina/">Prev: latin knowledge</a>
+<a href="https://xycos.eu.org/posts/latina/">Prev: latin knowledge</a>
 
 <br>
 
+<a href="https://xycos.eu.org/posts/c_programming/">Next: c programming</a>
+
 <aside class="latest-posts">
-    <div>
-        <div class="section-header">
-            <h3>LATEST POSTS</h3>
-        </div>
-        <div class="post-list">
-            <ul>
-                
-                <li><a href="/posts/docker_usage/">docker usage</a></li>
-                
-                <li><a href="/posts/latina/">latin knowledge</a></li>
-                
-                <li><a href="/posts/computer_restart/">computer restart</a></li>
-                
-                <li><a href="/posts/git_usage/">git usage</a></li>
-                
-                <li><a href="/posts/latex_usage/">latex usage</a></li>
-                
-            </ul>
-        </div>
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
     </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/draft/zotero_usage/">zotero usage</a></li>
+        
+        <li><a href="/posts/draft/zlibrary_usage/">zlibrary usage</a></li>
+        
+        <li><a href="/posts/math_in_english/">math in english</a></li>
+        
+        <li><a href="/posts/vim_usage/">vim usage</a></li>
+        
+        <li><a href="/posts/newtons_method/">newton&#39;s method</a></li>
+        
+      </ul>
+    </div>
+  </div>
 </aside>
 
 
-	<footer class="site-footer">
-    <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
+    <footer class="site-footer">
+  <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
 </footer>
 
-</body>
+  </body>
 </html>

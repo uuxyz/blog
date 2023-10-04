@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>git usage</title>
-	
-	
-	<style type="text/css" media="all">@import "/style.css";</style>
-	<style type="text/css" media="all">@import "/syntax.css";</style>
-	
-</head>
-<body>
-	<header>
-    <a href="https://xycos.eu.org" class="site-title" style="font-size:30px">up under us</a>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>git usage</title>
     
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://xycos.eu.org"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
 </header>
 
-	
+    
 
 
-	<main>
-		<article>
-		<header>
-			<h1>git usage</h1>
-		</header>
-			<time datetime="2022-04-25T00:00:00">
-			2022.04.25 00:00
-			</time>
-			
-			Reading time:
-			
-			
-			
-			
-			1 min
-			
-			29 s.
-			<div>
-							<h3>Table of contents</h3>
-							<nav id="TableOfContents"></nav>
-			</div>
-			<p>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:</p>
+<main>
+  <article>
+    <header>
+      <h1>git usage</h1>
+    </header>
+    <time datetime="2022-04-25T00:00:00">
+      2022.04.25 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    1 min
+    
+    38 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents"></nav>
+    </div>
+    <p>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:</p>
 <ul>
 <li><strong>Install Git</strong>: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&rsquo;s usually no need for additional installation. However, if you&rsquo;re using Manjaro, you can install Git with the following command:</li>
 </ul>
@@ -82,45 +82,49 @@
 <li><strong>Updating Your Repository</strong>: To keep your local repository up-to-date with changes from the remote repository, use the following command:</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
-</span></span></code></pre></div><p>By following these steps, you&rsquo;ll be well on your way to effectively using Git for your work.</p>
+</span></span></code></pre></div><p>By following these steps, you&rsquo;ll be well on your way to effectively using Git for your work.
+We need to configure the gpg key in git to authenticate our commits.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.signingkey CBE808B2A518258F9EA0B156E81B5EA1E5FF2F77
+</span></span></code></pre></div><p>The following line of code sets up git to sign commits automatically.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global commit.gpgsign true
+</span></span></code></pre></div>
+    
+  </article>
+</main>
 
-			
-		</article>
-	</main>
-
-  <a href="https://xycos.eu.org/posts/latex_usage/">Prev: latex usage</a>
+<a href="https://xycos.eu.org/posts/latex_usage/">Prev: latex usage</a>
 
 <br>
 
-  <a href="https://xycos.eu.org/posts/computer_restart/">Next: computer restart</a>
+<a href="https://xycos.eu.org/posts/gpg_usage/">Next: gpg usage</a>
 
 <aside class="latest-posts">
-    <div>
-        <div class="section-header">
-            <h3>LATEST POSTS</h3>
-        </div>
-        <div class="post-list">
-            <ul>
-                
-                <li><a href="/posts/docker_usage/">docker usage</a></li>
-                
-                <li><a href="/posts/latina/">latin knowledge</a></li>
-                
-                <li><a href="/posts/computer_restart/">computer restart</a></li>
-                
-                <li><a href="/posts/git_usage/">git usage</a></li>
-                
-                <li><a href="/posts/latex_usage/">latex usage</a></li>
-                
-            </ul>
-        </div>
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
     </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/draft/zotero_usage/">zotero usage</a></li>
+        
+        <li><a href="/posts/draft/zlibrary_usage/">zlibrary usage</a></li>
+        
+        <li><a href="/posts/math_in_english/">math in english</a></li>
+        
+        <li><a href="/posts/vim_usage/">vim usage</a></li>
+        
+        <li><a href="/posts/newtons_method/">newton&#39;s method</a></li>
+        
+      </ul>
+    </div>
+  </div>
 </aside>
 
 
-	<footer class="site-footer">
-    <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
+    <footer class="site-footer">
+  <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
 </footer>
 
-</body>
+  </body>
 </html>

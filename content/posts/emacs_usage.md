@@ -19,3 +19,12 @@ date: 2022-03-06
 - Use `Ctrl-s` for text search, then input the text you want to search for.
 - Use `Ctrl-s` again to search for the next match.
 - Use `Alt-%` (or `M-%` or `Esc-%`) to perform a replace operation.
+
+## Select all
+- Use `Ctrl-x h` for select all text.
+
+## Undo
+- Use `Ctrl-/` to undo the operation.
+
+## Formatting
+- Use `Ctrl-Alt-\` for formatting the code.

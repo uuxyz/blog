@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="3194" height="3194" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M 0 0 H 3194 V 3194 H 0 L 0 0" fill="#e06020" fill-rule="evenodd"/>
-<path d="M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807" fill="white" id="sector"/>
-<use xlink:href="#sector" transform="rotate(72,1597,1597)"/>
-<use xlink:href="#sector" transform="rotate(144,1597,1597)"/>
-<use xlink:href="#sector" transform="rotate(216,1597,1597)"/>
-<use xlink:href="#sector" transform="rotate(288,1597,1597)"/>
+  <path d="M 0 0 H 3194 V 3194 H 0 L 0 0" fill="#e06020" fill-rule="evenodd"/>
+  <path d="M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807" fill="white" id="sector"/>
+  <use xlink:href="#sector" transform="rotate(72,1597,1597)"/>
+  <use xlink:href="#sector" transform="rotate(144,1597,1597)"/>
+  <use xlink:href="#sector" transform="rotate(216,1597,1597)"/>
+  <use xlink:href="#sector" transform="rotate(288,1597,1597)"/>
 </svg>

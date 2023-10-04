@@ -2,6 +2,8 @@
 title: latin knowledge
 date: 2023-09-17
 ---
+> Quidquid latine dictum sit, altum sonatur.
+
 Some Latin Language Insights to Enhance Your Literary Knowledge
 
 The study of Latin can be a gateway to a deeper understanding of literature and culture. In this article, we'll explore various aspects of Latin language and its relevance to literature and the cosmos.

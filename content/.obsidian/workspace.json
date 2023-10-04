@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "bff4dbb64080e19a",
+    "type": "split",
+    "children": [
+      {
+        "id": "979787881f0f7e9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79f42b3c3e9ad3d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/mount_usage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17ef1c2998297287",
+    "type": "split",
+    "children": [
+      {
+        "id": "de5beffc5b812da5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f2921603ccb5a14",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "77b816ed816a1356",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3eec74c0ca9e1482",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e97f3896a90b9f38",
+    "type": "split",
+    "children": [
+      {
+        "id": "82a8984eaf0929ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c1e97b00a5f21f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/mount_usage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5478ef88fda09934",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/mount_usage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5a25c53f0a47473",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5be5ba82ad936515",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/mount_usage.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "79f42b3c3e9ad3d3",
+  "lastOpenFiles": [
+    "posts/newtons_method.md",
+    "posts/second_derivative.md",
+    "posts/bash_usage.md",
+    "posts/matlab_usage.md",
+    "posts/lean_usage.md",
+    "posts/linux_driver.md",
+    "posts/guide_of_immigration.md",
+    "posts/c_right_left_rule.md",
+    "posts/gpg_usage.md",
+    "posts/git_usage.md",
+    "posts/emacs_usage.md",
+    "posts/docker_usage.md",
+    "posts/create_disks.md",
+    "posts/bible.md",
+    "posts/math_in_english.md",
+    "0002-10-01.md",
+    "posts/draft/zlibrary_usage.md",
+    "posts/draft/zotero_usage.md",
+    "posts/c_programming.md",
+    "posts/hello_world.md",
+    "posts/vim_usage.md"
+  ]
+}

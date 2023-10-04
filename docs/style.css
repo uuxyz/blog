@@ -13,28 +13,32 @@ body {
     margin-right:auto;
 }
 
+.avatar{
+    background-image: url("/favicon.svg");
+}
+
 ::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: #e06020;
+    color: white;
+    background: #e06020;
 }
 
 ::selection {
-  color: white;
-  background: #e06020;
+    color: white;
+    background: #e06020;
 }
 
 a:link {
-  color: #e0a0e0;
+    color: #e0a0e0;
 }
 
 a:visited {
-  color: #e06020;
+    color: #e06020;
 }
 
 a:hover {
-  color: #20e0e0;
+    color: #20e0e0;
 }
 
 a:active {
-  color: #20e0a0;
+    color: #20e0a0;
 }

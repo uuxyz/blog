@@ -4,22 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "920af8274d0fe823",
+        "id": "81e255dcbdfb1083",
         "type": "tabs",
         "children": [
           {
-            "id": "915e001c18b1b209",
+            "id": "304b8b9fc1b07332",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6279e9b7d9560bf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "latina.md",
+                "file": "c_programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7222b7f24ff4002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "newtons_method.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d95315622c06664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "second_derivative.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6038805485f2dab5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hacker_tool.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "latina.md",
+                "file": "hacker_tool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "latina.md",
+                "file": "hacker_tool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "latina.md"
+                "file": "hacker_tool.md"
               }
             }
           },
@@ -156,34 +201,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915e001c18b1b209",
+  "active": "6038805485f2dab5",
   "lastOpenFiles": [
-    "computer_restart.md",
-    "docker_usage.md",
-    "emacs_usage.md",
+    "second_derivative.md",
+    "hacker_tool.md",
+    "newtons_method.md",
+    "c_programming.md",
+    "rime_usage.md",
+    "guide_of_immigration.md",
     "latina.md",
+    "linux_driver.md",
+    "manim_usage.md",
+    "docker_usage.md",
+    "latex_usage.md",
+    "math_in_english.md",
+    "7_years_old.md",
+    "lean_usage.md",
+    "c_right_left_rule.md",
+    "bible.md",
+    "bash_usage.md",
+    "python_usage.md",
+    "mount_usage.md",
+    "matlab_usage.md",
+    "mathematica_usage.md",
+    "create_disks.md",
+    "computer_restart.md",
+    "emacs_usage.md",
     "49_years_old.md",
     "birthday.md",
-    "21_years_old.md",
-    "14_years_old.md",
-    "7_years_old.md",
-    "grub_usage.md",
-    "git_usage.md",
-    "latex_usage.md",
-    "hello_world.md",
-    "42_years_old.md",
-    "28_years_old.md",
-    "draft/triangle.md",
-    "draft/the_international.md",
-    "draft/stack.md",
-    "draft/python_modules.md",
-    "draft/probability_theory.md",
-    "draft/physics_in_ncee.md",
-    "draft/pandas.md",
-    "draft/mock_test.md",
-    "draft/math_in_ncee.md",
-    "draft/math_formula.md",
-    "draft/math.md",
     "Untitled",
     "draft"
   ]

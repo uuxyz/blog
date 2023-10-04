@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gpg usage</title>
+    
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://xycos.eu.org"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+</header>
+
+    
+
+
+<main>
+  <article>
+    <header>
+      <h1>gpg usage</h1>
+    </header>
+    <time datetime="2022-05-07T00:00:00">
+      2022.05.07 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    1 min
+    
+    26 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#generate">generate</a></li>
+        <li><a href="#import">import</a></li>
+        <li><a href="#encrypt-and-decrypt">encrypt and decrypt</a></li>
+        <li><a href="#signature">signature</a></li>
+        <li><a href="#ssh">ssh</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    <h2 id="generate">generate</h2>
+<p>First we need to generate a key.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --full-generate-key
+</span></span></code></pre></div><h2 id="import">import</h2>
+<p>If you already have a private key, then you can import it and change its trust level to ultimate.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --import u_prv.gpg
+</span></span><span style="display:flex;"><span>gpg --edit-key u_u_u
+</span></span><span style="display:flex;"><span>trust
+</span></span><span style="display:flex;"><span>  1 <span style="color:#f92672">=</span> I don<span style="color:#e6db74">&#39;t know or won&#39;</span>t say
+</span></span><span style="display:flex;"><span>  2 <span style="color:#f92672">=</span> I <span style="color:#66d9ef">do</span> NOT trust
+</span></span><span style="display:flex;"><span>  3 <span style="color:#f92672">=</span> I trust marginally
+</span></span><span style="display:flex;"><span>  4 <span style="color:#f92672">=</span> I trust fully
+</span></span><span style="display:flex;"><span>  5 <span style="color:#f92672">=</span> I trust ultimately
+</span></span><span style="display:flex;"><span>  m <span style="color:#f92672">=</span> back to the main menu
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>save
+</span></span></code></pre></div><h2 id="encrypt-and-decrypt">encrypt and decrypt</h2>
+<p>We can encrypt the file with our public key.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg -r u_u_u -ae hello_world.txt -o hello_world.gpg
+</span></span></code></pre></div><p>Then decrypt it with the private key.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg -d hello_world.gpg -o out.txt
+</span></span></code></pre></div><h2 id="signature">signature</h2>
+<p>We can use our private key to sign a file, the first method generates a standalone signature file, the second method deposits the contents of the file along with the signature, and the third method, which applies to text, generates an <code>.asc</code> text containing the original message and additional signatures.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg -b hello_world.txt
+</span></span><span style="display:flex;"><span>gpg -s hello_world.txt
+</span></span><span style="display:flex;"><span>gpg --clearsign hello_world.txt
+</span></span></code></pre></div><p>Accordingly, we can verify these signatures. The first three ways correspond to the three signature methods mentioned above. If you only need to verify and not output the encrypted information, then you can use the <code>--verify</code> option</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg -d hello_world.txt hello_world.txt.sig
+</span></span><span style="display:flex;"><span>gpg -d hello_world.txt.gpg
+</span></span><span style="display:flex;"><span>gpg -d hello_world.txt.asc
+</span></span><span style="display:flex;"><span>gpg --verify hello_world.txt.gpg
+</span></span></code></pre></div><p>Export and keep your keys safe</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --export -a u_u_u -o u_pub.gpg 
+</span></span><span style="display:flex;"><span>gpg --export -a u_u_u -o u_prv.gpg 
+</span></span></code></pre></div><h2 id="ssh">ssh</h2>
+<p>You can use gpg to manage ssh logins.
+Enable gpg-agent first.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;enable-ssh-support&#34;</span> &gt;&gt; ~/.gnupg/gpg-agent.conf
+</span></span></code></pre></div><p>Find the subkey you need. Then add it to the <code>sshcontrol</code> file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --list-keys --with-keygrip
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;4B819AB5710A8EC4DF1B9E2169B9147975778499&#34;</span> ~/.gnupg/sshcontrol
+</span></span></code></pre></div><p>Start gpg-agent.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpgconf --launch gpg-agent
+</span></span><span style="display:flex;"><span>export SSH_AUTH_SOCK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>gpgconf --list-dirs agent-ssh-socket<span style="color:#66d9ef">)</span>
+</span></span></code></pre></div><p>Then you can export your ssh public key.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-add -L
+</span></span><span style="display:flex;"><span>ssh-add -l
+</span></span></code></pre></div><p>Connect to github and test it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -T git@github.com:uuxyz/history.git
+</span></span></code></pre></div><p>If it goes well, you&rsquo;ll see this:</p>
+<blockquote>
+<p>Hi uuxyz! You&rsquo;ve successfully authenticated, but GitHub does not provide shell access.</p>
+</blockquote>
+
+    
+  </article>
+</main>
+
+<a href="https://xycos.eu.org/posts/git_usage/">Prev: git usage</a>
+
+<br>
+
+<a href="https://xycos.eu.org/posts/computer_restart/">Next: computer restart</a>
+
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
+    </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/draft/zotero_usage/">zotero usage</a></li>
+        
+        <li><a href="/posts/draft/zlibrary_usage/">zlibrary usage</a></li>
+        
+        <li><a href="/posts/math_in_english/">math in english</a></li>
+        
+        <li><a href="/posts/vim_usage/">vim usage</a></li>
+        
+        <li><a href="/posts/newtons_method/">newton&#39;s method</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+
+    <footer class="site-footer">
+  <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
+</footer>
+
+  </body>
+</html>

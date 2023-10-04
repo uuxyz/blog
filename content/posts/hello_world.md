@@ -31,9 +31,8 @@ int main(){
 
 ## C++
 ```cpp
-#include <iostream>
+import module std;
 int main() {
-  std::cout << "Hello world!\n";
-  return 0;
+  std::print("Hello world!\n");
 }
 ```

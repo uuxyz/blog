@@ -59,3 +59,12 @@ git pull
 ```
 
 By following these steps, you'll be well on your way to effectively using Git for your work.
+We need to configure the gpg key in git to authenticate our commits.
+```bash
+git config --global user.signingkey CBE808B2A518258F9EA0B156E81B5EA1E5FF2F77
+```
+
+The following line of code sets up git to sign commits automatically.
+```bash
+git config --global commit.gpgsign true
+```

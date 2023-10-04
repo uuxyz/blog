@@ -1,17 +1,17 @@
 {{ if .Params.math }}
 <script>
-    MathJax = {
-        tex: {
-            inlineMath: [["$", "$"]],
-        },
-        displayMath: [
-            ["$$", "$$"],
-            ["\[\[", "\]\]"],
-        ],
-        svg: {
-            fontCache: "global",
-        },
-    };
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
 </script>
 <script src="/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>

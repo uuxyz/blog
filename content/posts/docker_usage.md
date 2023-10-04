@@ -31,7 +31,7 @@ sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wo
 **Step 3:** Remove the proxy image:
 
 ```bash
-sudo docker rmi dockerproxy.com/yanwk/sd-webui-base:latest
+sudo docker rmi dockerproxy.com/wolframresearch/wolframengine
 ```
 
 You can check the images you have with the `docker images` command.
@@ -41,7 +41,7 @@ You can check the images you have with the `docker images` command.
 shell
 
 ```bash
-sudo docker run wolframresearch/wolframengine /bin/echo "Hello, world"
+sudo docker run wolframresearch/wolframengine
 ```
 
 Using Docker provides a streamlined approach to deploying your applications or accessing pre-built ones. It simplifies the process, making it efficient for both personal and collaborative projects.

@@ -1,47 +1,47 @@
 {{ define "main" }}
 {{ partial "mathjax.html" . }}
-	<main>
-		<article>
-		<header>
-			<h1>{{ .Title }}</h1>
-		</header>
-			<time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">
-			{{ .Date.Format "2006.01.02 15:04" }}
-			</time>
-			{{ with .Params.tags }}
-			<div>
-					Tags:
-					{{ range . }}
-					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-					{{ end }}
-			</div>
-			{{ end }}
-			Reading time:
-			{{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
-			{{ $minutes := math.Floor (div $readTime 60) }}
-			{{ $seconds := mod $readTime 60 }}
-			{{ if gt $minutes 0}}
-			{{ $minutes }} {{ cond (eq $minutes 1) "minute" "min" }}
-			{{ end }}
-			{{ $seconds }} {{ cond (eq $seconds 1) "second" "s" }}.
-			<div>
-							<h3>Table of contents</h3>
-							{{ .TableOfContents }}
-			</div>
-			{{ .Content }}
-			{{ with .Site.DisqusShortname }}
-			<div>
-				{{ template "_internal/disqus.html" . }}
-			</div>
-			{{ end }}
-		</article>
-	</main>
+<main>
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">
+      {{ .Date.Format "2006.01.02 15:04" }}
+    </time>
+    {{ with .Params.tags }}
+    <div>
+      Tags:
+      {{ range . }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+    Reading time:
+    {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+    {{ $minutes := math.Floor (div $readTime 60) }}
+    {{ $seconds := mod $readTime 60 }}
+    {{ if gt $minutes 0}}
+    {{ $minutes }} {{ cond (eq $minutes 1) "minute" "min" }}
+    {{ end }}
+    {{ $seconds }} {{ cond (eq $seconds 1) "second" "s" }}.
+    <div>
+      <h3>Table of contents</h3>
+      {{ .TableOfContents }}
+    </div>
+    {{ .Content }}
+    {{ with .Site.DisqusShortname }}
+    <div>
+      {{ template "_internal/disqus.html" . }}
+    </div>
+    {{ end }}
+  </article>
+</main>
 {{ with .PrevInSection }}
-  <a href="{{ .Permalink }}">Prev: {{ .Title }}</a>
+<a href="{{ .Permalink }}">Prev: {{ .Title }}</a>
 {{ end }}
 <br>
 {{ with .NextInSection }}
-  <a href="{{ .Permalink }}">Next: {{ .Title }}</a>
+<a href="{{ .Permalink }}">Next: {{ .Title }}</a>
 {{ end }}
 {{ partial "sidebar.html" . }}
 {{ end }}
