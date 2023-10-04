@@ -1,7 +1,6 @@
 ---
-title: "L'Internationale"
+title: L'Internationale
 date: 1871-06-01T00:00:00+00:00
-draft: true
 ---
 
 ```

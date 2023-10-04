@@ -7,7 +7,7 @@ date: 0001-01-01
 ### genesis 1:1
 In the beginning God created the heavens and the earth.
 ## exodus
-## exodus 21:24
+### exodus 21:24
 eye for eye, tooth for tooth, hand for hand, foot for foot,
 ## leviticus
 

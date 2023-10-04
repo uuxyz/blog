@@ -9,19 +9,19 @@
     <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zotero usage</title>
-      <link>https://upunder.us/posts/draft/zotero_usage/</link>
+      <link>https://upunder.us/posts/zotero_usage/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://upunder.us/posts/draft/zotero_usage/</guid>
+      <guid>https://upunder.us/posts/zotero_usage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zlibrary usage</title>
-      <link>https://upunder.us/posts/draft/zlibrary_usage/</link>
+      <link>https://upunder.us/posts/zlibrary_usage/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://upunder.us/posts/draft/zlibrary_usage/</guid>
+      <guid>https://upunder.us/posts/zlibrary_usage/</guid>
       <description></description>
     </item>
     
@@ -308,7 +308,7 @@ insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your s
     </item>
     
     <item>
-      <title>emacs_usage</title>
+      <title>emacs usage</title>
       <link>https://upunder.us/posts/emacs_usage/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
@@ -339,6 +339,25 @@ If someone were to remember and celebrate this day with me, I believe I might ju
     </item>
     
     <item>
+      <title>L&#39;Internationale</title>
+      <link>https://upunder.us/posts/the_international/</link>
+      <pubDate>Thu, 01 Jun 1871 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/the_international/</guid>
+      <description>Debout! les damnés de la terre Debout! les forçats de la faim La raison tonne en son cratère, C’est l’éruption de la fin. Du passé faisons table rase Foule esclave, debout! debout! Le monde va changer de base Nous ne sommes rien, soyons tout! Refrain C’est la lutte finale Groupons-nous et demain L’Internationale Sera le genre humain. Il n’est pas de sauveurs suprêmes: Ni dieu, ni césar, ni tribun, Producteurs, sauvons-nous nous-mêmes!</description>
+    </item>
+    
+    <item>
+      <title>Manifesto of the Communist Party</title>
+      <link>https://upunder.us/posts/manifesto/</link>
+      <pubDate>Mon, 21 Feb 1848 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/manifesto/</guid>
+      <description>A spectre is haunting Europe - the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.
+Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?</description>
+    </item>
+    
+    <item>
       <title>bible</title>
       <link>https://upunder.us/posts/bible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -347,6 +366,15 @@ If someone were to remember and celebrate this day with me, I believe I might ju
       <description>old testament genesis genesis 1:1 In the beginning God created the heavens and the earth.
 exodus exodus 21:24 eye for eye, tooth for tooth, hand for hand, foot for foot,
 leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kings 1 chronicles 2 chronicles ezra nehemiah esther job psalms proverbs ecclesiastes ecclesiastes 1:8 All things are wearisome, more than one can say. The eye never has enough of seeing, nor the ear its fill of hearing.</description>
+    </item>
+    
+    <item>
+      <title>Lorem ipsum</title>
+      <link>https://upunder.us/posts/lorem_ipsum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/lorem_ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>

@@ -1,7 +1,6 @@
 ---
-title: "Manifesto of the Communist Party"
+title: Manifesto of the Communist Party
 date: 1848-02-21T00:00:00+00:00
-draft: true
 ---
 
 A spectre is haunting Europe - the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.

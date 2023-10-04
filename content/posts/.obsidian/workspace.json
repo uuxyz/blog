@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "website_for_study.md",
+                "file": "manifesto.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "website_for_study.md",
+                "file": "manifesto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "website_for_study.md",
+                "file": "manifesto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "website_for_study.md"
+                "file": "manifesto.md"
               }
             }
           },
@@ -167,32 +167,32 @@
   },
   "active": "a2a47aafa0535c3e",
   "lastOpenFiles": [
+    "lorem_ipsum.md",
+    "the_international.md",
+    "vim_usage.md",
     "website_for_study.md",
-    "c_programming.md",
-    "newtons_method.md",
-    "second_derivative.md",
-    "computer_restart.md",
-    "hacker_tool.md",
-    "rime_usage.md",
-    "guide_of_immigration.md",
-    "latina.md",
-    "linux_driver.md",
-    "manim_usage.md",
-    "docker_usage.md",
-    "latex_usage.md",
-    "math_in_english.md",
-    "7_years_old.md",
-    "lean_usage.md",
-    "c_right_left_rule.md",
-    "bible.md",
-    "bash_usage.md",
-    "python_usage.md",
-    "mount_usage.md",
-    "matlab_usage.md",
-    "mathematica_usage.md",
-    "create_disks.md",
-    "emacs_usage.md",
-    "49_years_old.md",
+    "zlibrary_usage.md",
+    "zotero_usage.md",
+    "draft/triangle.md",
+    "draft/stack.md",
+    "draft/python_modules.md",
+    "draft/probability_theory.md",
+    "draft/physics_in_ncee.md",
+    "draft/pandas.md",
+    "draft/mock_test.md",
+    "draft/math_in_ncee.md",
+    "draft/math_formula.md",
+    "draft/math.md",
+    "draft/linear_algebra.md",
+    "draft/four_books_and_five_classics.md",
+    "draft/english.md",
+    "draft/code_in_ncee.md",
+    "draft/chinese.md",
+    "draft/calendar.md",
+    "draft/biology.md",
+    "draft/algorithms.md",
+    "draft/4000_essential_english_words.md",
+    "manifesto.md",
     "Untitled",
     "draft"
   ]
