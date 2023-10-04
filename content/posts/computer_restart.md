@@ -14,6 +14,12 @@ You can use `visudo` to edit the `/etc/sudoers` file. Insert the following line 
 u ALL=(ALL:ALL) ALL
 ```
 
+If you're in an area where you're still using the old dial-up, then the following line of command may be useful.
+
+```bash
+nmcli con edit type pppoe con-name "pppoe"
+```
+
 Perhaps you've noticed that the time on Windows and Linux is always off, then it's definitely Windows' fault. Try running this piece of code:
 ```cmd
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1

@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://xycos.eu.org"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://upunder.us"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   
 </header>
@@ -37,7 +37,7 @@
     
     3 min
     
-    13 s.
+    21 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents"></nav>
@@ -47,6 +47,8 @@
 <p>After installing Manjaro, remember to leave some space for Windows. You&rsquo;ll definitely need the most widely used operating system in the world. Assuming you have 1TB or more of storage space, allocate 256GB to each system, and the rest can be used for file storage.</p>
 <p>You can use <code>visudo</code> to edit the <code>/etc/sudoers</code> file. Insert the following line at the appropriate location, replacing &lsquo;u&rsquo; with your own username:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>u ALL<span style="color:#f92672">=(</span>ALL:ALL<span style="color:#f92672">)</span> ALL
+</span></span></code></pre></div><p>If you&rsquo;re in an area where you&rsquo;re still using the old dial-up, then the following line of command may be useful.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmcli con edit type pppoe con-name <span style="color:#e6db74">&#34;pppoe&#34;</span>
 </span></span></code></pre></div><p>Perhaps you&rsquo;ve noticed that the time on Windows and Linux is always off, then it&rsquo;s definitely Windows&rsquo; fault. Try running this piece of code:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 </span></span></code></pre></div><p>Once you&rsquo;ve sorted out the system installation, it&rsquo;s time to relax online. Let&rsquo;s open Firefox and log into your Mozilla account. Passwords and bookmarks should sync automatically. Now it&rsquo;s time to access Google. Oops, it&rsquo;s blocked, but that&rsquo;s okay, where there&rsquo;s a will, there&rsquo;s a way.</p>
@@ -79,11 +81,11 @@ Your own configuration? Don&rsquo;t kid yourself. You should unashamedly borrow 
   </article>
 </main>
 
-<a href="https://xycos.eu.org/posts/gpg_usage/">Prev: gpg usage</a>
+<a href="https://upunder.us/posts/gpg_usage/">Prev: gpg usage</a>
 
 <br>
 
-<a href="https://xycos.eu.org/posts/c_right_left_rule/">Next: right-left rule</a>
+<a href="https://upunder.us/posts/c_right_left_rule/">Next: right-left rule</a>
 
 <aside class="latest-posts">
   <div>
@@ -97,11 +99,11 @@ Your own configuration? Don&rsquo;t kid yourself. You should unashamedly borrow 
         
         <li><a href="/posts/draft/zlibrary_usage/">zlibrary usage</a></li>
         
+        <li><a href="/posts/website_for_study/">website for study</a></li>
+        
         <li><a href="/posts/math_in_english/">math in english</a></li>
         
         <li><a href="/posts/vim_usage/">vim usage</a></li>
-        
-        <li><a href="/posts/newtons_method/">newton&#39;s method</a></li>
         
       </ul>
     </div>
@@ -110,7 +112,7 @@ Your own configuration? Don&rsquo;t kid yourself. You should unashamedly borrow 
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://xycos.eu.org">up under us</a></p>
+  <p>2023 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>
