@@ -20,6 +20,23 @@
 
     
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script src="/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
+
 
 <main>
   <article>
@@ -35,12 +52,17 @@
     
     
     
-    0 s.
+    19 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents"></nav>
     </div>
-    
+    <p>I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!</p>
+<p>To prove logical formulas, we just need to use a truth table; <a href="https://web.stanford.edu/class/cs103/tools/truth-table-tool/">This</a> is a good tool to use, but it&rsquo;s not enough for more complex mathematical theorems.</p>
+<p>We can proof $2+2=4$ by using following code:</p>
+<pre tabindex="0"><code class="language-lean" data-lang="lean">theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl
+</code></pre><p><strong>rfl</strong> stands for &ldquo;<em>reflexivity</em>&rdquo;</p>
+
     
   </article>
 </main>
@@ -59,15 +81,15 @@
     <div class="post-list">
       <ul>
         
+        <li><a href="/posts/galois_field/">galois field</a></li>
+        
+        <li><a href="/posts/tar_usage/">tar usage</a></li>
+        
         <li><a href="/posts/zotero_usage/">zotero usage</a></li>
         
         <li><a href="/posts/zlibrary_usage/">zlibrary usage</a></li>
         
         <li><a href="/posts/website_for_study/">website for study</a></li>
-        
-        <li><a href="/posts/math_in_english/">math in english</a></li>
-        
-        <li><a href="/posts/vim_usage/">vim usage</a></li>
         
       </ul>
     </div>

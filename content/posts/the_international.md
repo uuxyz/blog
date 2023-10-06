@@ -1,5 +1,5 @@
 ---
-title: L'Internationale
+title: l'internationale
 date: 1871-06-01T00:00:00+00:00
 ---
 

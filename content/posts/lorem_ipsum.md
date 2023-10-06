@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum
+title: lorem ipsum
 date: 100-01-01T00:00:00+00:00
 ---
 

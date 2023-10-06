@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0a63b28793337ba7",
+        "id": "e8fa2fd3053a01fd",
         "type": "tabs",
         "children": [
           {
-            "id": "d1ebe853573d4585",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a2a47aafa0535c3e",
+            "id": "d06616ce15916c88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manifesto.md",
+                "file": "shell_usage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manifesto.md",
+                "file": "shell_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manifesto.md",
+                "file": "shell_usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manifesto.md"
+                "file": "shell_usage.md"
               }
             }
           },
@@ -165,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2a47aafa0535c3e",
+  "active": "d06616ce15916c88",
   "lastOpenFiles": [
-    "lorem_ipsum.md",
-    "the_international.md",
-    "vim_usage.md",
-    "website_for_study.md",
-    "zlibrary_usage.md",
+    "galois_field.md",
     "zotero_usage.md",
-    "draft/triangle.md",
-    "draft/stack.md",
-    "draft/python_modules.md",
-    "draft/probability_theory.md",
-    "draft/physics_in_ncee.md",
-    "draft/pandas.md",
-    "draft/mock_test.md",
-    "draft/math_in_ncee.md",
-    "draft/math_formula.md",
-    "draft/math.md",
-    "draft/linear_algebra.md",
-    "draft/four_books_and_five_classics.md",
-    "draft/english.md",
-    "draft/code_in_ncee.md",
-    "draft/chinese.md",
-    "draft/calendar.md",
-    "draft/biology.md",
-    "draft/algorithms.md",
-    "draft/4000_essential_english_words.md",
-    "manifesto.md",
+    "tar_usage.md",
+    "shell_usage.md",
+    "zlibrary_usage.md",
+    "math_in_english.md",
+    "vim_usage.md",
+    "hacker_tool.md",
+    "c_programming.md",
+    "rime_usage.md",
+    "mount_usage.md",
+    "create_disks.md",
+    "manim_usage.md",
+    "python_usage.md",
+    "mathematica_usage.md",
+    "matlab_usage.md",
+    "lean_usage.md",
+    "c_right_left_rule.md",
+    "the_international.md",
+    "second_derivative.md",
+    "latina.md",
+    "docker_usage.md",
+    "7_years_old.md",
+    "49_years_old.md",
+    "bible.md",
+    "21_years_old.md",
     "Untitled",
     "draft"
   ]

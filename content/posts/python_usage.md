@@ -2,8 +2,8 @@
 title: python usage
 date: 2023-09-12
 ---
-### python
+# network
 ```python
 ## file server
-python3 -m http.server
+python -m http.server
 ```

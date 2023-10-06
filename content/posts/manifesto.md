@@ -1,5 +1,5 @@
 ---
-title: Manifesto of the Communist Party
+title: manifesto of the communist party
 date: 1848-02-21T00:00:00+00:00
 ---
 

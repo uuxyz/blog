@@ -29,3 +29,6 @@ math: true
 | Χ          | χ          | Χ                 | $\chi$            |               | chi     |
 | Ψ          | ψ          | $\Psi$            | $\psi$            |               | psi     |
 | Ω          | ω          | $\Omega$          | $\omega$          |               | omega   |
+
+[rapidtables](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html)
+[Glossary of mathematical symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
