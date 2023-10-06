@@ -13,16 +13,16 @@
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://upunder.us/posts/galois_field/</guid>
-      <description></description>
+      <description>$$\frac{m}{n}=mn^{p-2}\pmod p$$</description>
     </item>
     
     <item>
       <title>tar usage</title>
       <link>https://upunder.us/posts/tar_usage/</link>
-      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://upunder.us/posts/tar_usage/</guid>
-      <description></description>
+      <description>tar -xvf example.tar </description>
     </item>
     
     <item>
