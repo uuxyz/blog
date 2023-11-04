@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://upunder.us/posts/galois_field/</loc>
-    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://upunder.us/posts/</loc>
-    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://upunder.us/</loc>
+    <lastmod>2023-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/ycombinator/</loc>
+    <lastmod>2023-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/tags/algorithm/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/fast_fourier_transform/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/tags/math/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/tags/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/convolution/</loc>
+    <lastmod>2023-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/avatar/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/linked_list/</loc>
+    <lastmod>2023-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/programming_environment/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/risc-v/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/galois_field/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://upunder.us/posts/tar_usage/</loc>
@@ -16,6 +46,9 @@
   </url><url>
     <loc>https://upunder.us/posts/zotero_usage/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://upunder.us/posts/mathematics/</loc>
+    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://upunder.us/posts/zlibrary_usage/</loc>
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
@@ -118,7 +151,5 @@
     <loc>https://upunder.us/categories/</loc>
   </url><url>
     <loc>https://upunder.us/posts/lorem_ipsum/</loc>
-  </url><url>
-    <loc>https://upunder.us/tags/</loc>
   </url>
 </urlset>

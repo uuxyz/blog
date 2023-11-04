@@ -32,3 +32,6 @@ math: true
 
 [rapidtables](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html)
 [Glossary of mathematical symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
+
+$$\lim_{x\to p} f(x)=L$$
+(**the limit of f, as x approaches p, is L**)

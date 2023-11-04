@@ -5,6 +5,8 @@ date: 2023-09-29
 # cs
 ## OI-wiki
 https://oiwiki.org
+## Leetcode cookbook
+https://books.halfrost.com/leetcode/
 ## CS自学指南
 https://csdiy.wiki/
 ## Code map

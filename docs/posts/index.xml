@@ -6,7 +6,74 @@
     <description>Recent content in Posts on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>y combinator</title>
+      <link>https://upunder.us/posts/ycombinator/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/ycombinator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast fourier transform</title>
+      <link>https://upunder.us/posts/fast_fourier_transform/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/fast_fourier_transform/</guid>
+      <description>First, let&amp;rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
+And how to use FFT to multiply two big integers?
+If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.</description>
+    </item>
+    
+    <item>
+      <title>convolution</title>
+      <link>https://upunder.us/posts/convolution/</link>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/convolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>avatar</title>
+      <link>https://upunder.us/posts/avatar/</link>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/avatar/</guid>
+      <description>&amp;lt;path d=&amp;#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&amp;#34; fill=&amp;#34;white&amp;#34; id=&amp;#34;sector&amp;#34;/&amp;gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&amp;rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&amp;rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L-(R+r)\cos\left(\frac{\tau}{20}\right)+337\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.</description>
+    </item>
+    
+    <item>
+      <title>linked list</title>
+      <link>https://upunder.us/posts/linked_list/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/linked_list/</guid>
+      <description>Write a linked list in C:
+typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a, node_t b){ return ((int)&amp;amp;a ^ (int)&amp;amp;b); } node_t a,b,c; a.val=0; b.val=1; c.val=2; a.ptr = &amp;amp;b ^ &amp;amp;c; b.ptr = &amp;amp;a ^ &amp;amp;c; c.ptr = &amp;amp;a ^ &amp;amp;b; void push(int i, node_t *p) { node_t *node = new node; node-&amp;gt;val = i; node-&amp;gt;nxt = p-&amp;gt;nxt; p-&amp;gt;nxt = node; } </description>
+    </item>
+    
+    <item>
+      <title>programming environment</title>
+      <link>https://upunder.us/posts/programming_environment/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/programming_environment/</guid>
+      <description>Anaconda </description>
+    </item>
+    
+    <item>
+      <title>risc-v</title>
+      <link>https://upunder.us/posts/risc-v/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/risc-v/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>galois field</title>
       <link>https://upunder.us/posts/galois_field/</link>
@@ -35,6 +102,15 @@
     </item>
     
     <item>
+      <title>mathematics</title>
+      <link>https://upunder.us/posts/mathematics/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/mathematics/</guid>
+      <description>(ε, δ)-definition of limit $$(\forall\varepsilon&amp;gt;0)(\exists \delta &amp;gt; 0)(\forall x \in \mathbb{R})(0&amp;lt;|x-p|&amp;lt;\delta \implies |f(x)-L|&amp;lt;\varepsilon)$$ (for every real ε &amp;gt; 0, there exists a real δ &amp;gt; 0 such that for all real x, 0 &amp;lt; |x − p| &amp;lt; δ implies |f(x) − L| &amp;lt; ε.)</description>
+    </item>
+    
+    <item>
       <title>zlibrary usage</title>
       <link>https://upunder.us/posts/zlibrary_usage/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
@@ -50,6 +126,7 @@
       
       <guid>https://upunder.us/posts/website_for_study/</guid>
       <description>cs OI-wiki https://oiwiki.org
+Leetcode cookbook https://books.halfrost.com/leetcode/
 CS自学指南 https://csdiy.wiki/
 Code map https://codemap.info/index.html
 MDN web doc https://developer.mozilla.org
@@ -206,7 +283,7 @@ The study of Latin can be a gateway to a deeper understanding of literature and 
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://upunder.us/posts/mathematica_usage/</guid>
-      <description>Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] </description>
+      <description>Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] RootApproximant[Pi,1] </description>
     </item>
     
     <item>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on up under us</title>
+    <link>https://upunder.us/tags/math/</link>
+    <description>Recent content in math on up under us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fast fourier transform</title>
+      <link>https://upunder.us/posts/fast_fourier_transform/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/fast_fourier_transform/</guid>
+      <description>First, let&amp;rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
+And how to use FFT to multiply two big integers?
+If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.</description>
+    </item>
+    
+    <item>
+      <title>mathematics</title>
+      <link>https://upunder.us/posts/mathematics/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/mathematics/</guid>
+      <description>(ε, δ)-definition of limit $$(\forall\varepsilon&amp;gt;0)(\exists \delta &amp;gt; 0)(\forall x \in \mathbb{R})(0&amp;lt;|x-p|&amp;lt;\delta \implies |f(x)-L|&amp;lt;\varepsilon)$$ (for every real ε &amp;gt; 0, there exists a real δ &amp;gt; 0 such that for all real x, 0 &amp;lt; |x − p| &amp;lt; δ implies |f(x) − L| &amp;lt; ε.)</description>
+    </item>
+    
+  </channel>
+</rss>

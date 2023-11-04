@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e8fa2fd3053a01fd",
+        "id": "1f5fc6621de9fbbc",
         "type": "tabs",
         "children": [
           {
-            "id": "d06616ce15916c88",
+            "id": "915a7940f1d6636d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shell_usage.md",
+                "file": "great_software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shell_usage.md",
+                "file": "great_software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shell_usage.md",
+                "file": "great_software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shell_usage.md"
+                "file": "great_software.md"
               }
             }
           },
@@ -156,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d06616ce15916c88",
+  "active": "915a7940f1d6636d",
   "lastOpenFiles": [
-    "galois_field.md",
+    "great_software.md",
+    "fixed_point_combinators.md",
+    "convolution.md",
+    "family_tree.md",
+    "gpg_usage.md",
+    "7_years_old.md",
+    "14_years_old.md",
+    "avatar.md",
+    "linked_list.md",
+    "website_for_study.md",
     "zotero_usage.md",
+    "zlibrary_usage.md",
+    "vim_usage.md",
+    "the_international.md",
     "tar_usage.md",
     "shell_usage.md",
-    "zlibrary_usage.md",
-    "math_in_english.md",
-    "vim_usage.md",
-    "hacker_tool.md",
-    "c_programming.md",
-    "rime_usage.md",
-    "mount_usage.md",
-    "create_disks.md",
-    "manim_usage.md",
-    "python_usage.md",
-    "mathematica_usage.md",
-    "matlab_usage.md",
-    "lean_usage.md",
-    "c_right_left_rule.md",
-    "the_international.md",
     "second_derivative.md",
-    "latina.md",
-    "docker_usage.md",
-    "7_years_old.md",
-    "49_years_old.md",
-    "bible.md",
-    "21_years_old.md",
+    "risc-v.md",
+    "rime_usage.md",
+    "python_usage.md",
+    "programming_environment.md",
+    "newtons_method.md",
+    "mount_usage.md",
+    "matlab_usage.md",
+    "mathematics.md",
+    "mathematica_usage.md",
     "Untitled",
     "draft"
   ]

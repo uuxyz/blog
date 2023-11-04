@@ -10,4 +10,5 @@ Integrate[{2*x},x]
 D[x^2,x]
 RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n]
 FindSequenceFunction[{1,1,2,3,5}]
+RootApproximant[Pi,1]
 ```
