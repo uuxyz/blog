@@ -18,6 +18,10 @@ If you're in an area where you're still using the old dial-up, then the followin
 
 ```bash
 nmcli con edit type pppoe con-name "pppoe"
+set pppoe.username XXXXXXXXXXX@cmcc
+set pppoe.password XXXXXXXXXXXXXXXX
+save
+quit
 ```
 
 Perhaps you've noticed that the time on Windows and Linux is always off, then it's definitely Windows' fault. Try running this piece of code:
@@ -31,7 +35,7 @@ Remember to update Manjaro's mirrors:
 
 ```bash
 sudo pacman-mirrors -i -c China -m rank
-sudo pacman -Syyu
+sudo pacman -Syu
 ```
 
 Install pip and accelerate pip downloads with the following line of code:
@@ -44,8 +48,8 @@ Note: This information may change rapidly over time!
 
 First, let's download a fantastic piece of software: [v2ray](https://github.com/v2fly/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip) .
 Next, let's download its graphical interface: [v2rayA](https://github.com/v2rayA/v2rayA/releases/download/v2.2.4/v2raya_linux_x64_2.2.4) .
-But where can we get some [free proxy nodes](https://ghproxy.com/https://raw.githubusercontent.com/freefq/free/master/v2) ?
-If you only want to access blocked websites through a proxy, this list can be very helpful: [gfwlist.txt](https://ghproxy.com/https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
+But where can we get some [free proxy nodes](https://raw.githubusercontent.com/freefq/free/master/v2) ?
+If you only want to access blocked websites through a proxy, this list can be very helpful: [gfwlist.txt](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 Now you should know what to do!
 
 After enjoying a smooth internet experience, it's time to ditch the ugly bash shell. Just go for oh-my-zsh with the robbyrussell theme; no need for more tinkering.

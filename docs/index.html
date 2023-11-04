@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.118.2">
+	<meta name="generator" content="Hugo 0.54.0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,11 +21,66 @@
 
     
 <main><article>
-  <h1><a href="https://upunder.us/posts/ycombinator/">y combinator</a></h1>
+  <h1><a href="https://upunder.us/posts/great_software/">great software</a></h1>
+  <time datetime="2023-11-03T00:00:00">2023.11.03 00:00</time>
+  
+  <div>
+    baobab rime A great Chinese input method.
+plum A plugin for rime.
+circuitjs1 A great circuit analyzer.
+zotero A great paper organizer.
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/family_tree/">family tree</a></h1>
+  <time datetime="2023-10-22T00:00:00">2023.10.22 00:00</time>
+  
+  <div>
+    Adam Eve
+Cain Abel (Seth)
+Enosh
+Kenan
+Mahalalel
+Jared
+Enoch
+Methuselah
+Lamench
+Noah
+(Shem) Ham Japheth
+Arphaxad
+Shelah
+Eber
+Peleg
+Reu
+Serug
+Nahor
+Terah
+Abraham
+Isaac
+Jacob
+Judah
+Perez
+Hezron
+Ram
+Amminadab
+Nahshon
+Salmon
+Boaz
+Obed
+Jesse
+David
+Solomon
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/fixed_point_combinators/">fixed-point combinators</a></h1>
   <time datetime="2023-10-15T00:00:00">2023.10.15 00:00</time>
   
   <div>
-    
+    $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
+(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x)))))))  
     
   </div>
 </article>
@@ -42,7 +97,7 @@
   
   <div>
     First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
-a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18  This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
 And how to use FFT to multiply two big integers?
 If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.
     
@@ -55,7 +110,7 @@ If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 1
   <time datetime="2023-10-13T00:00:00">2023.10.13 00:00</time>
   
   <div>
-    
+    $$(f*g)(t):=\int_{-\infty}^{\infty}f(\tau)g(x-\tau)\mathrm{d}\tau$$
     
   </div>
 </article>
@@ -64,7 +119,7 @@ If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 1
   <time datetime="2023-10-12T00:00:00">2023.10.12 00:00</time>
   
   <div>
-    &lt;path d=&#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&#34; fill=&#34;white&#34; id=&#34;sector&#34;/&gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L-(R+r)\cos\left(\frac{\tau}{20}\right)+337\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
+    &lt;path d=&quot;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&quot; fill=&quot;white&quot; id=&quot;sector&quot;/&gt;  $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
     
     <a href="https://upunder.us/posts/avatar/">Read more...</a>
     
@@ -76,7 +131,7 @@ If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 1
   
   <div>
     Write a linked list in C:
-typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a, node_t b){ return ((int)&amp;a ^ (int)&amp;b); } node_t a,b,c; a.val=0; b.val=1; c.val=2; a.ptr = &amp;b ^ &amp;c; b.ptr = &amp;a ^ &amp;c; c.ptr = &amp;a ^ &amp;b; void push(int i, node_t *p) { node_t *node = new node; node-&gt;val = i; node-&gt;nxt = p-&gt;nxt; p-&gt;nxt = node; } 
+typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a, node_t b){ return ((int)&amp;a ^ (int)&amp;b); } node_t a,b,c; a.val=0; b.val=1; c.val=2; a.ptr = &amp;b ^ &amp;c; b.ptr = &amp;a ^ &amp;c; c.ptr = &amp;a ^ &amp;b; void push(int i, node_t *p) { node_t *node = new node; node-&gt;val = i; node-&gt;nxt = p-&gt;nxt; p-&gt;nxt = node; }  
     
   </div>
 </article>
@@ -85,7 +140,7 @@ typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a
   <time datetime="2023-10-08T00:00:00">2023.10.08 00:00</time>
   
   <div>
-    Anaconda 
+     Anaconda 
     
   </div>
 </article>
@@ -104,24 +159,6 @@ typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a
   
   <div>
     $$\frac{m}{n}=mn^{p-2}\pmod p$$
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/tar_usage/">tar usage</a></h1>
-  <time datetime="2023-10-05T00:00:00">2023.10.05 00:00</time>
-  
-  <div>
-    tar -xvf example.tar 
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/zotero_usage/">zotero usage</a></h1>
-  <time datetime="2023-10-04T00:00:00">2023.10.04 00:00</time>
-  
-  <div>
-    
     
   </div>
 </article>
@@ -144,15 +181,15 @@ typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/ycombinator/">y combinator</a></li>
+        <li><a href="/posts/great_software/">great software</a></li>
+        
+        <li><a href="/posts/family_tree/">family tree</a></li>
+        
+        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
         
         <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
         
         <li><a href="/posts/convolution/">convolution</a></li>
-        
-        <li><a href="/posts/avatar/">avatar</a></li>
-        
-        <li><a href="/posts/linked_list/">linked list</a></li>
         
       </ul>
     </div>

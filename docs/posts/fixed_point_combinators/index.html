@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>mathematics</title>
+    <title>fixed-point combinators</title>
     
     
     <style type="text/css" media="all">@import "/style.css";</style>
@@ -41,49 +41,42 @@
 <main>
   <article>
     <header>
-      <h1>mathematics</h1>
+      <h1>fixed-point combinators</h1>
     </header>
-    <time datetime="2023-10-03T00:00:00">
-      2023.10.03 00:00
+    <time datetime="2023-10-15T00:00:00">
+      2023.10.15 00:00
     </time>
-    
-    <div>
-      Tags:
-      
-      <a href="/tags/math">math</a>
-      
-    </div>
     
     Reading time:
     
     
     
     
-    16 s.
+    7 s.
     <div>
       <h3>Table of contents</h3>
-      <nav id="TableOfContents">
-<ul>
-<li><a href="#ε-δ-definition-of-limit">(<em>ε</em>, <em>δ</em>)-definition of limit</a></li>
-</ul>
-</nav>
+      
     </div>
-    
+    <p>$$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$
+$$Y\ g=g(Y\ g)$$</p>
 
-<h1 id="ε-δ-definition-of-limit">(<em>ε</em>, <em>δ</em>)-definition of limit</h1>
-
-<p>$$(\forall\varepsilon&gt;0)(\exists \delta &gt; 0)(\forall x \in \mathbb{R})(0&lt;|x-p|&lt;\delta \implies |f(x)-L|&lt;\varepsilon)$$
-(for every real <em>ε</em> &gt; 0, there exists a real <em>δ</em> &gt; 0 such that for all real x, 0 &lt; |<em>x</em> − <em>p</em>| &lt; <em>δ</em> implies |<em>f</em>(<em>x</em>) − <em>L</em>| &lt; <em>ε</em>.)</p>
+<pre><code class="language-scheme">(define Y
+  (lambda (f)
+    ((lambda (i) (i i))
+     (lambda (i)
+       (f (lambda (x)
+	        (apply (i i) x)))))))
+</code></pre>
 
     
   </article>
 </main>
 
-<a href="https://upunder.us/posts/zlibrary_usage/">Prev: zlibrary usage</a>
+<a href="https://upunder.us/posts/fast_fourier_transform/">Prev: fast fourier transform</a>
 
 <br>
 
-<a href="https://upunder.us/posts/zotero_usage/">Next: zotero usage</a>
+<a href="https://upunder.us/posts/family_tree/">Next: family tree</a>
 
 <aside class="latest-posts">
   <div>

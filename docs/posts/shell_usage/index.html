@@ -39,31 +39,44 @@
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
-  <ul>
-    <li><a href="#hello-world">hello world</a></li>
-    <li><a href="#variables">variables</a></li>
-    <li><a href="#functions">functions</a></li>
-    <li><a href="#other">other</a>
-      <ul>
-        <li><a href="#fancy-date">fancy date</a></li>
-      </ul>
-    </li>
-  </ul>
+<ul>
+<li><a href="#hello-world">hello world</a></li>
+<li><a href="#variables">variables</a></li>
+<li><a href="#functions">functions</a></li>
+<li><a href="#other">other</a>
+<ul>
+<li><a href="#fancy-date">fancy date</a></li>
+</ul></li>
+</ul>
 </nav>
     </div>
-    <h1 id="hello-world">hello world</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>echo <span style="color:#e6db74">&#34;Hello World !&#34;</span>
-</span></span></code></pre></div><h1 id="variables">variables</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>user<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>whoami<span style="color:#66d9ef">)</span>
-</span></span></code></pre></div><h1 id="functions">functions</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> hello <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;hello, </span><span style="color:#66d9ef">$(</span>whoami<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><h1 id="other">other</h1>
+    
+
+<h1 id="hello-world">hello world</h1>
+
+<pre><code class="language-bash">#!/bin/bash
+echo &quot;Hello World !&quot;
+</code></pre>
+
+<h1 id="variables">variables</h1>
+
+<pre><code class="language-bash">user=$(whoami)
+</code></pre>
+
+<h1 id="functions">functions</h1>
+
+<pre><code class="language-bash">function hello {
+    echo &quot;hello, $(whoami)&quot;
+}
+</code></pre>
+
+<h1 id="other">other</h1>
+
 <h2 id="fancy-date">fancy date</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>date +<span style="color:#e6db74">&#34;%A, %d %B %Y %H:%M:%S:%N %p %z %Z Week:%W Day:%j Epoch:%s %t&#34;</span>
-</span></span></code></pre></div>
+
+<pre><code class="language-bash">date +&quot;%A, %d %B %Y %H:%M:%S:%N %p %z %Z Week:%W Day:%j Epoch:%s %t&quot;
+</code></pre>
+
     
   </article>
 </main>
@@ -82,15 +95,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/ycombinator/">y combinator</a></li>
+        <li><a href="/posts/great_software/">great software</a></li>
+        
+        <li><a href="/posts/family_tree/">family tree</a></li>
+        
+        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
         
         <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
         
         <li><a href="/posts/convolution/">convolution</a></li>
-        
-        <li><a href="/posts/avatar/">avatar</a></li>
-        
-        <li><a href="/posts/linked_list/">linked list</a></li>
         
       </ul>
     </div>

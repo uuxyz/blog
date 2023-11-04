@@ -64,29 +64,38 @@
     39 s.
     <div>
       <h3>Table of contents</h3>
-      <nav id="TableOfContents"></nav>
+      
     </div>
     <p>First, let&rsquo;s forget the algorithm of FFT and just use it.
 How is it useful?
 It can use to multiply two polynomial.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-matlab" data-lang="matlab"><span style="display:flex;"><span>a = [<span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">3</span>];
-</span></span><span style="display:flex;"><span>b = [<span style="color:#ae81ff">4</span> <span style="color:#ae81ff">5</span> <span style="color:#ae81ff">6</span>];
-</span></span><span style="display:flex;"><span>la = length(a);
-</span></span><span style="display:flex;"><span>lb = length(b);
-</span></span><span style="display:flex;"><span>ifft(fft(a,la<span style="color:#f92672">+</span>lb<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">.*</span>fft(b,la<span style="color:#f92672">+</span>lb<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>));
-</span></span><span style="display:flex;"><span>ans = <span style="color:#ae81ff">4</span>    <span style="color:#ae81ff">13</span>    <span style="color:#ae81ff">28</span>    <span style="color:#ae81ff">27</span>    <span style="color:#ae81ff">18</span>
-</span></span></code></pre></div><p>This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$</p>
+
+<pre><code class="language-matlab">a = [1 2 3];
+b = [4 5 6];
+la = length(a);
+lb = length(b);
+ifft(fft(a,la+lb-1).*fft(b,la+lb-1));
+ans = 4    13    28    27    18
+</code></pre>
+
+<p>This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$</p>
+
 <p>And how to use FFT to multiply two big integers?</p>
+
 <p>If let $x=10$ Then can see it as $123 \times 456$
 And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.
 Reduce every digital to below 10 and write it in the form we familiar.</p>
-<pre tabindex="0"><code>4    13    28    27    18
+
+<pre><code>4    13    28    27    18
 4    13    28    28    8
 4    13    30    8     8
 4    16    0     8     8
 5    6     0     8     8
 56088
-</code></pre><p>Then there is the result $56088$.</p>
+</code></pre>
+
+<p>Then there is the result $56088$.</p>
+
 <p>Then let&rsquo;s find out how FFT and IFFT realize.</p>
 
     
@@ -97,7 +106,7 @@ Reduce every digital to below 10 and write it in the form we familiar.</p>
 
 <br>
 
-<a href="https://upunder.us/posts/ycombinator/">Next: y combinator</a>
+<a href="https://upunder.us/posts/fixed_point_combinators/">Next: fixed-point combinators</a>
 
 <aside class="latest-posts">
   <div>
@@ -107,15 +116,15 @@ Reduce every digital to below 10 and write it in the form we familiar.</p>
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/ycombinator/">y combinator</a></li>
+        <li><a href="/posts/great_software/">great software</a></li>
+        
+        <li><a href="/posts/family_tree/">family tree</a></li>
+        
+        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
         
         <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
         
         <li><a href="/posts/convolution/">convolution</a></li>
-        
-        <li><a href="/posts/avatar/">avatar</a></li>
-        
-        <li><a href="/posts/linked_list/">linked list</a></li>
         
       </ul>
     </div>

@@ -11,7 +11,7 @@ The study of Latin can be a gateway to a deeper understanding of literature and 
 **1. Seasons in Latin Language** In Latin, the seasons are referred to as "tempora." The four seasons of the year—spring, summer, autumn, and winter—are represented by the following terms:
 
 |season|tempora|
-|--|--|
+|---|---|
 |spring|ver|
 |summer|aestas|
 |autumn|autumnus|
@@ -22,7 +22,7 @@ Understanding these Latin terms not only enriches your vocabulary but also conne
 **2. Days of the Week in Latin** The days of the week in Latin are collectively known as "hebdomas." They are associated with various celestial symbols, as shown in the table below:
 
 |dies|symbolum|
-|--|--|
+|---|---|
 |solis|☉|
 |lunae|☽︎|
 |martis|♂|
@@ -36,7 +36,7 @@ These Latin names and symbols add a touch of classical elegance to the days of t
 **3. Months in Latin** In Latin, months are referred to as "mensis." Here are the Latin names for the months of the year:
 
 |month|mensis|
-|--|--|
+|---|---|
 |january|ianuarius|
 |february|februarius|
 |march|martius|

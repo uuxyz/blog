@@ -117,6 +117,8 @@ He said to them, “Then give back to Caesar what is Caesar’s, and to God what
 For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
 ### john 4:14
 but whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life.”
+### john 16:12
+I have much more to say to you, more than you can now bear.
 ## acts
 
 ### acts 20:35

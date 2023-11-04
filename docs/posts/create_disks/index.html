@@ -38,15 +38,16 @@
     7 s.
     <div>
       <h3>Table of contents</h3>
-      <nav id="TableOfContents"></nav>
+      
     </div>
-    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>fallocate -l 4GiB disk.img
-</span></span><span style="display:flex;"><span>cryptsetup luksFormat --type luks disk.img
-</span></span><span style="display:flex;"><span>sudo cryptsetup luksOpen disk.img secretum
-</span></span><span style="display:flex;"><span>sudo mkfs.ext4 /dev/mapper/secretum
-</span></span><span style="display:flex;"><span>udisksctl mount -b /dev/mapper/secretum
-</span></span><span style="display:flex;"><span>sudo chown -R u:u /run/media/u/fe299871-a3b6-4506-be6c-505b8eb41bec
-</span></span></code></pre></div>
+    <pre><code class="language-bash">fallocate -l 4GiB disk.img
+cryptsetup luksFormat --type luks disk.img
+sudo cryptsetup luksOpen disk.img secretum
+sudo mkfs.ext4 /dev/mapper/secretum
+udisksctl mount -b /dev/mapper/secretum
+sudo chown -R u:u /run/media/u/fe299871-a3b6-4506-be6c-505b8eb41bec
+</code></pre>
+
     
   </article>
 </main>
@@ -65,15 +66,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/ycombinator/">y combinator</a></li>
+        <li><a href="/posts/great_software/">great software</a></li>
+        
+        <li><a href="/posts/family_tree/">family tree</a></li>
+        
+        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
         
         <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
         
         <li><a href="/posts/convolution/">convolution</a></li>
-        
-        <li><a href="/posts/avatar/">avatar</a></li>
-        
-        <li><a href="/posts/linked_list/">linked list</a></li>
         
       </ul>
     </div>

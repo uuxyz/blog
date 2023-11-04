@@ -38,34 +38,36 @@
     18 s.
     <div>
       <h3>Table of contents</h3>
-      <nav id="TableOfContents"></nav>
+      
     </div>
     <p>Write a linked list in C:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> node {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> val;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> node <span style="color:#f92672">*</span>ptr;
-</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">node_t</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">xor</span> (<span style="color:#66d9ef">node_t</span> a, <span style="color:#66d9ef">node_t</span> b){
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> ((<span style="color:#66d9ef">int</span>)<span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> (<span style="color:#66d9ef">int</span>)<span style="color:#f92672">&amp;</span>b);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">node_t</span> a,b,c;
-</span></span><span style="display:flex;"><span>a.val<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>b.val<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>c.val<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>a.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>b <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>c;
-</span></span><span style="display:flex;"><span>b.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>c;
-</span></span><span style="display:flex;"><span>c.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>b;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">push</span>(<span style="color:#66d9ef">int</span> i, <span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span>p) {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span>node <span style="color:#f92672">=</span> new node;
-</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">=</span> i;
-</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>nxt <span style="color:#f92672">=</span> p<span style="color:#f92672">-&gt;</span>nxt;
-</span></span><span style="display:flex;"><span>  p<span style="color:#f92672">-&gt;</span>nxt <span style="color:#f92672">=</span> node;
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+
+<pre><code class="language-c">typedef struct node {
+  int val;
+  struct node *ptr;
+} node_t;
+
+node_t *xor (node_t a, node_t b){
+  return ((int)&amp;a ^ (int)&amp;b);
+}
+
+node_t a,b,c;
+a.val=0;
+b.val=1;
+c.val=2;
+
+a.ptr = &amp;b ^ &amp;c;
+b.ptr = &amp;a ^ &amp;c;
+c.ptr = &amp;a ^ &amp;b;
+
+void push(int i, node_t *p) {
+  node_t *node = new node;
+  node-&gt;val = i;
+  node-&gt;nxt = p-&gt;nxt;
+  p-&gt;nxt = node;
+}
+</code></pre>
+
     
   </article>
 </main>
@@ -84,15 +86,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/ycombinator/">y combinator</a></li>
+        <li><a href="/posts/great_software/">great software</a></li>
+        
+        <li><a href="/posts/family_tree/">family tree</a></li>
+        
+        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
         
         <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
         
         <li><a href="/posts/convolution/">convolution</a></li>
-        
-        <li><a href="/posts/avatar/">avatar</a></li>
-        
-        <li><a href="/posts/linked_list/">linked list</a></li>
         
       </ul>
     </div>

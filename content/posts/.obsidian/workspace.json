@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "great_software.md",
+                "file": "second_derivative.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "great_software.md",
+                "file": "second_derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "great_software.md",
+                "file": "second_derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "great_software.md"
+                "file": "second_derivative.md"
               }
             }
           },
@@ -158,6 +158,10 @@
   },
   "active": "915a7940f1d6636d",
   "lastOpenFiles": [
+    "latina.md",
+    "rime_usage.md",
+    "computer_restart.md",
+    "bible.md",
     "great_software.md",
     "fixed_point_combinators.md",
     "convolution.md",
@@ -176,14 +180,10 @@
     "shell_usage.md",
     "second_derivative.md",
     "risc-v.md",
-    "rime_usage.md",
     "python_usage.md",
     "programming_environment.md",
     "newtons_method.md",
     "mount_usage.md",
-    "matlab_usage.md",
-    "mathematics.md",
-    "mathematica_usage.md",
     "Untitled",
     "draft"
   ]
