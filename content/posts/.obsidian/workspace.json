@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f5fc6621de9fbbc",
+        "id": "38662e1af09c57d3",
         "type": "tabs",
         "children": [
           {
-            "id": "915a7940f1d6636d",
+            "id": "3a54295ec2d659e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "second_derivative.md",
+                "file": "curves.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "second_derivative.md",
+                "file": "curves.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "second_derivative.md",
+                "file": "curves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "second_derivative.md"
+                "file": "curves.md"
               }
             }
           },
@@ -156,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "915a7940f1d6636d",
+  "active": "3a54295ec2d659e4",
   "lastOpenFiles": [
+    "calculus.md",
+    "english_grammar.md",
+    "website_for_study.md",
+    "bijection.md",
+    "prime_algorithms.md",
+    "curves.md",
+    "bitwise_operation.md",
+    "field_extension.md",
+    "second_derivative.md",
+    "linked_list.md",
+    "birthday.md",
+    "bible.md",
+    "avatar.md",
+    "49_years_old.md",
+    "newtons_method.md",
+    "random_algorithms.md",
+    "the_international.md",
+    "vim_usage.md",
+    "zlibrary_usage.md",
+    "zotero_usage.md",
     "latina.md",
     "rime_usage.md",
     "computer_restart.md",
-    "bible.md",
     "great_software.md",
     "fixed_point_combinators.md",
     "convolution.md",
-    "family_tree.md",
-    "gpg_usage.md",
-    "7_years_old.md",
-    "14_years_old.md",
-    "avatar.md",
-    "linked_list.md",
-    "website_for_study.md",
-    "zotero_usage.md",
-    "zlibrary_usage.md",
-    "vim_usage.md",
-    "the_international.md",
-    "tar_usage.md",
-    "shell_usage.md",
-    "second_derivative.md",
-    "risc-v.md",
-    "python_usage.md",
-    "programming_environment.md",
-    "newtons_method.md",
-    "mount_usage.md",
     "Untitled",
     "draft"
   ]

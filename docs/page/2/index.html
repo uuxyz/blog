@@ -21,6 +21,86 @@
 
     
 <main><article>
+  <h1><a href="https://upunder.us/posts/fast_fourier_transform/">fast fourier transform</a></h1>
+  <time datetime="2023-10-14T00:00:00">2023.10.14 00:00</time>
+  
+  Tags:
+  
+  <a href="/tags/math">math</a>
+  
+  <a href="/tags/algorithm">algorithm</a>
+  
+  
+  <div>
+    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18  This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
+And how to use FFT to multiply two big integers?
+If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.
+    
+    <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/convolution/">convolution</a></h1>
+  <time datetime="2023-10-13T00:00:00">2023.10.13 00:00</time>
+  
+  <div>
+    $$(f*g)(t):=\int_{-\infty}^{\infty}f(\tau)g(x-\tau)\mathrm{d}\tau$$
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/avatar/">avatar</a></h1>
+  <time datetime="2023-10-12T00:00:00">2023.10.12 00:00</time>
+  
+  <div>
+    &lt;path d=&quot;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&quot; fill=&quot;white&quot; id=&quot;sector&quot;/&gt;  $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
+    
+    <a href="https://upunder.us/posts/avatar/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/linked_list/">linked list</a></h1>
+  <time datetime="2023-10-11T00:00:00">2023.10.11 00:00</time>
+  
+  <div>
+    Write a linked list in C:
+#include &lt;stddef.h&gt; #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; struct list_head { struct list_head *next; struct list_head *prev; }; void init_list_head(struct list_head *head) { head-&gt;next = head; head-&gt;prev = head; } void list_add(struct list_head *head, struct list_head *new_node) { new_node-&gt;next = head-&gt;next; new_node-&gt;prev = head; head-&gt;next-&gt;prev = new_node; head-&gt;next = new_node; } void list_add_tail(struct list_head *head, struct list_head *new_node) { new_node-&gt;next = head; new_node-&gt;prev = head-&gt;prev; head-&gt;prev-&gt;next = new_node; head-&gt;prev = new_node; } void list_del(struct list_head *node) { node-&gt;prev-&gt;next = node-&gt;next; node-&gt;next-&gt;prev = node-&gt;prev; } struct student { struct list_head list; int id; int yy; int mm; int dd; }; void printList(struct list_head *head) { struct list_head *current = head-&gt;next; while (current !
+    
+    <a href="https://upunder.us/posts/linked_list/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/programming_environment/">programming environment</a></h1>
+  <time datetime="2023-10-08T00:00:00">2023.10.08 00:00</time>
+  
+  <div>
+     Anaconda 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/risc-v/">risc-v</a></h1>
+  <time datetime="2023-10-07T00:00:00">2023.10.07 00:00</time>
+  
+  <div>
+    
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/galois_field/">galois field</a></h1>
+  <time datetime="2023-10-06T00:00:00">2023.10.06 00:00</time>
+  
+  <div>
+    $$\frac{m}{n}=mn^{p-2}\pmod p$$
+    
+  </div>
+</article>
+<article>
   <h1><a href="https://upunder.us/posts/tar_usage/">tar usage</a></h1>
   <time datetime="2023-10-05T00:00:00">2023.10.05 00:00</time>
   
@@ -52,107 +132,12 @@
     
   </div>
 </article>
-<article>
-  <h1><a href="https://upunder.us/posts/zlibrary_usage/">zlibrary usage</a></h1>
-  <time datetime="2023-10-02T00:00:00">2023.10.02 00:00</time>
-  
-  <div>
-    zlibrary
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/website_for_study/">website for study</a></h1>
-  <time datetime="2023-09-29T00:00:00">2023.09.29 00:00</time>
-  
-  <div>
-    cs OI-wiki https://oiwiki.org
-Leetcode cookbook https://books.halfrost.com/leetcode/
-CS自学指南 https://csdiy.wiki/
-Code map https://codemap.info/index.html
-MDN web doc https://developer.mozilla.org
-TeachYourselfCS https://teachyourselfcs.com https://github.com/izackwu/TeachYourselfCS-CN
-stackoverflow https://www.stackoverflow.com
-西电计科本科 https://github.com/zimuzi2019/xducs-learning-tips
-MIT Press https://mitpress.mit.edu/series/mit-press-essential-knowledge-series/
-Ycombinator https://news.ycombinator.com/news
-rosetta code https://www.rosettacode.org
-math stackexchange https://math.stackexchange.com
-mathlib https://leanprover-community.github.io/mathlib-overview.html
-MIT Open Course Ware https://ocw.mit.edu/
-3blue1brown https://www.3blue1brown.com
-english BBC Radio https://radiomap.eu/uk/play/bbc_worldservice
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/math_in_english/">math in english</a></h1>
-  <time datetime="2023-09-28T00:00:00">2023.09.28 00:00</time>
-  
-  <div>
-    upper-case lower-case upper-case $\LaTeX$ lower-case $\LaTeX$ variant name     Α α Α $\alpha$  alpha   Β β Β $\beta$  beta   Γ γ $\Gamma$ $\gamma$  gamma   Δ δ $\Delta$ $\delta$  delta   Ε ε Ε $\epsilon$ $\varepsilon$ epsilon   Ζ ζ Ζ $\zeta$  zeta   Η η Η $\eta$  eta   Θ θ $\Theta$ $\theta$ $\vartheta$ theta   Ι ι Ι $\iota$  iota   Κ κ Κ $\kappa$  kappa   Λ λ $\Lambda$ $\lambda$  lambda   Μ μ Μ $\mu$  mu   Ν ν Ν $\nu$  nu   Ξ ξ $\Xi$ $\xi$  xi   Ο ο Ο $\omicron$  omicron   Π π $\Pi$ $\pi$ $\varpi$ pi   Ρ ρ Ρ $\rho$ $\varrho$ rho   Σ σ $\Sigma$ $\sigma$ $\varsigma$ sigma   Τ τ Τ $\tau$  tau   Υ υ $\Upsilon$ $\upsilon$  upsilon   Φ φ $\Phi$ $\phi$ $\varphi$ phi   Χ χ Χ $\chi$  chi   Ψ ψ $\Psi$ $\psi$  psi   Ω ω $\Omega$ $\omega$  omega    rapidtables Glossary of mathematical symbols
-    
-    <a href="https://upunder.us/posts/math_in_english/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/vim_usage/">vim usage</a></h1>
-  <time datetime="2023-09-26T00:00:00">2023.09.26 00:00</time>
-  
-  <div>
-    selection Press v in command mode, then use the arrow keys to select the text.
-copy and paste In command mode, press y to copy the selection, yy to copy the entire line, and p to paste.
-undo In command mode, press u to undo the operation.
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/newtons_method/">newton&#39;s method</a></h1>
-  <time datetime="2023-09-24T00:00:00">2023.09.24 00:00</time>
-  
-  <div>
-    Newton&rsquo;s method can be used to find the roots of the equation $f(x)=0$. It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.
-Let $r$ be the root of $f(x)=0$, and choose $x_0$ as the initial approximation of $r$, then we can make the tangent line $L$ to the curve $y=f(x)$ over the point $(x_0,f(x_0))$, we know that the tangent line intersects with the $x$-axis, and we know that the equation of the tangent line $L$ is $L:y=f(x_0)+f&rsquo;(x _0)(x-x_0)$ We find its intersection with the $x$-axis as $x_1=x_0-\frac{f(x_0)}{f&rsquo;(x_0)}$.
-    
-    <a href="https://upunder.us/posts/newtons_method/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/second_derivative/">second derivative</a></h1>
-  <time datetime="2023-09-23T00:00:00">2023.09.23 00:00</time>
-  
-  <div>
-    $$\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$
-but ask why?
-$$\frac{\Delta f(a)}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}$$
-$$\left.\lim{\Delta x\to 0} \frac{\Delta f(a)}{\Delta x}=\lim{\Delta x \to 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}=\frac{\mathrm{d} f(a)}{\mathrm{d}x}=\frac{\mathrm{d} y}{\mathrm{d}x}\right|_{x=a}$$
-$$\frac{\Delta f(a)}{\Delta x}=g(a)$$
-$$\frac{\Delta g(a)}{\Delta x}=\frac{g(a+\Delta)-g(a)}{\Delta x}$$
-$$=\frac{\frac{f((a+\Delta x)+\Delta x)-f(a+\Delta x)}{\Delta x}-\frac{f(a+\Delta x)-f(a)}{\Delta x}}{\Delta x}$$
-$$=\frac{(f((a+\Delta x)+\Delta x)-f(a+\Delta x))-(f(a+\Delta x)-f(a))}{(\Delta x)^2}$$
-$$=\frac{\Delta f(a+\Delta x)-\Delta f(a)}{(\Delta x)^2}$$
-$$=\frac{\Delta(\Delta f(a))}{(\Delta x)^2}$$
-$$=\frac{\Delta^2 f(a)}{(\Delta x)^2}$$
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/hacker_tool/">hacker tool</a></h1>
-  <time datetime="2023-09-22T00:00:00">2023.09.22 00:00</time>
-  
-  <div>
-    wireshark
-    
-  </div>
-</article>
 <div class="pagination">
   
   <a class="prev-page" href="/">Previous Page</a>
   
 
-  <span class="page-number">2 of 5</span>
+  <span class="page-number">2 of 6</span>
 
   
   <a class="next-page" href="/page/3/">Next Page</a>
@@ -168,15 +153,15 @@ $$=\frac{\Delta^2 f(a)}{(\Delta x)^2}$$
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/great_software/">great software</a></li>
+        <li><a href="/posts/bijection/">bijection</a></li>
         
-        <li><a href="/posts/family_tree/">family tree</a></li>
+        <li><a href="/posts/curves/">curves</a></li>
         
-        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
+        <li><a href="/posts/calculus/">calculus</a></li>
         
-        <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
         
-        <li><a href="/posts/convolution/">convolution</a></li>
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
         
       </ul>
     </div>

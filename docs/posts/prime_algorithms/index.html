@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>prime algorithms</title>
+    
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://upunder.us"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+</header>
+
+    
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script src="/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
+
+
+<main>
+  <article>
+    <header>
+      <h1>prime algorithms</h1>
+    </header>
+    <time datetime="2023-11-18T00:00:00">
+      2023.11.18 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    43 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#sieve">sieve</a>
+<ul>
+<li><a href="#sieve-of-eratosthenes">sieve of eratosthenes</a></li>
+<li><a href="#sieve-of-pritchard">sieve of pritchard</a></li>
+</ul></li>
+<li><a href="#fermat-primality-test">fermat primality test</a></li>
+<li><a href="#miller-rabin-primality-test">miller-Rabin primality test</a></li>
+<li><a href="#aks-test">aks test</a></li>
+<li><a href="#factor">factor</a>
+<ul>
+<li><a href="#pollard-s-rho-algorithm">pollard&rsquo;s Rho algorithm</a></li>
+<li><a href="#elliptic-curve-factorization">elliptic curve factorization</a></li>
+<li><a href="#quadratic-sieve-and-gnfs">quadratic sieve and GNFS</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+    
+
+<h1 id="sieve">sieve</h1>
+
+<h2 id="sieve-of-eratosthenes">sieve of eratosthenes</h2>
+
+<pre><code class="language-scheme">(define (sieve n)
+  (define (aux u v)
+    (let ((p (car v)))
+      (if (&gt; (* p p) n)
+          (let rev-append
+              ((u u)
+               (v v))
+            (if (null? u)
+                v
+                (rev-append (cdr u)
+                            (cons (car u) v))))
+          (aux (cons p u)
+               (let wheel
+                   ((u '())
+                    (v (cdr v))
+                    (a (* p p)))
+                 (cond
+                  ((null? v)
+                   (reverse u))
+                  ((= (car v) a)
+                   (wheel u
+                          (cdr v)
+                          (+ a p)))
+                  ((&gt; (car v) a)
+                   (wheel u
+                          v
+                          (+ a p)))
+                  (else (wheel (cons (car v) u)
+                               (cdr v)
+                               a))))))))
+  (aux '(2)
+       (let range
+           ((v '())
+            (k (if (odd? n)
+                   n
+                   (- n 1))))
+         (if (&lt; k 3)
+             v
+             (range (cons k v)
+                    (- k 2))))))
+</code></pre>
+
+<h2 id="sieve-of-pritchard">sieve of pritchard</h2>
+
+<h1 id="fermat-primality-test">fermat primality test</h1>
+
+<h1 id="miller-rabin-primality-test">miller-Rabin primality test</h1>
+
+<h1 id="aks-test">aks test</h1>
+
+<p>a number $p$ is prime if and only if all the coefficients of the polynomial expansion of
+$(x-1)^p-(x^p-1)$ are divisible by $p$.</p>
+
+<h1 id="factor">factor</h1>
+
+<h2 id="pollard-s-rho-algorithm">pollard&rsquo;s Rho algorithm</h2>
+
+<h2 id="elliptic-curve-factorization">elliptic curve factorization</h2>
+
+<h2 id="quadratic-sieve-and-gnfs">quadratic sieve and GNFS</h2>
+
+    
+  </article>
+</main>
+
+<a href="https://upunder.us/posts/bitwise_operation/">Prev: bitwise operation</a>
+
+<br>
+
+<a href="https://upunder.us/posts/calculus/">Next: calculus</a>
+
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
+    </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/bijection/">bijection</a></li>
+        
+        <li><a href="/posts/curves/">curves</a></li>
+        
+        <li><a href="/posts/calculus/">calculus</a></li>
+        
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+
+    <footer class="site-footer">
+  <p>2023 <a href="https://upunder.us">up under us</a></p>
+</footer>
+
+  </body>
+</html>

@@ -29,6 +29,91 @@
 
   
   <article>
+  <h1><a href="https://upunder.us/posts/bijection/">bijection</a></h1>
+  <time datetime="2023-11-30T00:00:00">2023.11.30 00:00</time>
+  
+  <div>
+     $\mathbb{N}\to\mathbb{Q}$ (define (n_to_q x) (define (Q n) (cond ((= n 1) 1) ((even? n) (Q (/ n 2))) (else (+ (Q (/ (- n 1) 2)) (Q (/ (+ n 1) 2)))))) (/ (Q x) (Q (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1))))  
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/curves/">curves</a></h1>
+  <time datetime="2023-11-26T00:00:00">2023.11.26 00:00</time>
+  
+  <div>
+    2d heart equation $$\left(x^2+y^2-1\right)^3=x^2y^3$$
+3d heart equation $$\left[x^2+y^2+(2z)^2-1\right]^2=x^2y^3+\left(\frac{y}{2}\right)^3z^2$$
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/calculus/">calculus</a></h1>
+  <time datetime="2023-11-19T00:00:00">2023.11.19 00:00</time>
+  
+  <div>
+    area $$A = \int_a^b f(x)\mathrm{d}x$$
+arc length $$L = \int_a^b \sqrt{1+[f&rsquo;(x)]^2}\mathrm{d}x$$
+volumes of revolution $$V = \int_a^b [f(x)]^2\mathrm{d}x$$
+curvature $$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/prime_algorithms/">prime algorithms</a></h1>
+  <time datetime="2023-11-18T00:00:00">2023.11.18 00:00</time>
+  
+  <div>
+    sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u '()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux '(2) (let range ((v '()) (k (if (odd?
+    
+    <a href="https://upunder.us/posts/prime_algorithms/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/bitwise_operation/">bitwise operation</a></h1>
+  <time datetime="2023-11-15T00:00:00">2023.11.15 00:00</time>
+  
+  <div>
+    lowbit x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1)  x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit ((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1 x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1 x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0  x=-~x;//x++; x=~-x;//x--;  (x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2  (int)(!
+    
+    <a href="https://upunder.us/posts/bitwise_operation/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/random_algorithms/">random algorithms</a></h1>
+  <time datetime="2023-11-11T00:00:00">2023.11.11 00:00</time>
+  
+  <div>
+    
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/field_extension/">field extension</a></h1>
+  <time datetime="2023-11-07T00:00:00">2023.11.07 00:00</time>
+  
+  <div>
+    $$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(m,n)=(ac+bdn,bc+ad)$$ $$(a,b)/(m,n)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$
+    
+  </div>
+</article>
+
+  
+  <article>
   <h1><a href="https://upunder.us/posts/great_software/">great software</a></h1>
   <time datetime="2023-11-03T00:00:00">2023.11.03 00:00</time>
   
@@ -98,102 +183,10 @@ Solomon
 </article>
 
   
-  <article>
-  <h1><a href="https://upunder.us/posts/fast_fourier_transform/">fast fourier transform</a></h1>
-  <time datetime="2023-10-14T00:00:00">2023.10.14 00:00</time>
-  
-  Tags:
-  
-  <a href="/tags/math">math</a>
-  
-  <a href="/tags/algorithm">algorithm</a>
-  
-  
-  <div>
-    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
-a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18  This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
-And how to use FFT to multiply two big integers?
-If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.
-    
-    <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/convolution/">convolution</a></h1>
-  <time datetime="2023-10-13T00:00:00">2023.10.13 00:00</time>
-  
-  <div>
-    $$(f*g)(t):=\int_{-\infty}^{\infty}f(\tau)g(x-\tau)\mathrm{d}\tau$$
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/avatar/">avatar</a></h1>
-  <time datetime="2023-10-12T00:00:00">2023.10.12 00:00</time>
-  
-  <div>
-    &lt;path d=&quot;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&quot; fill=&quot;white&quot; id=&quot;sector&quot;/&gt;  $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
-    
-    <a href="https://upunder.us/posts/avatar/">Read more...</a>
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/linked_list/">linked list</a></h1>
-  <time datetime="2023-10-11T00:00:00">2023.10.11 00:00</time>
-  
-  <div>
-    Write a linked list in C:
-typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a, node_t b){ return ((int)&amp;a ^ (int)&amp;b); } node_t a,b,c; a.val=0; b.val=1; c.val=2; a.ptr = &amp;b ^ &amp;c; b.ptr = &amp;a ^ &amp;c; c.ptr = &amp;a ^ &amp;b; void push(int i, node_t *p) { node_t *node = new node; node-&gt;val = i; node-&gt;nxt = p-&gt;nxt; p-&gt;nxt = node; }  
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/programming_environment/">programming environment</a></h1>
-  <time datetime="2023-10-08T00:00:00">2023.10.08 00:00</time>
-  
-  <div>
-     Anaconda 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/risc-v/">risc-v</a></h1>
-  <time datetime="2023-10-07T00:00:00">2023.10.07 00:00</time>
-  
-  <div>
-    
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/galois_field/">galois field</a></h1>
-  <time datetime="2023-10-06T00:00:00">2023.10.06 00:00</time>
-  
-  <div>
-    $$\frac{m}{n}=mn^{p-2}\pmod p$$
-    
-  </div>
-</article>
-
-  
   <div class="pagination">
   
 
-  <span class="page-number">1 of 5</span>
+  <span class="page-number">1 of 6</span>
 
   
   <a class="next-page" href="/posts/page/2/">Next Page</a>
@@ -209,15 +202,15 @@ typedef struct node { int val; struct node *ptr; } node_t; node_t *xor (node_t a
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/great_software/">great software</a></li>
+        <li><a href="/posts/bijection/">bijection</a></li>
         
-        <li><a href="/posts/family_tree/">family tree</a></li>
+        <li><a href="/posts/curves/">curves</a></li>
         
-        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
+        <li><a href="/posts/calculus/">calculus</a></li>
         
-        <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
         
-        <li><a href="/posts/convolution/">convolution</a></li>
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
         
       </ul>
     </div>

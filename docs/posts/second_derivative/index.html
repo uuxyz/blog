@@ -52,33 +52,35 @@
     
     
     
-    15 s.
+    14 s.
     <div>
       <h3>Table of contents</h3>
       
     </div>
-    <p>$$\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$</p>
+    <p>$$\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{\mathrm{d} y}{\mathrm{d}x}\right)=\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$</p>
 
-<p>but ask why?</p>
+<p>$$g(x)=\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}f(x)}{\mathrm{d}x}=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{x+\varepsilon-x}=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{\varepsilon}$$</p>
 
-<p>$$\frac{\Delta f(a)}{\Delta x}=\frac{f(a+\Delta x)-f(a)}{\Delta x}$$</p>
+<p>$$
+\begin{equation}
+\begin{aligned}
+\frac{\mathrm{d}g(x)}{\mathrm{d}x}&amp;=\frac{g(x+\varepsilon)-g(x)}{\varepsilon} \\\<br />
+&amp;=\frac{\frac{f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)}{\varepsilon}-\frac{f(x+\varepsilon)-f(x)}{\varepsilon}}{\varepsilon}\\\<br />
+&amp;=\frac{[f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)]-[f(x+\varepsilon)-f(x)]}{\varepsilon^2}\\\<br />
+&amp;=\frac{\mathrm{d}f(x+\varepsilon)-\mathrm{d}f(x)}{\varepsilon^2}\\\<br />
+&amp;=\frac{\mathrm{d}(\mathrm{d}f(x))}{\varepsilon^2}\\\<br />
+&amp;=\frac{\mathrm{d}^2 f(x)}{(\mathrm{d}x)^2}
+\end{aligned}
+\end{equation}
+$$</p>
 
-<p>$$\left.\lim<em>{\Delta x\to 0}
-\frac{\Delta f(a)}{\Delta x}=\lim</em>{\Delta x \to 0}\frac{f(a+\Delta x)-f(a)}{\Delta x}=\frac{\mathrm{d} f(a)}{\mathrm{d}x}=\frac{\mathrm{d} y}{\mathrm{d}x}\right|_{x=a}$$</p>
-
-<p>$$\frac{\Delta f(a)}{\Delta x}=g(a)$$</p>
-
-<p>$$\frac{\Delta g(a)}{\Delta x}=\frac{g(a+\Delta)-g(a)}{\Delta x}$$</p>
-
-<p>$$=\frac{\frac{f((a+\Delta x)+\Delta x)-f(a+\Delta x)}{\Delta x}-\frac{f(a+\Delta x)-f(a)}{\Delta x}}{\Delta x}$$</p>
-
-<p>$$=\frac{(f((a+\Delta x)+\Delta x)-f(a+\Delta x))-(f(a+\Delta x)-f(a))}{(\Delta x)^2}$$</p>
-
-<p>$$=\frac{\Delta f(a+\Delta x)-\Delta f(a)}{(\Delta x)^2}$$</p>
-
-<p>$$=\frac{\Delta(\Delta f(a))}{(\Delta x)^2}$$</p>
-
-<p>$$=\frac{\Delta^2 f(a)}{(\Delta x)^2}$$</p>
+<pre><code class="language-scheme">(define (square x) (* x x))
+(define (d f dx)
+  (lambda (x)
+    (/ (- (f (+ x dx)) (f x)) dx)))
+((d square 0.0001) 2) ; == 4
+((d (d square 0.0001) 0.0001) 2); == 2
+</code></pre>
 
     
   </article>
@@ -98,15 +100,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/great_software/">great software</a></li>
+        <li><a href="/posts/bijection/">bijection</a></li>
         
-        <li><a href="/posts/family_tree/">family tree</a></li>
+        <li><a href="/posts/curves/">curves</a></li>
         
-        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
+        <li><a href="/posts/calculus/">calculus</a></li>
         
-        <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
         
-        <li><a href="/posts/convolution/">convolution</a></li>
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
         
       </ul>
     </div>

@@ -35,14 +35,129 @@
     
     
     
-    18 s.
+    1 min
+    
+    42 s.
     <div>
       <h3>Table of contents</h3>
       
     </div>
     <p>Write a linked list in C:</p>
 
-<pre><code class="language-c">typedef struct node {
+<pre><code class="language-c">#include &lt;stddef.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+struct list_head {
+  struct list_head *next;
+  struct list_head *prev;
+};
+
+void init_list_head(struct list_head *head) {
+  head-&gt;next = head;
+  head-&gt;prev = head;
+}
+
+void list_add(struct list_head *head, struct list_head *new_node) {
+  new_node-&gt;next = head-&gt;next;
+  new_node-&gt;prev = head;
+  head-&gt;next-&gt;prev = new_node;
+  head-&gt;next = new_node;
+}
+
+void list_add_tail(struct list_head *head, struct list_head *new_node) {
+  new_node-&gt;next = head;
+  new_node-&gt;prev = head-&gt;prev;
+  head-&gt;prev-&gt;next = new_node;
+  head-&gt;prev = new_node;
+}
+
+void list_del(struct list_head *node) {
+  node-&gt;prev-&gt;next = node-&gt;next;
+  node-&gt;next-&gt;prev = node-&gt;prev;
+}
+
+struct student {
+  struct list_head list;
+  int id;
+  int yy;
+  int mm;
+  int dd;
+};
+
+void printList(struct list_head *head) {
+  struct list_head *current = head-&gt;next;
+  while (current != head) {
+
+    struct student *studentNode =
+        (struct student *)((char *)current - offsetof(struct student, list));
+    printf(&quot;ID: %d, Date: %d-%d-%d\n&quot;, studentNode-&gt;id, studentNode-&gt;yy,
+           studentNode-&gt;mm, studentNode-&gt;dd);
+
+    current = current-&gt;next;
+  }
+}
+
+struct student *findNodeByID(struct list_head *head, int targetID) {
+  struct list_head *current = head-&gt;next;
+  while (current != head) {
+    struct student *studentNode =
+        (struct student *)((char *)current - offsetof(struct student, list));
+    if (studentNode-&gt;id == targetID) {
+      return studentNode;
+    }
+    current = current-&gt;next;
+  }
+  return NULL;
+}
+
+int main() {
+  struct list_head myList;
+  init_list_head(&amp;myList);
+
+  struct student lihua = {.list = {&amp;lihua.list, &amp;lihua.list},
+                          .id = 1,
+                          .yy = 2023,
+                          .mm = 1,
+                          .dd = 1};
+  struct student zhangsan = {.list = {&amp;zhangsan.list, &amp;zhangsan.list},
+                             .id = 2,
+                             .yy = 2023,
+                             .mm = 1,
+                             .dd = 1};
+  struct student wangwu = {.list = {&amp;wangwu.list, &amp;wangwu.list},
+                           .id = 3,
+                           .yy = 2023,
+                           .mm = 1,
+                           .dd = 1};
+
+  list_add_tail(&amp;myList, &amp;lihua.list);
+  list_add_tail(&amp;myList, &amp;zhangsan.list);
+  list_add(&amp;myList, &amp;wangwu.list);
+
+  printf(&quot;Linked List:\n&quot;);
+  printList(&amp;myList);
+
+  list_del(&amp;zhangsan.list);
+
+  printf(&quot;\nLinked List after removal:\n&quot;);
+  printList(&amp;myList);
+
+  int targetID = 3;
+  struct student *foundNode = findNodeByID(&amp;myList, targetID);
+  if (foundNode != NULL) {
+    printf(&quot;\nFound node with ID %d: Date %d-%d-%d\n&quot;, targetID, foundNode-&gt;yy,
+           foundNode-&gt;mm, foundNode-&gt;dd);
+  } else {
+    printf(&quot;\nNode with ID %d not found\n&quot;, targetID);
+  }
+
+  return 0;
+}
+</code></pre>
+
+<pre><code class="language-c">// XOR Linked list
+typedef struct node {
   int val;
   struct node *ptr;
 } node_t;
@@ -86,15 +201,15 @@ void push(int i, node_t *p) {
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/great_software/">great software</a></li>
+        <li><a href="/posts/bijection/">bijection</a></li>
         
-        <li><a href="/posts/family_tree/">family tree</a></li>
+        <li><a href="/posts/curves/">curves</a></li>
         
-        <li><a href="/posts/fixed_point_combinators/">fixed-point combinators</a></li>
+        <li><a href="/posts/calculus/">calculus</a></li>
         
-        <li><a href="/posts/fast_fourier_transform/">fast fourier transform</a></li>
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
         
-        <li><a href="/posts/convolution/">convolution</a></li>
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
         
       </ul>
     </div>

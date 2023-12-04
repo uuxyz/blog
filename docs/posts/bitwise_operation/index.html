@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bitwise operation</title>
+    
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://upunder.us"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+</header>
+
+    
+
+
+<main>
+  <article>
+    <header>
+      <h1>bitwise operation</h1>
+    </header>
+    <time datetime="2023-11-15T00:00:00">
+      2023.11.15 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    1 min
+    
+    12 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#lowbit">lowbit</a></li>
+</ul>
+</nav>
+    </div>
+    
+
+<h1 id="lowbit">lowbit</h1>
+
+<pre><code class="language-c">x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1)
+x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1)
+</code></pre>
+
+<pre><code class="language-c">x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit
+x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit
+((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1
+x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1
+x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0
+</code></pre>
+
+<pre><code class="language-c">x=-~x;//x++;
+x=~-x;//x--;
+</code></pre>
+
+<pre><code class="language-c">(x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2
+(x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2
+</code></pre>
+
+<pre><code class="language-c">(int)(!!x - (((unsigned)x &gt;&gt; 31) &lt;&lt; 1));//sgn
+(int)((x&gt;&gt;31) | ((unsigned)-x&gt;&gt;31));//sgn
+(((x ^ y) &gt;= 0) &amp;&amp; (x != 0) &amp;&amp; (y != 0)) || ((x==0) &amp;&amp; (y==0))//has same sign
+(x ^ (x&gt;&gt;31)) - (x&gt;&gt;31);//abs;
+(x&amp;y)+((x^y)&gt;&gt;1);//ave;
+</code></pre>
+
+<pre><code class="language-c">x^=y;
+y^=x;
+x^=y;
+//swap
+</code></pre>
+
+<pre><code class="language-c">int calc(int n){
+    n |= n&gt;&gt;1;
+    n |= n&gt;&gt;2;
+    n |= n&gt;&gt;4;
+    n |= n&gt;&gt;8;
+    n |= n&gt;&gt;16;
+    return n+1;
+}
+//next power of two that is greater than or equal to the given integer
+
+unsigned log2(unsigned n){ 
+    double d = (double)n;
+    unsigned long long r = *((unsigned long long*)&amp;d); 
+    return (r &gt;&gt; 52) - 0x3FF; 
+}
+
+int add(int a, int b){
+    while(b != 0) {
+        int carry = (a &amp; b) &lt;&lt; 1;
+        a ^= b;
+        b = carry;
+    }
+    return a;
+}
+</code></pre>
+
+    
+  </article>
+</main>
+
+<a href="https://upunder.us/posts/random_algorithms/">Prev: random algorithms</a>
+
+<br>
+
+<a href="https://upunder.us/posts/prime_algorithms/">Next: prime algorithms</a>
+
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
+    </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/bijection/">bijection</a></li>
+        
+        <li><a href="/posts/curves/">curves</a></li>
+        
+        <li><a href="/posts/calculus/">calculus</a></li>
+        
+        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        
+        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+
+    <footer class="site-footer">
+  <p>2023 <a href="https://upunder.us">up under us</a></p>
+</footer>
+
+  </body>
+</html>
