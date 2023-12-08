@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -59,21 +52,60 @@
     
     
     
-    16 s.
+    25 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#ε-δ-definition-of-limit">(<em>ε</em>, <em>δ</em>)-definition of limit</a></li>
-</ul>
+  <ul>
+    <li><a href="#ε-δ-definition-of-limit">(ε, δ)-definition of limit</a></li>
+    <li><a href="#one-sided-limit">one-sided limit</a></li>
+    <li><a href="#derivative">derivative</a>
+      <ul>
+        <li><a href="#rules-for-combined-functions">rules for combined functions</a>
+          <ul>
+            <li><a href="#sum-rule">sum rule</a></li>
+            <li><a href="#product-rule">product rule</a></li>
+            <li><a href="#quotient-rule">quotient rule</a></li>
+            <li><a href="#generalized-power-rule">generalized power rule</a></li>
+            <li><a href="#inverse-function-rule">inverse function rule</a></li>
+            <li><a href="#chain-rule">chain rule</a></li>
+          </ul>
+        </li>
+        <li><a href="#trigonometric-functions">trigonometric functions</a></li>
+        <li><a href="#logarithmic-differentiation">logarithmic differentiation</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
-    
-
-<h1 id="ε-δ-definition-of-limit">(<em>ε</em>, <em>δ</em>)-definition of limit</h1>
-
+    <h1 id="ε-δ-definition-of-limit">(ε, δ)-definition of limit</h1>
 <p>$$(\forall\varepsilon&gt;0)(\exists \delta &gt; 0)(\forall x \in \mathbb{R})(0&lt;|x-p|&lt;\delta \implies |f(x)-L|&lt;\varepsilon)$$
-(for every real <em>ε</em> &gt; 0, there exists a real <em>δ</em> &gt; 0 such that for all real x, 0 &lt; |<em>x</em> − <em>p</em>| &lt; <em>δ</em> implies |<em>f</em>(<em>x</em>) − <em>L</em>| &lt; <em>ε</em>.)</p>
+(for every real ε &gt; 0, there exists a real δ &gt; 0 such that for all real x, 0 &lt; |x − p| &lt; δ implies |f(x) − L| &lt; ε.)</p>
+<h1 id="one-sided-limit">one-sided limit</h1>
+<p>$$\lim_{x\to a^+}f(x)=R$$</p>
+<p>$$\lim_{x\to a^-}f(x)=L$$</p>
+<h1 id="derivative">derivative</h1>
+<h2 id="rules-for-combined-functions">rules for combined functions</h2>
+<h3 id="sum-rule">sum rule</h3>
+<p>$$(f+g)^\prime=f^\prime+g^\prime$$</p>
+<h3 id="product-rule">product rule</h3>
+<p>$$(fg)^\prime=f^\prime g+fg^\prime$$
+$$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$</p>
+<h3 id="quotient-rule">quotient rule</h3>
+<p>$$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$</p>
+<h3 id="generalized-power-rule">generalized power rule</h3>
+<p>$$\left(f^g\right)^\prime=f^g(g^\prime\ln f+\frac{gf^\prime}{f})$$</p>
+<h3 id="inverse-function-rule">inverse function rule</h3>
+<p>$${\left(f^{-1}\right)}^\prime=\frac{1}{f^\prime\circ f^{-1}}$$
+$$f^\prime=\frac{1}{{\left(f^{-1}\right)}^\prime\circ f}$$</p>
+<h3 id="chain-rule">chain rule</h3>
+<p>$$f(g(h(x)))^\prime=f^\prime(g(h(x)))g^\prime(h(x))h^\prime(x)$$</p>
+<h2 id="trigonometric-functions">trigonometric functions</h2>
+<h2 id="logarithmic-differentiation">logarithmic differentiation</h2>
+<p>$$f(x)=g(x)h(x)$$
+$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$
+$$f(x)=\frac{g(x)}{h(x)}$$
+$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$</p>
 
     
   </article>

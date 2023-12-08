@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -56,31 +49,23 @@
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#area">area</a></li>
-<li><a href="#arc-length">arc length</a></li>
-<li><a href="#volumes-of-revolution">volumes of revolution</a></li>
-<li><a href="#curvature">curvature</a></li>
-</ul>
+  <ul>
+    <li><a href="#area">area</a></li>
+    <li><a href="#arc-length">arc length</a></li>
+    <li><a href="#volumes-of-revolution">volumes of revolution</a></li>
+    <li><a href="#curvature">curvature</a></li>
+  </ul>
 </nav>
     </div>
-    
-
-<h1 id="area">area</h1>
-
+    <h1 id="area">area</h1>
 <p>$$A = \int_a^b f(x)\mathrm{d}x$$</p>
-
 <h1 id="arc-length">arc length</h1>
-
-<p>$$L = \int_a^b \sqrt{1+[f&rsquo;(x)]^2}\mathrm{d}x$$</p>
-
+<p>$$L = \int_a^b \sqrt{1+[f^\prime(x)]^2}\mathrm{d}x$$</p>
 <h1 id="volumes-of-revolution">volumes of revolution</h1>
-
 <p>$$V = \int_a^b [f(x)]^2\mathrm{d}x$$</p>
-
 <h1 id="curvature">curvature</h1>
-
-<p>$$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$</p>
+<p>$$k=\frac{|f^{\prime\prime}|}{\sqrt{[1+(f^\prime)^{2}]^{3}}}$$
+$$\left(\frac{x-x_0}{1+(f^\prime)^2}+\frac{f^\prime}{f^{\prime\prime}}\right)^2+\left(\frac{y-y_0}{1+(f^\prime)^2}-\frac{1}{f^{\prime\prime}}\right)^2=\frac{1+(f^\prime)^2}{(f^{\prime\prime})^2}$$</p>
 
     
   </article>

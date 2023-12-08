@@ -33,7 +33,7 @@
   <time datetime="2023-11-30T00:00:00">2023.11.30 00:00</time>
   
   <div>
-     $\mathbb{N}\to\mathbb{Q}$ (define (n_to_q x) (define (Q n) (cond ((= n 1) 1) ((even? n) (Q (/ n 2))) (else (+ (Q (/ (- n 1) 2)) (Q (/ (+ n 1) 2)))))) (/ (Q x) (Q (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1))))  
+    N and Q (define (f n) (cond ((= n 1) 1) ((even? n) (f (/ n 2))) (else (+ (f (/ (- n 1) 2)) (f (/ (+ n 1) 2)))))) (define (n_to_q x) (/ (f x) (f (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1)))) 
     
   </div>
 </article>
@@ -57,9 +57,9 @@
   
   <div>
     area $$A = \int_a^b f(x)\mathrm{d}x$$
-arc length $$L = \int_a^b \sqrt{1+[f&rsquo;(x)]^2}\mathrm{d}x$$
+arc length $$L = \int_a^b \sqrt{1+[f^\prime(x)]^2}\mathrm{d}x$$
 volumes of revolution $$V = \int_a^b [f(x)]^2\mathrm{d}x$$
-curvature $$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$
+curvature $$k=\frac{|f^{\prime\prime}|}{\sqrt{[1+(f^\prime)^{2}]^{3}}}$$ $$\left(\frac{x-x_0}{1+(f^\prime)^2}+\frac{f^\prime}{f^{\prime\prime}}\right)^2+\left(\frac{y-y_0}{1+(f^\prime)^2}-\frac{1}{f^{\prime\prime}}\right)^2=\frac{1+(f^\prime)^2}{(f^{\prime\prime})^2}$$
     
   </div>
 </article>
@@ -70,7 +70,7 @@ curvature $$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$
   <time datetime="2023-11-18T00:00:00">2023.11.18 00:00</time>
   
   <div>
-    sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u '()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux '(2) (let range ((v '()) (k (if (odd?
+    sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u &#39;()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux &#39;(2) (let range ((v &#39;()) (k (if (odd?
     
     <a href="https://upunder.us/posts/prime_algorithms/">Read more...</a>
     
@@ -83,7 +83,7 @@ curvature $$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$
   <time datetime="2023-11-15T00:00:00">2023.11.15 00:00</time>
   
   <div>
-    lowbit x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1)  x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit ((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1 x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1 x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0  x=-~x;//x++; x=~-x;//x--;  (x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2  (int)(!
+    lowbit x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1) x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit ((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1 x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1 x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0 x=-~x;//x++; x=~-x;//x--; (x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (int)(!
     
     <a href="https://upunder.us/posts/bitwise_operation/">Read more...</a>
     
@@ -107,7 +107,7 @@ curvature $$k=\frac{|f^{\prime\prime}(x)|}{\sqrt{[1+f^\prime(x)^2]^{3}}}$$
   <time datetime="2023-11-07T00:00:00">2023.11.07 00:00</time>
   
   <div>
-    $$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(m,n)=(ac+bdn,bc+ad)$$ $$(a,b)/(m,n)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$
+    $$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(c,d)=(ac+bdn,bc+ad)$$ $$(a,b)/(c,d)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$
     
   </div>
 </article>
@@ -177,7 +177,7 @@ Solomon
   
   <div>
     $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
-(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x)))))))  
+(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) 
     
   </div>
 </article>

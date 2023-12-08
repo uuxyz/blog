@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -55,18 +48,13 @@
     19 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!</p>
-
 <p>To prove logical formulas, we just need to use a truth table; <a href="https://web.stanford.edu/class/cs103/tools/truth-table-tool/">This</a> is a good tool to use, but it&rsquo;s not enough for more complex mathematical theorems.</p>
-
-<p>We can proof $2+2=4$ by using following code:</p>
-
-<pre><code class="language-lean">theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl
-</code></pre>
-
-<p><strong>rfl</strong> stands for &ldquo;<em>reflexivity</em>&ldquo;</p>
+<p>We can proof \(2+2=4\) by using following code:</p>
+<pre tabindex="0"><code class="language-lean" data-lang="lean">theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl
+</code></pre><p>rfl stands for &ldquo;reflexivity&rdquo;</p>
 
     
   </article>

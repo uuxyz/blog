@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -52,16 +45,14 @@
     
     
     
-    39 s.
+    38 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
-    <p>Newton&rsquo;s method can be used to find the roots of the equation $f(x)=0$. It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.</p>
-
-<p>Let $r$ be the root of $f(x)=0$, and choose $x_0$ as the initial approximation of $r$, then we can make the tangent line $L$ to the curve $y=f(x)$ over the point $(x_0,f(x_0))$, we know that the tangent line intersects with the $x$-axis, and we know that the equation of the tangent line $L$ is $L:y=f(x_0)+f&rsquo;(x _0)(x-x_0)$ We find its intersection with the $x$-axis as $x_1=x_0-\frac{f(x_0)}{f&rsquo;(x_0)}$. We make a slash at $(x_1,f(x_1))$ with slope $f&rsquo;(x_1)$ to find the intersection with the $x$-axis, and repeat the process until $f(x_n)$ is infinitely close to $0$. Where the formula for the nth iteration is:</p>
-
-<p>$$x_{n+1}=x_n+\frac{f(x_n)}{f&rsquo;(x_n)}$$</p>
+    <p>Newton&rsquo;s method can be used to find the roots of the equation \(f(x)=0\). It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.</p>
+<p>Let r be the root of \(f(x)=0\), and choose \(x_0\) as the initial approximation of \(r\), then we can make the tangent line \(L\) to the curve \(y=f(x)\) over the point \((x_0,f(x_0))\), we know that the tangent line intersects with the x-axis, and we know that the equation of the tangent line L is \(L:y=f(x_0)+f^\prime(x_0)(x-x_0)\) We find its intersection with the x-axis as \(x_1=x_0-\frac{f(x_0)}{f^\prime(x_0)}\). We make a slash at \((x_1,f(x_1))\) with slope \(f^\prime(x_1)\) to find the intersection with the x-axis, and repeat the process until \(f(x_n)\) is infinitely close to 0. Where the formula for the nth iteration is:</p>
+<p>$$x_{n+1}=x_n+\frac{f(x_n)}{f^\prime(x_n)}$$</p>
 
     
   </article>

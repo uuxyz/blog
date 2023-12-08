@@ -40,149 +40,145 @@
     42 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>Write a linked list in C:</p>
-
-<pre><code class="language-c">#include &lt;stddef.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-
-struct list_head {
-  struct list_head *next;
-  struct list_head *prev;
-};
-
-void init_list_head(struct list_head *head) {
-  head-&gt;next = head;
-  head-&gt;prev = head;
-}
-
-void list_add(struct list_head *head, struct list_head *new_node) {
-  new_node-&gt;next = head-&gt;next;
-  new_node-&gt;prev = head;
-  head-&gt;next-&gt;prev = new_node;
-  head-&gt;next = new_node;
-}
-
-void list_add_tail(struct list_head *head, struct list_head *new_node) {
-  new_node-&gt;next = head;
-  new_node-&gt;prev = head-&gt;prev;
-  head-&gt;prev-&gt;next = new_node;
-  head-&gt;prev = new_node;
-}
-
-void list_del(struct list_head *node) {
-  node-&gt;prev-&gt;next = node-&gt;next;
-  node-&gt;next-&gt;prev = node-&gt;prev;
-}
-
-struct student {
-  struct list_head list;
-  int id;
-  int yy;
-  int mm;
-  int dd;
-};
-
-void printList(struct list_head *head) {
-  struct list_head *current = head-&gt;next;
-  while (current != head) {
-
-    struct student *studentNode =
-        (struct student *)((char *)current - offsetof(struct student, list));
-    printf(&quot;ID: %d, Date: %d-%d-%d\n&quot;, studentNode-&gt;id, studentNode-&gt;yy,
-           studentNode-&gt;mm, studentNode-&gt;dd);
-
-    current = current-&gt;next;
-  }
-}
-
-struct student *findNodeByID(struct list_head *head, int targetID) {
-  struct list_head *current = head-&gt;next;
-  while (current != head) {
-    struct student *studentNode =
-        (struct student *)((char *)current - offsetof(struct student, list));
-    if (studentNode-&gt;id == targetID) {
-      return studentNode;
-    }
-    current = current-&gt;next;
-  }
-  return NULL;
-}
-
-int main() {
-  struct list_head myList;
-  init_list_head(&amp;myList);
-
-  struct student lihua = {.list = {&amp;lihua.list, &amp;lihua.list},
-                          .id = 1,
-                          .yy = 2023,
-                          .mm = 1,
-                          .dd = 1};
-  struct student zhangsan = {.list = {&amp;zhangsan.list, &amp;zhangsan.list},
-                             .id = 2,
-                             .yy = 2023,
-                             .mm = 1,
-                             .dd = 1};
-  struct student wangwu = {.list = {&amp;wangwu.list, &amp;wangwu.list},
-                           .id = 3,
-                           .yy = 2023,
-                           .mm = 1,
-                           .dd = 1};
-
-  list_add_tail(&amp;myList, &amp;lihua.list);
-  list_add_tail(&amp;myList, &amp;zhangsan.list);
-  list_add(&amp;myList, &amp;wangwu.list);
-
-  printf(&quot;Linked List:\n&quot;);
-  printList(&amp;myList);
-
-  list_del(&amp;zhangsan.list);
-
-  printf(&quot;\nLinked List after removal:\n&quot;);
-  printList(&amp;myList);
-
-  int targetID = 3;
-  struct student *foundNode = findNodeByID(&amp;myList, targetID);
-  if (foundNode != NULL) {
-    printf(&quot;\nFound node with ID %d: Date %d-%d-%d\n&quot;, targetID, foundNode-&gt;yy,
-           foundNode-&gt;mm, foundNode-&gt;dd);
-  } else {
-    printf(&quot;\nNode with ID %d not found\n&quot;, targetID);
-  }
-
-  return 0;
-}
-</code></pre>
-
-<pre><code class="language-c">// XOR Linked list
-typedef struct node {
-  int val;
-  struct node *ptr;
-} node_t;
-
-node_t *xor (node_t a, node_t b){
-  return ((int)&amp;a ^ (int)&amp;b);
-}
-
-node_t a,b,c;
-a.val=0;
-b.val=1;
-c.val=2;
-
-a.ptr = &amp;b ^ &amp;c;
-b.ptr = &amp;a ^ &amp;c;
-c.ptr = &amp;a ^ &amp;b;
-
-void push(int i, node_t *p) {
-  node_t *node = new node;
-  node-&gt;val = i;
-  node-&gt;nxt = p-&gt;nxt;
-  p-&gt;nxt = node;
-}
-</code></pre>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stddef.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdlib.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> list_head {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>next;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>prev;
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">init_list_head</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>head) {
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> head;
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> head;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">list_add</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>head, <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>new_node) {
+</span></span><span style="display:flex;"><span>  new_node<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> head<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  new_node<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> head;
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> new_node;
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> new_node;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">list_add_tail</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>head, <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>new_node) {
+</span></span><span style="display:flex;"><span>  new_node<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> head;
+</span></span><span style="display:flex;"><span>  new_node<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> head<span style="color:#f92672">-&gt;</span>prev;
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>prev<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> new_node;
+</span></span><span style="display:flex;"><span>  head<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> new_node;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">list_del</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>node) {
+</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>prev<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> node<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>prev <span style="color:#f92672">=</span> node<span style="color:#f92672">-&gt;</span>prev;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> student {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head list;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> id;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> yy;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> mm;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> dd;
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printList</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>head) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> head<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> (current <span style="color:#f92672">!=</span> head) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span>studentNode <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span>)((<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>)current <span style="color:#f92672">-</span> <span style="color:#a6e22e">offsetof</span>(<span style="color:#66d9ef">struct</span> student, list));
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;ID: %d, Date: %d-%d-%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, studentNode<span style="color:#f92672">-&gt;</span>id, studentNode<span style="color:#f92672">-&gt;</span>yy,
+</span></span><span style="display:flex;"><span>           studentNode<span style="color:#f92672">-&gt;</span>mm, studentNode<span style="color:#f92672">-&gt;</span>dd);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span><span style="color:#a6e22e">findNodeByID</span>(<span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>head, <span style="color:#66d9ef">int</span> targetID) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head <span style="color:#f92672">*</span>current <span style="color:#f92672">=</span> head<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> (current <span style="color:#f92672">!=</span> head) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span>studentNode <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        (<span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span>)((<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>)current <span style="color:#f92672">-</span> <span style="color:#a6e22e">offsetof</span>(<span style="color:#66d9ef">struct</span> student, list));
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (studentNode<span style="color:#f92672">-&gt;</span>id <span style="color:#f92672">==</span> targetID) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> studentNode;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    current <span style="color:#f92672">=</span> current<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> NULL;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> list_head myList;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">init_list_head</span>(<span style="color:#f92672">&amp;</span>myList);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> student lihua <span style="color:#f92672">=</span> {.list <span style="color:#f92672">=</span> {<span style="color:#f92672">&amp;</span>lihua.list, <span style="color:#f92672">&amp;</span>lihua.list},
+</span></span><span style="display:flex;"><span>                          .id <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                          .yy <span style="color:#f92672">=</span> <span style="color:#ae81ff">2023</span>,
+</span></span><span style="display:flex;"><span>                          .mm <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                          .dd <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> student zhangsan <span style="color:#f92672">=</span> {.list <span style="color:#f92672">=</span> {<span style="color:#f92672">&amp;</span>zhangsan.list, <span style="color:#f92672">&amp;</span>zhangsan.list},
+</span></span><span style="display:flex;"><span>                             .id <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>                             .yy <span style="color:#f92672">=</span> <span style="color:#ae81ff">2023</span>,
+</span></span><span style="display:flex;"><span>                             .mm <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                             .dd <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> student wangwu <span style="color:#f92672">=</span> {.list <span style="color:#f92672">=</span> {<span style="color:#f92672">&amp;</span>wangwu.list, <span style="color:#f92672">&amp;</span>wangwu.list},
+</span></span><span style="display:flex;"><span>                           .id <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>,
+</span></span><span style="display:flex;"><span>                           .yy <span style="color:#f92672">=</span> <span style="color:#ae81ff">2023</span>,
+</span></span><span style="display:flex;"><span>                           .mm <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                           .dd <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">list_add_tail</span>(<span style="color:#f92672">&amp;</span>myList, <span style="color:#f92672">&amp;</span>lihua.list);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">list_add_tail</span>(<span style="color:#f92672">&amp;</span>myList, <span style="color:#f92672">&amp;</span>zhangsan.list);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">list_add</span>(<span style="color:#f92672">&amp;</span>myList, <span style="color:#f92672">&amp;</span>wangwu.list);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Linked List:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printList</span>(<span style="color:#f92672">&amp;</span>myList);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">list_del</span>(<span style="color:#f92672">&amp;</span>zhangsan.list);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Linked List after removal:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printList</span>(<span style="color:#f92672">&amp;</span>myList);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> targetID <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> student <span style="color:#f92672">*</span>foundNode <span style="color:#f92672">=</span> <span style="color:#a6e22e">findNodeByID</span>(<span style="color:#f92672">&amp;</span>myList, targetID);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (foundNode <span style="color:#f92672">!=</span> NULL) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Found node with ID %d: Date %d-%d-%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, targetID, foundNode<span style="color:#f92672">-&gt;</span>yy,
+</span></span><span style="display:flex;"><span>           foundNode<span style="color:#f92672">-&gt;</span>mm, foundNode<span style="color:#f92672">-&gt;</span>dd);
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Node with ID %d not found</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, targetID);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">// XOR Linked list
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> node {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> val;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">struct</span> node <span style="color:#f92672">*</span>ptr;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">node_t</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">xor</span> (<span style="color:#66d9ef">node_t</span> a, <span style="color:#66d9ef">node_t</span> b){
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> ((<span style="color:#66d9ef">int</span>)<span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> (<span style="color:#66d9ef">int</span>)<span style="color:#f92672">&amp;</span>b);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">node_t</span> a,b,c;
+</span></span><span style="display:flex;"><span>a.val<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>b.val<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>c.val<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>a.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>b <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>c;
+</span></span><span style="display:flex;"><span>b.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>c;
+</span></span><span style="display:flex;"><span>c.ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a <span style="color:#f92672">^</span> <span style="color:#f92672">&amp;</span>b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">push</span>(<span style="color:#66d9ef">int</span> i, <span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span>p) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">node_t</span> <span style="color:#f92672">*</span>node <span style="color:#f92672">=</span> new node;
+</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">=</span> i;
+</span></span><span style="display:flex;"><span>  node<span style="color:#f92672">-&gt;</span>nxt <span style="color:#f92672">=</span> p<span style="color:#f92672">-&gt;</span>nxt;
+</span></span><span style="display:flex;"><span>  p<span style="color:#f92672">-&gt;</span>nxt <span style="color:#f92672">=</span> node;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
     
   </article>
 </main>

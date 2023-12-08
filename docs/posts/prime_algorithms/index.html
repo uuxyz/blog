@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -56,89 +49,77 @@
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#sieve">sieve</a>
-<ul>
-<li><a href="#sieve-of-eratosthenes">sieve of eratosthenes</a></li>
-<li><a href="#sieve-of-pritchard">sieve of pritchard</a></li>
-</ul></li>
-<li><a href="#fermat-primality-test">fermat primality test</a></li>
-<li><a href="#miller-rabin-primality-test">miller-Rabin primality test</a></li>
-<li><a href="#aks-test">aks test</a></li>
-<li><a href="#factor">factor</a>
-<ul>
-<li><a href="#pollard-s-rho-algorithm">pollard&rsquo;s Rho algorithm</a></li>
-<li><a href="#elliptic-curve-factorization">elliptic curve factorization</a></li>
-<li><a href="#quadratic-sieve-and-gnfs">quadratic sieve and GNFS</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#sieve">sieve</a>
+      <ul>
+        <li><a href="#sieve-of-eratosthenes">sieve of eratosthenes</a></li>
+        <li><a href="#sieve-of-pritchard">sieve of pritchard</a></li>
+      </ul>
+    </li>
+    <li><a href="#fermat-primality-test">fermat primality test</a></li>
+    <li><a href="#miller-rabin-primality-test">miller-Rabin primality test</a></li>
+    <li><a href="#aks-test">aks test</a></li>
+    <li><a href="#factor">factor</a>
+      <ul>
+        <li><a href="#pollards-rho-algorithm">pollard&rsquo;s Rho algorithm</a></li>
+        <li><a href="#elliptic-curve-factorization">elliptic curve factorization</a></li>
+        <li><a href="#quadratic-sieve-and-gnfs">quadratic sieve and GNFS</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
     </div>
-    
-
-<h1 id="sieve">sieve</h1>
-
+    <h1 id="sieve">sieve</h1>
 <h2 id="sieve-of-eratosthenes">sieve of eratosthenes</h2>
-
-<pre><code class="language-scheme">(define (sieve n)
-  (define (aux u v)
-    (let ((p (car v)))
-      (if (&gt; (* p p) n)
-          (let rev-append
-              ((u u)
-               (v v))
-            (if (null? u)
-                v
-                (rev-append (cdr u)
-                            (cons (car u) v))))
-          (aux (cons p u)
-               (let wheel
-                   ((u '())
-                    (v (cdr v))
-                    (a (* p p)))
-                 (cond
-                  ((null? v)
-                   (reverse u))
-                  ((= (car v) a)
-                   (wheel u
-                          (cdr v)
-                          (+ a p)))
-                  ((&gt; (car v) a)
-                   (wheel u
-                          v
-                          (+ a p)))
-                  (else (wheel (cons (car v) u)
-                               (cdr v)
-                               a))))))))
-  (aux '(2)
-       (let range
-           ((v '())
-            (k (if (odd? n)
-                   n
-                   (- n 1))))
-         (if (&lt; k 3)
-             v
-             (range (cons k v)
-                    (- k 2))))))
-</code></pre>
-
-<h2 id="sieve-of-pritchard">sieve of pritchard</h2>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scheme" data-lang="scheme"><span style="display:flex;"><span>(<span style="color:#66d9ef">define </span>(<span style="color:#a6e22e">sieve</span> n)
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">define </span>(<span style="color:#a6e22e">aux</span> u v)
+</span></span><span style="display:flex;"><span>    (<span style="color:#66d9ef">let </span>((<span style="color:#a6e22e">p</span> (car v)))
+</span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">if </span>(&gt; (* p p) n)
+</span></span><span style="display:flex;"><span>          (<span style="color:#66d9ef">let </span>rev-append
+</span></span><span style="display:flex;"><span>              ((<span style="color:#a6e22e">u</span> u)
+</span></span><span style="display:flex;"><span>               (<span style="color:#a6e22e">v</span> v))
+</span></span><span style="display:flex;"><span>            (<span style="color:#66d9ef">if </span>(null? u)
+</span></span><span style="display:flex;"><span>                v
+</span></span><span style="display:flex;"><span>                (<span style="color:#a6e22e">rev-append</span> (cdr u)
+</span></span><span style="display:flex;"><span>                            (cons (car u) v))))
+</span></span><span style="display:flex;"><span>          (<span style="color:#a6e22e">aux</span> (cons p u)
+</span></span><span style="display:flex;"><span>               (<span style="color:#66d9ef">let </span>wheel
+</span></span><span style="display:flex;"><span>                   ((<span style="color:#a6e22e">u</span> <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>                    (<span style="color:#a6e22e">v</span> (cdr v))
+</span></span><span style="display:flex;"><span>                    (<span style="color:#a6e22e">a</span> (* p p)))
+</span></span><span style="display:flex;"><span>                 (<span style="color:#a6e22e">cond</span>
+</span></span><span style="display:flex;"><span>                  ((null? v)
+</span></span><span style="display:flex;"><span>                   (reverse u))
+</span></span><span style="display:flex;"><span>                  ((= (car v) a)
+</span></span><span style="display:flex;"><span>                   (<span style="color:#a6e22e">wheel</span> u
+</span></span><span style="display:flex;"><span>                          (cdr v)
+</span></span><span style="display:flex;"><span>                          (+ a p)))
+</span></span><span style="display:flex;"><span>                  ((&gt; (car v) a)
+</span></span><span style="display:flex;"><span>                   (<span style="color:#a6e22e">wheel</span> u
+</span></span><span style="display:flex;"><span>                          v
+</span></span><span style="display:flex;"><span>                          (+ a p)))
+</span></span><span style="display:flex;"><span>                  (<span style="color:#66d9ef">else </span>(<span style="color:#a6e22e">wheel</span> (cons (car v) u)
+</span></span><span style="display:flex;"><span>                               (cdr v)
+</span></span><span style="display:flex;"><span>                               a))))))))
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">aux</span> <span style="color:#f92672">&#39;</span>(<span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>       (<span style="color:#66d9ef">let </span>range
+</span></span><span style="display:flex;"><span>           ((<span style="color:#a6e22e">v</span> <span style="color:#f92672">&#39;</span>())
+</span></span><span style="display:flex;"><span>            (<span style="color:#a6e22e">k</span> (<span style="color:#66d9ef">if </span>(odd? n)
+</span></span><span style="display:flex;"><span>                   n
+</span></span><span style="display:flex;"><span>                   (- n <span style="color:#ae81ff">1</span>))))
+</span></span><span style="display:flex;"><span>         (<span style="color:#66d9ef">if </span>(&lt; k <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>             v
+</span></span><span style="display:flex;"><span>             (<span style="color:#a6e22e">range</span> (cons k v)
+</span></span><span style="display:flex;"><span>                    (- k <span style="color:#ae81ff">2</span>))))))
+</span></span></code></pre></div><h2 id="sieve-of-pritchard">sieve of pritchard</h2>
 <h1 id="fermat-primality-test">fermat primality test</h1>
-
 <h1 id="miller-rabin-primality-test">miller-Rabin primality test</h1>
-
 <h1 id="aks-test">aks test</h1>
-
 <p>a number $p$ is prime if and only if all the coefficients of the polynomial expansion of
-$(x-1)^p-(x^p-1)$ are divisible by $p$.</p>
-
+$$(x-1)^p-(x^p-1)$$ are divisible by p.</p>
 <h1 id="factor">factor</h1>
-
-<h2 id="pollard-s-rho-algorithm">pollard&rsquo;s Rho algorithm</h2>
-
+<h2 id="pollards-rho-algorithm">pollard&rsquo;s Rho algorithm</h2>
 <h2 id="elliptic-curve-factorization">elliptic curve factorization</h2>
-
 <h2 id="quadratic-sieve-and-gnfs">quadratic sieve and GNFS</h2>
 
     

@@ -20,22 +20,15 @@
 
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
 <script>
-  MathJax = {
-    tex: {
-      inlineMath: [["$", "$"]],
-    },
-    displayMath: [
-      ["$$", "$$"],
-      ["\[\[", "\]\]"],
-    ],
-    svg: {
-      fontCache: "global",
-    },
-  };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
 <main>
@@ -55,19 +48,17 @@
     7 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>$$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$
 $$Y\ g=g(Y\ g)$$</p>
-
-<pre><code class="language-scheme">(define Y
-  (lambda (f)
-    ((lambda (i) (i i))
-     (lambda (i)
-       (f (lambda (x)
-	        (apply (i i) x)))))))
-</code></pre>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scheme" data-lang="scheme"><span style="display:flex;"><span>(<span style="color:#66d9ef">define </span>Y
+</span></span><span style="display:flex;"><span>  (<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">f</span>)
+</span></span><span style="display:flex;"><span>    ((<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">i</span>) (<span style="color:#a6e22e">i</span> i))
+</span></span><span style="display:flex;"><span>     (<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">i</span>)
+</span></span><span style="display:flex;"><span>       (<span style="color:#a6e22e">f</span> (<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">x</span>)
+</span></span><span style="display:flex;"><span>	        (apply (<span style="color:#a6e22e">i</span> i) x)))))))
+</span></span></code></pre></div>
     
   </article>
 </main>

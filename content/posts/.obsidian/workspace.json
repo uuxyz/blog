@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "curves.md",
+                "file": "calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "curves.md",
+                "file": "calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "curves.md",
+                "file": "calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "curves.md"
+                "file": "calculus.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "3a54295ec2d659e4",
   "lastOpenFiles": [
-    "calculus.md",
-    "english_grammar.md",
-    "website_for_study.md",
-    "bijection.md",
-    "prime_algorithms.md",
-    "curves.md",
-    "bitwise_operation.md",
-    "field_extension.md",
-    "second_derivative.md",
-    "linked_list.md",
-    "birthday.md",
-    "bible.md",
     "avatar.md",
-    "49_years_old.md",
+    "7_years_old.md",
+    "manim_usage.md",
     "newtons_method.md",
-    "random_algorithms.md",
-    "the_international.md",
-    "vim_usage.md",
-    "zlibrary_usage.md",
-    "zotero_usage.md",
-    "latina.md",
-    "rime_usage.md",
+    "math_in_english.md",
+    "mathematics.md",
+    "hello_world.md",
+    "birthday.md",
+    "bijection.md",
+    "bible.md",
+    "field_extension.md",
+    "fast_fourier_transform.md",
+    "bitwise_operation.md",
+    "c_programming.md",
+    "c_right_left_rule.md",
+    "calculus.md",
     "computer_restart.md",
-    "great_software.md",
-    "fixed_point_combinators.md",
     "convolution.md",
+    "create_disks.md",
+    "curves.md",
+    "docker_usage.md",
+    "emacs_usage.md",
+    "english_grammar.md",
+    "family_tree.md",
+    "fixed_point_combinators.md",
+    "galois_field.md",
     "Untitled",
     "draft"
   ]

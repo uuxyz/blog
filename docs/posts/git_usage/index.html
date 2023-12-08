@@ -40,85 +40,54 @@
     38 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:</p>
-
 <ul>
-<li><p><strong>Install Git</strong>: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&rsquo;s usually no need for additional installation. However, if you&rsquo;re using Manjaro, you can install Git with the following command:</p>
-
-<pre><code class="language-bash">sudo pacman -S git
-</code></pre>
-
-<ul>
+<li><strong>Install Git</strong>: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&rsquo;s usually no need for additional installation. However, if you&rsquo;re using Manjaro, you can install Git with the following command:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S git
+</span></span></code></pre></div><ul>
 <li><strong>Configure Your Personal Information</strong>: Configure your personal information like your username and email, which will be associated with your Git commits. Replace &ldquo;xyiii&rdquo; and &ldquo;<a href="mailto:xyiii@pm.me">xyiii@pm.me</a>&rdquo; with your own information.</li>
 </ul>
-
-<pre><code class="language-bash">git config --global user.name &quot;xyiii&quot;
-git config --global user.email xyiii@pm.me
-</code></pre></li>
-
-<li><p><strong>Specify a Text Editor (Optional)</strong>: If you prefer a specific text editor, such as Emacs, you can set it as your default Git editor.</p></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.name <span style="color:#e6db74">&#34;xyiii&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global user.email xyiii@pm.me
+</span></span></code></pre></div><ul>
+<li><strong>Specify a Text Editor (Optional)</strong>: If you prefer a specific text editor, such as Emacs, you can set it as your default Git editor.</li>
 </ul>
-
-<pre><code class="language-bash">git config --global core.editor emacs
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global core.editor emacs
+</span></span></code></pre></div><ul>
 <li><strong>Set Up a Proxy (Optional)</strong>: If you are in an area with network restrictions and need to use a proxy, you can configure Git to use a proxy server. Replace &ldquo;<a href="http://127.0.0.1:20172">http://127.0.0.1:20172</a>&rdquo; with the actual proxy address.</li>
 </ul>
-
-<pre><code class="language-bash">git config --global http.proxy &quot;http://127.0.0.1:20172&quot;
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global http.proxy <span style="color:#e6db74">&#34;http://127.0.0.1:20172&#34;</span>
+</span></span></code></pre></div><ul>
 <li><strong>Creating Your First Repository</strong>: Now that you have Git set up, you can create your first Git repository. For example, to create a repository named &ldquo;hello_world,&rdquo; use the following command:</li>
 </ul>
-
-<pre><code class="language-bash">git init hello_world
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init hello_world
+</span></span></code></pre></div><ul>
 <li><strong>Cloning an Existing Repository</strong>: Alternatively, you can clone an existing repository from a remote location. Replace the URL with the repository you want to clone.</li>
 </ul>
-
-<pre><code class="language-bash">git clone https://github.com/torvalds/linux.git
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/torvalds/linux.git
+</span></span></code></pre></div><ul>
 <li><strong>Making Changes and Committing</strong>: Once you have a repository, you can make changes to the files and commit them. Here&rsquo;s how to stage changes, commit them, and push to a remote repository:</li>
 </ul>
-
-<pre><code class="language-bash">git add .
-git commit -m &quot;Add files via upload&quot;
-git push --all origin
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add files via upload&#34;</span>
+</span></span><span style="display:flex;"><span>git push --all origin
+</span></span></code></pre></div><ul>
 <li><strong>Switching Branches</strong>: Sometimes, you may need to switch between branches in your repository.</li>
 </ul>
-
-<pre><code class="language-bash">git switch gh-pages
-</code></pre>
-
-<ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git switch gh-pages
+</span></span></code></pre></div><ul>
 <li><strong>Updating Your Repository</strong>: To keep your local repository up-to-date with changes from the remote repository, use the following command:</li>
 </ul>
-
-<pre><code class="language-bash">git pull
-</code></pre>
-
-<p>By following these steps, you&rsquo;ll be well on your way to effectively using Git for your work.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
+</span></span></code></pre></div><p>By following these steps, you&rsquo;ll be well on your way to effectively using Git for your work.
 We need to configure the gpg key in git to authenticate our commits.</p>
-
-<pre><code class="language-bash">git config --global user.signingkey CBE808B2A518258F9EA0B156E81B5EA1E5FF2F77
-</code></pre>
-
-<p>The following line of code sets up git to sign commits automatically.</p>
-
-<pre><code class="language-bash">git config --global commit.gpgsign true
-</code></pre>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.signingkey CBE808B2A518258F9EA0B156E81B5EA1E5FF2F77
+</span></span></code></pre></div><p>The following line of code sets up git to sign commits automatically.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global commit.gpgsign true
+</span></span></code></pre></div>
     
   </article>
 </main>

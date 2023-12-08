@@ -38,47 +38,26 @@
     34 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.</p>
-
 <p><strong>Installation of Docker:</strong></p>
-
 <p>On Manjaro, you can simply enter the following command:</p>
-
-<pre><code class="language-bash">sudo pacman -S docker
-</code></pre>
-
-<p><strong>Using Docker:</strong></p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S docker
+</span></span></code></pre></div><p><strong>Using Docker:</strong></p>
 <p>Let&rsquo;s take WolframEngine as an example:</p>
-
 <p><strong>Step 1:</strong> Download the image from a proxy website:</p>
-
 <p>shell</p>
-
 <p><code>docker pull dockerproxy.com/wolframresearch/wolframengine</code></p>
-
 <p><strong>Step 2:</strong> Rename the image:</p>
-
-<pre><code class="language-bash">sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine
-</code></pre>
-
-<p><strong>Step 3:</strong> Remove the proxy image:</p>
-
-<pre><code class="language-bash">sudo docker rmi dockerproxy.com/wolframresearch/wolframengine
-</code></pre>
-
-<p>You can check the images you have with the <code>docker images</code> command.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine
+</span></span></code></pre></div><p><strong>Step 3:</strong> Remove the proxy image:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker rmi dockerproxy.com/wolframresearch/wolframengine
+</span></span></code></pre></div><p>You can check the images you have with the <code>docker images</code> command.</p>
 <p><strong>To enter the image:</strong></p>
-
 <p>shell</p>
-
-<pre><code class="language-bash">sudo docker run wolframresearch/wolframengine
-</code></pre>
-
-<p>Using Docker provides a streamlined approach to deploying your applications or accessing pre-built ones. It simplifies the process, making it efficient for both personal and collaborative projects.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo docker run wolframresearch/wolframengine
+</span></span></code></pre></div><p>Using Docker provides a streamlined approach to deploying your applications or accessing pre-built ones. It simplifies the process, making it efficient for both personal and collaborative projects.</p>
 
     
   </article>

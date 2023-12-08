@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Math</title>
+    <title>math</title>
     
     
     <style type="text/css" media="all">@import "/style.css";</style>
@@ -22,7 +22,7 @@
 <main>
   
   <div>
-    <h1>Math</h1>
+    <h1>math</h1>
     
   </div>
   
@@ -41,9 +41,9 @@
   
   <div>
     First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
-a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18  This shows $(1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)$
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)\)
 And how to use FFT to multiply two big integers?
-If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18$ is the result we need.
+If let x=10 Then can see it as \(123 \times 456\) And \(4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18\) is the result we need.
     
     <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
     
@@ -62,6 +62,13 @@ If let $x=10$ Then can see it as $123 \times 456$ And $4 \cdot 10^4 + 13 \cdot 1
   
   <div>
     (ε, δ)-definition of limit $$(\forall\varepsilon&gt;0)(\exists \delta &gt; 0)(\forall x \in \mathbb{R})(0&lt;|x-p|&lt;\delta \implies |f(x)-L|&lt;\varepsilon)$$ (for every real ε &gt; 0, there exists a real δ &gt; 0 such that for all real x, 0 &lt; |x − p| &lt; δ implies |f(x) − L| &lt; ε.)
+one-sided limit $$\lim_{x\to a^+}f(x)=R$$
+$$\lim_{x\to a^-}f(x)=L$$
+derivative rules for combined functions sum rule $$(f+g)^\prime=f^\prime+g^\prime$$
+product rule $$(fg)^\prime=f^\prime g+fg^\prime$$ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$
+quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$
+    
+    <a href="https://upunder.us/posts/mathematics/">Read more...</a>
     
   </div>
 </article>

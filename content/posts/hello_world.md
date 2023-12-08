@@ -3,24 +3,24 @@ title: hello world
 date: 2022-01-15T23:43:58+08:00
 ---
 Here, I showcase several ways to write a "Hello world" program in some of my favorite programming languages.
-## Scheme
+## scheme
 ```scheme
 (display "Hello world!")
 ```
 
-## Python
+## python
 ```python
 print("Hello world!")
 ```
 
-## Rust
+## rust
 ```rust
 fn main() {
    print!("Hello world!");
 }
 ```
 
-## C
+## c
 ```c
 #include<stdio.h>
 int main(){
@@ -29,10 +29,18 @@ int main(){
 }
 ```
 
-## C++
+## c++
 ```cpp
 import module std;
 int main() {
   std::print("Hello world!\n");
+}
+```
+## java
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
 ```

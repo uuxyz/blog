@@ -40,102 +40,69 @@
     4 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.</p>
-
 <p>First, let&rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:</p>
-
-<pre><code class="language-bash">sudo pacman -S texlive
-</code></pre>
-
-<p>After completing the installation, it&rsquo;s advisable to create a Git repository for better document management.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S texlive
+</span></span></code></pre></div><p>After completing the installation, it&rsquo;s advisable to create a Git repository for better document management.</p>
 <p>Before you begin writing your paper, it&rsquo;s best to use a template from a professional organization like IEEE. Let&rsquo;s create a file named <code>hello.tex</code> to start our LaTeX journey. In this file, include the following content:</p>
-
-<pre><code class="language-latex">\documentclass{IEEEtran}
-\title{Hello, \LaTeX}
-\author{Your Name}
-\begin{document}
-\maketitle
-\section{Introduction}
-This is a simple document.
-\section{Hello, World!}
-Hello, \LaTeX!
-\section{Conclusion}
-That's all!
-\end{document}
-</code></pre>
-
-<p>Next, compile this <code>.tex</code> file using the command line:</p>
-
-<pre><code class="language-bash">xelatex hello.tex
-</code></pre>
-
-<p>You will then see the resulting PDF file.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{IEEEtran}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\title</span>{Hello, <span style="color:#66d9ef">\LaTeX</span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\author</span>{Your Name}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\maketitle</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Introduction}
+</span></span><span style="display:flex;"><span>This is a simple document.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Hello, World!}
+</span></span><span style="display:flex;"><span>Hello, <span style="color:#66d9ef">\LaTeX</span>!
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Conclusion}
+</span></span><span style="display:flex;"><span>That&#39;s all!
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
+</span></span></code></pre></div><p>Next, compile this <code>.tex</code> file using the command line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>xelatex hello.tex
+</span></span></code></pre></div><p>You will then see the resulting PDF file.</p>
 <p>If you wish to cite references, you can do so as follows:</p>
-
 <p>Obtain or create a <code>.bib</code> file that should look like this:</p>
-
-<pre><code class="language-bibtex">@article{Einstein1905,
-  author = {Albert Einstein},
-  title = {On the Electrodynamics of Moving Bodies},
-  journal = {Annalen der Physik},
-  volume = {17},
-  number = {10},
-  pages = {891-921},
-  year = {1905},
-  publisher = {Wiley-VCH}
-}
-</code></pre>
-
-<p>Then, add the reference style and citation location to your <code>.tex</code> file:</p>
-
-<pre><code class="language-latex">\documentclass{IEEEtran}
-\title{Hello, IEEEtran}
-\author{Your Name}
-\bibliographystyle{IEEEtran}
-\begin{document}
-\maketitle
-\section{Introduction}
-This is a simple IEEEtran document. \cite{Einstein1905}
-\section{Hello, World!}
-Hello, \LaTeX!
-\section{Conclusion}
-That's all!
-\bibliography{yourbibfile.bib}
-\end{document}
-</code></pre>
-
-<p>You can then initialize the references and compile the document using the command line:</p>
-
-<pre><code class="language-bash">bibtex hello_world.tex
-xelatex hello_world.tex
-</code></pre>
-
-<p>This will give you a properly formatted document with citations in IEEEtran style.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bibtex" data-lang="bibtex"><span style="display:flex;"><span><span style="color:#a6e22e">@article</span>{Einstein1905,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">{Albert Einstein}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">{On the Electrodynamics of Moving Bodies}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">journal</span> = <span style="color:#e6db74">{Annalen der Physik}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">volume</span> = <span style="color:#e6db74">{17}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">number</span> = <span style="color:#e6db74">{10}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">pages</span> = <span style="color:#e6db74">{891-921}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">year</span> = <span style="color:#e6db74">{1905}</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">publisher</span> = <span style="color:#e6db74">{Wiley-VCH}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then, add the reference style and citation location to your <code>.tex</code> file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{IEEEtran}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\title</span>{Hello, IEEEtran}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\author</span>{Your Name}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\bibliographystyle</span>{IEEEtran}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\maketitle</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Introduction}
+</span></span><span style="display:flex;"><span>This is a simple IEEEtran document. <span style="color:#66d9ef">\cite</span>{Einstein1905}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Hello, World!}
+</span></span><span style="display:flex;"><span>Hello, <span style="color:#66d9ef">\LaTeX</span>!
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\section</span>{Conclusion}
+</span></span><span style="display:flex;"><span>That&#39;s all!
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\bibliography</span>{yourbibfile.bib}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
+</span></span></code></pre></div><p>You can then initialize the references and compile the document using the command line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bibtex hello_world.tex
+</span></span><span style="display:flex;"><span>xelatex hello_world.tex
+</span></span></code></pre></div><p>This will give you a properly formatted document with citations in IEEEtran style.</p>
 <p>Sometimes, changes to references and other content may not get fully updated with a single compilation, requiring us to repeatedly use <code>xelatex</code> and <code>bibtex</code> for compilation. Alternatively, we can simplify this process by using <code>latexmk</code>:</p>
-
 <p>Create a configuration file named <code>.latexmkrc</code> if it doesn&rsquo;t already exist. In this file, specify compilation options. Here&rsquo;s an example content for a <code>.latexmkrc</code> file:</p>
-
-<pre><code class="language-bash">$pdflatex = 'xelatex %O -interaction=nonstopmode %S';
-$bibtex   = 'bibtex %O %B';
-$makeindex = 'makeindex %O -o %D %S';
-</code></pre>
-
-<p>These settings instruct <code>latexmk</code> to use <code>xelatex</code> for compilation and automatically run <code>bibtex</code> and <code>makeindex</code> to handle citations and indexes.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$pdflatex <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;xelatex %O -interaction=nonstopmode %S&#39;</span>;
+</span></span><span style="display:flex;"><span>$bibtex   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;bibtex %O %B&#39;</span>;
+</span></span><span style="display:flex;"><span>$makeindex <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;makeindex %O -o %D %S&#39;</span>;
+</span></span></code></pre></div><p>These settings instruct <code>latexmk</code> to use <code>xelatex</code> for compilation and automatically run <code>bibtex</code> and <code>makeindex</code> to handle citations and indexes.</p>
 <p>Open your command line, navigate to your LaTeX project directory, and run the <code>latexmk</code> command:</p>
-
-<pre><code class="language-bash">latexmk -xelatex your-document.tex
-</code></pre>
-
-<p>Replace <code>your-document.tex</code> with the filename of your LaTeX document. The <code>-xelatex</code> flag tells <code>latexmk</code> to use <code>xelatex</code> for compilation.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>latexmk -xelatex your-document.tex
+</span></span></code></pre></div><p>Replace <code>your-document.tex</code> with the filename of your LaTeX document. The <code>-xelatex</code> flag tells <code>latexmk</code> to use <code>xelatex</code> for compilation.</p>
 <p><code>latexmk</code> will automatically detect changes in your document, references, and citations, and run <code>xelatex</code>, <code>bibtex</code>, and other necessary commands as needed to ensure the final PDF document is generated correctly.</p>
-
 <p>Using <code>latexmk</code> or similar build tools can greatly simplify the compilation process of LaTeX documents, eliminating the need to manually run commands multiple times to ensure all changes are properly processed.</p>
 
     

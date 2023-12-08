@@ -38,44 +38,26 @@
     45 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
     <p>When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.</p>
-
 <p>In GRUB&rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.</p>
-
 <p>To begin, you should use insmod to load the necessary modules, such as:</p>
-
-<pre><code class="language-sh">insmod gpt
-insmod ntfs
-insmod chain
-set root=(hd0,msdos1)  # Modify as per your system configuration
-</code></pre>
-
-<p>If you are using a Linux system, you should load the kernel like this:</p>
-
-<pre><code class="language-sh">linux /vmlinux root=/dev/sda1
-</code></pre>
-
-<p>Then:</p>
-
-<pre><code class="language-sh">initrd /initrd
-</code></pre>
-
-<p>Finally, start the system:</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>insmod gpt
+</span></span><span style="display:flex;"><span>insmod ntfs
+</span></span><span style="display:flex;"><span>insmod chain
+</span></span><span style="display:flex;"><span>set root<span style="color:#f92672">=(</span>hd0,msdos1<span style="color:#f92672">)</span>  <span style="color:#75715e"># Modify as per your system configuration</span>
+</span></span></code></pre></div><p>If you are using a Linux system, you should load the kernel like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>linux /vmlinux root<span style="color:#f92672">=</span>/dev/sda1
+</span></span></code></pre></div><p>Then:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>initrd /initrd
+</span></span></code></pre></div><p>Finally, start the system:</p>
 <p><code>boot</code></p>
-
 <p>This set of commands is essential for booting a Linux system properly from GRUB&rsquo;s rescue mode.</p>
-
 <p>If you are using a Windows system, use chainloader to load the system:</p>
-
 <p><code>chainloader +1</code></p>
-
 <p>Then proceed to start the system:</p>
-
 <p><code>boot</code></p>
-
 <p>Properly configuring GRUB in situations like this can be instrumental in recovering from boot-related issues when managing multiple operating systems.</p>
 
     

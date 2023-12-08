@@ -38,16 +38,15 @@
     7 s.
     <div>
       <h3>Table of contents</h3>
-      
+      <nav id="TableOfContents"></nav>
     </div>
-    <pre><code class="language-bash">fallocate -l 4GiB disk.img
-cryptsetup luksFormat --type luks disk.img
-sudo cryptsetup luksOpen disk.img secretum
-sudo mkfs.ext4 /dev/mapper/secretum
-udisksctl mount -b /dev/mapper/secretum
-sudo chown -R u:u /run/media/u/fe299871-a3b6-4506-be6c-505b8eb41bec
-</code></pre>
-
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>fallocate -l 4GiB disk.img
+</span></span><span style="display:flex;"><span>cryptsetup luksFormat --type luks disk.img
+</span></span><span style="display:flex;"><span>sudo cryptsetup luksOpen disk.img secretum
+</span></span><span style="display:flex;"><span>sudo mkfs.ext4 /dev/mapper/secretum
+</span></span><span style="display:flex;"><span>udisksctl mount -b /dev/mapper/secretum
+</span></span><span style="display:flex;"><span>sudo chown -R u:u /run/media/u/fe299871-a3b6-4506-be6c-505b8eb41bec
+</span></span></code></pre></div>
     
   </article>
 </main>

@@ -4,15 +4,15 @@ date: 2023-11-30
 math: true
 ---
 
-# $\mathbb{N}\to\mathbb{Q}$
+# N and Q
 ```scheme
+(define (f n)
+  (cond ((= n 1) 1)
+        ((even? n) (f (/ n 2)))
+        (else (+ (f (/ (- n 1) 2))
+                 (f (/ (+ n 1) 2))))))
 (define (n_to_q x)
-  (define (Q n)
-    (cond ((= n 1) 1)
-          ((even? n) (Q (/ n 2)))
-          (else (+ (Q (/ (- n 1) 2))
-                   (Q (/ (+ n 1) 2))))))
-  (/ (Q x) (Q (+ x 1))))
+  (/ (f x) (f (+ x 1))))
 
 (define (q_to_n q)
   (cond ((= q 1) 1)

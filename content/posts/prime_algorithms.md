@@ -52,7 +52,7 @@ math: true
 # miller-Rabin primality test
 # aks test
 a number $p$ is prime if and only if all the coefficients of the polynomial expansion of
-$(x-1)^p-(x^p-1)$ are divisible by $p$.
+$$(x-1)^p-(x^p-1)$$ are divisible by p.
 # factor
 ## pollard's Rho algorithm
 ## elliptic curve factorization

@@ -8,9 +8,13 @@ math: true
 ```
 $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$
 $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$
-Let's draw a square with length $2L=2\times 1597=3194$ pixels.
+Let's draw a square with length \\(2L=2\times 1597=3194\\) pixels.
 In this square. Here are a pentagon like pattern.
-There circle's radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$
+{{<raw>}}
+
+There circle's radius should be \(R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987\)
+
+{{</raw>}}
 $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$
 $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$
 $$R+r=987+337=1364$$
@@ -19,13 +23,13 @@ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$
 $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$
 Maybe I should use complex number?
 Those points should be solutions of a equation.
-$$(x_i,y_i)=(R+Rj)+R(-1)^{i/5}(\cos\theta+j\sin\theta)=(L+Lj)+R\exp(j(i\frac{\tau}{5}+\theta))$$
-$$(x_i,y_i)=(L+Lj)+R\exp(j(i\frac{\tau}{5}-\theta))$$
-$$(x_i,y_i)=(L+Lj)+r\exp(ji\frac{\tau}{5})$$
+$$(x_i,y_i)=(R+Rj)+R(-1)^{i/5}(\cos\theta+\imath\sin\theta)=(L+L\imath)+R\exp(\imath(i\frac{\tau}{5}+\theta))$$
+$$(x_i,y_i)=(L+L\imath)+R\exp(\imath(i\frac{\tau}{5}-\theta))$$
+$$(x_i,y_i)=(L+L\imath)+r\exp(\imath i\frac{\tau}{5})$$
 $$A=\frac{(5-3\sqrt{5})\sqrt{5-2\sqrt{5}}}{2(-5+\sqrt{5(5-2\sqrt{5})})}$$
 $$A=\frac{(1-3\varphi)\sqrt{3-4\varphi}}{-5+\sqrt{5}\sqrt{3-4\varphi}}$$
 $$\theta=\sin^{-1}A$$
-And A equals the fourth root of $-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0$
+And A equals the fourth root of \\(-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0\\)
 ```mathematica
 a=ArcSin[Root[-1-6#+54#^2+44#^3+4#^4&,4]]
 L=Fibonacci[17]
