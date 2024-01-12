@@ -23,7 +23,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       renderMathInElement(document.body);
@@ -53,14 +58,9 @@
     <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&#34;</span> <span style="color:#a6e22e">fill=</span><span style="color:#e6db74">&#34;white&#34;</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;sector&#34;</span><span style="color:#f92672">/&gt;</span>
 </span></span></code></pre></div><p>$$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$
 $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$
-Let&rsquo;s draw a square with length \(2L=2\times 1597=3194\) pixels.
+Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels.
 In this square. Here are a pentagon like pattern.
-
-
-There circle's radius should be \(R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987\)
-
-
-
+There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$
 $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$
 $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$
 $$R+r=987+337=1364$$
@@ -75,7 +75,7 @@ $$(x_i,y_i)=(L+L\imath)+r\exp(\imath i\frac{\tau}{5})$$
 $$A=\frac{(5-3\sqrt{5})\sqrt{5-2\sqrt{5}}}{2(-5+\sqrt{5(5-2\sqrt{5})})}$$
 $$A=\frac{(1-3\varphi)\sqrt{3-4\varphi}}{-5+\sqrt{5}\sqrt{3-4\varphi}}$$
 $$\theta=\sin^{-1}A$$
-And A equals the fourth root of \(-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0\)</p>
+And A equals the fourth root of $-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0$</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-mathematica" data-lang="mathematica"><span style="display:flex;"><span>a<span style="color:#f92672">=</span>ArcSin[Root[<span style="color:#ae81ff">-1-6</span>#<span style="color:#f92672">+</span><span style="color:#ae81ff">54</span>#<span style="color:#f92672">^</span><span style="color:#ae81ff">2</span><span style="color:#f92672">+</span><span style="color:#ae81ff">44</span>#<span style="color:#f92672">^</span><span style="color:#ae81ff">3</span><span style="color:#f92672">+</span><span style="color:#ae81ff">4</span>#<span style="color:#f92672">^</span><span style="color:#ae81ff">4</span><span style="color:#f92672">&amp;</span>,<span style="color:#ae81ff">4</span>]]
 </span></span><span style="display:flex;"><span>L<span style="color:#f92672">=</span>Fibonacci[<span style="color:#ae81ff">17</span>]
 </span></span><span style="display:flex;"><span>R<span style="color:#f92672">=</span>Fibonacci[<span style="color:#ae81ff">16</span>]
@@ -101,15 +101,15 @@ And A equals the fourth root of \(-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0\)</p>
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -118,7 +118,7 @@ And A equals the fourth root of \(-1 - 6x + 54 x^2  + 44 x^3  + 4 x^4=0\)</p>
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

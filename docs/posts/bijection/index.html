@@ -23,7 +23,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       renderMathInElement(document.body);
@@ -76,6 +81,8 @@
 
 <br>
 
+<a href="https://upunder.us/posts/l_hopital_s_rule/">Next: L&#39;Hôpital&#39;s rule</a>
+
 <aside class="latest-posts">
   <div>
     <div class="section-header">
@@ -84,15 +91,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -101,7 +108,7 @@
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

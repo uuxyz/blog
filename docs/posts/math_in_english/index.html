@@ -23,7 +23,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       renderMathInElement(document.body);
@@ -47,7 +52,7 @@
     
     1 min
     
-    20 s.
+    4 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
@@ -74,8 +79,8 @@
 <tr>
 <th style="text-align:center">upper-case</th>
 <th style="text-align:center">lower-case</th>
-<th style="text-align:center">upper-case $$\LaTeX$$</th>
-<th style="text-align:center">lower-case $$\LaTeX$$</th>
+<th style="text-align:center">upper-case $\LaTeX$</th>
+<th style="text-align:center">lower-case $\LaTeX$</th>
 <th>variant</th>
 <th style="text-align:center">name</th>
 </tr>
@@ -85,7 +90,7 @@
 <td style="text-align:center">Α</td>
 <td style="text-align:center">α</td>
 <td style="text-align:center">Α</td>
-<td style="text-align:center">$$\alpha$$</td>
+<td style="text-align:center">$\alpha$</td>
 <td></td>
 <td style="text-align:center">alpha</td>
 </tr>
@@ -93,23 +98,23 @@
 <td style="text-align:center">Β</td>
 <td style="text-align:center">β</td>
 <td style="text-align:center">Β</td>
-<td style="text-align:center">$$\beta$$</td>
+<td style="text-align:center">$\beta$</td>
 <td></td>
 <td style="text-align:center">beta</td>
 </tr>
 <tr>
 <td style="text-align:center">Γ</td>
 <td style="text-align:center">γ</td>
-<td style="text-align:center">$$\Gamma$$</td>
-<td style="text-align:center">$$\gamma$$</td>
+<td style="text-align:center">$\Gamma$</td>
+<td style="text-align:center">$\gamma$</td>
 <td></td>
 <td style="text-align:center">gamma</td>
 </tr>
 <tr>
 <td style="text-align:center">Δ</td>
 <td style="text-align:center">δ</td>
-<td style="text-align:center">$$\Delta$$</td>
-<td style="text-align:center">$$\delta$$</td>
+<td style="text-align:center">$\Delta$</td>
+<td style="text-align:center">$\delta$</td>
 <td></td>
 <td style="text-align:center">delta</td>
 </tr>
@@ -117,15 +122,15 @@
 <td style="text-align:center">Ε</td>
 <td style="text-align:center">ε</td>
 <td style="text-align:center">Ε</td>
-<td style="text-align:center">$$\epsilon$$</td>
-<td>$$\varepsilon$$</td>
+<td style="text-align:center">$\epsilon$</td>
+<td>$\varepsilon$</td>
 <td style="text-align:center">epsilon</td>
 </tr>
 <tr>
 <td style="text-align:center">Ζ</td>
 <td style="text-align:center">ζ</td>
 <td style="text-align:center">Ζ</td>
-<td style="text-align:center">$$\zeta$$</td>
+<td style="text-align:center">$\zeta$</td>
 <td></td>
 <td style="text-align:center">zeta</td>
 </tr>
@@ -133,23 +138,23 @@
 <td style="text-align:center">Η</td>
 <td style="text-align:center">η</td>
 <td style="text-align:center">Η</td>
-<td style="text-align:center">$$\eta$$</td>
+<td style="text-align:center">$\eta$</td>
 <td></td>
 <td style="text-align:center">eta</td>
 </tr>
 <tr>
 <td style="text-align:center">Θ</td>
 <td style="text-align:center">θ</td>
-<td style="text-align:center">$$\Theta$$</td>
-<td style="text-align:center">$$\theta$$</td>
-<td>$$\vartheta$$</td>
+<td style="text-align:center">$\Theta$</td>
+<td style="text-align:center">$\theta$</td>
+<td>$\vartheta$</td>
 <td style="text-align:center">theta</td>
 </tr>
 <tr>
 <td style="text-align:center">Ι</td>
 <td style="text-align:center">ι</td>
 <td style="text-align:center">Ι</td>
-<td style="text-align:center">$$\iota$$</td>
+<td style="text-align:center">$\iota$</td>
 <td></td>
 <td style="text-align:center">iota</td>
 </tr>
@@ -157,15 +162,15 @@
 <td style="text-align:center">Κ</td>
 <td style="text-align:center">κ</td>
 <td style="text-align:center">Κ</td>
-<td style="text-align:center">$$\kappa$$</td>
+<td style="text-align:center">$\kappa$</td>
 <td></td>
 <td style="text-align:center">kappa</td>
 </tr>
 <tr>
 <td style="text-align:center">Λ</td>
 <td style="text-align:center">λ</td>
-<td style="text-align:center">$$\Lambda$$</td>
-<td style="text-align:center">$$\lambda$$</td>
+<td style="text-align:center">$\Lambda$</td>
+<td style="text-align:center">$\lambda$</td>
 <td></td>
 <td style="text-align:center">lambda</td>
 </tr>
@@ -173,7 +178,7 @@
 <td style="text-align:center">Μ</td>
 <td style="text-align:center">μ</td>
 <td style="text-align:center">Μ</td>
-<td style="text-align:center">$$\mu$$</td>
+<td style="text-align:center">$\mu$</td>
 <td></td>
 <td style="text-align:center">mu</td>
 </tr>
@@ -181,15 +186,15 @@
 <td style="text-align:center">Ν</td>
 <td style="text-align:center">ν</td>
 <td style="text-align:center">Ν</td>
-<td style="text-align:center">$$\nu$$</td>
+<td style="text-align:center">$\nu$</td>
 <td></td>
 <td style="text-align:center">nu</td>
 </tr>
 <tr>
 <td style="text-align:center">Ξ</td>
 <td style="text-align:center">ξ</td>
-<td style="text-align:center">$$\Xi$$</td>
-<td style="text-align:center">$$\xi$$</td>
+<td style="text-align:center">$\Xi$</td>
+<td style="text-align:center">$\xi$</td>
 <td></td>
 <td style="text-align:center">xi</td>
 </tr>
@@ -197,79 +202,79 @@
 <td style="text-align:center">Ο</td>
 <td style="text-align:center">ο</td>
 <td style="text-align:center">Ο</td>
-<td style="text-align:center">$$\omicron$$</td>
+<td style="text-align:center">$\omicron$</td>
 <td></td>
 <td style="text-align:center">omicron</td>
 </tr>
 <tr>
 <td style="text-align:center">Π</td>
 <td style="text-align:center">π</td>
-<td style="text-align:center">$$\Pi$$</td>
-<td style="text-align:center">$$\pi$$</td>
-<td>$$\varpi$$</td>
+<td style="text-align:center">$\Pi$</td>
+<td style="text-align:center">$\pi$</td>
+<td>$\varpi$</td>
 <td style="text-align:center">pi</td>
 </tr>
 <tr>
 <td style="text-align:center">Ρ</td>
 <td style="text-align:center">ρ</td>
 <td style="text-align:center">Ρ</td>
-<td style="text-align:center">$$\rho$$</td>
-<td>$$\varrho$$</td>
+<td style="text-align:center">$\rho$</td>
+<td>$\varrho$</td>
 <td style="text-align:center">rho</td>
 </tr>
 <tr>
 <td style="text-align:center">Σ</td>
 <td style="text-align:center">σ</td>
-<td style="text-align:center">$$\Sigma$$</td>
-<td style="text-align:center">$$\sigma$$</td>
-<td>$$\varsigma$$</td>
+<td style="text-align:center">$\Sigma$</td>
+<td style="text-align:center">$\sigma$</td>
+<td>$\varsigma$</td>
 <td style="text-align:center">sigma</td>
 </tr>
 <tr>
 <td style="text-align:center">Τ</td>
 <td style="text-align:center">τ</td>
 <td style="text-align:center">Τ</td>
-<td style="text-align:center">$$\tau$$</td>
+<td style="text-align:center">$\tau$</td>
 <td></td>
 <td style="text-align:center">tau</td>
 </tr>
 <tr>
 <td style="text-align:center">Υ</td>
 <td style="text-align:center">υ</td>
-<td style="text-align:center">$$\Upsilon$$</td>
-<td style="text-align:center">$$\upsilon$$</td>
+<td style="text-align:center">$\Upsilon$</td>
+<td style="text-align:center">$\upsilon$</td>
 <td></td>
 <td style="text-align:center">upsilon</td>
 </tr>
 <tr>
 <td style="text-align:center">Φ</td>
 <td style="text-align:center">φ</td>
-<td style="text-align:center">$$\Phi$$</td>
-<td style="text-align:center">$$\phi$$</td>
-<td>$$\varphi$$</td>
+<td style="text-align:center">$\Phi$</td>
+<td style="text-align:center">$\phi$</td>
+<td>$\varphi$</td>
 <td style="text-align:center">phi</td>
 </tr>
 <tr>
 <td style="text-align:center">Χ</td>
 <td style="text-align:center">χ</td>
 <td style="text-align:center">Χ</td>
-<td style="text-align:center">$$\chi$$</td>
+<td style="text-align:center">$\chi$</td>
 <td></td>
 <td style="text-align:center">chi</td>
 </tr>
 <tr>
 <td style="text-align:center">Ψ</td>
 <td style="text-align:center">ψ</td>
-<td style="text-align:center">$$\Psi$$</td>
-<td style="text-align:center">$$\psi$$</td>
+<td style="text-align:center">$\Psi$</td>
+<td style="text-align:center">$\psi$</td>
 <td></td>
 <td style="text-align:center">psi</td>
 </tr>
 <tr>
 <td style="text-align:center">Ω</td>
 <td style="text-align:center">ω</td>
-<td style="text-align:center">$$\Omega$$</td>
-<td style="text-align:center">$$\omega$$</td>
+<td style="text-align:center">$\Omega$</td>
+<td style="text-align:center">$\omega$</td>
 <td></td>
 <td style="text-align:center">omega</td>
 </tr>
@@ -285,19 +290,19 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">\(\aleph\)</td>
+<td style="text-align:center">$\aleph$</td>
 <td style="text-align:center">aleph</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\beth\)</td>
+<td style="text-align:center">$\beth$</td>
 <td style="text-align:center">beth</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\gimel\)</td>
+<td style="text-align:center">$\gimel$</td>
 <td style="text-align:center">gimel</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\daleth\)</td>
+<td style="text-align:center">$\daleth$</td>
 <td style="text-align:center">daleth</td>
 </tr>
 </tbody>
@@ -309,46 +314,32 @@
 <tr>
 <th style="text-align:center">function</th>
 <th style="text-align:center">name</th>
-<th style="text-align:center">define</th>
-<th style="text-align:center">derivative</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">\(\sin x\)</td>
+<td style="text-align:center">$\sin x$</td>
 <td style="text-align:center">sine</td>
-<td style="text-align:center">\(y/r\)</td>
-<td style="text-align:center">\(\cos x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\cos x\)</td>
+<td style="text-align:center">$\cos x$</td>
 <td style="text-align:center">cosine</td>
-<td style="text-align:center">\(x/r\)</td>
-<td style="text-align:center">\(-\sin x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\tan x\)</td>
+<td style="text-align:center">$\tan x$</td>
 <td style="text-align:center">tangent</td>
-<td style="text-align:center">\(y/x\)</td>
-<td style="text-align:center">\(\sec^2 x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\cot x\)</td>
+<td style="text-align:center">$\cot x$</td>
 <td style="text-align:center">cotangent</td>
-<td style="text-align:center">\(x/y\)</td>
-<td style="text-align:center">\(-\csc^2 x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\sec x\)</td>
+<td style="text-align:center">$\sec x$</td>
 <td style="text-align:center">secant</td>
-<td style="text-align:center">\(r/x\)</td>
-<td style="text-align:center">\(\sec x\tan x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\csc x\)</td>
+<td style="text-align:center">$\csc x$</td>
 <td style="text-align:center">cosecant</td>
-<td style="text-align:center">\(r/y\)</td>
-<td style="text-align:center">\(-\csc x\cot x\)</td>
 </tr>
 </tbody>
 </table>
@@ -358,46 +349,32 @@
 <tr>
 <th style="text-align:center">function</th>
 <th style="text-align:center">name</th>
-<th style="text-align:center">define</th>
-<th style="text-align:center">derivative</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">\(\arcsin x\)</td>
+<td style="text-align:center">$\arcsin x$</td>
 <td style="text-align:center">arcsine</td>
-<td style="text-align:center">\(x=\sin y\)</td>
-<td style="text-align:center">\(\frac{1}{\sqrt{1-x^2}}\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\arccos x\)</td>
+<td style="text-align:center">$\arccos x$</td>
 <td style="text-align:center">arccosine</td>
-<td style="text-align:center">\(x=\cos y\)</td>
-<td style="text-align:center">\(-\frac{1}{\sqrt{1-x^2}}\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\arctan x\)</td>
+<td style="text-align:center">$\arctan x$</td>
 <td style="text-align:center">arctangent</td>
-<td style="text-align:center">\(x=\tan y\)</td>
-<td style="text-align:center">\(\frac{1}{x^2+1}\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\operatorname{arccot}x\)</td>
+<td style="text-align:center">$\operatorname{arccot}x$</td>
 <td style="text-align:center">arccotangent</td>
-<td style="text-align:center">\(x=\cot y\)</td>
-<td style="text-align:center">\(-\frac{1}{x^2+1}\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\operatorname{arcsec}x\)</td>
+<td style="text-align:center">$\operatorname{arcsec}x$</td>
 <td style="text-align:center">arcsecant</td>
-<td style="text-align:center">\(x=\sec y\)</td>
-<td style="text-align:center">\(\frac{1}{|x|\sqrt{x^2-1}}\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\operatorname{arccsc}x\)</td>
+<td style="text-align:center">$\operatorname{arccsc}x$</td>
 <td style="text-align:center">arccosecant</td>
-<td style="text-align:center">\(x=\csc y\)</td>
-<td style="text-align:center">\(-\frac{1}{|x|\sqrt{x^2-1}}\)</td>
 </tr>
 </tbody>
 </table>
@@ -407,39 +384,32 @@
 <tr>
 <th style="text-align:center">function</th>
 <th style="text-align:center">name</th>
-<th style="text-align:center">derivative</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">\(\sinh x\)</td>
+<td style="text-align:center">$\sinh x$</td>
 <td style="text-align:center">hyperbolic sine</td>
-<td style="text-align:center">\(\cosh x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\cosh x\)</td>
+<td style="text-align:center">$\cosh x$</td>
 <td style="text-align:center">hyperbolic cosine</td>
-<td style="text-align:center">\(\sinh x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\tanh x\)</td>
+<td style="text-align:center">$\tanh x$</td>
 <td style="text-align:center">hyperbolic tangent</td>
-<td style="text-align:center">\(\operatorname{sech}^2 x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\coth x\)</td>
+<td style="text-align:center">$\coth x$</td>
 <td style="text-align:center">hyperbolic cotangent</td>
-<td style="text-align:center">\(-\operatorname{csch}^2 x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\operatorname{sech} x\)</td>
+<td style="text-align:center">$\operatorname{sech} x$</td>
 <td style="text-align:center">hyperbolic secant</td>
-<td style="text-align:center">\(-\operatorname{sech} x\tanh x\)</td>
 </tr>
 <tr>
-<td style="text-align:center">\(\operatorname{csch} x\)</td>
+<td style="text-align:center">$\operatorname{csch} x$</td>
 <td style="text-align:center">hyperbolic cosecant</td>
-<td style="text-align:center">\(-\operatorname{csch} x\operatorname{coth} x\)</td>
 </tr>
 </tbody>
 </table>
@@ -467,15 +437,15 @@
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -484,7 +454,7 @@
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

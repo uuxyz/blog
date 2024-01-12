@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang='{{ .Site.LanguageCode | default "en-us" }}'>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +7,8 @@
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <style type="text/css" media="all">@import "/style.css";</style>
-    <style type="text/css" media="all">@import "/syntax.css";</style>
+    <style type="text/css" media="all">@import "/css/style.css";</style>
+    <style type="text/css" media="all">@import "/css/syntax.css";</style>
     {{ with .OutputFormats.Get "RSS" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
     {{- end }}

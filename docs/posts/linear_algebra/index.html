@@ -1,348 +1,161 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Linear algebra</title>
-	
-	
-	<style type="text/css" media="all">@import "/style.css";</style>
-	<style type="text/css" media="all">@import "/syntax.css";</style>
-	
-</head>
-<body>
-	<header>
-    <a href="https://xy-iii.github.io" style="font-size:30px">up under us</a>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>linear algebra</title>
     
+    
+    <style type="text/css" media="all">@import "/style.css";</style>
+    <style type="text/css" media="all">@import "/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title" style="font-size:3rem;display:inline-block;vertical-align:middle;"><a href="https://upunder.us"><img src="/favicon.svg" alt="img" width="64rem" height="64rem" style="display:inline-block;vertical-align: middle;"/></a> up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
 </header>
 
-	
+    
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
-    MathJax = {
-        tex: {
-            inlineMath: [["$", "$"]],
-        },
-        displayMath: [
-            ["$$", "$$"],
-            ["\[\[", "\]\]"],
-        ],
-        svg: {
-            fontCache: "global",
-        },
-    };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
-	<main>
-		<article>
-		<header>
-			<h1>Linear algebra</h1>
-		</header>
-			<time datetime="2022-07-03T00:53:04">
-			2022.07.03 00:53
-			</time>
-			
-			Reading time:
-			
-			
-			
-			
-			2 min
-			
-			34 s.
-			<div>
-							<h3>Table of contents</h3>
-							<nav id="TableOfContents">
+<main>
+  <article>
+    <header>
+      <h1>linear algebra</h1>
+    </header>
+    <time datetime="2023-12-09T00:00:00">
+      2023.12.09 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    41 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#matrix">matrix</a>
       <ul>
-        <li><a href="#determinant">Determinant</a></li>
-        <li><a href="#area-of-triangle">Area of Triangle</a></li>
-        <li><a href="#area-of-triangle-in-complex-number-form">Area of triangle in complex number form</a></li>
-        <li><a href="#volume-of-tetrahedron">Volume of Tetrahedron</a></li>
-        <li><a href="#two-vector-cross-product">Two Vector Cross Product</a></li>
-        <li><a href="#5-points-determine-a-gereral-quadratic-curve">5 Points Determine a Gereral Quadratic Curve</a></li>
-        <li><a href="#3-points-determine-a-circle">3 Points Determine a Circle</a></li>
-        <li><a href="#4-point-determine-a-sphere">4 Point Determine a Sphere</a></li>
-        <li><a href="#3-point-determine-a-plane">3 Point Determine a Plane</a></li>
-        <li><a href="#2-point-determine-a-line">2 Point Determine a Line</a></li>
+        <li><a href="#identity-matrix">identity matrix</a></li>
       </ul>
     </li>
+    <li><a href="#determinant">determinant</a></li>
   </ul>
 </nav>
-			</div>
-			<h2 id="determinant">Determinant</h2>
-<p>$$
-\begin{vmatrix}
-x_1 &amp; y_1 &amp; z_1\\
-x_2 &amp; y_2 &amp; z_2\\
-x_3 &amp; y_3 &amp; z_3
-\end{vmatrix}=x_1 y_2 z_3 + x_2 y_3 z_1 + x_3 y_1 z_2 - x_1 y_3 z_2 - x_2 y_1 z_3 - x_3 y_2 z_1
-$$</p>
-<h2 id="area-of-triangle">Area of Triangle</h2>
-<p>$$S_{\mathrm{triangle}}=\frac{1}{2}
-\left|
-\begin{vmatrix}
-x_0 &amp; x_1 &amp; x_2\\
-y_0 &amp; y_1 &amp; y_2\\
-1 &amp; 1 &amp; 1
-\end{vmatrix}\right|$$</p>
-<h2 id="area-of-triangle-in-complex-number-form">Area of triangle in complex number form</h2>
-<p>$$S_{\mathrm{triangle}}=\frac{1}{4}
-\left|
-\begin{vmatrix}
-1 &amp; 1 &amp; 1\\
-z_1 &amp; z_2 &amp; z_3\\
-\bar{z_1} &amp; \bar{z_2} &amp; \bar{z_3}
-\end{vmatrix}\right|$$</p>
-<h2 id="volume-of-tetrahedron">Volume of Tetrahedron</h2>
-<p>$$V_{\mathrm{tetrahedron}}=\frac{1}{6}
-\left|
-\begin{vmatrix}
-x_0 &amp; x_1 &amp; x_2 &amp; x_3\\
-y_0 &amp; y_1 &amp; y_2 &amp; y_3\\
-z_0 &amp; z_1 &amp; z_2 &amp; z_3\\
-1 &amp; 1 &amp; 1 &amp; 1
-\end{vmatrix}\right|$$</p>
-<h2 id="two-vector-cross-product">Two Vector Cross Product</h2>
-<p>$$\boldsymbol{a}\times\boldsymbol{b}=
-\begin{vmatrix}
-x_1 &amp; y_1 &amp; z_1\\
-x_2 &amp; y_2 &amp; z_2\\
-\boldsymbol i &amp; \boldsymbol j &amp;  \boldsymbol k
-\end{vmatrix}$$</p>
-<h2 id="5-points-determine-a-gereral-quadratic-curve">5 Points Determine a Gereral Quadratic Curve</h2>
-<p>$$\begin{vmatrix}
-x^2 &amp; xy &amp; y^2 &amp; x &amp; y &amp; 1 \\
-x_1^2 &amp; x_1 y_1 &amp; y_1^2 &amp; x_1 &amp; y_1 &amp; 1 \\
-x_2^2 &amp; x_2 y_2 &amp; y_2^2 &amp; x_2 &amp; y_2 &amp; 1 \\
-x_3^2 &amp; x_3 y_3 &amp; y_3^2 &amp; x_3 &amp; y_3 &amp; 1 \\
-x_4^2 &amp; x_4 y_4 &amp; y_4^2 &amp; x_4 &amp; y_4 &amp; 1 \\
-x_5^2 &amp; x_5 y_5 &amp; y_5^2 &amp; x_5 &amp; y_5 &amp; 1 \\
-\end{vmatrix}
-=\begin{bmatrix}
-x &amp; y &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-A &amp; B &amp; D\\
-B &amp; C &amp; E\\
-D &amp; E &amp; F
-\end{bmatrix}
-\begin{bmatrix}
-x\\
-y\\
-1
-\end{bmatrix}
-=\begin{bmatrix}
-x &amp; y
-\end{bmatrix}
-\begin{bmatrix}
-A &amp; B\\
-B &amp; C
-\end{bmatrix}
-\begin{bmatrix}
-x\\
-y
-\end{bmatrix}
-+\begin{bmatrix}
-D &amp; E
-\end{bmatrix}
-\begin{bmatrix}
-x\\
-y
-\end{bmatrix}
-+F
-=0
-$$</p>
-<p>$$Ax^2+2Bxy+Cy^2+2Dxz+2Eyz+Fz^2=0$$</p>
-<p>$$\Delta = \begin{vmatrix}
-A &amp; B &amp; D\\
-B &amp; C &amp; E\\
-D &amp; E &amp; F
-\end{vmatrix}$$</p>
-<p>$$J = \begin{vmatrix}
-A &amp; B\\
-B &amp; C
-\end{vmatrix}$$</p>
-<p>$$I = a + c$$</p>
-<p>$$K=\begin{vmatrix}
-A &amp; D\\
-D &amp; F
-\end{vmatrix}+
-\begin{vmatrix}
-C &amp; E\\
-E &amp; F
-\end{vmatrix}$$</p>
-<table>
-<thead>
-<tr>
-<th>curve</th>
-<th>Delta</th>
-<th>J</th>
-<th>Delta/I</th>
-<th>K</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>coincident lines</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>0</td>
-</tr>
-<tr>
-<td>ellipse (imaginary)</td>
-<td>!=0</td>
-<td>&gt;0</td>
-<td>&gt;0</td>
-<td></td>
-</tr>
-<tr>
-<td>ellipse (real)</td>
-<td>!=0</td>
-<td>&gt;0</td>
-<td>&lt;0</td>
-<td></td>
-</tr>
-<tr>
-<td>hyperbola</td>
-<td>!=0</td>
-<td>&lt;0</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>intersecting lines (imaginary)</td>
-<td>0</td>
-<td>&gt;0</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>intersecting lines (real)</td>
-<td>0</td>
-<td>&lt;0</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>parabola</td>
-<td>!=0</td>
-<td>0</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>parallel lines (imaginary)</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>&gt;0</td>
-</tr>
-<tr>
-<td>parallel lines (real)</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>&lt;0</td>
-</tr>
-</tbody>
-</table>
-<h2 id="3-points-determine-a-circle">3 Points Determine a Circle</h2>
-<p>$$
-\begin{vmatrix}
-x^2+y^2 &amp; x &amp; y &amp; 1\\
-x_1^2+y_1^2 &amp; x_1 &amp; y_1 &amp; 1\\
-x_2^2+y_2^2 &amp; x_2 &amp; y_2 &amp; 1\\
-x_3^2+y_3^2 &amp; x_3 &amp; y_3 &amp; 1
-\end{vmatrix}
-=\begin{bmatrix}
-x &amp; y &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-1 &amp; 0 &amp; D\\
-0 &amp; 1 &amp; E\\
-D &amp; E &amp; F
-\end{bmatrix}
-\begin{bmatrix}
-x\\
-y\\
-1
-\end{bmatrix}
-=0
-$$</p>
-<h2 id="4-point-determine-a-sphere">4 Point Determine a Sphere</h2>
-<p>$$
-\begin{vmatrix}
-x^2+y^2+z^2 &amp; x &amp; y &amp; z &amp; 1\\
-x_1^2+y_1^2+z_1^2 &amp; x_1 &amp; y_1 &amp; z_1 &amp; 1\\
-x_2^2+y_2^2+z_2^2 &amp; x_2 &amp; y_2 &amp; z_2 &amp; 1\\
-x_3^2+y_3^2+z_3^2 &amp; x_3 &amp; y_3 &amp; z_3 &amp; 1\\
-x_4^2+y_4^2+z_4^2 &amp; x_4 &amp; y_4 &amp; z_4 &amp; 1
-\end{vmatrix}
-=0
-$$</p>
-<h2 id="3-point-determine-a-plane">3 Point Determine a Plane</h2>
-<p>$$
-\begin{vmatrix}
-x &amp; y &amp; z&amp;1\\
-x_1 &amp; y_1 &amp; z_1&amp;1\\
-x_2 &amp; y_2 &amp; z_2&amp;1\\
-x_3 &amp; y_3 &amp; z_3&amp;1
-\end{vmatrix}
-$$</p>
-<h2 id="2-point-determine-a-line">2 Point Determine a Line</h2>
-<p>$$
-\begin{vmatrix}
-x &amp; y &amp; 1\\
-x_1 &amp; y_1 &amp; 1\\
-x_2 &amp; y_2 &amp; 1
-\end{vmatrix}
-$$</p>
+    </div>
+    <h1 id="matrix">matrix</h1>
+<h2 id="identity-matrix">identity matrix</h2>
 
-			
-		</article>
-	</main>
 
-  <a href="https://xy-iii.github.io/posts/math/">Prev: math</a>
+$$
+I_1=\begin{bmatrix}
+1
+\end{bmatrix},
+I_2=\begin{bmatrix}
+1 & 0 \\
+0 & 1 \\
+\end{bmatrix}
+
+I_3=\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{bmatrix},\dots,I_n=\begin{bmatrix}
+1 & 0 & 0 & \cdots & 0 \\
+0 & 1 & 0 & \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \cdots & 1 \\
+\end{bmatrix}.
+$$
+
+
+
+<h1 id="determinant">determinant</h1>
+<p>$$\left|kA\right|=k^n\left|A\right|$$</p>
+<p>$$AA^*=\left|A\right|E$$</p>
+<p>$$A^{-1}=\frac{A^*}{\left|A\right|}$$</p>
+<p>$$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
+$${\rm adj}(cA)=c^{n-1}{\rm adj}(A)$$
+$${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$</p>
+<p>$$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
+$$\det(\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A))=\det(A)^{(n-1)^k}$$</p>
+
+$$\left(A^*\right)^*=\left|A\right|^{n-2}A$$
+
+$$\det\begin{bmatrix}
+A & O \\
+O & D \\
+\end{bmatrix}=
+\det\begin{bmatrix}
+A & O \\
+C & D \\
+\end{bmatrix}=
+\det\begin{bmatrix}
+A & B \\
+O & D \\
+\end{bmatrix}=\det \left ( A \right ) \det \left ( D \right )$$
+
+
+
+    
+  </article>
+</main>
+
+<a href="https://upunder.us/posts/coordinate_system/">Prev: coordinate system</a>
 
 <br>
 
-  <a href="https://xy-iii.github.io/posts/math_in_ncee/">Next: Math in NCEE</a>
+<a href="https://upunder.us/posts/arithmetic_overflow/">Next: arithmetic overflow</a>
 
-<aside>
-    <div>
-        <div>
-            <h3>LATEST POSTS</h3>
-        </div>
-        <div>
-            <ul>
-                
-                <li><a href="/posts/math_formula/">Math formula</a></li>
-                
-                <li><a href="/posts/probability_theory/">Probability theory</a></li>
-                
-                <li><a href="/posts/triangle/">Triangle</a></li>
-                
-                <li><a href="/posts/python_modules/">Python modules</a></li>
-                
-                <li><a href="/posts/physics_in_ncee/">Physics in NCEE</a></li>
-                
-            </ul>
-        </div>
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
     </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/number_theory/">number theory</a></li>
+        
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
+        
+        <li><a href="/posts/cstring/">cstring</a></li>
+        
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
+        
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
+        
+      </ul>
+    </div>
+  </div>
 </aside>
 
 
-	<footer>
-    <p>&copy; 2023 <a href="https://xy-iii.github.io">up under us</a></p>
+    <footer class="site-footer">
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
-</body>
+  </body>
 </html>

@@ -29,6 +29,108 @@
 
   
   <article>
+  <h1><a href="https://upunder.us/posts/vim_usage/">vim usage</a></h1>
+  <time datetime="2023-09-26T00:00:00">2023.09.26 00:00</time>
+  
+  <div>
+    selection Press v in command mode, then use the arrow keys to select the text.
+copy and paste In command mode, press y to copy the selection, yy to copy the entire line, and p to paste.
+undo In command mode, press u to undo the operation.
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/newtons_method/">newton&#39;s method</a></h1>
+  <time datetime="2023-09-24T00:00:00">2023.09.24 00:00</time>
+  
+  <div>
+    Newton&rsquo;s method can be used to find the roots of the equation $f(x)=0$. It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.
+Let r be the root of $f(x)=0$, and choose $x_0$ as the initial approximation of $r$, then we can make the tangent line $L$ to the curve $y=f(x)$ over the point $(x_0,f(x_0))$, we know that the tangent line intersects with the x-axis, and we know that the equation of the tangent line L is $L:y=f(x_0)+f^\prime(x_0)(x-x_0)$ We find its intersection with the x-axis as $x_1=x_0-\frac{f(x_0)}{f^\prime(x_0)}$.
+    
+    <a href="https://upunder.us/posts/newtons_method/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/second_derivative/">second derivative</a></h1>
+  <time datetime="2023-09-23T00:00:00">2023.09.23 00:00</time>
+  
+  <div>
+    $$\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{\mathrm{d} y}{\mathrm{d}x}\right)=\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$
+$$g(x)=\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}f(x)}{\mathrm{d}x}=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{x+\varepsilon-x}$$
+$$=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{\varepsilon}$$
+$$ \begin{equation} \begin{aligned} \frac{\mathrm{d}g(x)}{\mathrm{d}x}&amp;=\frac{g(x+\varepsilon)-g(x)}{\varepsilon}\newline &amp;=\frac{\frac{f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)}{\varepsilon}-\frac{f(x+\varepsilon)-f(x)}{\varepsilon}}{\varepsilon}\newline &amp;=\frac{[f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)]-[f(x+\varepsilon)-f(x)]}{\varepsilon^2}\newline &amp;=\frac{\mathrm{d}f(x+\varepsilon)-\mathrm{d}f(x)}{\varepsilon^2}\newline &amp;=\frac{\mathrm{d}(\mathrm{d}f(x))}{\varepsilon^2}\newline &amp;=\frac{\mathrm{d}^2 f(x)}{(\mathrm{d}x)^2} \end{aligned} \end{equation} $$
+(define (square x) (* x x)) (define (d f dx) (lambda (x) (/ (- (f (+ x dx)) (f x)) dx))) ((d square 0.0001) 2) ; == 4 ((d (d square 0.0001) 0.0001) 2); == 2 
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/hacker_tool/">hacker tool</a></h1>
+  <time datetime="2023-09-22T00:00:00">2023.09.22 00:00</time>
+  
+  <div>
+    wireshark
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/c_programming/">c programming</a></h1>
+  <time datetime="2023-09-21T00:00:00">2023.09.21 00:00</time>
+  
+  <div>
+    data convert data structure algorithm function 
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/docker_usage/">docker usage</a></h1>
+  <time datetime="2023-09-18T00:00:00">2023.09.18 00:00</time>
+  
+  <div>
+    Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.
+Installation of Docker:
+On Manjaro, you can simply enter the following command:
+sudo pacman -S docker Using Docker:
+Let&rsquo;s take WolframEngine as an example:
+Step 1: Download the image from a proxy website:
+shell
+docker pull dockerproxy.com/wolframresearch/wolframengine
+Step 2: Rename the image:
+sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine Step 3: Remove the proxy image:
+    
+    <a href="https://upunder.us/posts/docker_usage/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/latina/">latin knowledge</a></h1>
+  <time datetime="2023-09-17T00:00:00">2023.09.17 00:00</time>
+  
+  <div>
+    Quidquid latine dictum sit, altum sonatur.
+Some Latin Language Insights to Enhance Your Literary Knowledge
+The study of Latin can be a gateway to a deeper understanding of literature and culture. In this article, we&rsquo;ll explore various aspects of Latin language and its relevance to literature and the cosmos.
+1. Seasons in Latin Language In Latin, the seasons are referred to as &ldquo;tempora.&rdquo; The four seasons of the year—spring, summer, autumn, and winter—are represented by the following terms:
+    
+    <a href="https://upunder.us/posts/latina/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
   <h1><a href="https://upunder.us/posts/rime_usage/">rime usage</a></h1>
   <time datetime="2023-09-16T00:00:00">2023.09.16 00:00</time>
   
@@ -61,93 +163,12 @@
 </article>
 
   
-  <article>
-  <h1><a href="https://upunder.us/posts/manim_usage/">manim usage</a></h1>
-  <time datetime="2023-09-13T00:00:00">2023.09.13 00:00</time>
-  
-  <div>
-    conda create -n my-manim-environment conda activate my-manim-environment conda install -c conda-forge manim manim -pqh main.py main class main(Scene): def construct(self): text = Text(&#34;Hello world!&#34;) self.play(Write(text)) 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/python_usage/">python usage</a></h1>
-  <time datetime="2023-09-12T00:00:00">2023.09.12 00:00</time>
-  
-  <div>
-    network ## file server python -m http.server 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/mathematica_usage/">mathematica usage</a></h1>
-  <time datetime="2023-09-11T00:00:00">2023.09.11 00:00</time>
-  
-  <div>
-    Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] RootApproximant[Pi,1] 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/shell_usage/">shell usage</a></h1>
-  <time datetime="2023-09-10T00:00:00">2023.09.10 00:00</time>
-  
-  <div>
-    hello world #!/bin/bash echo &#34;Hello World !&#34; variables user=$(whoami) functions function hello { echo &#34;hello, $(whoami)&#34; } other fancy date date +&#34;%A, %d %B %Y %H:%M:%S:%N %p %z %Z Week:%W Day:%j Epoch:%s %t&#34; 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/matlab_usage/">matlab usage</a></h1>
-  <time datetime="2023-09-09T00:00:00">2023.09.09 00:00</time>
-  
-  <div>
-    [1 1 ; 1 0]^100 rats(pi) fft([1 2 3]) 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/lean_usage/">lean usage</a></h1>
-  <time datetime="2023-09-08T00:00:00">2023.09.08 00:00</time>
-  
-  <div>
-    I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!
-To prove logical formulas, we just need to use a truth table; This is a good tool to use, but it&rsquo;s not enough for more complex mathematical theorems.
-We can proof \(2+2=4\) by using following code:
-theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl rfl stands for &ldquo;reflexivity&rdquo;
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/linux_driver/">linux driver</a></h1>
-  <time datetime="2023-08-21T00:00:00">2023.08.21 00:00</time>
-  
-  <div>
-    AMD
-NVIDIA
-    
-  </div>
-</article>
-
-  
   <div class="pagination">
   
   <a class="prev-page" href="/posts/page/3/">Previous Page</a>
   
 
-  <span class="page-number">4 of 6</span>
+  <span class="page-number">4 of 7</span>
 
   
   <a class="next-page" href="/posts/page/5/">Next Page</a>
@@ -163,15 +184,15 @@ NVIDIA
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -180,7 +201,7 @@ NVIDIA
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

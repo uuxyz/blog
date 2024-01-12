@@ -6,392 +6,690 @@
     <description>Recent content in Posts on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>number theory</title>
+      <link>https://upunder.us/posts/number_theory/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/number_theory/</guid>
+      <description>$$a^n\equiv (a \bmod p)^{n \bmod{\varphi(p)}}\bmod p,p \in\mathbb{P}$$ $$a^n\equiv (a \bmod p)^{n \bmod{p-1}}\bmod p,p \in\mathbb{P}$$</description>
+    </item>
+    
+    <item>
+      <title>mnemonic</title>
+      <link>https://upunder.us/posts/mnemonic/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/mnemonic/</guid>
+      <description> t a n x s s i e n c x x 1 c c o s s c x x c o t x s i n h x t c a o n s h h x x 1 s c e o c t h h x x c s c h x </description>
+    </item>
+    
+    <item>
+      <title>cstring</title>
+      <link>https://upunder.us/posts/cstring/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/cstring/</guid>
+      <description>Functions returning void* type: memchr: Searches for the position of a specified character in the string. memcpy: Copies a block of memory. memmove: Moves a block of memory. memset: Sets the values of a block of memory. Functions returning int type: memcmp: Compares blocks of memory. strcmp: Compares strings. strncmp: Compares the first n characters of strings. strcoll: Compares strings according to the localization rules. Functions returning char* type: strcat: Concatenates strings.</description>
+    </item>
+    
+    <item>
+      <title>arithmetic overflow</title>
+      <link>https://upunder.us/posts/arithmetic_overflow/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/arithmetic_overflow/</guid>
+      <description>Using those code to avoid overflow:
+#include &amp;lt;stdint.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; const int64_t mod = 0x7fffffffffffffe7LL; // 216289611853439384th prime const int64_t a01 = 0x7fffffffffffff5bLL; const int64_t b01 = 0x7ffffffffffffefdLL; int64_t add64(int64_t a, int64_t b, int64_t m) { a %= m; b %= m; if (m - a &amp;lt; b) return a &amp;gt; b ? a - m + b : b - m + a; else return a + b; } int64_t sub64(int64_t a, int64_t b, int64_t m) { a %= m; b %= m; return a - b &amp;lt; 0 ?</description>
+    </item>
+    
+    <item>
+      <title>linear algebra</title>
+      <link>https://upunder.us/posts/linear_algebra/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/linear_algebra/</guid>
+      <description>matrix identity matrix $$ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ \end{bmatrix} I_3=\begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ \end{bmatrix},\dots,I_n=\begin{bmatrix} 1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1 \\ \end{bmatrix}.</description>
+    </item>
+    
+    <item>
+      <title>coordinate system</title>
+      <link>https://upunder.us/posts/coordinate_system/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/coordinate_system/</guid>
+      <description>2d cartesian coordinate $$x=r\cos\varphi$$ $$y=r\sin\varphi$$
+polar coordinate $$r=\sqrt{x^2+y^2}=\operatorname{hypot}(x,y)$$ $$\varphi=\operatorname{atan2}(y,x)$$
+3d cartesian coordinate $$x=r\sin\theta\cos\varphi$$ $$y=r\sin\theta\sin\varphi$$ $$z=r\cos\varphi$$
+spherical coordinate $$r=\sqrt{x^2+y^2+z^2}$$ $$\theta=\arccos\frac{z}{r}$$ $$\varphi=\operatorname{atan2}(y,x)$$</description>
+    </item>
+    
+    <item>
+      <title>L&#39;Hôpital&#39;s rule</title>
+      <link>https://upunder.us/posts/l_hopital_s_rule/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/l_hopital_s_rule/</guid>
+      <description> f and g which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &amp;mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ </description>
+    </item>
+    
     <item>
       <title>bijection</title>
       <link>https://upunder.us/posts/bijection/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/bijection/</guid>
       <description>N and Q (define (f n) (cond ((= n 1) 1) ((even? n) (f (/ n 2))) (else (+ (f (/ (- n 1) 2)) (f (/ (+ n 1) 2)))))) (define (n_to_q x) (/ (f x) (f (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&amp;lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1)))) </description>
     </item>
+    
     <item>
       <title>curves</title>
       <link>https://upunder.us/posts/curves/</link>
       <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/curves/</guid>
-      <description>2d heart equation $$\left(x^2+y^2-1\right)^3=x^2y^3$$&#xA;3d heart equation $$\left[x^2+y^2+(2z)^2-1\right]^2=x^2y^3+\left(\frac{y}{2}\right)^3z^2$$</description>
+      <description>2d heart equation $$\left(x^2+y^2-1\right)^3=x^2y^3$$
+3d heart equation $$\left[x^2+y^2+(2z)^2-1\right]^2=x^2y^3+\left(\frac{y}{2}\right)^3z^2$$</description>
     </item>
+    
     <item>
       <title>calculus</title>
       <link>https://upunder.us/posts/calculus/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/calculus/</guid>
-      <description>area $$A = \int_a^b f(x)\mathrm{d}x$$&#xA;arc length $$L = \int_a^b \sqrt{1+[f^\prime(x)]^2}\mathrm{d}x$$&#xA;volumes of revolution $$V = \int_a^b [f(x)]^2\mathrm{d}x$$&#xA;curvature $$k=\frac{|f^{\prime\prime}|}{\sqrt{[1+(f^\prime)^{2}]^{3}}}$$ $$\left(\frac{x-x_0}{1+(f^\prime)^2}+\frac{f^\prime}{f^{\prime\prime}}\right)^2+\left(\frac{y-y_0}{1+(f^\prime)^2}-\frac{1}{f^{\prime\prime}}\right)^2=\frac{1+(f^\prime)^2}{(f^{\prime\prime})^2}$$</description>
+      <description>area $$A = \int_a^b f(x)\mathrm{d}x$$
+arc length $$L = \int_a^b \sqrt{1+[f^\prime(x)]^2}\mathrm{d}x$$
+volumes of revolution $$V = \int_a^b [f(x)]^2\mathrm{d}x$$
+curvature $$k=\frac{|f^{\prime\prime}|}{\sqrt{[1+(f^\prime)^{2}]^{3}}}$$ $$\left(\frac{x-x_0}{1+(f^\prime)^2}+\frac{f^\prime}{f^{\prime\prime}}\right)^2+\left(\frac{y-y_0}{1+(f^\prime)^2}-\frac{1}{f^{\prime\prime}}\right)^2=\frac{1+(f^\prime)^2}{(f^{\prime\prime})^2}$$</description>
     </item>
+    
     <item>
       <title>prime algorithms</title>
       <link>https://upunder.us/posts/prime_algorithms/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/prime_algorithms/</guid>
       <description>sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&amp;gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u &amp;#39;()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&amp;gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux &amp;#39;(2) (let range ((v &amp;#39;()) (k (if (odd?</description>
     </item>
+    
     <item>
       <title>bitwise operation</title>
       <link>https://upunder.us/posts/bitwise_operation/</link>
       <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/bitwise_operation/</guid>
       <description>lowbit x &amp;amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp;amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1) x = x &amp;amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp;amp; -x);//clears the lowest (least significant) 1 bit ((1 &amp;lt;&amp;lt; (i - 1)) &amp;amp; x) &amp;gt; 0;//check if the bit at position i is equals 1 x = x | (1 &amp;lt;&amp;lt; (i - 1));//set the bit at position to 1 x = x &amp;amp; (~(1 &amp;lt;&amp;lt; (i - 1)));//set the bit at position to 0 x=-~x;//x++; x=~-x;//x--; (x &amp;amp; (x-1))==0 &amp;amp;&amp;amp; x &amp;gt; 0;//true when x is a power of 2 (x &amp;amp; -x) &amp;gt; 0 &amp;amp;&amp;amp; x &amp;gt; 0;//true when x is a power of 2 (int)(!</description>
     </item>
+    
     <item>
       <title>random algorithms</title>
       <link>https://upunder.us/posts/random_algorithms/</link>
       <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/random_algorithms/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>field extension</title>
       <link>https://upunder.us/posts/field_extension/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/field_extension/</guid>
       <description>$$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(c,d)=(ac+bdn,bc+ad)$$ $$(a,b)/(c,d)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$</description>
     </item>
+    
     <item>
       <title>great software</title>
       <link>https://upunder.us/posts/great_software/</link>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/great_software/</guid>
-      <description>baobab rime A great Chinese input method.&#xA;plum A plugin for rime.&#xA;circuitjs1 A great circuit analyzer.&#xA;zotero A great paper organizer.</description>
+      <description>baobab rime A great Chinese input method.
+plum A plugin for rime.
+circuitjs1 A great circuit analyzer.
+zotero A great paper organizer.</description>
     </item>
+    
     <item>
       <title>family tree</title>
       <link>https://upunder.us/posts/family_tree/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/family_tree/</guid>
-      <description>Adam Eve&#xA;Cain Abel (Seth)&#xA;Enosh&#xA;Kenan&#xA;Mahalalel&#xA;Jared&#xA;Enoch&#xA;Methuselah&#xA;Lamench&#xA;Noah&#xA;(Shem) Ham Japheth&#xA;Arphaxad&#xA;Shelah&#xA;Eber&#xA;Peleg&#xA;Reu&#xA;Serug&#xA;Nahor&#xA;Terah&#xA;Abraham&#xA;Isaac&#xA;Jacob&#xA;Judah&#xA;Perez&#xA;Hezron&#xA;Ram&#xA;Amminadab&#xA;Nahshon&#xA;Salmon&#xA;Boaz&#xA;Obed&#xA;Jesse&#xA;David&#xA;Solomon</description>
+      <description>Adam Eve
+Cain Abel (Seth)
+Enosh
+Kenan
+Mahalalel
+Jared
+Enoch
+Methuselah
+Lamench
+Noah
+(Shem) Ham Japheth
+Arphaxad
+Shelah
+Eber
+Peleg
+Reu
+Serug
+Nahor
+Terah
+Abraham
+Isaac
+Jacob
+Judah
+Perez
+Hezron
+Ram
+Amminadab
+Nahshon
+Salmon
+Boaz
+Obed
+Jesse
+David
+Solomon</description>
     </item>
+    
     <item>
       <title>fixed-point combinators</title>
       <link>https://upunder.us/posts/fixed_point_combinators/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/fixed_point_combinators/</guid>
-      <description>$$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$&#xA;(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) </description>
+      <description>$$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
+(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) </description>
     </item>
+    
     <item>
       <title>fast fourier transform</title>
       <link>https://upunder.us/posts/fast_fourier_transform/</link>
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/fast_fourier_transform/</guid>
-      <description>First, let&amp;rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.&#xA;a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)\)&#xA;And how to use FFT to multiply two big integers?&#xA;If let x=10 Then can see it as \(123 \times 456\) And \(4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18\) is the result we need.</description>
+      <description>First, let&amp;rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial in Octave.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1+2x+3x^2)(4+5x+6x^2)=(4+13x^1+28x^2+27x^3+18x^4)\)
+And how to use FFT to multiply two big integers?
+If let x=10 Then can see it as \(321 \times 654\) And \(4 + 13 \cdot 10 + 28 \cdot 10^2 + 27\cdot 10^3+18 \cdot 10^4\) is the result we need.</description>
     </item>
+    
     <item>
       <title>convolution</title>
       <link>https://upunder.us/posts/convolution/</link>
       <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/convolution/</guid>
       <description>$$(f*g)(t):=\int_{-\infty}^{\infty}f(\tau)g(x-\tau)\mathrm{d}\tau$$</description>
     </item>
+    
     <item>
       <title>avatar</title>
       <link>https://upunder.us/posts/avatar/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/avatar/</guid>
-      <description>&amp;lt;path d=&amp;#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&amp;#34; fill=&amp;#34;white&amp;#34; id=&amp;#34;sector&amp;#34;/&amp;gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&amp;rsquo;s draw a square with length \(2L=2\times 1597=3194\) pixels. In this square. Here are a pentagon like pattern. There circle&#39;s radius should be \(R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987\) $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.</description>
+      <description>&amp;lt;path d=&amp;#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&amp;#34; fill=&amp;#34;white&amp;#34; id=&amp;#34;sector&amp;#34;/&amp;gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&amp;rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&amp;rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.</description>
     </item>
+    
     <item>
       <title>linked list</title>
       <link>https://upunder.us/posts/linked_list/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/linked_list/</guid>
-      <description>Write a linked list in C:&#xA;#include &amp;lt;stddef.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; struct list_head { struct list_head *next; struct list_head *prev; }; void init_list_head(struct list_head *head) { head-&amp;gt;next = head; head-&amp;gt;prev = head; } void list_add(struct list_head *head, struct list_head *new_node) { new_node-&amp;gt;next = head-&amp;gt;next; new_node-&amp;gt;prev = head; head-&amp;gt;next-&amp;gt;prev = new_node; head-&amp;gt;next = new_node; } void list_add_tail(struct list_head *head, struct list_head *new_node) { new_node-&amp;gt;next = head; new_node-&amp;gt;prev = head-&amp;gt;prev; head-&amp;gt;prev-&amp;gt;next = new_node; head-&amp;gt;prev = new_node; } void list_del(struct list_head *node) { node-&amp;gt;prev-&amp;gt;next = node-&amp;gt;next; node-&amp;gt;next-&amp;gt;prev = node-&amp;gt;prev; } struct student { struct list_head list; int id; int yy; int mm; int dd; }; void printList(struct list_head *head) { struct list_head *current = head-&amp;gt;next; while (current !</description>
+      <description>Write a linked list in C:
+#include &amp;lt;stddef.h&amp;gt; #include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; struct list_head { struct list_head *next; struct list_head *prev; }; void init_list_head(struct list_head *head) { head-&amp;gt;next = head; head-&amp;gt;prev = head; } void list_add(struct list_head *head, struct list_head *new_node) { new_node-&amp;gt;next = head-&amp;gt;next; new_node-&amp;gt;prev = head; head-&amp;gt;next-&amp;gt;prev = new_node; head-&amp;gt;next = new_node; } void list_add_tail(struct list_head *head, struct list_head *new_node) { new_node-&amp;gt;next = head; new_node-&amp;gt;prev = head-&amp;gt;prev; head-&amp;gt;prev-&amp;gt;next = new_node; head-&amp;gt;prev = new_node; } void list_del(struct list_head *node) { node-&amp;gt;prev-&amp;gt;next = node-&amp;gt;next; node-&amp;gt;next-&amp;gt;prev = node-&amp;gt;prev; } struct student { struct list_head list; int id; int yy; int mm; int dd; }; void printList(struct list_head *head) { struct list_head *current = head-&amp;gt;next; while (current !</description>
     </item>
+    
     <item>
       <title>programming environment</title>
       <link>https://upunder.us/posts/programming_environment/</link>
       <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/programming_environment/</guid>
-      <description>Anaconda </description>
+      <description>Anaconda https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/ Debian source https://mirrors.tuna.tsinghua.edu.cn/help/debian/ Guix https://mirror.sjtu.edu.cn/guix/ https://git.sjtu.edu.cn/sjtug/guix.git </description>
     </item>
+    
     <item>
       <title>risc-v</title>
       <link>https://upunder.us/posts/risc-v/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/risc-v/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>galois field</title>
       <link>https://upunder.us/posts/galois_field/</link>
       <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/galois_field/</guid>
       <description>$$\frac{m}{n}=mn^{p-2}\pmod p$$</description>
     </item>
+    
     <item>
       <title>tar usage</title>
       <link>https://upunder.us/posts/tar_usage/</link>
       <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/tar_usage/</guid>
       <description>tar -xvf example.tar </description>
     </item>
+    
     <item>
       <title>zotero usage</title>
       <link>https://upunder.us/posts/zotero_usage/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/zotero_usage/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>mathematics</title>
       <link>https://upunder.us/posts/mathematics/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/mathematics/</guid>
-      <description>(ε, δ)-definition of limit $$(\forall\varepsilon&amp;gt;0)(\exists \delta &amp;gt; 0)(\forall x \in \mathbb{R})(0&amp;lt;|x-p|&amp;lt;\delta \implies |f(x)-L|&amp;lt;\varepsilon)$$ (for every real ε &amp;gt; 0, there exists a real δ &amp;gt; 0 such that for all real x, 0 &amp;lt; |x − p| &amp;lt; δ implies |f(x) − L| &amp;lt; ε.)&#xA;one-sided limit $$\lim_{x\to a^+}f(x)=R$$&#xA;$$\lim_{x\to a^-}f(x)=L$$&#xA;derivative rules for combined functions sum rule $$(f+g)^\prime=f^\prime+g^\prime$$&#xA;product rule $$(fg)^\prime=f^\prime g+fg^\prime$$ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$&#xA;quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$</description>
+      <description>(ε, δ)-definition of limit $$(\forall\varepsilon&amp;gt;0)(\exists \delta &amp;gt; 0)(\forall x \in \mathbb{R})(0&amp;lt;|x-p|&amp;lt;\delta \implies |f(x)-L|&amp;lt;\varepsilon)$$ (for every real ε &amp;gt; 0, there exists a real δ &amp;gt; 0 such that for all real x, 0 &amp;lt; |x − p| &amp;lt; δ implies |f(x) − L| &amp;lt; ε.)
+one-sided limit $$\lim_{x\to a^+}f(x)=R$$
+$$\lim_{x\to a^-}f(x)=L$$
+derivative rules for combined functions sum rule $$(f+g)^\prime=f^\prime+g^\prime$$
+product rule $$(fg)^\prime=f^\prime g+fg^\prime$$ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$
+quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$</description>
     </item>
+    
     <item>
       <title>zlibrary usage</title>
       <link>https://upunder.us/posts/zlibrary_usage/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/zlibrary_usage/</guid>
       <description>zlibrary</description>
     </item>
+    
     <item>
       <title>website for study</title>
       <link>https://upunder.us/posts/website_for_study/</link>
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/website_for_study/</guid>
-      <description>cs OI-wiki https://oiwiki.org&#xA;Leetcode cookbook https://books.halfrost.com/leetcode/&#xA;CS自学指南 https://csdiy.wiki/&#xA;Coursera https://www.coursera.org/&#xA;edX https://www.edx.org/&#xA;Code map https://codemap.info/index.html&#xA;MDN web doc https://developer.mozilla.org&#xA;TeachYourselfCS https://teachyourselfcs.com https://github.com/izackwu/TeachYourselfCS-CN&#xA;jasonblog https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html&#xA;stackoverflow https://www.stackoverflow.com&#xA;西电计科本科 https://github.com/zimuzi2019/xducs-learning-tips&#xA;MIT Press https://mitpress.mit.edu/series/mit-press-essential-knowledge-series/&#xA;Ycombinator https://news.ycombinator.com/news&#xA;rosetta code https://www.rosettacode.org&#xA;math stackexchange https://math.stackexchange.com&#xA;mathlib https://leanprover-community.github.io/mathlib-overview.html&#xA;MIT Open Course Ware https://ocw.mit.edu/&#xA;3blue1brown https://www.3blue1brown.com&#xA;matrix67 https://matrix67.com&#xA;線代啟示錄 https://ccjou.wordpress.com&#xA;english BBC Radio https://radiomap.eu/uk/play/bbc_worldservice&#xA;英语真题在线 https://zhenti.burningvocabulary.com/&#xA;同桌英語 https://cet.itongzhuo.com/fourSix/exam/jumpFourSixExam.do?meType=11&#xA;Wikiquote https://en.wikiquote.org/wiki/Wikiquote:Quote_of_the_day</description>
+      <description>cs OI-wiki https://oiwiki.org
+Leetcode cookbook https://books.halfrost.com/leetcode/
+CS自学指南 https://csdiy.wiki/
+Coursera https://www.coursera.org/
+edX https://www.edx.org/
+Code map https://codemap.info/index.html
+MDN web doc https://developer.mozilla.org
+TeachYourselfCS https://teachyourselfcs.com https://github.com/izackwu/TeachYourselfCS-CN
+jasonblog https://jasonblog.github.io/note/c++/c++_stl_xue_xi_zong_7d5028_quan_976229.html
+stackoverflow https://www.stackoverflow.com
+西电计科本科 https://github.com/zimuzi2019/xducs-learning-tips
+MIT Press https://mitpress.mit.edu/series/mit-press-essential-knowledge-series/
+Ycombinator https://news.ycombinator.com/news
+rosetta code https://www.rosettacode.org
+math stackexchange https://math.stackexchange.com
+mathlib https://leanprover-community.github.io/mathlib-overview.html
+MIT Open Course Ware https://ocw.mit.edu/
+3blue1brown https://www.3blue1brown.com
+matrix67 https://matrix67.com
+線代啟示錄 https://ccjou.wordpress.com
+english BBC Radio https://radiomap.eu/uk/play/bbc_worldservice
+英语真题在线 https://zhenti.burningvocabulary.com/
+同桌英語 https://cet.itongzhuo.com/fourSix/exam/jumpFourSixExam.do?meType=11
+Wikiquote https://en.wikiquote.org/wiki/Wikiquote:Quote_of_the_day</description>
     </item>
+    
     <item>
       <title>math in english</title>
       <link>https://upunder.us/posts/math_in_english/</link>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/math_in_english/</guid>
-      <description>greek letters upper-case lower-case upper-case $$\LaTeX$$ lower-case $$\LaTeX$$ variant name Α α Α $$\alpha$$ alpha Β β Β $$\beta$$ beta Γ γ $$\Gamma$$ $$\gamma$$ gamma Δ δ $$\Delta$$ $$\delta$$ delta Ε ε Ε $$\epsilon$$ $$\varepsilon$$ epsilon Ζ ζ Ζ $$\zeta$$ zeta Η η Η $$\eta$$ eta Θ θ $$\Theta$$ $$\theta$$ $$\vartheta$$ theta Ι ι Ι $$\iota$$ iota Κ κ Κ $$\kappa$$ kappa Λ λ $$\Lambda$$ $$\lambda$$ lambda Μ μ Μ $$\mu$$ mu Ν ν Ν $$\nu$$ nu Ξ ξ $$\Xi$$ $$\xi$$ xi Ο ο Ο $$\omicron$$ omicron Π π $$\Pi$$ $$\pi$$ $$\varpi$$ pi Ρ ρ Ρ $$\rho$$ $$\varrho$$ rho Σ σ $$\Sigma$$ $$\sigma$$ $$\varsigma$$ sigma Τ τ Τ $$\tau$$ tau Υ υ $$\Upsilon$$ $$\upsilon$$ upsilon Φ φ $$\Phi$$ $$\phi$$ $$\varphi$$ phi Χ χ Χ $$\chi$$ chi Ψ ψ $$\Psi$$ $$\psi$$ psi Ω ω $$\Omega$$ $$\omega$$ omega hebrew letter hebrew name \(\aleph\) aleph \(\beth\) beth \(\gimel\) gimel \(\daleth\) daleth functions trigonometric functions function name define derivative \(\sin x\) sine \(y/r\) \(\cos x\) \(\cos x\) cosine \(x/r\) \(-\sin x\) \(\tan x\) tangent \(y/x\) \(\sec^2 x\) \(\cot x\) cotangent \(x/y\) \(-\csc^2 x\) \(\sec x\) secant \(r/x\) \(\sec x\tan x\) \(\csc x\) cosecant \(r/y\) \(-\csc x\cot x\) inverse trigonometric functions function name define derivative \(\arcsin x\) arcsine \(x=\sin y\) \(\frac{1}{\sqrt{1-x^2}}\) \(\arccos x\) arccosine \(x=\cos y\) \(-\frac{1}{\sqrt{1-x^2}}\) \(\arctan x\) arctangent \(x=\tan y\) \(\frac{1}{x^2+1}\) \(\operatorname{arccot}x\) arccotangent \(x=\cot y\) \(-\frac{1}{x^2+1}\) \(\operatorname{arcsec}x\) arcsecant \(x=\sec y\) \(\frac{1}{|x|\sqrt{x^2-1}}\) \(\operatorname{arccsc}x\) arccosecant \(x=\csc y\) \(-\frac{1}{|x|\sqrt{x^2-1}}\) hyperbolic functions function name derivative \(\sinh x\) hyperbolic sine \(\cosh x\) \(\cosh x\) hyperbolic cosine \(\sinh x\) \(\tanh x\) hyperbolic tangent \(\operatorname{sech}^2 x\) \(\coth x\) hyperbolic cotangent \(-\operatorname{csch}^2 x\) \(\operatorname{sech} x\) hyperbolic secant \(-\operatorname{sech} x\tanh x\) \(\operatorname{csch} x\) hyperbolic cosecant \(-\operatorname{csch} x\operatorname{coth} x\) other rapidtables</description>
+      <description>greek letters upper-case lower-case upper-case $\LaTeX$ lower-case $\LaTeX$ variant name Α α Α $\alpha$ alpha Β β Β $\beta$ beta Γ γ $\Gamma$ $\gamma$ gamma Δ δ $\Delta$ $\delta$ delta Ε ε Ε $\epsilon$ $\varepsilon$ epsilon Ζ ζ Ζ $\zeta$ zeta Η η Η $\eta$ eta Θ θ $\Theta$ $\theta$ $\vartheta$ theta Ι ι Ι $\iota$ iota Κ κ Κ $\kappa$ kappa Λ λ $\Lambda$ $\lambda$ lambda Μ μ Μ $\mu$ mu Ν ν Ν $\nu$ nu Ξ ξ $\Xi$ $\xi$ xi Ο ο Ο $\omicron$ omicron Π π $\Pi$ $\pi$ $\varpi$ pi Ρ ρ Ρ $\rho$ $\varrho$ rho Σ σ $\Sigma$ $\sigma$ $\varsigma$ sigma Τ τ Τ $\tau$ tau Υ υ $\Upsilon$ $\upsilon$ upsilon Φ φ $\Phi$ $\phi$ $\varphi$ phi Χ χ Χ $\chi$ chi Ψ ψ $\Psi$ $\psi$ psi Ω ω $\Omega$ $\omega$ omega hebrew letter hebrew name $\aleph$ aleph $\beth$ beth $\gimel$ gimel $\daleth$ daleth functions trigonometric functions function name $\sin x$ sine $\cos x$ cosine $\tan x$ tangent $\cot x$ cotangent $\sec x$ secant $\csc x$ cosecant inverse trigonometric functions function name $\arcsin x$ arcsine $\arccos x$ arccosine $\arctan x$ arctangent $\operatorname{arccot}x$ arccotangent $\operatorname{arcsec}x$ arcsecant $\operatorname{arccsc}x$ arccosecant hyperbolic functions function name $\sinh x$ hyperbolic sine $\cosh x$ hyperbolic cosine $\tanh x$ hyperbolic tangent $\coth x$ hyperbolic cotangent $\operatorname{sech} x$ hyperbolic secant $\operatorname{csch} x$ hyperbolic cosecant other rapidtables</description>
     </item>
+    
     <item>
       <title>vim usage</title>
       <link>https://upunder.us/posts/vim_usage/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/vim_usage/</guid>
-      <description>selection Press v in command mode, then use the arrow keys to select the text.&#xA;copy and paste In command mode, press y to copy the selection, yy to copy the entire line, and p to paste.&#xA;undo In command mode, press u to undo the operation.</description>
+      <description>selection Press v in command mode, then use the arrow keys to select the text.
+copy and paste In command mode, press y to copy the selection, yy to copy the entire line, and p to paste.
+undo In command mode, press u to undo the operation.</description>
     </item>
+    
     <item>
       <title>newton&#39;s method</title>
       <link>https://upunder.us/posts/newtons_method/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/newtons_method/</guid>
-      <description>Newton&amp;rsquo;s method can be used to find the roots of the equation \(f(x)=0\). It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.&#xA;Let r be the root of \(f(x)=0\), and choose \(x_0\) as the initial approximation of \(r\), then we can make the tangent line \(L\) to the curve \(y=f(x)\) over the point \((x_0,f(x_0))\), we know that the tangent line intersects with the x-axis, and we know that the equation of the tangent line L is \(L:y=f(x_0)+f^\prime(x_0)(x-x_0)\) We find its intersection with the x-axis as \(x_1=x_0-\frac{f(x_0)}{f^\prime(x_0)}\).</description>
+      <description>Newton&amp;rsquo;s method can be used to find the roots of the equation $f(x)=0$. It works by taking a tangent line at any point, and the intersection of the tangent line with the numerical axis is closer to the roots of the equation.
+Let r be the root of $f(x)=0$, and choose $x_0$ as the initial approximation of $r$, then we can make the tangent line $L$ to the curve $y=f(x)$ over the point $(x_0,f(x_0))$, we know that the tangent line intersects with the x-axis, and we know that the equation of the tangent line L is $L:y=f(x_0)+f^\prime(x_0)(x-x_0)$ We find its intersection with the x-axis as $x_1=x_0-\frac{f(x_0)}{f^\prime(x_0)}$.</description>
     </item>
+    
     <item>
       <title>second derivative</title>
       <link>https://upunder.us/posts/second_derivative/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/second_derivative/</guid>
-      <description>$$\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{\mathrm{d} y}{\mathrm{d}x}\right)=\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$&#xA;$$g(x)=\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}f(x)}{\mathrm{d}x}=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{x+\varepsilon-x}$$&#xA;$$=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{\varepsilon}$$&#xA;$$ \begin{equation} \begin{aligned} \frac{\mathrm{d}g(x)}{\mathrm{d}x}&amp;amp;=\frac{g(x+\varepsilon)-g(x)}{\varepsilon}\newline &amp;amp;=\frac{\frac{f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)}{\varepsilon}-\frac{f(x+\varepsilon)-f(x)}{\varepsilon}}{\varepsilon}\newline &amp;amp;=\frac{[f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)]-[f(x+\varepsilon)-f(x)]}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}f(x+\varepsilon)-\mathrm{d}f(x)}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}(\mathrm{d}f(x))}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}^2 f(x)}{(\mathrm{d}x)^2} \end{aligned} \end{equation} $$&#xA;(define (square x) (* x x)) (define (d f dx) (lambda (x) (/ (- (f (+ x dx)) (f x)) dx))) ((d square 0.0001) 2) ; == 4 ((d (d square 0.0001) 0.0001) 2); == 2 </description>
+      <description>$$\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{\mathrm{d} y}{\mathrm{d}x}\right)=\frac{\mathrm{d}^2 y}{\mathrm{d}x^2}$$
+$$g(x)=\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}f(x)}{\mathrm{d}x}=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{x+\varepsilon-x}$$
+$$=\lim_{\varepsilon\to0}\frac{f(x+\varepsilon)-f(x)}{\varepsilon}$$
+$$ \begin{equation} \begin{aligned} \frac{\mathrm{d}g(x)}{\mathrm{d}x}&amp;amp;=\frac{g(x+\varepsilon)-g(x)}{\varepsilon}\newline &amp;amp;=\frac{\frac{f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)}{\varepsilon}-\frac{f(x+\varepsilon)-f(x)}{\varepsilon}}{\varepsilon}\newline &amp;amp;=\frac{[f((x+\varepsilon)+\varepsilon)-f(x+\varepsilon)]-[f(x+\varepsilon)-f(x)]}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}f(x+\varepsilon)-\mathrm{d}f(x)}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}(\mathrm{d}f(x))}{\varepsilon^2}\newline &amp;amp;=\frac{\mathrm{d}^2 f(x)}{(\mathrm{d}x)^2} \end{aligned} \end{equation} $$
+(define (square x) (* x x)) (define (d f dx) (lambda (x) (/ (- (f (+ x dx)) (f x)) dx))) ((d square 0.0001) 2) ; == 4 ((d (d square 0.0001) 0.0001) 2); == 2 </description>
     </item>
+    
     <item>
       <title>hacker tool</title>
       <link>https://upunder.us/posts/hacker_tool/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/hacker_tool/</guid>
       <description>wireshark</description>
     </item>
+    
     <item>
       <title>c programming</title>
       <link>https://upunder.us/posts/c_programming/</link>
       <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/c_programming/</guid>
       <description>data convert data structure algorithm function </description>
     </item>
+    
     <item>
       <title>docker usage</title>
       <link>https://upunder.us/posts/docker_usage/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/docker_usage/</guid>
-      <description>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.&#xA;Installation of Docker:&#xA;On Manjaro, you can simply enter the following command:&#xA;sudo pacman -S docker Using Docker:&#xA;Let&amp;rsquo;s take WolframEngine as an example:&#xA;Step 1: Download the image from a proxy website:&#xA;shell&#xA;docker pull dockerproxy.com/wolframresearch/wolframengine&#xA;Step 2: Rename the image:&#xA;sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine Step 3: Remove the proxy image:</description>
+      <description>Using Docker can make it more convenient to deploy your own applications or access pre-written programs by others. Below are some useful tips.
+Installation of Docker:
+On Manjaro, you can simply enter the following command:
+sudo pacman -S docker Using Docker:
+Let&amp;rsquo;s take WolframEngine as an example:
+Step 1: Download the image from a proxy website:
+shell
+docker pull dockerproxy.com/wolframresearch/wolframengine
+Step 2: Rename the image:
+sudo docker tag dockerproxy.com/wolframresearch/wolframengine wolframresearch/wolframengine Step 3: Remove the proxy image:</description>
     </item>
+    
     <item>
       <title>latin knowledge</title>
       <link>https://upunder.us/posts/latina/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/latina/</guid>
-      <description>Quidquid latine dictum sit, altum sonatur.&#xA;Some Latin Language Insights to Enhance Your Literary Knowledge&#xA;The study of Latin can be a gateway to a deeper understanding of literature and culture. In this article, we&amp;rsquo;ll explore various aspects of Latin language and its relevance to literature and the cosmos.&#xA;1. Seasons in Latin Language In Latin, the seasons are referred to as &amp;ldquo;tempora.&amp;rdquo; The four seasons of the year—spring, summer, autumn, and winter—are represented by the following terms:</description>
+      <description>Quidquid latine dictum sit, altum sonatur.
+Some Latin Language Insights to Enhance Your Literary Knowledge
+The study of Latin can be a gateway to a deeper understanding of literature and culture. In this article, we&amp;rsquo;ll explore various aspects of Latin language and its relevance to literature and the cosmos.
+1. Seasons in Latin Language In Latin, the seasons are referred to as &amp;ldquo;tempora.&amp;rdquo; The four seasons of the year—spring, summer, autumn, and winter—are represented by the following terms:</description>
     </item>
+    
     <item>
       <title>rime usage</title>
       <link>https://upunder.us/posts/rime_usage/</link>
       <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/rime_usage/</guid>
       <description>install plum curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install -x &amp;#34;http://127.0.0.1:20172&amp;#34; | bash start rime ibus-daemon -drxR </description>
     </item>
+    
     <item>
       <title>mount disks</title>
       <link>https://upunder.us/posts/mount_usage/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/mount_usage/</guid>
       <description>sudo cryptsetup open --type luks disk.img secretum udisksctl mount -b /dev/mapper/secretum </description>
     </item>
+    
     <item>
       <title>create disks</title>
       <link>https://upunder.us/posts/create_disks/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/create_disks/</guid>
       <description>fallocate -l 4GiB disk.img cryptsetup luksFormat --type luks disk.img sudo cryptsetup luksOpen disk.img secretum sudo mkfs.ext4 /dev/mapper/secretum udisksctl mount -b /dev/mapper/secretum sudo chown -R u:u /run/media/u/fe299871-a3b6-4506-be6c-505b8eb41bec </description>
     </item>
+    
     <item>
       <title>manim usage</title>
       <link>https://upunder.us/posts/manim_usage/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/manim_usage/</guid>
       <description>conda create -n my-manim-environment conda activate my-manim-environment conda install -c conda-forge manim manim -pqh main.py main class main(Scene): def construct(self): text = Text(&amp;#34;Hello world!&amp;#34;) self.play(Write(text)) </description>
     </item>
+    
     <item>
       <title>python usage</title>
       <link>https://upunder.us/posts/python_usage/</link>
       <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/python_usage/</guid>
       <description>network ## file server python -m http.server </description>
     </item>
+    
     <item>
       <title>mathematica usage</title>
       <link>https://upunder.us/posts/mathematica_usage/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/mathematica_usage/</guid>
-      <description>Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] RootApproximant[Pi,1] </description>
+      <description>Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] RootApproximant[Pi,1] FiniteGroupData[2147483647] FiniteGroupCount[2147483647] Apart[1/(x^2-1)] Together[1/x+2/(x^2+1)] </description>
     </item>
+    
     <item>
       <title>shell usage</title>
       <link>https://upunder.us/posts/shell_usage/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/shell_usage/</guid>
       <description>hello world #!/bin/bash echo &amp;#34;Hello World !&amp;#34; variables user=$(whoami) functions function hello { echo &amp;#34;hello, $(whoami)&amp;#34; } other fancy date date +&amp;#34;%A, %d %B %Y %H:%M:%S:%N %p %z %Z Week:%W Day:%j Epoch:%s %t&amp;#34; </description>
     </item>
+    
     <item>
       <title>matlab usage</title>
       <link>https://upunder.us/posts/matlab_usage/</link>
       <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/matlab_usage/</guid>
       <description>[1 1 ; 1 0]^100 rats(pi) fft([1 2 3]) </description>
     </item>
+    
     <item>
       <title>lean usage</title>
       <link>https://upunder.us/posts/lean_usage/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/lean_usage/</guid>
-      <description>I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!&#xA;To prove logical formulas, we just need to use a truth table; This is a good tool to use, but it&amp;rsquo;s not enough for more complex mathematical theorems.&#xA;We can proof \(2+2=4\) by using following code:&#xA;theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl rfl stands for &amp;ldquo;reflexivity&amp;rdquo;</description>
+      <description>I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!
+To prove logical formulas, we just need to use a truth table; This is a good tool to use, but it&amp;rsquo;s not enough for more complex mathematical theorems.
+We can proof $2+2=4$ by using following code:
+theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl rfl stands for &amp;ldquo;reflexivity&amp;rdquo;</description>
     </item>
+    
     <item>
       <title>linux driver</title>
       <link>https://upunder.us/posts/linux_driver/</link>
       <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/linux_driver/</guid>
-      <description>AMD&#xA;NVIDIA</description>
+      <description>AMD
+NVIDIA</description>
     </item>
+    
     <item>
       <title>guide of immigration</title>
       <link>https://upunder.us/posts/guide_of_immigration/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/guide_of_immigration/</guid>
-      <description>North America United States Official Website&#xA;Canada Official Website&#xA;Oceania New Zealand Official Website&#xA;Australia Official Website&#xA;Europe United Kingdom Official Website&#xA;Germany Official Website&#xA;Asia Singapore Official Website&#xA;Japan Official Website</description>
+      <description>North America United States Official Website
+Canada Official Website
+Oceania New Zealand Official Website
+Australia Official Website
+Europe United Kingdom Official Website
+Germany Official Website
+Asia Singapore Official Website
+Japan Official Website</description>
     </item>
+    
     <item>
       <title>right-left rule</title>
       <link>https://upunder.us/posts/c_right_left_rule/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/c_right_left_rule/</guid>
-      <description>right-left rule&#xA;This is a great article to help us better recognise complex declarations in C.</description>
+      <description>right-left rule
+This is a great article to help us better recognise complex declarations in C.</description>
     </item>
+    
     <item>
       <title>computer restart</title>
       <link>https://upunder.us/posts/computer_restart/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/computer_restart/</guid>
-      <description>Oh, it&amp;rsquo;s you. Welcome, welcome! Let me guess why you&amp;rsquo;re here. What? You&amp;rsquo;ve managed to wreck your computer again? Lost all your data? But that&amp;rsquo;s not surprising, it&amp;rsquo;s quite in line with your personality, isn&amp;rsquo;t it?&#xA;Even though everything needs a fresh start sometimes, life goes on, so let&amp;rsquo;s fix it all! First things first, let&amp;rsquo;s install a new system, don&amp;rsquo;t waste time on those pointless questions. Trust me, just install Manjaro!</description>
+      <description>Oh, it&amp;rsquo;s you. Welcome, welcome! Let me guess why you&amp;rsquo;re here. What? You&amp;rsquo;ve managed to wreck your computer again? Lost all your data? But that&amp;rsquo;s not surprising, it&amp;rsquo;s quite in line with your personality, isn&amp;rsquo;t it?
+Even though everything needs a fresh start sometimes, life goes on, so let&amp;rsquo;s fix it all! First things first, let&amp;rsquo;s install a new system, don&amp;rsquo;t waste time on those pointless questions. Trust me, just install Manjaro!</description>
     </item>
+    
     <item>
       <title>gpg usage</title>
       <link>https://upunder.us/posts/gpg_usage/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/gpg_usage/</guid>
-      <description>generate First we need to generate a key.&#xA;gpg --full-generate-key import If you already have a private key, then you can import it and change its trust level to ultimate.&#xA;gpg --import u_prv.gpg gpg --edit-key u_u_u trust 1 = I don&amp;#39;t know or won&amp;#39;t say 2 = I do NOT trust 3 = I trust marginally 4 = I trust fully 5 = I trust ultimately m = back to the main menu 5 save encrypt and decrypt We can encrypt the file with our public key.</description>
+      <description>generate First we need to generate a key.
+gpg --full-generate-key import If you already have a private key, then you can import it and change its trust level to ultimate.
+gpg --import u_prv.gpg gpg --edit-key u_u_u trust 1 = I don&amp;#39;t know or won&amp;#39;t say 2 = I do NOT trust 3 = I trust marginally 4 = I trust fully 5 = I trust ultimately m = back to the main menu 5 save encrypt and decrypt We can encrypt the file with our public key.</description>
     </item>
+    
     <item>
       <title>git usage</title>
       <link>https://upunder.us/posts/git_usage/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/git_usage/</guid>
-      <description>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:&#xA;Install Git: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&amp;rsquo;s usually no need for additional installation. However, if you&amp;rsquo;re using Manjaro, you can install Git with the following command: sudo pacman -S git Configure Your Personal Information: Configure your personal information like your username and email, which will be associated with your Git commits.</description>
+      <description>Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:
+Install Git: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&amp;rsquo;s usually no need for additional installation. However, if you&amp;rsquo;re using Manjaro, you can install Git with the following command: sudo pacman -S git Configure Your Personal Information: Configure your personal information like your username and email, which will be associated with your Git commits.</description>
     </item>
+    
     <item>
       <title>latex usage</title>
       <link>https://upunder.us/posts/latex_usage/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/latex_usage/</guid>
-      <description>Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.&#xA;First, let&amp;rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:&#xA;sudo pacman -S texlive After completing the installation, it&amp;rsquo;s advisable to create a Git repository for better document management.&#xA;Before you begin writing your paper, it&amp;rsquo;s best to use a template from a professional organization like IEEE.</description>
+      <description>Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.
+First, let&amp;rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:
+sudo pacman -S texlive After completing the installation, it&amp;rsquo;s advisable to create a Git repository for better document management.
+Before you begin writing your paper, it&amp;rsquo;s best to use a template from a professional organization like IEEE.</description>
     </item>
+    
     <item>
       <title>grub usage</title>
       <link>https://upunder.us/posts/grub_usage/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/grub_usage/</guid>
-      <description>When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.&#xA;In GRUB&amp;rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.&#xA;To begin, you should use insmod to load the necessary modules, such as:&#xA;insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your system configuration If you are using a Linux system, you should load the kernel like this:</description>
+      <description>When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.
+In GRUB&amp;rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.
+To begin, you should use insmod to load the necessary modules, such as:
+insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your system configuration If you are using a Linux system, you should load the kernel like this:</description>
     </item>
+    
     <item>
       <title>emacs usage</title>
       <link>https://upunder.us/posts/emacs_usage/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/emacs_usage/</guid>
       <description>Save and Exit Use Ctrl-x Ctrl-s to save the file. Use Ctrl-x Ctrl-c to exit Emacs. Cut, Copy, and Paste Use Ctrl-Space to begin selecting text. Use Ctrl-w to cut the selected text. Use M-w (or Alt-w or Esc-w, depending on your terminal settings) to copy the selected text. Use Ctrl-y to paste the cut or copied text. Search and Replace Use Ctrl-s for text search, then input the text you want to search for.</description>
     </item>
+    
     <item>
       <title>hello world</title>
       <link>https://upunder.us/posts/hello_world/</link>
       <pubDate>Sat, 15 Jan 2022 23:43:58 +0800</pubDate>
+      
       <guid>https://upunder.us/posts/hello_world/</guid>
-      <description>Here, I showcase several ways to write a &amp;ldquo;Hello world&amp;rdquo; program in some of my favorite programming languages.&#xA;scheme (display &amp;#34;Hello world!&amp;#34;) python print(&amp;#34;Hello world!&amp;#34;) rust fn main() { print!(&amp;#34;Hello world!&amp;#34;); } c #include&amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;\nHello world!&amp;#34;); return 0; } c++ import module std; int main() { std::print(&amp;#34;Hello world!\n&amp;#34;); } java public class Main { public static void main(String[] args) { System.out.println(&amp;#34;Hello, World!&amp;#34;); } } </description>
+      <description>Here, I showcase several ways to write a &amp;ldquo;Hello world&amp;rdquo; program in some of my favorite programming languages.
+scheme (display &amp;#34;Hello world!&amp;#34;) python print(&amp;#34;Hello world!&amp;#34;) rust fn main() { print!(&amp;#34;Hello world!&amp;#34;); } c #include&amp;lt;stdio.h&amp;gt; int main(){ printf(&amp;#34;\nHello world!&amp;#34;); return 0; } c++ import module std; int main() { std::print(&amp;#34;Hello world!\n&amp;#34;); } java public class Main { public static void main(String[] args) { System.out.println(&amp;#34;Hello, World!&amp;#34;); } } </description>
     </item>
+    
     <item>
       <title>Birthday</title>
       <link>https://upunder.us/posts/birthday/</link>
       <pubDate>Thu, 31 Mar 1994 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/birthday/</guid>
-      <description>No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.&#xA;Ecclesiastes 1:11 NIV&#xA;Today is my birthday, and yet there&amp;rsquo;s a slight dilemma: Who asked! But does it truly matter? At times, I can&amp;rsquo;t help but feel that I shouldn&amp;rsquo;t have been born; it&amp;rsquo;s as though it&amp;rsquo;s all my doing.&#xA;If someone were to remember and celebrate this day with me, I believe I might just find myself falling in love with them.</description>
+      <description>No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.
+Ecclesiastes 1:11 NIV
+Today is my birthday, and yet there&amp;rsquo;s a slight dilemma: Who asked! But does it truly matter? At times, I can&amp;rsquo;t help but feel that I shouldn&amp;rsquo;t have been born; it&amp;rsquo;s as though it&amp;rsquo;s all my doing.
+If someone were to remember and celebrate this day with me, I believe I might just find myself falling in love with them.</description>
     </item>
+    
     <item>
       <title>l&#39;internationale</title>
       <link>https://upunder.us/posts/the_international/</link>
       <pubDate>Thu, 01 Jun 1871 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/the_international/</guid>
       <description>Debout! les damnés de la terre Debout! les forçats de la faim La raison tonne en son cratère, C’est l’éruption de la fin. Du passé faisons table rase Foule esclave, debout! debout! Le monde va changer de base Nous ne sommes rien, soyons tout! Refrain C’est la lutte finale Groupons-nous et demain L’Internationale Sera le genre humain. Il n’est pas de sauveurs suprêmes: Ni dieu, ni césar, ni tribun, Producteurs, sauvons-nous nous-mêmes!</description>
     </item>
+    
     <item>
       <title>manifesto of the communist party</title>
       <link>https://upunder.us/posts/manifesto/</link>
       <pubDate>Mon, 21 Feb 1848 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/manifesto/</guid>
-      <description>A spectre is haunting Europe - the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.&#xA;Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?</description>
+      <description>A spectre is haunting Europe - the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.
+Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?</description>
     </item>
+    
     <item>
       <title></title>
       <link>https://upunder.us/posts/english_grammar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/english_grammar/</guid>
-      <description>noun mass noun plural https://www.geeksforgeeks.org/mass-noun/&#xA;verb tense </description>
+      <description>noun mass noun plural https://www.geeksforgeeks.org/mass-noun/
+verb tense </description>
     </item>
+    
     <item>
       <title>bible</title>
       <link>https://upunder.us/posts/bible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/bible/</guid>
-      <description>old testament genesis genesis 1:1 In the beginning God created the heavens and the earth.&#xA;exodus exodus 21:24 eye for eye, tooth for tooth, hand for hand, foot for foot,&#xA;leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kings 1 chronicles 2 chronicles ezra nehemiah esther job psalms proverbs ecclesiastes ecclesiastes 1:8 All things are wearisome, more than one can say. The eye never has enough of seeing, nor the ear its fill of hearing.</description>
+      <description>old testament genesis genesis 1:1 In the beginning God created the heavens and the earth.
+exodus exodus 21:24 eye for eye, tooth for tooth, hand for hand, foot for foot,
+leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kings 1 chronicles 2 chronicles ezra nehemiah esther job psalms proverbs ecclesiastes ecclesiastes 1:8 All things are wearisome, more than one can say. The eye never has enough of seeing, nor the ear its fill of hearing.</description>
     </item>
+    
     <item>
       <title>lorem ipsum</title>
       <link>https://upunder.us/posts/lorem_ipsum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://upunder.us/posts/lorem_ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
+    
   </channel>
 </rss>

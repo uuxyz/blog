@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.121.0">
+	<meta name="generator" content="Hugo 0.111.3">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,73 @@
 
     
 <main><article>
+  <h1><a href="https://upunder.us/posts/manim_usage/">manim usage</a></h1>
+  <time datetime="2023-09-13T00:00:00">2023.09.13 00:00</time>
+  
+  <div>
+    conda create -n my-manim-environment conda activate my-manim-environment conda install -c conda-forge manim manim -pqh main.py main class main(Scene): def construct(self): text = Text(&#34;Hello world!&#34;) self.play(Write(text)) 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/python_usage/">python usage</a></h1>
+  <time datetime="2023-09-12T00:00:00">2023.09.12 00:00</time>
+  
+  <div>
+    network ## file server python -m http.server 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/mathematica_usage/">mathematica usage</a></h1>
+  <time datetime="2023-09-11T00:00:00">2023.09.11 00:00</time>
+  
+  <div>
+    Simplify[1+1] FullSimplify[1+1] Solve[{x^2+x-1==0},{x}] Integrate[{2*x},x] D[x^2,x] RSolve[{(n + 1) a[n + 1]^2 - n a[n]^2 + a[n + 1] a[n] == 0, a[1] == 1}, a[n], n] FindSequenceFunction[{1,1,2,3,5}] RootApproximant[Pi,1] FiniteGroupData[2147483647] FiniteGroupCount[2147483647] Apart[1/(x^2-1)] Together[1/x+2/(x^2+1)] 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/shell_usage/">shell usage</a></h1>
+  <time datetime="2023-09-10T00:00:00">2023.09.10 00:00</time>
+  
+  <div>
+    hello world #!/bin/bash echo &#34;Hello World !&#34; variables user=$(whoami) functions function hello { echo &#34;hello, $(whoami)&#34; } other fancy date date +&#34;%A, %d %B %Y %H:%M:%S:%N %p %z %Z Week:%W Day:%j Epoch:%s %t&#34; 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/matlab_usage/">matlab usage</a></h1>
+  <time datetime="2023-09-09T00:00:00">2023.09.09 00:00</time>
+  
+  <div>
+    [1 1 ; 1 0]^100 rats(pi) fft([1 2 3]) 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/lean_usage/">lean usage</a></h1>
+  <time datetime="2023-09-08T00:00:00">2023.09.08 00:00</time>
+  
+  <div>
+    I want to build a solid foundation in maths, which requires learning formal proofs. One such excellent tool is lean!
+To prove logical formulas, we just need to use a truth table; This is a good tool to use, but it&rsquo;s not enough for more complex mathematical theorems.
+We can proof $2+2=4$ by using following code:
+theorem two_plus_two_equals_four : 2 + 2 = 4 := rfl rfl stands for &ldquo;reflexivity&rdquo;
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/linux_driver/">linux driver</a></h1>
+  <time datetime="2023-08-21T00:00:00">2023.08.21 00:00</time>
+  
+  <div>
+    AMD
+NVIDIA
+    
+  </div>
+</article>
+<article>
   <h1><a href="https://upunder.us/posts/guide_of_immigration/">guide of immigration</a></h1>
   <time datetime="2023-08-20T00:00:00">2023.08.20 00:00</time>
   
@@ -58,100 +125,12 @@ Even though everything needs a fresh start sometimes, life goes on, so let&rsquo
     
   </div>
 </article>
-<article>
-  <h1><a href="https://upunder.us/posts/gpg_usage/">gpg usage</a></h1>
-  <time datetime="2022-05-07T00:00:00">2022.05.07 00:00</time>
-  
-  <div>
-    generate First we need to generate a key.
-gpg --full-generate-key import If you already have a private key, then you can import it and change its trust level to ultimate.
-gpg --import u_prv.gpg gpg --edit-key u_u_u trust 1 = I don&#39;t know or won&#39;t say 2 = I do NOT trust 3 = I trust marginally 4 = I trust fully 5 = I trust ultimately m = back to the main menu 5 save encrypt and decrypt We can encrypt the file with our public key.
-    
-    <a href="https://upunder.us/posts/gpg_usage/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/git_usage/">git usage</a></h1>
-  <time datetime="2022-04-25T00:00:00">2022.04.25 00:00</time>
-  
-  <div>
-    Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:
-Install Git: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&rsquo;s usually no need for additional installation. However, if you&rsquo;re using Manjaro, you can install Git with the following command: sudo pacman -S git Configure Your Personal Information: Configure your personal information like your username and email, which will be associated with your Git commits.
-    
-    <a href="https://upunder.us/posts/git_usage/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/latex_usage/">latex usage</a></h1>
-  <time datetime="2022-04-04T00:00:00">2022.04.04 00:00</time>
-  
-  <div>
-    Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.
-First, let&rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:
-sudo pacman -S texlive After completing the installation, it&rsquo;s advisable to create a Git repository for better document management.
-Before you begin writing your paper, it&rsquo;s best to use a template from a professional organization like IEEE.
-    
-    <a href="https://upunder.us/posts/latex_usage/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/grub_usage/">grub usage</a></h1>
-  <time datetime="2022-03-29T00:00:00">2022.03.29 00:00</time>
-  
-  <div>
-    When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.
-In GRUB&rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.
-To begin, you should use insmod to load the necessary modules, such as:
-insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your system configuration If you are using a Linux system, you should load the kernel like this:
-    
-    <a href="https://upunder.us/posts/grub_usage/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/emacs_usage/">emacs usage</a></h1>
-  <time datetime="2022-03-06T00:00:00">2022.03.06 00:00</time>
-  
-  <div>
-    Save and Exit Use Ctrl-x Ctrl-s to save the file. Use Ctrl-x Ctrl-c to exit Emacs. Cut, Copy, and Paste Use Ctrl-Space to begin selecting text. Use Ctrl-w to cut the selected text. Use M-w (or Alt-w or Esc-w, depending on your terminal settings) to copy the selected text. Use Ctrl-y to paste the cut or copied text. Search and Replace Use Ctrl-s for text search, then input the text you want to search for.
-    
-    <a href="https://upunder.us/posts/emacs_usage/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/hello_world/">hello world</a></h1>
-  <time datetime="2022-01-15T23:43:58">2022.01.15 23:43</time>
-  
-  <div>
-    Here, I showcase several ways to write a &ldquo;Hello world&rdquo; program in some of my favorite programming languages.
-scheme (display &#34;Hello world!&#34;) python print(&#34;Hello world!&#34;) rust fn main() { print!(&#34;Hello world!&#34;); } c #include&lt;stdio.h&gt; int main(){ printf(&#34;\nHello world!&#34;); return 0; } c++ import module std; int main() { std::print(&#34;Hello world!\n&#34;); } java public class Main { public static void main(String[] args) { System.out.println(&#34;Hello, World!&#34;); } } 
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/birthday/">Birthday</a></h1>
-  <time datetime="1994-03-31T00:00:00">1994.03.31 00:00</time>
-  
-  <div>
-    No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.
-Ecclesiastes 1:11 NIV
-Today is my birthday, and yet there&rsquo;s a slight dilemma: Who asked! But does it truly matter? At times, I can&rsquo;t help but feel that I shouldn&rsquo;t have been born; it&rsquo;s as though it&rsquo;s all my doing.
-If someone were to remember and celebrate this day with me, I believe I might just find myself falling in love with them.
-    
-    <a href="https://upunder.us/posts/birthday/">Read more...</a>
-    
-  </div>
-</article>
 <div class="pagination">
   
   <a class="prev-page" href="/page/4/">Previous Page</a>
   
 
-  <span class="page-number">5 of 6</span>
+  <span class="page-number">5 of 7</span>
 
   
   <a class="next-page" href="/page/6/">Next Page</a>
@@ -167,15 +146,15 @@ If someone were to remember and celebrate this day with me, I believe I might ju
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -184,7 +163,7 @@ If someone were to remember and celebrate this day with me, I believe I might ju
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

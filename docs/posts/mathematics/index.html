@@ -23,7 +23,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       renderMathInElement(document.body);
@@ -52,7 +57,7 @@
     
     
     
-    25 s.
+    51 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
@@ -72,6 +77,8 @@
           </ul>
         </li>
         <li><a href="#trigonometric-functions">trigonometric functions</a></li>
+        <li><a href="#inverse-trigonometric-functions">inverse trigonometric functions</a></li>
+        <li><a href="#hyperbolic-functions">hyperbolic functions</a></li>
         <li><a href="#logarithmic-differentiation">logarithmic differentiation</a></li>
       </ul>
     </li>
@@ -94,18 +101,127 @@ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$</p>
 <h3 id="quotient-rule">quotient rule</h3>
 <p>$$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$</p>
 <h3 id="generalized-power-rule">generalized power rule</h3>
-<p>$$\left(f^g\right)^\prime=f^g(g^\prime\ln f+\frac{gf^\prime}{f})$$</p>
+<p>$$\left(f^g\right)^\prime=f^g(g^\prime\ln f+\frac{f^\prime g}{f})$$</p>
 <h3 id="inverse-function-rule">inverse function rule</h3>
 <p>$${\left(f^{-1}\right)}^\prime=\frac{1}{f^\prime\circ f^{-1}}$$
 $$f^\prime=\frac{1}{{\left(f^{-1}\right)}^\prime\circ f}$$</p>
 <h3 id="chain-rule">chain rule</h3>
-<p>$$f(g(h(x)))^\prime=f^\prime(g(h(x)))g^\prime(h(x))h^\prime(x)$$</p>
+<p>$$(f \circ g \circ h)^\prime=(f^\prime \circ g \circ h)(g^\prime \circ h)h^\prime$$</p>
 <h2 id="trigonometric-functions">trigonometric functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">function</th>
+<th style="text-align:center">define</th>
+<th style="text-align:center">derivative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$\sin x$</td>
+<td style="text-align:center">$y/r$</td>
+<td style="text-align:center">$\cos x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\cos x$</td>
+<td style="text-align:center">$x/r$</td>
+<td style="text-align:center">$-\sin x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\tan x$</td>
+<td style="text-align:center">$y/x$</td>
+<td style="text-align:center">$\sec^2 x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\cot x$</td>
+<td style="text-align:center">$x/y$</td>
+<td style="text-align:center">$-\csc^2 x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\sec x$</td>
+<td style="text-align:center">$r/x$</td>
+<td style="text-align:center">$\sec x\tan x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\csc x$</td>
+<td style="text-align:center">$r/y$</td>
+<td style="text-align:center">$-\csc x\cot x$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="inverse-trigonometric-functions">inverse trigonometric functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">function</th>
+<th style="text-align:center">derivative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$\arcsin x$</td>
+<td style="text-align:center">$\frac{1}{\sqrt{1-x^2}}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\arccos x$</td>
+<td style="text-align:center">$-\frac{1}{\sqrt{1-x^2}}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\arctan x$</td>
+<td style="text-align:center">$\frac{1}{x^2+1}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\operatorname{arccot}x$</td>
+<td style="text-align:center">$-\frac{1}{x^2+1}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\operatorname{arcsec}x$</td>
+<td style="text-align:center">$\frac{1}{\vert x\vert\sqrt{x^2-1}}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\operatorname{arccsc}x$</td>
+<td style="text-align:center">$-\frac{1}{\vert x\vert\sqrt{x^2-1}}$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hyperbolic-functions">hyperbolic functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">function</th>
+<th style="text-align:center">derivative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$\sinh x$</td>
+<td style="text-align:center">$\cosh x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\cosh x$</td>
+<td style="text-align:center">$\sinh x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\tanh x$</td>
+<td style="text-align:center">$\operatorname{sech}^2 x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\coth x$</td>
+<td style="text-align:center">$-\operatorname{csch}^2 x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\operatorname{sech} x$</td>
+<td style="text-align:center">$-\operatorname{sech} x\tanh x$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\operatorname{csch} x$</td>
+<td style="text-align:center">$-\operatorname{csch} x\operatorname{coth} x$</td>
+</tr>
+</tbody>
+</table>
 <h2 id="logarithmic-differentiation">logarithmic differentiation</h2>
-<p>$$f(x)=g(x)h(x)$$
-$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$
-$$f(x)=\frac{g(x)}{h(x)}$$
-$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$</p>
+<p>$$f(x)=g(x)h(x)\to\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$</p>
+<p>$$f(x)=\frac{g(x)}{h(x)}\to\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$</p>
 
     
   </article>
@@ -125,15 +241,15 @@ $$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$</
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -142,7 +258,7 @@ $$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$</
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.121.0">
+	<meta name="generator" content="Hugo 0.111.3">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,110 @@
 
     
 <main><article>
+  <h1><a href="https://upunder.us/posts/prime_algorithms/">prime algorithms</a></h1>
+  <time datetime="2023-11-18T00:00:00">2023.11.18 00:00</time>
+  
+  <div>
+    sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u &#39;()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux &#39;(2) (let range ((v &#39;()) (k (if (odd?
+    
+    <a href="https://upunder.us/posts/prime_algorithms/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/bitwise_operation/">bitwise operation</a></h1>
+  <time datetime="2023-11-15T00:00:00">2023.11.15 00:00</time>
+  
+  <div>
+    lowbit x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1) x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit ((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1 x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1 x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0 x=-~x;//x++; x=~-x;//x--; (x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (int)(!
+    
+    <a href="https://upunder.us/posts/bitwise_operation/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/random_algorithms/">random algorithms</a></h1>
+  <time datetime="2023-11-11T00:00:00">2023.11.11 00:00</time>
+  
+  <div>
+    
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/field_extension/">field extension</a></h1>
+  <time datetime="2023-11-07T00:00:00">2023.11.07 00:00</time>
+  
+  <div>
+    $$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(c,d)=(ac+bdn,bc+ad)$$ $$(a,b)/(c,d)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/great_software/">great software</a></h1>
+  <time datetime="2023-11-03T00:00:00">2023.11.03 00:00</time>
+  
+  <div>
+    baobab rime A great Chinese input method.
+plum A plugin for rime.
+circuitjs1 A great circuit analyzer.
+zotero A great paper organizer.
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/family_tree/">family tree</a></h1>
+  <time datetime="2023-10-22T00:00:00">2023.10.22 00:00</time>
+  
+  <div>
+    Adam Eve
+Cain Abel (Seth)
+Enosh
+Kenan
+Mahalalel
+Jared
+Enoch
+Methuselah
+Lamench
+Noah
+(Shem) Ham Japheth
+Arphaxad
+Shelah
+Eber
+Peleg
+Reu
+Serug
+Nahor
+Terah
+Abraham
+Isaac
+Jacob
+Judah
+Perez
+Hezron
+Ram
+Amminadab
+Nahshon
+Salmon
+Boaz
+Obed
+Jesse
+David
+Solomon
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/fixed_point_combinators/">fixed-point combinators</a></h1>
+  <time datetime="2023-10-15T00:00:00">2023.10.15 00:00</time>
+  
+  <div>
+    $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
+(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) 
+    
+  </div>
+</article>
+<article>
   <h1><a href="https://upunder.us/posts/fast_fourier_transform/">fast fourier transform</a></h1>
   <time datetime="2023-10-14T00:00:00">2023.10.14 00:00</time>
   
@@ -32,10 +136,10 @@
   
   
   <div>
-    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial.
-a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1x^2+2x+3)(4x^2+5x+6)=(4x^4+13x^3+28x^2+27x^1+18)\)
+    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial in Octave.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1+2x+3x^2)(4+5x+6x^2)=(4+13x^1+28x^2+27x^3+18x^4)\)
 And how to use FFT to multiply two big integers?
-If let x=10 Then can see it as \(123 \times 456\) And \(4 \cdot 10^4 + 13 \cdot 10^3 + 28 \cdot 10^2 + 27\cdot 10+18\) is the result we need.
+If let x=10 Then can see it as \(321 \times 654\) And \(4 + 13 \cdot 10 + 28 \cdot 10^2 + 27\cdot 10^3+18 \cdot 10^4\) is the result we need.
     
     <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
     
@@ -55,87 +159,9 @@ If let x=10 Then can see it as \(123 \times 456\) And \(4 \cdot 10^4 + 13 \cdot 
   <time datetime="2023-10-12T00:00:00">2023.10.12 00:00</time>
   
   <div>
-    &lt;path d=&#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&#34; fill=&#34;white&#34; id=&#34;sector&#34;/&gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length \(2L=2\times 1597=3194\) pixels. In this square. Here are a pentagon like pattern. There circle's radius should be \(R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987\) $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
+    &lt;path d=&#34;M 676.7589339498916 1175.5006796557807 A 987 987 0 0 0 676.7589339498916 2018.4993203442193 L 1974.0004531038537974 1597 L 676.7589339498916 1175.5006796557807&#34; fill=&#34;white&#34; id=&#34;sector&#34;/&gt; $$\varphi=\frac{\sqrt{5}-1}{2},\Phi=\frac{\sqrt{5}+1}{2}$$ $$\mathrm{fib}(15)=610,\mathrm{fib}(16)=987,\mathrm{fib}(17)=1597$$ Let&rsquo;s draw a square with length $2L=2\times 1597=3194$ pixels. In this square. Here are a pentagon like pattern. There circle&rsquo;s radius should be $R = \mathrm{fib}(17)\times \varphi\approx \mathrm{fib}(16) = 987$ $$\frac{\varphi}{\Phi}=\frac{\sqrt{5}-1}{\sqrt{5}+1}\approx 0.381966$$ $$r=R\frac{\varphi}{\Phi}=L\varphi^3\approx 337$$ $$R+r=987+337=1364$$ $$L-(R+r)\sin\left(\frac{\tau}{20}\right)\approx 1175.5006796557807$$ $$L+(R+r)\sin\left(\frac{\tau}{20}\right)\approx 2018.4993203442193$$ $$L+r-(R+r)\cos\left(\frac{\tau}{20}\right)\approx 676.7589339498916$$ Maybe I should use complex number? Those points should be solutions of a equation.
     
     <a href="https://upunder.us/posts/avatar/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/linked_list/">linked list</a></h1>
-  <time datetime="2023-10-11T00:00:00">2023.10.11 00:00</time>
-  
-  <div>
-    Write a linked list in C:
-#include &lt;stddef.h&gt; #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; struct list_head { struct list_head *next; struct list_head *prev; }; void init_list_head(struct list_head *head) { head-&gt;next = head; head-&gt;prev = head; } void list_add(struct list_head *head, struct list_head *new_node) { new_node-&gt;next = head-&gt;next; new_node-&gt;prev = head; head-&gt;next-&gt;prev = new_node; head-&gt;next = new_node; } void list_add_tail(struct list_head *head, struct list_head *new_node) { new_node-&gt;next = head; new_node-&gt;prev = head-&gt;prev; head-&gt;prev-&gt;next = new_node; head-&gt;prev = new_node; } void list_del(struct list_head *node) { node-&gt;prev-&gt;next = node-&gt;next; node-&gt;next-&gt;prev = node-&gt;prev; } struct student { struct list_head list; int id; int yy; int mm; int dd; }; void printList(struct list_head *head) { struct list_head *current = head-&gt;next; while (current !
-    
-    <a href="https://upunder.us/posts/linked_list/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/programming_environment/">programming environment</a></h1>
-  <time datetime="2023-10-08T00:00:00">2023.10.08 00:00</time>
-  
-  <div>
-    Anaconda 
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/risc-v/">risc-v</a></h1>
-  <time datetime="2023-10-07T00:00:00">2023.10.07 00:00</time>
-  
-  <div>
-    
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/galois_field/">galois field</a></h1>
-  <time datetime="2023-10-06T00:00:00">2023.10.06 00:00</time>
-  
-  <div>
-    $$\frac{m}{n}=mn^{p-2}\pmod p$$
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/tar_usage/">tar usage</a></h1>
-  <time datetime="2023-10-05T00:00:00">2023.10.05 00:00</time>
-  
-  <div>
-    tar -xvf example.tar 
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/zotero_usage/">zotero usage</a></h1>
-  <time datetime="2023-10-04T00:00:00">2023.10.04 00:00</time>
-  
-  <div>
-    
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/mathematics/">mathematics</a></h1>
-  <time datetime="2023-10-03T00:00:00">2023.10.03 00:00</time>
-  
-  Tags:
-  
-  <a href="/tags/math">math</a>
-  
-  
-  <div>
-    (ε, δ)-definition of limit $$(\forall\varepsilon&gt;0)(\exists \delta &gt; 0)(\forall x \in \mathbb{R})(0&lt;|x-p|&lt;\delta \implies |f(x)-L|&lt;\varepsilon)$$ (for every real ε &gt; 0, there exists a real δ &gt; 0 such that for all real x, 0 &lt; |x − p| &lt; δ implies |f(x) − L| &lt; ε.)
-one-sided limit $$\lim_{x\to a^+}f(x)=R$$
-$$\lim_{x\to a^-}f(x)=L$$
-derivative rules for combined functions sum rule $$(f+g)^\prime=f^\prime+g^\prime$$
-product rule $$(fg)^\prime=f^\prime g+fg^\prime$$ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$
-quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$
-    
-    <a href="https://upunder.us/posts/mathematics/">Read more...</a>
     
   </div>
 </article>
@@ -144,7 +170,7 @@ quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}
   <a class="prev-page" href="/">Previous Page</a>
   
 
-  <span class="page-number">2 of 6</span>
+  <span class="page-number">2 of 7</span>
 
   
   <a class="next-page" href="/page/3/">Next Page</a>
@@ -160,15 +186,15 @@ quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -177,7 +203,7 @@ quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

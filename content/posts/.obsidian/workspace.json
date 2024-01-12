@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38662e1af09c57d3",
+        "id": "44d3b4173b201c97",
         "type": "tabs",
         "children": [
           {
-            "id": "3a54295ec2d659e4",
+            "id": "ee46ea34e8bc2dc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calculus.md",
+                "file": "tar_usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calculus.md",
+                "file": "tar_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calculus.md",
+                "file": "tar_usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calculus.md"
+                "file": "tar_usage.md"
               }
             }
           },
@@ -135,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -156,34 +158,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a54295ec2d659e4",
+  "active": "ee46ea34e8bc2dc6",
   "lastOpenFiles": [
-    "avatar.md",
-    "7_years_old.md",
-    "manim_usage.md",
-    "newtons_method.md",
-    "math_in_english.md",
-    "mathematics.md",
-    "hello_world.md",
+    "the_international.md",
+    "c_right_left_rule.md",
+    "c_programming.md",
+    "bitwise_operation.md",
     "birthday.md",
     "bijection.md",
     "bible.md",
-    "field_extension.md",
-    "fast_fourier_transform.md",
-    "bitwise_operation.md",
-    "c_programming.md",
-    "c_right_left_rule.md",
-    "calculus.md",
-    "computer_restart.md",
-    "convolution.md",
-    "create_disks.md",
-    "curves.md",
-    "docker_usage.md",
-    "emacs_usage.md",
+    "avatar.md",
+    "arithmetic_overflow.md",
+    "octave_usage.md",
+    "hello_world.md",
     "english_grammar.md",
-    "family_tree.md",
-    "fixed_point_combinators.md",
-    "galois_field.md",
+    "number_theory.md",
+    "mathematics.md",
+    "mathematica_usage.md",
+    "math_in_english.md",
+    "mnemonic.md",
+    "zotero_usage.md",
+    "zlibrary_usage.md",
+    "website_for_study.md",
+    "vim_usage.md",
+    "tar_usage.md",
+    "shell_usage.md",
+    "second_derivative.md",
+    "risc-v.md",
+    "rime_usage.md",
     "Untitled",
     "draft"
   ]

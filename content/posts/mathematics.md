@@ -24,15 +24,43 @@ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$
 ### quotient rule
 $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$
 ### generalized power rule
-$$\left(f^g\right)^\prime=f^g(g^\prime\ln f+\frac{gf^\prime}{f})$$
+$$\left(f^g\right)^\prime=f^g(g^\prime\ln f+\frac{f^\prime g}{f})$$
 ### inverse function rule
 $${\left(f^{-1}\right)}^\prime=\frac{1}{f^\prime\circ f^{-1}}$$
 $$f^\prime=\frac{1}{{\left(f^{-1}\right)}^\prime\circ f}$$
 ### chain rule
-$$f(g(h(x)))^\prime=f^\prime(g(h(x)))g^\prime(h(x))h^\prime(x)$$
+$$(f \circ g \circ h)^\prime=(f^\prime \circ g \circ h)(g^\prime \circ h)h^\prime$$
 ## trigonometric functions
+| function | define | derivative |
+| :--: | :--: | :--: |
+| $\sin x$ | $y/r$ | $\cos x$ |
+| $\cos x$ | $x/r$ | $-\sin x$ |
+| $\tan x$ | $y/x$ | $\sec^2 x$ |
+| $\cot x$ | $x/y$ | $-\csc^2 x$ |
+| $\sec x$ | $r/x$ | $\sec x\tan x$ |
+| $\csc x$ | $r/y$ | $-\csc x\cot x$ |
+## inverse trigonometric functions
+
+| function | derivative |
+| :--: | :--: |
+| $\arcsin x$ | $\frac{1}{\sqrt{1-x^2}}$ |
+| $\arccos x$ | $-\frac{1}{\sqrt{1-x^2}}$ |
+| $\arctan x$ | $\frac{1}{x^2+1}$ |
+| $\operatorname{arccot}x$ | $-\frac{1}{x^2+1}$ |
+| $\operatorname{arcsec}x$ | $\frac{1}{\vert x\vert\sqrt{x^2-1}}$ |
+| $\operatorname{arccsc}x$ | $-\frac{1}{\vert x\vert\sqrt{x^2-1}}$ |
+## hyperbolic functions
+| function | derivative |
+| :--: | :--: |
+| $\sinh x$ | $\cosh x$ |
+| $\cosh x$ | $\sinh x$ |
+| $\tanh x$ | $\operatorname{sech}^2 x$ |
+| $\coth x$ | $-\operatorname{csch}^2 x$ |
+| $\operatorname{sech} x$ | $-\operatorname{sech} x\tanh x$ |
+| $\operatorname{csch} x$ | $-\operatorname{csch} x\operatorname{coth} x$ |
+
 ## logarithmic differentiation
-$$f(x)=g(x)h(x)$$
-$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$
-$$f(x)=\frac{g(x)}{h(x)}$$
-$$\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$
+$$f(x)=g(x)h(x)\to\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$
+
+$$f(x)=\frac{g(x)}{h(x)}\to\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}-\frac{h^\prime(x)}{h(x)}$$
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.121.0">
+	<meta name="generator" content="Hugo 0.111.3">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,94 @@
 
     
 <main><article>
+  <h1><a href="https://upunder.us/posts/gpg_usage/">gpg usage</a></h1>
+  <time datetime="2022-05-07T00:00:00">2022.05.07 00:00</time>
+  
+  <div>
+    generate First we need to generate a key.
+gpg --full-generate-key import If you already have a private key, then you can import it and change its trust level to ultimate.
+gpg --import u_prv.gpg gpg --edit-key u_u_u trust 1 = I don&#39;t know or won&#39;t say 2 = I do NOT trust 3 = I trust marginally 4 = I trust fully 5 = I trust ultimately m = back to the main menu 5 save encrypt and decrypt We can encrypt the file with our public key.
+    
+    <a href="https://upunder.us/posts/gpg_usage/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/git_usage/">git usage</a></h1>
+  <time datetime="2022-04-25T00:00:00">2022.04.25 00:00</time>
+  
+  <div>
+    Mastering the use of Git can significantly enhance your work efficiency. Here are the steps to get started:
+Install Git: Firstly, you should install Git. Most Linux distributions come with Git pre-installed, so there&rsquo;s usually no need for additional installation. However, if you&rsquo;re using Manjaro, you can install Git with the following command: sudo pacman -S git Configure Your Personal Information: Configure your personal information like your username and email, which will be associated with your Git commits.
+    
+    <a href="https://upunder.us/posts/git_usage/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/latex_usage/">latex usage</a></h1>
+  <time datetime="2022-04-04T00:00:00">2022.04.04 00:00</time>
+  
+  <div>
+    Proficient use of LaTeX can help make your research papers appear more standardized and aesthetically pleasing.
+First, let&rsquo;s install LaTeX; you can do this by using TeXLive. On a Manjaro system, you can easily install it with the following command:
+sudo pacman -S texlive After completing the installation, it&rsquo;s advisable to create a Git repository for better document management.
+Before you begin writing your paper, it&rsquo;s best to use a template from a professional organization like IEEE.
+    
+    <a href="https://upunder.us/posts/latex_usage/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/grub_usage/">grub usage</a></h1>
+  <time datetime="2022-03-29T00:00:00">2022.03.29 00:00</time>
+  
+  <div>
+    When configuring multiple operating systems, inadvertent actions often result in the loss of boot entries, rendering us unable to access our systems properly. Therefore, learning how to correctly configure the GRUB bootloader is highly valuable.
+In GRUB&rsquo;s rescue mode, only a few commands like cmdpath, prefix, root, insmod, ls, set, unset, and others are available.
+To begin, you should use insmod to load the necessary modules, such as:
+insmod gpt insmod ntfs insmod chain set root=(hd0,msdos1) # Modify as per your system configuration If you are using a Linux system, you should load the kernel like this:
+    
+    <a href="https://upunder.us/posts/grub_usage/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/emacs_usage/">emacs usage</a></h1>
+  <time datetime="2022-03-06T00:00:00">2022.03.06 00:00</time>
+  
+  <div>
+    Save and Exit Use Ctrl-x Ctrl-s to save the file. Use Ctrl-x Ctrl-c to exit Emacs. Cut, Copy, and Paste Use Ctrl-Space to begin selecting text. Use Ctrl-w to cut the selected text. Use M-w (or Alt-w or Esc-w, depending on your terminal settings) to copy the selected text. Use Ctrl-y to paste the cut or copied text. Search and Replace Use Ctrl-s for text search, then input the text you want to search for.
+    
+    <a href="https://upunder.us/posts/emacs_usage/">Read more...</a>
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/hello_world/">hello world</a></h1>
+  <time datetime="2022-01-15T23:43:58">2022.01.15 23:43</time>
+  
+  <div>
+    Here, I showcase several ways to write a &ldquo;Hello world&rdquo; program in some of my favorite programming languages.
+scheme (display &#34;Hello world!&#34;) python print(&#34;Hello world!&#34;) rust fn main() { print!(&#34;Hello world!&#34;); } c #include&lt;stdio.h&gt; int main(){ printf(&#34;\nHello world!&#34;); return 0; } c++ import module std; int main() { std::print(&#34;Hello world!\n&#34;); } java public class Main { public static void main(String[] args) { System.out.println(&#34;Hello, World!&#34;); } } 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/birthday/">Birthday</a></h1>
+  <time datetime="1994-03-31T00:00:00">1994.03.31 00:00</time>
+  
+  <div>
+    No one remembers the former generations, and even those yet to come will not be remembered by those who follow them.
+Ecclesiastes 1:11 NIV
+Today is my birthday, and yet there&rsquo;s a slight dilemma: Who asked! But does it truly matter? At times, I can&rsquo;t help but feel that I shouldn&rsquo;t have been born; it&rsquo;s as though it&rsquo;s all my doing.
+If someone were to remember and celebrate this day with me, I believe I might just find myself falling in love with them.
+    
+    <a href="https://upunder.us/posts/birthday/">Read more...</a>
+    
+  </div>
+</article>
+<article>
   <h1><a href="https://upunder.us/posts/the_international/">l&#39;internationale</a></h1>
   <time datetime="1871-06-01T00:00:00">1871.06.01 00:00</time>
   
@@ -53,35 +141,15 @@ verb tense
     
   </div>
 </article>
-<article>
-  <h1><a href="https://upunder.us/posts/bible/">bible</a></h1>
-  <time datetime="0001-01-01T00:00:00">0001.01.01 00:00</time>
-  
-  <div>
-    old testament genesis genesis 1:1 In the beginning God created the heavens and the earth.
-exodus exodus 21:24 eye for eye, tooth for tooth, hand for hand, foot for foot,
-leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kings 1 chronicles 2 chronicles ezra nehemiah esther job psalms proverbs ecclesiastes ecclesiastes 1:8 All things are wearisome, more than one can say. The eye never has enough of seeing, nor the ear its fill of hearing.
-    
-    <a href="https://upunder.us/posts/bible/">Read more...</a>
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/lorem_ipsum/">lorem ipsum</a></h1>
-  <time datetime="0001-01-01T00:00:00">0001.01.01 00:00</time>
-  
-  <div>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    
-  </div>
-</article>
 <div class="pagination">
   
   <a class="prev-page" href="/page/5/">Previous Page</a>
   
 
-  <span class="page-number">6 of 6</span>
+  <span class="page-number">6 of 7</span>
 
+  
+  <a class="next-page" href="/page/7/">Next Page</a>
   
 </div>
 
@@ -94,15 +162,15 @@ leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kin
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -111,7 +179,7 @@ leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kin
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>

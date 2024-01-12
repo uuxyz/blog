@@ -1,13 +1,6 @@
-/*@font-face {
-  font-family: "F0NT";
-  font-style: normal;
-  src: url("/fonts/F0NT.woff2") format("woff2")
-}*/
-
 body {
-    color: white;
-    background-color:rgb(34,34,34);
-    /*font-family: "F0NT";*/
+    color: #FFFFFF;
+    background-color:#555555;
     max-width: 80ch;
     margin-left:auto;
     margin-right:auto;
@@ -17,28 +10,28 @@ body {
     background-image: url("/favicon.svg");
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: #e06020;
+::-moz-selection {
+    color: #FFFFFF;
+    background: #FF5500;
 }
 
 ::selection {
-    color: white;
-    background: #e06020;
+    color: #FFFFFF;
+    background: #FF5500;
 }
 
 a:link {
-    color: #e0a0e0;
+    color: #FFAAFF;
 }
 
 a:visited {
-    color: #e06020;
+    color: #FF5500;
 }
 
 a:hover {
-    color: #20e0e0;
+    color: #00FFFF;
 }
 
 a:active {
-    color: #20e0a0;
+    color: #00FFAA;
 }

@@ -29,6 +29,93 @@
 
   
   <article>
+  <h1><a href="https://upunder.us/posts/number_theory/">number theory</a></h1>
+  <time datetime="2024-01-06T00:00:00">2024.01.06 00:00</time>
+  
+  <div>
+    $$a^n\equiv (a \bmod p)^{n \bmod{\varphi(p)}}\bmod p,p \in\mathbb{P}$$ $$a^n\equiv (a \bmod p)^{n \bmod{p-1}}\bmod p,p \in\mathbb{P}$$
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/mnemonic/">mnemonic</a></h1>
+  <time datetime="2024-01-04T00:00:00">2024.01.04 00:00</time>
+  
+  <div>
+     t a n x s s i e n c x x 1 c c o s s c x x c o t x s i n h x t c a o n s h h x x 1 s c e o c t h h x x c s c h x 
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/cstring/">cstring</a></h1>
+  <time datetime="2023-12-17T00:00:00">2023.12.17 00:00</time>
+  
+  <div>
+    Functions returning void* type: memchr: Searches for the position of a specified character in the string. memcpy: Copies a block of memory. memmove: Moves a block of memory. memset: Sets the values of a block of memory. Functions returning int type: memcmp: Compares blocks of memory. strcmp: Compares strings. strncmp: Compares the first n characters of strings. strcoll: Compares strings according to the localization rules. Functions returning char* type: strcat: Concatenates strings.
+    
+    <a href="https://upunder.us/posts/cstring/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/arithmetic_overflow/">arithmetic overflow</a></h1>
+  <time datetime="2023-12-12T00:00:00">2023.12.12 00:00</time>
+  
+  <div>
+    Using those code to avoid overflow:
+#include &lt;stdint.h&gt; #include &lt;stdio.h&gt; const int64_t mod = 0x7fffffffffffffe7LL; // 216289611853439384th prime const int64_t a01 = 0x7fffffffffffff5bLL; const int64_t b01 = 0x7ffffffffffffefdLL; int64_t add64(int64_t a, int64_t b, int64_t m) { a %= m; b %= m; if (m - a &lt; b) return a &gt; b ? a - m + b : b - m + a; else return a + b; } int64_t sub64(int64_t a, int64_t b, int64_t m) { a %= m; b %= m; return a - b &lt; 0 ?
+    
+    <a href="https://upunder.us/posts/arithmetic_overflow/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/linear_algebra/">linear algebra</a></h1>
+  <time datetime="2023-12-09T00:00:00">2023.12.09 00:00</time>
+  
+  <div>
+    matrix identity matrix $$ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ \end{bmatrix} I_3=\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ \end{bmatrix},\dots,I_n=\begin{bmatrix} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ \end{bmatrix}.
+    
+    <a href="https://upunder.us/posts/linear_algebra/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/coordinate_system/">coordinate system</a></h1>
+  <time datetime="2023-12-08T00:00:00">2023.12.08 00:00</time>
+  
+  <div>
+    2d cartesian coordinate $$x=r\cos\varphi$$ $$y=r\sin\varphi$$
+polar coordinate $$r=\sqrt{x^2+y^2}=\operatorname{hypot}(x,y)$$ $$\varphi=\operatorname{atan2}(y,x)$$
+3d cartesian coordinate $$x=r\sin\theta\cos\varphi$$ $$y=r\sin\theta\sin\varphi$$ $$z=r\cos\varphi$$
+spherical coordinate $$r=\sqrt{x^2+y^2+z^2}$$ $$\theta=\arccos\frac{z}{r}$$ $$\varphi=\operatorname{atan2}(y,x)$$
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/l_hopital_s_rule/">L&#39;Hôpital&#39;s rule</a></h1>
+  <time datetime="2023-12-06T00:00:00">2023.12.06 00:00</time>
+  
+  <div>
+     f and g which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ 
+    
+  </div>
+</article>
+
+  
+  <article>
   <h1><a href="https://upunder.us/posts/bijection/">bijection</a></h1>
   <time datetime="2023-11-30T00:00:00">2023.11.30 00:00</time>
   
@@ -65,128 +152,10 @@ curvature $$k=\frac{|f^{\prime\prime}|}{\sqrt{[1+(f^\prime)^{2}]^{3}}}$$ $$\left
 </article>
 
   
-  <article>
-  <h1><a href="https://upunder.us/posts/prime_algorithms/">prime algorithms</a></h1>
-  <time datetime="2023-11-18T00:00:00">2023.11.18 00:00</time>
-  
-  <div>
-    sieve sieve of eratosthenes (define (sieve n) (define (aux u v) (let ((p (car v))) (if (&gt; (* p p) n) (let rev-append ((u u) (v v)) (if (null? u) v (rev-append (cdr u) (cons (car u) v)))) (aux (cons p u) (let wheel ((u &#39;()) (v (cdr v)) (a (* p p))) (cond ((null? v) (reverse u)) ((= (car v) a) (wheel u (cdr v) (+ a p))) ((&gt; (car v) a) (wheel u v (+ a p))) (else (wheel (cons (car v) u) (cdr v) a)))))))) (aux &#39;(2) (let range ((v &#39;()) (k (if (odd?
-    
-    <a href="https://upunder.us/posts/prime_algorithms/">Read more...</a>
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/bitwise_operation/">bitwise operation</a></h1>
-  <time datetime="2023-11-15T00:00:00">2023.11.15 00:00</time>
-  
-  <div>
-    lowbit x &amp; -x;//extract the rightmost set bit (the least significant bit that is set to 1) x - (x &amp; (x - 1));//extract the rightmost set bit (the least significant bit that is set to 1) x = x &amp; (x - 1);//clears the lowest (least significant) 1 bit x = x - (x &amp; -x);//clears the lowest (least significant) 1 bit ((1 &lt;&lt; (i - 1)) &amp; x) &gt; 0;//check if the bit at position i is equals 1 x = x | (1 &lt;&lt; (i - 1));//set the bit at position to 1 x = x &amp; (~(1 &lt;&lt; (i - 1)));//set the bit at position to 0 x=-~x;//x++; x=~-x;//x--; (x &amp; (x-1))==0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (x &amp; -x) &gt; 0 &amp;&amp; x &gt; 0;//true when x is a power of 2 (int)(!
-    
-    <a href="https://upunder.us/posts/bitwise_operation/">Read more...</a>
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/random_algorithms/">random algorithms</a></h1>
-  <time datetime="2023-11-11T00:00:00">2023.11.11 00:00</time>
-  
-  <div>
-    
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/field_extension/">field extension</a></h1>
-  <time datetime="2023-11-07T00:00:00">2023.11.07 00:00</time>
-  
-  <div>
-    $$\mathbb{Q}(\sqrt{n})$$ $$(a,b)*(c,d)=(ac+bdn,bc+ad)$$ $$(a,b)/(c,d)=\left(\frac{ac-bdn}{c^2-d^2n},\frac{bc-ad}{c^2-d^2n}\right)$$
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/great_software/">great software</a></h1>
-  <time datetime="2023-11-03T00:00:00">2023.11.03 00:00</time>
-  
-  <div>
-    baobab rime A great Chinese input method.
-plum A plugin for rime.
-circuitjs1 A great circuit analyzer.
-zotero A great paper organizer.
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/family_tree/">family tree</a></h1>
-  <time datetime="2023-10-22T00:00:00">2023.10.22 00:00</time>
-  
-  <div>
-    Adam Eve
-Cain Abel (Seth)
-Enosh
-Kenan
-Mahalalel
-Jared
-Enoch
-Methuselah
-Lamench
-Noah
-(Shem) Ham Japheth
-Arphaxad
-Shelah
-Eber
-Peleg
-Reu
-Serug
-Nahor
-Terah
-Abraham
-Isaac
-Jacob
-Judah
-Perez
-Hezron
-Ram
-Amminadab
-Nahshon
-Salmon
-Boaz
-Obed
-Jesse
-David
-Solomon
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/fixed_point_combinators/">fixed-point combinators</a></h1>
-  <time datetime="2023-10-15T00:00:00">2023.10.15 00:00</time>
-  
-  <div>
-    $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
-(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) 
-    
-  </div>
-</article>
-
-  
   <div class="pagination">
   
 
-  <span class="page-number">1 of 6</span>
+  <span class="page-number">1 of 7</span>
 
   
   <a class="next-page" href="/posts/page/2/">Next Page</a>
@@ -202,15 +171,15 @@ Solomon
     <div class="post-list">
       <ul>
         
-        <li><a href="/posts/bijection/">bijection</a></li>
+        <li><a href="/posts/number_theory/">number theory</a></li>
         
-        <li><a href="/posts/curves/">curves</a></li>
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
         
-        <li><a href="/posts/calculus/">calculus</a></li>
+        <li><a href="/posts/cstring/">cstring</a></li>
         
-        <li><a href="/posts/prime_algorithms/">prime algorithms</a></li>
+        <li><a href="/posts/arithmetic_overflow/">arithmetic overflow</a></li>
         
-        <li><a href="/posts/bitwise_operation/">bitwise operation</a></li>
+        <li><a href="/posts/linear_algebra/">linear algebra</a></li>
         
       </ul>
     </div>
@@ -219,7 +188,7 @@ Solomon
 
 
     <footer class="site-footer">
-  <p>2023 <a href="https://upunder.us">up under us</a></p>
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
   </body>
