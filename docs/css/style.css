@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Zilla Slab';
+    src: url('/fonts/ZillaSlab-Regular.woff2') format('woff2');
+}
+
+body {
+    font-family:"Zilla Slab";
+    color: #FFFFFF;
+    background-color:#000000;
+    max-width: 80ch;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.avatar{
+    background-image: url("/favicon.svg");
+}
+
+::-moz-selection {
+    color: #FFFFFF;
+    background: #FF5500;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #FF5500;
+}
+
+a:link {
+    color: #FFAAFF;
+}
+
+a:visited {
+    color: #FF5500;
+}
+
+a:hover {
+    color: #00FFFF;
+}
+
+a:active {
+    color: #00FFAA;
+}

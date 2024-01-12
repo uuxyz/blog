@@ -6,7 +6,17 @@
     <description>Recent content in Posts on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>english grammar</title>
+      <link>https://upunder.us/posts/english_grammar/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/english_grammar/</guid>
+      <description>noun mass noun plural https://www.geeksforgeeks.org/mass-noun/
+verb tense </description>
+    </item>
+    
     <item>
       <title>number theory</title>
       <link>https://upunder.us/posts/number_theory/</link>
@@ -500,12 +510,12 @@ The study of Latin can be a gateway to a deeper understanding of literature and 
     </item>
     
     <item>
-      <title>matlab usage</title>
-      <link>https://upunder.us/posts/matlab_usage/</link>
+      <title>octave usage</title>
+      <link>https://upunder.us/posts/octave_usage/</link>
       <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://upunder.us/posts/matlab_usage/</guid>
-      <description>[1 1 ; 1 0]^100 rats(pi) fft([1 2 3]) </description>
+      <guid>https://upunder.us/posts/octave_usage/</guid>
+      <description>[1 1;1 0]^100 rats(pi) fft([1 2 3]) format rat rref([2 0 4;1 -2 4;1 1 1;2 1 3]) det([-4 -2 -1 1;2 1 1 0;0 0 -1 -1]) </description>
     </item>
     
     <item>
@@ -659,16 +669,6 @@ If someone were to remember and celebrate this day with me, I believe I might ju
       <guid>https://upunder.us/posts/manifesto/</guid>
       <description>A spectre is haunting Europe - the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.
 Where is the party in opposition that has not been decried as communistic by its opponents in power? Where is the opposition that has not hurled back the branding reproach of communism, against the more advanced opposition parties, as well as against its reactionary adversaries?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://upunder.us/posts/english_grammar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://upunder.us/posts/english_grammar/</guid>
-      <description>noun mass noun plural https://www.geeksforgeeks.org/mass-noun/
-verb tense </description>
     </item>
     
     <item>
