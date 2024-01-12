@@ -3,6 +3,11 @@
     src: url('/fonts/ZillaSlab-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'uuu';
+    src: url('/fonts/uuu.woff2') format('woff2');
+}
+
 body {
     font-family:"Zilla Slab";
     color: #FFFFFF;
