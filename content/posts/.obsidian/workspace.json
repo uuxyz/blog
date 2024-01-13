@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "english_grammar.md",
+                "file": "calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68fc19dfac2446c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lists_of_integrals.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "english_grammar.md",
+                "file": "lists_of_integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "english_grammar.md",
+                "file": "lists_of_integrals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "english_grammar.md"
+                "file": "lists_of_integrals.md"
               }
             }
           },
@@ -158,8 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee46ea34e8bc2dc6",
+  "active": "68fc19dfac2446c4",
   "lastOpenFiles": [
+    "calculus.md",
+    "lists_of_integrals.md",
+    "mathematica_usage.md",
+    "math_in_english.md",
+    "english_grammar.md",
     "tar_usage.md",
     "the_international.md",
     "c_right_left_rule.md",
@@ -172,11 +190,8 @@
     "arithmetic_overflow.md",
     "octave_usage.md",
     "hello_world.md",
-    "english_grammar.md",
     "number_theory.md",
     "mathematics.md",
-    "mathematica_usage.md",
-    "math_in_english.md",
     "mnemonic.md",
     "zotero_usage.md",
     "zlibrary_usage.md",
@@ -184,8 +199,6 @@
     "vim_usage.md",
     "shell_usage.md",
     "second_derivative.md",
-    "risc-v.md",
-    "rime_usage.md",
     "Untitled",
     "draft"
   ]

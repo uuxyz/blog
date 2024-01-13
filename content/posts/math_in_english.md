@@ -4,32 +4,32 @@ date: 2023-09-28
 math: true
 ---
 # greek letters
-| upper-case | lower-case | upper-case $\LaTeX$ | lower-case $\LaTeX$ | variant | name |
-| :--: | :--: | :--: | :--: | ---- | :--: |
-| Α | α | Α | $\alpha$ |  | alpha |
-| Β | β | Β | $\beta$ |  | beta |
-| Γ | γ | $\Gamma$ | $\gamma$ |  | gamma |
-| Δ | δ | $\Delta$ | $\delta$ |  | delta |
-| Ε | ε | Ε | $\epsilon$ | $\varepsilon$ | epsilon |
-| Ζ | ζ | Ζ | $\zeta$ |  | zeta |
-| Η | η | Η | $\eta$ |  | eta |
-| Θ | θ | $\Theta$ | $\theta$ | $\vartheta$ | theta |
-| Ι | ι | Ι | $\iota$ |  | iota |
-| Κ | κ | Κ | $\kappa$ |  | kappa |
-| Λ | λ | $\Lambda$ | $\lambda$ |  | lambda |
-| Μ | μ | Μ | $\mu$ |  | mu |
-| Ν | ν | Ν | $\nu$ |  | nu |
-| Ξ | ξ | $\Xi$ | $\xi$ |  | xi |
-| Ο | ο | Ο | $\omicron$ |  | omicron |
-| Π | π | $\Pi$ | $\pi$ | $\varpi$ | pi |
-| Ρ | ρ | Ρ | $\rho$ | $\varrho$ | rho |
-| Σ | σ | $\Sigma$ | $\sigma$ | $\varsigma$ | sigma |
-| Τ | τ | Τ | $\tau$ |  | tau |
-| Υ | υ | $\Upsilon$ | $\upsilon$ |  | upsilon |
-| Φ | φ | $\Phi$ | $\phi$ | $\varphi$ | phi |
-| Χ | χ | Χ | $\chi$ |  | chi |
-| Ψ | ψ | $\Psi$ | $\psi$ |  | psi |
-| Ω | ω | $\Omega$ | $\omega$ |  | omega |
+| upper-case | lower-case | variant | name |
+| :--: | :--: | ---- | :--: |
+| Α | $\alpha$ |  | alpha |
+| Β | $\beta$ |  | beta |
+| $\Gamma$ | $\gamma$ |  | gamma |
+| $\Delta$ | $\delta$ |  | delta |
+| Ε | $\epsilon$ | $\varepsilon$ | epsilon |
+| Ζ | $\zeta$ |  | zeta |
+| Η | $\eta$ |  | eta |
+| $\Theta$ | $\theta$ | $\vartheta$ | theta |
+| Ι | $\iota$ |  | iota |
+| Κ | $\kappa$ |  | kappa |
+| $\Lambda$ | $\lambda$ |  | lambda |
+| Μ | $\mu$ |  | mu |
+| Ν | $\nu$ |  | nu |
+| $\Xi$ | $\xi$ |  | xi |
+| Ο | $\omicron$ |  | omicron |
+| $\Pi$ | $\pi$ | $\varpi$ | pi |
+| Ρ | $\rho$ | $\varrho$ | rho |
+| $\Sigma$ | $\sigma$ | $\varsigma$ | sigma |
+| Τ | $\tau$ |  | tau |
+| $\Upsilon$ | $\upsilon$ |  | upsilon |
+| $\Phi$ | $\phi$ | $\varphi$ | phi |
+| Χ | $\chi$ |  | chi |
+| $\Psi$ | $\psi$ |  | psi |
+| $\Omega$ | $\omega$ |  | omega |
 
 ## hebrew letter
 |hebrew|name|
@@ -67,6 +67,16 @@ math: true
 | $\coth x$ | hyperbolic cotangent |
 | $\operatorname{sech} x$ | hyperbolic secant |
 | $\operatorname{csch} x$ | hyperbolic cosecant |
+## inverse hyperbolic functions
+
+| function | name |
+| ---- | ---- |
+| $\operatorname{arsinh} x$ | inverse hyperbolic sine |
+| $\operatorname{arcosh} x$ | inverse hyperbolic cosine |
+| $\operatorname{artanh} x$ | inverse hyperbolic tangent |
+| $\operatorname{arcsch} x$ | inverse hyperbolic cotangent |
+| $\operatorname{arsech} x$ | inverse hyperbolic secant |
+| $\operatorname{arcoth} x$ | inverse hyperbolic cosecant |
 # other
 
 [rapidtables](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html)
