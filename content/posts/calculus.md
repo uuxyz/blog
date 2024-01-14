@@ -2,6 +2,8 @@
 title: calculus
 date: 2023-11-19
 math: true
+tags:
+  - math
 ---
 # area
 $$A = \int_a^b f(x)\mathrm{d}x$$

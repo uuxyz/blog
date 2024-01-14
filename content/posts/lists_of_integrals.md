@@ -2,6 +2,8 @@
 title: lists of integrals
 date: 2024-01-13
 math: true
+tags:
+  - math
 ---
 # (I)
 1. $$\int\frac{{\rm d}x}{ax+b}=\frac{1}{a}\int\frac{{\rm d}(ax+b)}{ax+b}=\frac{1}{a}\ln|ax+b|+C$$

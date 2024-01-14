@@ -1,6 +1,8 @@
 ---
 title: mnemonic
 date: 2024-01-04
+tags:
+  - math
 ---
 ```goat
        .-----.     .-----. 

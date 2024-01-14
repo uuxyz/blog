@@ -50,14 +50,24 @@ $$(f \circ g \circ h)^\prime=(f^\prime \circ g \circ h)(g^\prime \circ h)h^\prim
 | $\operatorname{arcsec}x$ | $\frac{1}{\vert x\vert\sqrt{x^2-1}}$ |
 | $\operatorname{arccsc}x$ | $-\frac{1}{\vert x\vert\sqrt{x^2-1}}$ |
 ## hyperbolic functions
-| function | derivative |
-| :--: | :--: |
-| $\sinh x$ | $\cosh x$ |
-| $\cosh x$ | $\sinh x$ |
-| $\tanh x$ | $\operatorname{sech}^2 x$ |
-| $\coth x$ | $-\operatorname{csch}^2 x$ |
-| $\operatorname{sech} x$ | $-\operatorname{sech} x\tanh x$ |
-| $\operatorname{csch} x$ | $-\operatorname{csch} x\operatorname{coth} x$ |
+| function | define | derivative |
+| :--: | :--: | ---- |
+| $\sinh x$ | $\frac{e^x-e^{-x}}{2}$ | $\cosh x$ |
+| $\cosh x$ | $\frac{e^x+e^{-x}}{2}$ | $\sinh x$ |
+| $\tanh x$ | $\frac{\sinh x}{\cosh x}$ | $\operatorname{sech}^2 x$ |
+| $\coth x$ | $\frac{\cosh x}{\sinh x}$ | $-\operatorname{csch}^2 x$ |
+| $\operatorname{sech} x$ | $\frac{1}{\cosh x}$ | $-\operatorname{sech} x\tanh x$ |
+| $\operatorname{csch} x$ | $\frac{1}{\sinh x}$ | $-\operatorname{csch} x\operatorname{coth} x$ |
+## inverse hyperbolic functions
+
+| function | define |
+| ---- | ---- |
+| $\operatorname{arsinh} x$ | $\ln\left(x+\sqrt{x^2+1}\right)$ |
+| $\operatorname{arcosh} x$ | $\ln\left(x+\sqrt{x^2-1}\right)$ |
+| $\operatorname{artanh} x$ | $\frac{1}{2}\ln\left(\frac{1+x}{1-x}\right)$ |
+| $\operatorname{arcoth} x$ | $\frac{1}{2}\ln\left(\frac{x+1}{x-1}\right)$ |
+| $\operatorname{arsech} x$ | $\ln\left(\frac{1}{x}+\sqrt{\frac{1}{x^2}-1}\right)=\ln\left(\frac{1+\sqrt{1-x^2}}{x}\right)$ |
+| $\operatorname{arcsch} x$ | $\ln\left(\frac{1}{x}+\sqrt{\frac{1}{x^2}+1}\right)$ |
 
 ## logarithmic differentiation
 $$f(x)=g(x)h(x)\to\frac{f^\prime(x)}{f(x)}=\frac{g^\prime(x)}{g(x)}+\frac{h^\prime(x)}{h(x)}$$

@@ -64,7 +64,9 @@
     
     
     
-    51 s.
+    1 min
+    
+    1 second.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
@@ -86,6 +88,7 @@
         <li><a href="#trigonometric-functions">trigonometric functions</a></li>
         <li><a href="#inverse-trigonometric-functions">inverse trigonometric functions</a></li>
         <li><a href="#hyperbolic-functions">hyperbolic functions</a></li>
+        <li><a href="#inverse-hyperbolic-functions">inverse hyperbolic functions</a></li>
         <li><a href="#logarithmic-differentiation">logarithmic differentiation</a></li>
       </ul>
     </li>
@@ -196,33 +199,75 @@ $$f^\prime=\frac{1}{{\left(f^{-1}\right)}^\prime\circ f}$$</p>
 <thead>
 <tr>
 <th style="text-align:center">function</th>
-<th style="text-align:center">derivative</th>
+<th style="text-align:center">define</th>
+<th>derivative</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">$\sinh x$</td>
-<td style="text-align:center">$\cosh x$</td>
+<td style="text-align:center">$\frac{e^x-e^{-x}}{2}$</td>
+<td>$\cosh x$</td>
 </tr>
 <tr>
 <td style="text-align:center">$\cosh x$</td>
-<td style="text-align:center">$\sinh x$</td>
+<td style="text-align:center">$\frac{e^x+e^{-x}}{2}$</td>
+<td>$\sinh x$</td>
 </tr>
 <tr>
 <td style="text-align:center">$\tanh x$</td>
-<td style="text-align:center">$\operatorname{sech}^2 x$</td>
+<td style="text-align:center">$\frac{\sinh x}{\cosh x}$</td>
+<td>$\operatorname{sech}^2 x$</td>
 </tr>
 <tr>
 <td style="text-align:center">$\coth x$</td>
-<td style="text-align:center">$-\operatorname{csch}^2 x$</td>
+<td style="text-align:center">$\frac{\cosh x}{\sinh x}$</td>
+<td>$-\operatorname{csch}^2 x$</td>
 </tr>
 <tr>
 <td style="text-align:center">$\operatorname{sech} x$</td>
-<td style="text-align:center">$-\operatorname{sech} x\tanh x$</td>
+<td style="text-align:center">$\frac{1}{\cosh x}$</td>
+<td>$-\operatorname{sech} x\tanh x$</td>
 </tr>
 <tr>
 <td style="text-align:center">$\operatorname{csch} x$</td>
-<td style="text-align:center">$-\operatorname{csch} x\operatorname{coth} x$</td>
+<td style="text-align:center">$\frac{1}{\sinh x}$</td>
+<td>$-\operatorname{csch} x\operatorname{coth} x$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="inverse-hyperbolic-functions">inverse hyperbolic functions</h2>
+<table>
+<thead>
+<tr>
+<th>function</th>
+<th>define</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\operatorname{arsinh} x$</td>
+<td>$\ln\left(x+\sqrt{x^2+1}\right)$</td>
+</tr>
+<tr>
+<td>$\operatorname{arcosh} x$</td>
+<td>$\ln\left(x+\sqrt{x^2-1}\right)$</td>
+</tr>
+<tr>
+<td>$\operatorname{artanh} x$</td>
+<td>$\frac{1}{2}\ln\left(\frac{1+x}{1-x}\right)$</td>
+</tr>
+<tr>
+<td>$\operatorname{arcoth} x$</td>
+<td>$\frac{1}{2}\ln\left(\frac{x+1}{x-1}\right)$</td>
+</tr>
+<tr>
+<td>$\operatorname{arsech} x$</td>
+<td>$\ln\left(\frac{1}{x}+\sqrt{\frac{1}{x^2}-1}\right)=\ln\left(\frac{1+\sqrt{1-x^2}}{x}\right)$</td>
+</tr>
+<tr>
+<td>$\operatorname{arcsch} x$</td>
+<td>$\ln\left(\frac{1}{x}+\sqrt{\frac{1}{x^2}+1}\right)$</td>
 </tr>
 </tbody>
 </table>

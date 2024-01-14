@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calculus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68fc19dfac2446c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lists_of_integrals.md",
+                "file": "octave_usage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lists_of_integrals.md",
+                "file": "octave_usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lists_of_integrals.md",
+                "file": "octave_usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lists_of_integrals.md"
+                "file": "octave_usage.md"
               }
             }
           },
@@ -171,34 +158,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68fc19dfac2446c4",
+  "active": "ee46ea34e8bc2dc6",
   "lastOpenFiles": [
-    "calculus.md",
-    "lists_of_integrals.md",
+    "number_theory.md",
+    "newtons_method.md",
+    "mount_usage.md",
+    "mnemonic.md",
+    "mathematics.md",
     "mathematica_usage.md",
     "math_in_english.md",
-    "english_grammar.md",
-    "tar_usage.md",
-    "the_international.md",
-    "c_right_left_rule.md",
-    "c_programming.md",
-    "bitwise_operation.md",
-    "birthday.md",
-    "bijection.md",
-    "bible.md",
-    "avatar.md",
-    "arithmetic_overflow.md",
-    "octave_usage.md",
-    "hello_world.md",
-    "number_theory.md",
-    "mathematics.md",
-    "mnemonic.md",
-    "zotero_usage.md",
-    "zlibrary_usage.md",
-    "website_for_study.md",
-    "vim_usage.md",
-    "shell_usage.md",
-    "second_derivative.md",
+    "manim_usage.md",
+    "manifesto.md",
+    "lorem_ipsum.md",
+    "lists_of_integrals.md",
+    "linear_algebra.md",
+    "lean_usage.md",
+    "latina.md",
+    "latex_usage.md",
+    "l_hopital_s_rule.md",
+    "hacker_tool.md",
+    "guide_of_immigration.md",
+    "grub_usage.md",
+    "great_software.md",
+    "gpg_usage.md",
+    "git_usage.md",
+    "galois_field.md",
+    "fixed_point_combinators.md",
+    "field_extension.md",
+    "fast_fourier_transform.md",
     "Untitled",
     "draft"
   ]

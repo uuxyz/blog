@@ -2,6 +2,8 @@
 title: L'Hôpital's rule
 date: 2023-12-06
 math: true
+tags:
+  - math
 ---
 1. f and g which are differentiable
 2. $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$
