@@ -1,8 +1,9 @@
 ---
-title: "Math in NCEE"
+title: Math in NCEE
 date: 2022-07-12T00:17:50+08:00
-draft: true
 math: true
+tags:
+  - math
 ---
 
 ## Quadratic functions
@@ -21,17 +22,17 @@ $$\left(-\frac{b}{2a},c-\frac{b^2}{4a}\right)$$
 
 |$$f(x)$$|$$T$$|
 |--|--|
-|$$f(x+T)=f(x)$$|$$T$$|
-|$$f(x+T)=-f(x)$$|$$2T$$|
-|$$f(x+m)=f(x+n)$$|$$2\|m-n\|$$|
-|$$f(x+T)=-\frac{1}{f(x)}$$|$$2T$$|
+|$f(x+T)=f(x)$ |$T$ |
+|$f(x+T)=-f(x)$ |$2T$ |
+|$f(x+m)=f(x+n)$ |$2\|m-n\|$ |
+|$f(x+T)=-\frac{1}{f(x)}$ |$2T$ |
 
 
 ### axial symmetry
 |$$f(x)$$|axial|
 |--|--|
-|$$f(x+a)=f(b-x)$$|$$\frac{a+b}{2}$$|
-|$$y=f(x+a),y=f(b-x)$$|$$\frac{b-a}{2}$$|
+|$f(x+a)=f(b-x)$ |$\frac{a+b}{2}$ |
+|$y=f(x+a),y=f(b-x)$ |$\frac{b-a}{2}$ |
 
 
 $$\sqrt{a}\sqrt{b}=\sqrt{ab}$$

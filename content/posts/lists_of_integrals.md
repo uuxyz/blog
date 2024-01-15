@@ -36,16 +36,24 @@ $$=\frac{2}{105a^3}\left[15a^2x^2-12abx+8b^2\right]\sqrt{(ax+b)^3}+C$$
 $$=\frac{1}{a^2}\left[\int\sqrt{ax+b}\ {\rm d}(ax+b)-b\int\frac{{\rm d}(ax+b)}{\sqrt{ax+b}}\right]$$
 $$=\frac{1}{a^2}\left[\frac{2}{3}(ax+b)-2b\right]\sqrt{ax+b}+C$$
 $$=\frac{2}{3a^2}(ax-2b)\sqrt{ax+b}+C$$
-5. $$\int\frac{x^2}{\sqrt{ax+b}}{\rm d}x=\frac{2}{15a^3}(3a^2x^2-4abx+8b^2)\sqrt{ax+b}+C$$
-6. $$\int\frac{{\rm d}x}{x\sqrt{ax+b}}=\frac{1}{\sqrt{b}}\ln\left|\frac{\sqrt{ax+b}-\sqrt{b}}{\sqrt{ax+b}+\sqrt{b}}\right|+C(b>0)$$
-7. $$\int\frac{{\rm d}x}{x\sqrt{ax-b}}=\frac{2}{\sqrt{b}}\arctan\sqrt{\frac{ax-b}{b}}+C(b<0)$$
+5. $$\int\frac{x^2}{\sqrt{ax+b}}{\rm d}x=\frac{1}{a^3}\int\frac{(ax+b)^2-2abx-b^2}{\sqrt{ax+b}}{\rm d}(ax+b)$$
+   $$=\frac{1}{a^3}\left(\frac{2}{5}(ax+b)^2-\frac{4b}{3}(ax+b)-2b^2\right)\sqrt{ax+b}+C$$
+   $$=\frac{2}{15a^3}(3a^2x^2-4abx+8b^2)\sqrt{ax+b}+C$$
+6. $$\int\frac{{\rm d}x}{x\sqrt{ax+b}}=\int\frac{{\rm d}(ax+b)}{(ax+b-b)\sqrt{ax+b}}$$
+$$=2\int\frac{{\rm d}\sqrt{ax+b}}{ax+b-b}$$
+$$=\frac{1}{\sqrt{b}}\ln\left|\frac{\sqrt{ax+b}-\sqrt{b}}{\sqrt{ax+b}+\sqrt{b}}\right|+C(b>0)$$
+
+7. $$\int\frac{{\rm d}x}{x\sqrt{ax-b}}=\int\frac{{\rm d}(ax-b)}{(ax-b+b)\sqrt{ax-b}}$$
+$$=2\int\frac{{\rm d}\sqrt{ax-b}}{ax-b+b}$$
+$$=\frac{2}{\sqrt{b}}\arctan\sqrt{\frac{ax-b}{b}}+C(b>0)$$
 8. $$\int\frac{{\rm d}x}{x^2\sqrt{ax+b}}=-\frac{\sqrt{ax+b}}{bx}-\frac{a}{2b}\int\frac{{\rm d}x}{x\sqrt{ax+b}}$$
 9. $$\int\frac{\sqrt{ax+b}}{x}{\rm d}x=2\sqrt{ax+b}+b\int\frac{{\rm d}x}{x\sqrt{ax+b}}$$
 10. $$\int\frac{\sqrt{ax+b}}{x^2}{\rm d}x=-\frac{\sqrt{ax+b}}{x}+\frac{a}{2}\int\frac{{\rm d}x}{x\sqrt{ax+b}}$$
 # (III)
 1. $$\int\frac{{\rm d}x}{x^2+a^2}=\frac{1}{a}\int\frac{{\rm d}\frac{x}{a}}{(\frac{x}{a})^2+1}=\frac{1}{a}\arctan\frac{x}{a}+C$$
 2. $$\int\frac{{\rm d}x}{(x^2+a^2)^n}=\frac{x}{2(n-1)a^2(x^2+a)^{n-1}}+\frac{2n-3}{2(n-1)a^2}\int\frac{{\rm d}x}{(x^2+a^2)^{n-1}}$$
-3. $$\int\frac{{\rm d}x}{x^2-a^2}=\frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C$$
+3. $$\int\frac{{\rm d}x}{x^2-a^2}=\frac{1}{2a}\int\frac{2a}{x^2-a^2}{\rm d}x$$
+$$=\frac{1}{2a}\int\frac{1}{x-a}-\frac{1}{x+a}{\rm d}x=\frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C$$
 # (IV)
 1. $$\int\frac{{\rm d}x}{ax^2+b}=\frac{1}{\sqrt{ab}}\arctan\sqrt{\frac{a}{b}}+C$$
 2. $$\int\frac{{\rm d}x}{ax^2-b}=\frac{1}{\sqrt{ab}}\ln\left|\frac{\sqrt{a}x-\sqrt{b}}{\sqrt{a}x+\sqrt{b}}\right|+C$$
@@ -60,7 +68,7 @@ $$=\frac{2}{3a^2}(ax-2b)\sqrt{ax+b}+C$$
 2. $$\int\frac{{\rm d}x}{ax^2+bx+c}=\frac{1}{\sqrt{b^2-4ac}}\ln\left|\frac{2ax+b-\sqrt{b^2-4ac}}{2ax+b+\sqrt{b^2-4ac}}\right|+C(b^2>4ac)$$
 3. $$\int\frac{x}{ax^2+bx+c}{\rm d}x=\frac{1}{2a}\ln\left|ax^2+bx+c\right|-\frac{b}{2a}\int\frac{{\rm d}x}{ax^2+bx+c}$$
 # (VI)
-1. $$\int\frac{{\rm d}x}{\sqrt{x^2+a^2}}=\operatorname{arsinh}\frac{x}{a}+C_1=\ln\left(x+\sqrt{x^2+a^2}\right)+C$$
+1. $$\int\frac{{\rm d}x}{\sqrt{x^2+a^2}}=\int\frac{{\rm d}\frac{x}{a}}{\sqrt{\frac{x^2}{a^2}+1}}$$$$=\operatorname{arsinh}\frac{x}{a}+C_1=\ln\left(x+\sqrt{x^2+a^2}\right)+C$$
 2. $$\int\frac{{\rm d}x}{\sqrt{(x^2+a^2)^3}}=\frac{x}{a^2\sqrt{x^2+a^2}}+C$$
 3. $$\int\frac{x}{\sqrt{x^2+a^2}}{\rm d}x=\sqrt{x^2+a^2}+C$$
 4. $$\int\frac{x}{\sqrt{(x^2+a^2)^3}}{\rm d}x=-\frac{1}{\sqrt{x^2+a^2}}+C$$
@@ -119,9 +127,9 @@ $$=\frac{2}{3a^2}(ax-2b)\sqrt{ax+b}+C$$
 # (XI)
 1. $$\int\sin x\ {\rm d}x=-\cos x+C$$
 2. $$\int\cos x\ {\rm d}x=\sin x+C$$
-3. $$\int\tan x\ {\rm d}x=-\ln|\cos x|+C$$
-4. $$\int\cot x\ {\rm d}x=\ln|\sin x|+C$$
-5. $$\int\sec x\ {\rm d}x=\ln\left|\tan\left(\frac{\pi}{4}+\frac{x}{2}\right)\right|+C=\ln|\sec x + \tan x|+C$$
+3. $$\int\tan x\ {\rm d}x=\int\frac{\sin x}{\cos x}{\rm d}x=-\int\frac{{\rm d}\cos x}{\cos x}=-\ln|\cos x|+C$$
+4. $$\int\cot x\ {\rm d}x=\int\frac{\cos x}{\sin x}{\rm d}x=-\int\frac{{\rm d}\sin x}{\sin x}=\ln|\sin x|+C$$
+5. $$\int\sec x\ {\rm d}x=\int\frac{\cos x}{\cos^2x}\ {\rm d}x=\int\frac{{\rm d}\sin x}{1-\sin^2x}=\frac{1}{2}\int\frac{1}{1-\sin x}-\frac{1}{1+\sin x}{\rm d}\sin x$$$$=\ln\left|\tan\left(\frac{\pi}{4}+\frac{x}{2}\right)\right|+C=\ln|\sec x + \tan x|+C$$
 6. $$\int\csc x{\rm d}x=\ln\left|\tan\frac{x}{2}\right|+C=\ln|\csc x-\cot x|+C$$
 7. $$\int\sec^2x\ {\rm d}x=\tan x+C$$
 8. $$\int\csc^2x\ {\rm d}x=-\cot x+C$$

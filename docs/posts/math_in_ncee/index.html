@@ -1,61 +1,73 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Math in NCEE</title>
-	
-	
-	<style type="text/css" media="all">@import "/style.css";</style>
-	<style type="text/css" media="all">@import "/syntax.css";</style>
-	
-</head>
-<body>
-	<header>
-    <a href="https://xy-iii.github.io" style="font-size:30px">up under us</a>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<html lang='en-us'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Math in NCEE</title>
     
+    
+    <style type="text/css" media="all">@import "/css/style.css";</style>
+    <style type="text/css" media="all">@import "/css/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title"
+    style="font-size:3rem;display:inline-block;vertical-align:middle;">
+    <a href="https://upunder.us" style="font-family:uuu">
+      <img src="/icon/favicon.svg" alt="img"
+        width="64rem"
+        height="64rem"
+        style="display:inline-block;vertical-align: middle;" /></a>
+    up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
 </header>
 
-	
+    
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
 <script>
-    MathJax = {
-        tex: {
-            inlineMath: [["$", "$"]],
-        },
-        displayMath: [
-            ["$$", "$$"],
-            ["\[\[", "\]\]"],
-        ],
-        svg: {
-            fontCache: "global",
-        },
-    };
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
 </script>
-<script src="/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="/es5/tex-mml-chtml.js"></script>
 
 
-	<main>
-		<article>
-		<header>
-			<h1>Math in NCEE</h1>
-		</header>
-			<time datetime="2022-07-12T00:17:50">
-			2022.07.12 00:17
-			</time>
-			
-			Reading time:
-			
-			
-			
-			
-			40 s.
-			<div>
-							<h3>Table of contents</h3>
-							<nav id="TableOfContents">
+<main>
+  <article>
+    <header>
+      <h1>Math in NCEE</h1>
+    </header>
+    <time datetime='2022-07-12T00:17:50'>
+      2022.07.12 00:17
+    </time>
+    
+    <div>
+      Tags:
+      
+      <a href='/tags/math'>math</a>
+      
+    </div>
+    
+    Reading time:
+    
+    
+    
+    
+    40 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
   <ul>
     <li>
       <ul>
@@ -79,8 +91,8 @@
     </li>
   </ul>
 </nav>
-			</div>
-			<h2 id="quadratic-functions">Quadratic functions</h2>
+    </div>
+    <h2 id="quadratic-functions">Quadratic functions</h2>
 <p>$$\left(x+\frac{b}{2a}\right)^2=\left(\frac{b}{2a}\right)^2-\frac{c}{a}$$</p>
 <p>$$f(x)=a(x-h)^2+k=a(x-x_1)(x-x_2)$$</p>
 <p>$$f(x)=a(x-x_0)^2+(kx+d)$$</p>
@@ -96,20 +108,20 @@
 </thead>
 <tbody>
 <tr>
-<td>$$f(x+T)=f(x)$$</td>
-<td>$$T$$</td>
+<td>$f(x+T)=f(x)$</td>
+<td>$T$</td>
 </tr>
 <tr>
-<td>$$f(x+T)=-f(x)$$</td>
-<td>$$2T$$</td>
+<td>$f(x+T)=-f(x)$</td>
+<td>$2T$</td>
 </tr>
 <tr>
-<td>$$f(x+m)=f(x+n)$$</td>
-<td>$$2|m-n|$$</td>
+<td>$f(x+m)=f(x+n)$</td>
+<td>$2|m-n|$</td>
 </tr>
 <tr>
-<td>$$f(x+T)=-\frac{1}{f(x)}$$</td>
-<td>$$2T$$</td>
+<td>$f(x+T)=-\frac{1}{f(x)}$</td>
+<td>$2T$</td>
 </tr>
 </tbody>
 </table>
@@ -123,12 +135,12 @@
 </thead>
 <tbody>
 <tr>
-<td>$$f(x+a)=f(b-x)$$</td>
-<td>$$\frac{a+b}{2}$$</td>
+<td>$f(x+a)=f(b-x)$</td>
+<td>$\frac{a+b}{2}$</td>
 </tr>
 <tr>
-<td>$$y=f(x+a),y=f(b-x)$$</td>
-<td>$$\frac{b-a}{2}$$</td>
+<td>$y=f(x+a),y=f(b-x)$</td>
+<td>$\frac{b-a}{2}$</td>
 </tr>
 </tbody>
 </table>
@@ -246,43 +258,43 @@ $$\log_a\left(1+\frac{1}{n}\right)=\log_a(n-1)-\log_a n$$</p>
 <h2 id="vector">Vector</h2>
 <h2 id="combinatorics">Combinatorics</h2>
 
-			
-		</article>
-	</main>
+    
+  </article>
+</main>
 
-  <a href="https://xy-iii.github.io/posts/linear_algebra/">Prev: Linear algebra</a>
+<a href="https://upunder.us/posts/gpg_usage/">Prev: gpg usage</a>
 
 <br>
 
-  <a href="https://xy-iii.github.io/posts/physics_in_ncee/">Next: Physics in NCEE</a>
+<a href="https://upunder.us/posts/computer_restart/">Next: computer restart</a>
 
-<aside>
-    <div>
-        <div>
-            <h3>LATEST POSTS</h3>
-        </div>
-        <div>
-            <ul>
-                
-                <li><a href="/posts/math_formula/">Math formula</a></li>
-                
-                <li><a href="/posts/probability_theory/">Probability theory</a></li>
-                
-                <li><a href="/posts/triangle/">Triangle</a></li>
-                
-                <li><a href="/posts/python_modules/">Python modules</a></li>
-                
-                <li><a href="/posts/physics_in_ncee/">Physics in NCEE</a></li>
-                
-            </ul>
-        </div>
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
     </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/lists_of_integrals/">lists of integrals</a></li>
+        
+        <li><a href="/posts/english_grammar/">english grammar</a></li>
+        
+        <li><a href="/posts/number_theory/">number theory</a></li>
+        
+        <li><a href="/posts/mnemonic/">mnemonic</a></li>
+        
+        <li><a href="/posts/cstring/">cstring</a></li>
+        
+      </ul>
+    </div>
+  </div>
 </aside>
 
 
-	<footer>
-    <p>&copy; 2023 <a href="https://xy-iii.github.io">up under us</a></p>
+    <footer class="site-footer">
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
 </footer>
 
-</body>
+  </body>
 </html>

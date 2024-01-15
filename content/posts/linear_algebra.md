@@ -14,7 +14,7 @@ I_1=\begin{bmatrix}
 I_2=\begin{bmatrix}
 1 & 0 \\
 0 & 1 \\
-\end{bmatrix}
+\end{bmatrix},
 
 I_3=\begin{bmatrix}
 1 & 0 & 0 \\
@@ -31,17 +31,12 @@ $$
 
 {{</raw>}}
 # determinant
-
-$$\left|kA\right|=k^n\left|A\right|$$
-
-$$AA^*=\left|A\right|E$$
-
-$$A^{-1}=\frac{A^*}{\left|A\right|}$$
-
+$$\det(cA)=c^n\det(A)$$
+$$A\ {\rm adj}(A)=\det(A)E$$
+$$A^{-1}=\frac{{\rm adj}(A)}{\det(A)}$$
 $$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
 $${\rm adj}(cA)=c^{n-1}{\rm adj}(A)$$
 $${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$
-
 $$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
 $$\det(\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A))=\det(A)^{(n-1)^k}$$
 

@@ -57,7 +57,7 @@
     
     
     
-    41 s.
+    42 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
@@ -82,7 +82,7 @@ I_1=\begin{bmatrix}
 I_2=\begin{bmatrix}
 1 & 0 \\
 0 & 1 \\
-\end{bmatrix}
+\end{bmatrix},
 
 I_3=\begin{bmatrix}
 1 & 0 & 0 \\
@@ -100,13 +100,13 @@ $$
 
 
 <h1 id="determinant">determinant</h1>
-<p>$$\left|kA\right|=k^n\left|A\right|$$</p>
-<p>$$AA^*=\left|A\right|E$$</p>
-<p>$$A^{-1}=\frac{A^*}{\left|A\right|}$$</p>
-<p>$$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
+<p>$$\det(cA)=c^n\det(A)$$
+$$A\ {\rm adj}(A)=\det(A)E$$
+$$A^{-1}=\frac{{\rm adj}(A)}{\det(A)}$$
+$$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
 $${\rm adj}(cA)=c^{n-1}{\rm adj}(A)$$
-$${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$</p>
-<p>$$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
+$${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$
+$$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
 $$\det(\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A))=\det(A)^{(n-1)^k}$$</p>
 
 $$\left(A^*\right)^*=\left|A\right|^{n-2}A$$
