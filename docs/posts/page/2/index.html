@@ -36,6 +36,33 @@
 
   
   <article>
+  <h1><a href="https://upunder.us/posts/lhopitals_rule/">L&#39;Hôpital&#39;s rule</a></h1>
+  <time datetime='2023-12-06T00:00:00'>2023.12.06 00:00</time>
+  
+  Tags:
+  
+  <a href='/tags/math'>math</a>
+  
+  
+  <div>
+     $f$ and $g$ which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ 
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/bijection/">bijection</a></h1>
+  <time datetime='2023-11-30T00:00:00'>2023.11.30 00:00</time>
+  
+  <div>
+    N and Q (define (f n) (cond ((= n 1) 1) ((even? n) (f (/ n 2))) (else (+ (f (/ (- n 1) 2)) (f (/ (+ n 1) 2)))))) (define (n_to_q x) (/ (f x) (f (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1)))) 
+    
+  </div>
+</article>
+
+  
+  <article>
   <h1><a href="https://upunder.us/posts/curves/">curves</a></h1>
   <time datetime='2023-11-26T00:00:00'>2023.11.26 00:00</time>
   
@@ -174,41 +201,6 @@ Solomon
 </article>
 
   
-  <article>
-  <h1><a href="https://upunder.us/posts/fixed_point_combinators/">fixed-point combinators</a></h1>
-  <time datetime='2023-10-15T00:00:00'>2023.10.15 00:00</time>
-  
-  <div>
-    $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
-(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) 
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/fast_fourier_transform/">fast fourier transform</a></h1>
-  <time datetime='2023-10-14T00:00:00'>2023.10.14 00:00</time>
-  
-  Tags:
-  
-  <a href='/tags/math'>math</a>
-  
-  <a href='/tags/algorithm'>algorithm</a>
-  
-  
-  <div>
-    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial in Octave.
-a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1+2x+3x^2)(4+5x+6x^2)=(4+13x^1+28x^2+27x^3+18x^4)\)
-And how to use FFT to multiply two big integers?
-If let x=10 Then can see it as \(321 \times 654\) And \(4 + 13 \cdot 10 + 28 \cdot 10^2 + 27\cdot 10^3+18 \cdot 10^4\) is the result we need.
-    
-    <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
-    
-  </div>
-</article>
-
-  
   <div class="pagination">
   
   <a class="prev-page" href="/posts/">Previous Page</a>
@@ -230,15 +222,15 @@ If let x=10 Then can see it as \(321 \times 654\) And \(4 + 13 \cdot 10 + 28 \cd
     <div class="post-list">
       <ul>
         
+        <li><a href="/posts/code_with_magic/">C Code with magic</a></li>
+        
+        <li><a href="/posts/quaternion/">quaternion</a></li>
+        
         <li><a href="/posts/lists_of_integrals/">lists of integrals</a></li>
         
         <li><a href="/posts/english_grammar/">english grammar</a></li>
         
         <li><a href="/posts/number_theory/">number theory</a></li>
-        
-        <li><a href="/posts/mnemonic/">mnemonic</a></li>
-        
-        <li><a href="/posts/cstring/">cstring</a></li>
         
       </ul>
     </div>

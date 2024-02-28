@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>linear algebra</title>
+    <title>quaternion</title>
     
     
     <style type="text/css" media="all">@import "/css/style.css";</style>
@@ -46,10 +46,10 @@
 <main>
   <article>
     <header>
-      <h1>linear algebra</h1>
+      <h1>quaternion</h1>
     </header>
-    <time datetime='2023-12-09T00:00:00'>
-      2023.12.09 00:00
+    <time datetime='2024-01-22T00:00:00'>
+      2024.01.22 00:00
     </time>
     
     Reading time:
@@ -57,82 +57,32 @@
     
     
     
-    43 s.
+    10 s.
     <div>
       <h3>Table of contents</h3>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#matrix">matrix</a>
-      <ul>
-        <li><a href="#identity-matrix">identity matrix</a></li>
-      </ul>
-    </li>
-    <li><a href="#determinant">determinant</a></li>
+    <li><a href="#rodrigues-rotation-formula">rodrigues&rsquo; rotation formula</a></li>
   </ul>
 </nav>
     </div>
-    <h1 id="matrix">matrix</h1>
-<h2 id="identity-matrix">identity matrix</h2>
-
-\[
-I_1=\begin{bmatrix}
-1
-\end{bmatrix},
-I_2=\begin{bmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{bmatrix},
-I_3=\begin{bmatrix}
-1 & 0 & 0 \\
-0 & 1 & 0 \\
-0 & 0 & 1 \\
-\end{bmatrix},
-\dots,
-I_n=\begin{bmatrix}
-1 & 0 & 0 & \cdots & 0 \\
-0 & 1 & 0 & \cdots & 0 \\
-0 & 0 & 1 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & 0 & \cdots & 1 \\
-\end{bmatrix}.
-\]
-
-
-<h1 id="determinant">determinant</h1>
-<p>$$\det(cA)=c^n\det(A)$$
-$$A\ {\rm adj}(A)=\det(A)E$$
-$$A^{-1}=\frac{{\rm adj}(A)}{\det(A)}$$
-$$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
-$${\rm adj}(cA)=c^{n-1}{\rm adj}(A)$$
-$${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$
-$$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
-$$\det(\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A))=\det(A)^{(n-1)^k}$$
-$${\rm adj}({\rm adj}(A))=\det(A)^{n-2}A$$
-
-$$\det\begin{bmatrix}
-A & O \\
-O & D \\
-\end{bmatrix}=
-\det\begin{bmatrix}
-A & O \\
-C & D \\
-\end{bmatrix}=
-\det\begin{bmatrix}
-A & B \\
-O & D \\
-\end{bmatrix}=\det \left ( A \right ) \det \left ( D \right )$$
-
-</p>
+    <p>Rotate a point $P=(a, b, c)$ counterclockwise around an axis defined by a vector $Q=(x, y, z)$ by an angle $\theta$. This process can be described using the following formula.
+$$q=\cos\frac{\theta}{2}+\sin\frac{\theta}{2}\left(x\mathbf{i}+y\mathbf{j}+z\mathbf{k}\right)$$
+$$q^{-1}=\frac{q^\ast}{|q|^2}$$
+$$p=a\mathbf{i}+b\mathbf{j}+c\mathbf{k}$$
+$$p^\prime=qpq^{-1}$$</p>
+<h1 id="rodrigues-rotation-formula">rodrigues&rsquo; rotation formula</h1>
+<p>$$\mathbf{v}_\mathrm{rot}=\mathbf{v}\cos\theta+(\mathbf{k}\times\mathbf{v})\sin\theta+\mathbf{k}~(\mathbf{k}\cdot\mathbf{v})(1-\cos\theta)$$</p>
 
     
   </article>
 </main>
 
-<a href="https://upunder.us/posts/coordinate_system/">Prev: coordinate system</a>
+<a href="https://upunder.us/posts/lists_of_integrals/">Prev: lists of integrals</a>
 
 <br>
 
-<a href="https://upunder.us/posts/arithmetic_overflow/">Next: arithmetic overflow</a>
+<a href="https://upunder.us/posts/code_with_magic/">Next: C Code with magic</a>
 
 <aside class="latest-posts">
   <div>

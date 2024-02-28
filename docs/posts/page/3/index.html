@@ -36,6 +36,41 @@
 
   
   <article>
+  <h1><a href="https://upunder.us/posts/fixed_point_combinators/">fixed-point combinators</a></h1>
+  <time datetime='2023-10-15T00:00:00'>2023.10.15 00:00</time>
+  
+  <div>
+    $$Y=\lambda f.(\lambda x. f (x\ x))(\lambda x. (x\ x))$$ $$Y\ g=g(Y\ g)$$
+(define Y (lambda (f) ((lambda (i) (i i)) (lambda (i) (f (lambda (x) (apply (i i) x))))))) 
+    
+  </div>
+</article>
+
+  
+  <article>
+  <h1><a href="https://upunder.us/posts/fast_fourier_transform/">fast fourier transform</a></h1>
+  <time datetime='2023-10-14T00:00:00'>2023.10.14 00:00</time>
+  
+  Tags:
+  
+  <a href='/tags/math'>math</a>
+  
+  <a href='/tags/algorithm'>algorithm</a>
+  
+  
+  <div>
+    First, let&rsquo;s forget the algorithm of FFT and just use it. How is it useful? It can use to multiply two polynomial in Octave.
+a = [1 2 3]; b = [4 5 6]; la = length(a); lb = length(b); ifft(fft(a,la+lb-1).*fft(b,la+lb-1)); ans = 4 13 28 27 18 This shows \((1+2x+3x^2)(4+5x+6x^2)=(4+13x^1+28x^2+27x^3+18x^4)\)
+And how to use FFT to multiply two big integers?
+If let x=10 Then can see it as \(321 \times 654\) And \(4 + 13 \cdot 10 + 28 \cdot 10^2 + 27\cdot 10^3+18 \cdot 10^4\) is the result we need.
+    
+    <a href="https://upunder.us/posts/fast_fourier_transform/">Read more...</a>
+    
+  </div>
+</article>
+
+  
+  <article>
   <h1><a href="https://upunder.us/posts/convolution/">convolution</a></h1>
   <time datetime='2023-10-13T00:00:00'>2023.10.13 00:00</time>
   
@@ -128,40 +163,6 @@
 </article>
 
   
-  <article>
-  <h1><a href="https://upunder.us/posts/mathematics/">mathematics</a></h1>
-  <time datetime='2023-10-03T00:00:00'>2023.10.03 00:00</time>
-  
-  Tags:
-  
-  <a href='/tags/math'>math</a>
-  
-  
-  <div>
-    (ε, δ)-definition of limit $$(\forall\varepsilon&gt;0)(\exists \delta &gt; 0)(\forall x \in \mathbb{R})(0&lt;|x-p|&lt;\delta \implies |f(x)-L|&lt;\varepsilon)$$ (for every real ε &gt; 0, there exists a real δ &gt; 0 such that for all real x, 0 &lt; |x − p| &lt; δ implies |f(x) − L| &lt; ε.)
-one-sided limit $$\lim_{x\to a^+}f(x)=R$$
-$$\lim_{x\to a^-}f(x)=L$$
-derivative rules for combined functions sum rule $$(f+g)^\prime=f^\prime+g^\prime$$
-product rule $$(fg)^\prime=f^\prime g+fg^\prime$$ $$(fgh)^\prime=f^\prime gh+fg^\prime h+fgh^\prime$$
-quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}$$
-    
-    <a href="https://upunder.us/posts/mathematics/">Read more...</a>
-    
-  </div>
-</article>
-
-  
-  <article>
-  <h1><a href="https://upunder.us/posts/zlibrary_usage/">zlibrary usage</a></h1>
-  <time datetime='2023-10-02T00:00:00'>2023.10.02 00:00</time>
-  
-  <div>
-    zlibrary
-    
-  </div>
-</article>
-
-  
   <div class="pagination">
   
   <a class="prev-page" href="/posts/page/2/">Previous Page</a>
@@ -183,15 +184,15 @@ quotient rule $$\left(\frac{f}{g}\right)^\prime=\frac{f^\prime g-fg^\prime}{g^2}
     <div class="post-list">
       <ul>
         
+        <li><a href="/posts/code_with_magic/">C Code with magic</a></li>
+        
+        <li><a href="/posts/quaternion/">quaternion</a></li>
+        
         <li><a href="/posts/lists_of_integrals/">lists of integrals</a></li>
         
         <li><a href="/posts/english_grammar/">english grammar</a></li>
         
         <li><a href="/posts/number_theory/">number theory</a></li>
-        
-        <li><a href="/posts/mnemonic/">mnemonic</a></li>
-        
-        <li><a href="/posts/cstring/">cstring</a></li>
         
       </ul>
     </div>

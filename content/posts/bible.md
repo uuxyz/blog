@@ -14,16 +14,30 @@ eye for eye, tooth for tooth, hand for hand, foot for foot,
 ## numbers
 
 ## deuteronomy
-
+### deuteronomy 4:41
+Then Moses set aside three cities east of the Jordan,
+### deuteronomy 4:42
+to which anyone who had killed a person could flee if they had unintentionally killed a neighbor without malice aforethought. They could flee into one of these cities and save their life.
+### deuteronomy 4:43
+The cities were these: Bezer in the wilderness plateau, for the Reubenites; Ramoth in Gilead, for the Gadites; and Golan in Bashan, for the Manassites.
 ## joshua
 
 ## judges
-
+### judges 10:13
+But you have forsaken me and served other gods, so I will no longer save you.
+### judges 10:14
+Go and cry out to the gods you have chosen. Let them save you when you are in trouble!”
+Then she called, “Samson, the Philistines are upon you!”
+### judges 16:20
+He awoke from his sleep and thought, “I’ll go out as before and shake myself free.” But he did not know that the Lord had left him.
 ## ruth
 
 ## 1 samuel
 
 ## 2 samuel
+
+### 2 samuel 19:6
+You love those who hate you and hate those who love you. You have made it clear today that the commanders and their men mean nothing to you. I see that you would be pleased if Absalom were alive today and all of us were dead.
 
 ## 1 kings
 

@@ -28,6 +28,26 @@
 
     
 <main><article>
+  <h1><a href="https://upunder.us/posts/code_with_magic/">C Code with magic</a></h1>
+  <time datetime='2024-02-28T00:00:00'>2024.02.28 00:00</time>
+  
+  <div>
+    Here I want to list several C code powered by magic.
+fast inverse square root float Q_rsqrt(float number) { long i; float x2, y; const float threehalfs = 1.5F; x2 = number * 0.5F; y = number; i = *(long *)&amp;y; i = 0x5f3759df - (i &gt;&gt; 1); y = *(float *)&amp;i; y = y * (threehalfs - (x2 * y * y)); // y = y * (threehalfs - (x2 * y * y)); return y; } integer square root int isqrt(int n) { int x = 1; int decreased = 0; for (;;) { int nx = (x + n / x) &gt;&gt; 1; if (x == nx || (nx &gt; x &amp;&amp; decreased)) break; decreased = nx &lt; x; x = nx; } return x; } is square number or not int is_square(int n) { if (1 &lt;&lt; (n &amp; 0x1f) &amp; 0x2030213) { int n_sqrt2 = isqrt(n); return n_sqrt2 * n_sqrt2 == n; } else { return 0; } } 
+    
+  </div>
+</article>
+<article>
+  <h1><a href="https://upunder.us/posts/quaternion/">quaternion</a></h1>
+  <time datetime='2024-01-22T00:00:00'>2024.01.22 00:00</time>
+  
+  <div>
+    Rotate a point $P=(a, b, c)$ counterclockwise around an axis defined by a vector $Q=(x, y, z)$ by an angle $\theta$. This process can be described using the following formula. $$q=\cos\frac{\theta}{2}+\sin\frac{\theta}{2}\left(x\mathbf{i}+y\mathbf{j}+z\mathbf{k}\right)$$ $$q^{-1}=\frac{q^\ast}{|q|^2}$$ $$p=a\mathbf{i}+b\mathbf{j}+c\mathbf{k}$$ $$p^\prime=qpq^{-1}$$
+rodrigues&rsquo; rotation formula $$\mathbf{v}_\mathrm{rot}=\mathbf{v}\cos\theta+(\mathbf{k}\times\mathbf{v})\sin\theta+\mathbf{k}~(\mathbf{k}\cdot\mathbf{v})(1-\cos\theta)$$
+    
+  </div>
+</article>
+<article>
   <h1><a href="https://upunder.us/posts/lists_of_integrals/">lists of integrals</a></h1>
   <time datetime='2024-01-13T00:00:00'>2024.01.13 00:00</time>
   
@@ -107,7 +127,7 @@ verb tense
   <time datetime='2023-12-09T00:00:00'>2023.12.09 00:00</time>
   
   <div>
-    matrix identity matrix $$ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ \end{bmatrix}, I_3=\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ \end{bmatrix},\dots,I_n=\begin{bmatrix} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ \end{bmatrix}.
+    matrix identity matrix \[ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ \end{bmatrix}, I_3=\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ \end{bmatrix}, \dots, I_n=\begin{bmatrix} 1 & 0 & 0 & \cdots & 0 \\ 0 & 1 & 0 & \cdots & 0 \\ 0 & 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & \cdots & 1 \\ \end{bmatrix}.
     
     <a href="https://upunder.us/posts/linear_algebra/">Read more...</a>
     
@@ -122,29 +142,6 @@ verb tense
 polar coordinate $$r=\sqrt{x^2+y^2}=\operatorname{hypot}(x,y)$$ $$\varphi=\operatorname{atan2}(y,x)$$
 3d cartesian coordinate $$x=r\sin\theta\cos\varphi$$ $$y=r\sin\theta\sin\varphi$$ $$z=r\cos\varphi$$
 spherical coordinate $$r=\sqrt{x^2+y^2+z^2}$$ $$\theta=\arccos\frac{z}{r}$$ $$\varphi=\operatorname{atan2}(y,x)$$
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/l_hopital_s_rule/">L&#39;Hôpital&#39;s rule</a></h1>
-  <time datetime='2023-12-06T00:00:00'>2023.12.06 00:00</time>
-  
-  Tags:
-  
-  <a href='/tags/math'>math</a>
-  
-  
-  <div>
-     f and g which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ 
-    
-  </div>
-</article>
-<article>
-  <h1><a href="https://upunder.us/posts/bijection/">bijection</a></h1>
-  <time datetime='2023-11-30T00:00:00'>2023.11.30 00:00</time>
-  
-  <div>
-    N and Q (define (f n) (cond ((= n 1) 1) ((even? n) (f (/ n 2))) (else (+ (f (/ (- n 1) 2)) (f (/ (+ n 1) 2)))))) (define (n_to_q x) (/ (f x) (f (+ x 1)))) (define (q_to_n q) (cond ((= q 1) 1) ((&lt; q 1) (* 2 (q_to_n (/ q (- 1 q))))) (else (+ (* 2 (q_to_n (- q 1))) 1)))) 
     
   </div>
 </article>
@@ -167,15 +164,15 @@ spherical coordinate $$r=\sqrt{x^2+y^2+z^2}$$ $$\theta=\arccos\frac{z}{r}$$ $$\v
     <div class="post-list">
       <ul>
         
+        <li><a href="/posts/code_with_magic/">C Code with magic</a></li>
+        
+        <li><a href="/posts/quaternion/">quaternion</a></li>
+        
         <li><a href="/posts/lists_of_integrals/">lists of integrals</a></li>
         
         <li><a href="/posts/english_grammar/">english grammar</a></li>
         
         <li><a href="/posts/number_theory/">number theory</a></li>
-        
-        <li><a href="/posts/mnemonic/">mnemonic</a></li>
-        
-        <li><a href="/posts/cstring/">cstring</a></li>
         
       </ul>
     </div>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C Code with magic</title>
+    
+    
+    <style type="text/css" media="all">@import "/css/style.css";</style>
+    <style type="text/css" media="all">@import "/css/syntax.css";</style>
+    
+  </head>
+  <body>
+    <header>
+  <span class="site-title"
+    style="font-size:3rem;display:inline-block;vertical-align:middle;">
+    <a href="https://upunder.us" style="font-family:uuu">
+      <img src="/icon/favicon.svg" alt="img"
+        width="64rem"
+        height="64rem"
+        style="display:inline-block;vertical-align: middle;" /></a>
+    up under us</span>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+</header>
+
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: true },
+          { left: '\\[', right: '\\]', display: true },
+      ]});"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body);
+    });
+</script>
+
+
+<main>
+  <article>
+    <header>
+      <h1>C Code with magic</h1>
+    </header>
+    <time datetime='2024-02-28T00:00:00'>
+      2024.02.28 00:00
+    </time>
+    
+    Reading time:
+    
+    
+    
+    
+    44 s.
+    <div>
+      <h3>Table of contents</h3>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#fast-inverse-square-root">fast inverse square root</a></li>
+    <li><a href="#integer-square-root">integer square root</a></li>
+    <li><a href="#is-square-number-or-not">is square number or not</a></li>
+  </ul>
+</nav>
+    </div>
+    <p>Here I want to list several C code powered by magic.</p>
+<h1 id="fast-inverse-square-root">fast inverse square root</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">Q_rsqrt</span>(<span style="color:#66d9ef">float</span> number) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">long</span> i;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">float</span> x2, y;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">float</span> threehalfs <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.5F</span>;
+</span></span><span style="display:flex;"><span>  x2 <span style="color:#f92672">=</span> number <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.5F</span>;
+</span></span><span style="display:flex;"><span>  y <span style="color:#f92672">=</span> number;
+</span></span><span style="display:flex;"><span>  i <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">long</span> <span style="color:#f92672">*</span>)<span style="color:#f92672">&amp;</span>y;
+</span></span><span style="display:flex;"><span>  i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x5f3759df</span> <span style="color:#f92672">-</span> (i <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>  y <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>(<span style="color:#66d9ef">float</span> <span style="color:#f92672">*</span>)<span style="color:#f92672">&amp;</span>i;
+</span></span><span style="display:flex;"><span>  y <span style="color:#f92672">=</span> y <span style="color:#f92672">*</span> (threehalfs <span style="color:#f92672">-</span> (x2 <span style="color:#f92672">*</span> y <span style="color:#f92672">*</span> y));
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// y = y * (threehalfs - (x2 * y * y));
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> y;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="integer-square-root">integer square root</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">isqrt</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> decreased <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> (;;) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> nx <span style="color:#f92672">=</span> (x <span style="color:#f92672">+</span> n <span style="color:#f92672">/</span> x) <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">==</span> nx <span style="color:#f92672">||</span> (nx <span style="color:#f92672">&gt;</span> x <span style="color:#f92672">&amp;&amp;</span> decreased))
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    decreased <span style="color:#f92672">=</span> nx <span style="color:#f92672">&lt;</span> x;
+</span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> nx;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> x;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="is-square-number-or-not">is square number or not</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">is_square</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> (n <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0x1f</span>) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0x2030213</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> n_sqrt2 <span style="color:#f92672">=</span> <span style="color:#a6e22e">isqrt</span>(n);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> n_sqrt2 <span style="color:#f92672">*</span> n_sqrt2 <span style="color:#f92672">==</span> n;
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+    
+  </article>
+</main>
+
+<a href="https://upunder.us/posts/quaternion/">Prev: quaternion</a>
+
+<br>
+
+<aside class="latest-posts">
+  <div>
+    <div class="section-header">
+      <h3>LATEST POSTS</h3>
+    </div>
+    <div class="post-list">
+      <ul>
+        
+        <li><a href="/posts/code_with_magic/">C Code with magic</a></li>
+        
+        <li><a href="/posts/quaternion/">quaternion</a></li>
+        
+        <li><a href="/posts/lists_of_integrals/">lists of integrals</a></li>
+        
+        <li><a href="/posts/english_grammar/">english grammar</a></li>
+        
+        <li><a href="/posts/number_theory/">number theory</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+
+    <footer class="site-footer">
+  <p>2024 <a href="https://upunder.us">up under us</a></p>
+</footer>
+
+  </body>
+</html>

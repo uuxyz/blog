@@ -55,7 +55,7 @@ $$=\frac{2}{\sqrt{b}}\arctan\sqrt{\frac{ax-b}{b}}+C(b>0)$$
 3. $$\int\frac{{\rm d}x}{x^2-a^2}=\frac{1}{2a}\int\frac{2a}{x^2-a^2}{\rm d}x$$
 $$=\frac{1}{2a}\int\frac{1}{x-a}-\frac{1}{x+a}{\rm d}x=\frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C$$
 # (IV)
-1. $$\int\frac{{\rm d}x}{ax^2+b}=\frac{1}{\sqrt{ab}}\arctan\sqrt{\frac{a}{b}}+C$$
+1. $$\int\frac{{\rm d}x}{ax^2+b}=\frac{1}{b}\int\frac{{\rm d}x}{\frac{a}{b}x^2+1}=\frac{1}{\sqrt{ab}}\int\frac{{\rm d}\sqrt\frac{a}{b}x}{\frac{a}{b}x^2+1}=\frac{1}{\sqrt{ab}}\arctan\sqrt{\frac{a}{b}}x+C$$
 2. $$\int\frac{{\rm d}x}{ax^2-b}=\frac{1}{\sqrt{ab}}\ln\left|\frac{\sqrt{a}x-\sqrt{b}}{\sqrt{a}x+\sqrt{b}}\right|+C$$
 3. $$\int\frac{x}{ax^2+b}{\rm d}x=\frac{1}{2a}\ln\left|ax^2+b\right|+C$$
 4. $$\int\frac{x^2}{ax^2+b}{\rm d}x=\frac{x}{a}-\frac{b}{a}\int\frac{{\rm d}x}{ax^2+b}$$
@@ -129,36 +129,39 @@ $$=\frac{1}{2a}\int\frac{1}{x-a}-\frac{1}{x+a}{\rm d}x=\frac{1}{2a}\ln\left|\fra
 2. $$\int\cos x\ {\rm d}x=\sin x+C$$
 3. $$\int\tan x\ {\rm d}x=\int\frac{\sin x}{\cos x}{\rm d}x=-\int\frac{{\rm d}\cos x}{\cos x}=-\ln|\cos x|+C$$
 4. $$\int\cot x\ {\rm d}x=\int\frac{\cos x}{\sin x}{\rm d}x=-\int\frac{{\rm d}\sin x}{\sin x}=\ln|\sin x|+C$$
-5. $$\int\sec x\ {\rm d}x=\int\frac{\cos x}{\cos^2x}\ {\rm d}x=\int\frac{{\rm d}\sin x}{1-\sin^2x}=\frac{1}{2}\int\frac{1}{1-\sin x}-\frac{1}{1+\sin x}{\rm d}\sin x$$$$=\ln\left|\tan\left(\frac{\pi}{4}+\frac{x}{2}\right)\right|+C=\ln|\sec x + \tan x|+C$$
+5. $$\int\sec x\ {\rm d}x=\int\frac{\cos x}{\cos^2x}\ {\rm d}x=\int\frac{{\rm d}\sin x}{1-\sin^2x}=\frac{1}{2}\int\frac{1}{1-\sin x}+\frac{1}{1+\sin x}{\rm d}\sin x$$
+   $$=\frac{1}{2}\ln\left|\frac{1+\sin x}{1-\sin x}\right|+C=\frac{1}{2}\ln\left|\frac{(1+\sin x)^2}{1-\sin^2 x}\right|+C=\frac{1}{2}\ln\left|\frac{(1+\sin x)^2}{\cos^2 x}\right|+C$$$$=\ln\left|\frac{1+\sin x}{\cos x}\right|+C=\ln|\sec x + \tan x|+C=\ln\left|\tan\left(\frac{\pi}{4}+\frac{x}{2}\right)\right|+C$$
 6. $$\int\csc x{\rm d}x=\ln\left|\tan\frac{x}{2}\right|+C=\ln|\csc x-\cot x|+C$$
 7. $$\int\sec^2x\ {\rm d}x=\tan x+C$$
 8. $$\int\csc^2x\ {\rm d}x=-\cot x+C$$
 9. $$\int\sec x\tan x\ {\rm d}x=\sec x+C$$
 10. $$\int\csc x\cot x\ {\rm d}x=-\csc x+C$$
-11. $$\int\sin^2x\ {\rm d}x=\frac{x}{2}-\frac{1}{4}\sin{2x}+C$$
-12. $$\int\cos^2x\ {\rm d}x=\frac{x}{2}+\frac{1}{4}\sin2x+C$$
+11. $$\int\sin^2x\ {\rm d}x=\int\frac{1-\cos2x}{2}{\rm d}x=\frac{x}{2}-\frac{1}{4}\sin{2x}+C$$
+12. $$\int\cos^2x\ {\rm d}x=\int\frac{1+\cos2x}{2}{\rm d}x=\frac{x}{2}+\frac{1}{4}\sin2x+C$$
 13. $$\int\sin^nx\ {\rm d}x=-\frac{1}{n}\sin^{n-1}x\cos x+\frac{n-1}{n}\int\sin^{n-2}x\ {\rm d}x$$
 14. $$\int\cos^nx\ {\rm d}x=\frac{1}{n}\cos^{n-1}x\sin x+\frac{n-1}{n}\int\cos^{n-2}x\ {\rm d}x$$
 15. $$\int\frac{{\rm d}x}{\sin^n x}=-\frac{1}{n-1}\frac{\cos x}{\sin^{n-1}x}+\frac{n-2}{n-1}\int\frac{{\rm d}x}{\sin^{n-2}x}$$
 16. $$\int\frac{{\rm d}x}{\cos^n x}=\frac{1}{n-1}\frac{\sin x}{\cos^{n-1}x}+\frac{n-2}{n-1}\int\frac{{\rm d}x}{\cos^{n-2}x}$$
 17. $$\int\cos^mx\sin^nx\ {\rm d}x=\frac{1}{m+n}\cos^{m-1}x\sin^{n+1}x+\frac{m-1}{m+n}\int\cos^{m-2}x\sin^nx\ {\rm d}x$$
-18. $$=-\frac{1}{m+n}\cos^{m+1}x\sin^{n-1}x+\frac{n-1}{m+n}\int\cos^mx\sin^{n-2}x\ {\rm d}x$$
-19. $$\int\sin ax\cos bx\ {\rm d}x=-\frac{1}{2(a+b)}\cos(a+b)x-\frac{1}{2(a-b)}\cos(a-b)x+C$$
-20. $$\int\sin ax\sin bx\ {\rm d}x=-\frac{1}{2(a+b)}\sin(a+b)x+\frac{1}{2(a-b)}\sin(a-b)x+C$$
-21. $$\int\cos ax\cos bx\ {\rm d}x=\frac{1}{2(a+b)}\sin(a+b)x+\frac{1}{2(a-b)}\sin(a-b)x+C$$
-22. $$\int\frac{{\rm d}x}{a+b\sin x}=\frac{2}{\sqrt{a^2-b^2}}\arctan\frac{a\tan \frac{x}{2}+b}{\sqrt{a^2-b^2}}+C(a^2>b^2)$$
-23. $$\int\frac{{\rm d}x}{a+b\sin x}=\frac{1}{\sqrt{b^2-a^2}}\ln\left|\frac{a\tan\frac{x}{2}+b-\sqrt{b^2-a^2}}{a\tan\frac{x}{2}+b+\sqrt{b^2-a^2}}\right|+C(a^2<b^2)$$
-24. $$\int\frac{{\rm d}x}{a+b\cos x}=\frac{2}{a+b}\sqrt\frac{a+b}{a-b}\arctan\left(\sqrt\frac{a-b}{a+b}\tan\frac{x}{2}\right)+C(a^2>b^2)$$
-25. $$\int\frac{{\rm d}x}{a+b\cos x}=\frac{1}{a+b}\sqrt\frac{a+b}{a-b}\ln\left|\frac{\tan\frac{x}{2}+\sqrt\frac{a+b}{b-a}}{\tan\frac{x}{2}-\sqrt\frac{a+b}{b-a}}\right|+C(a^2<b^2)$$
-26. $$\int\frac{{\rm d}x}{a^2\cos^2x+b^2\sin^2x}=\frac{1}{ab}\arctan\left(\frac{b}{a}\tan x\right)+C$$
-27. $$\int\frac{{\rm d}x}{a^2\cos^2x-b^2\sin^2x}=\frac{1}{2ab}\ln\left|\frac{b\tan x+a}{b\tan x-a}\right|+C$$
-28. $$\int x\sin ax\ {\rm d}x=\frac{1}{a^2}\sin ax-\frac{1}{a}x\cos ax+C$$
-29. $$\int x^2\sin ax\ {\rm d}x=-\frac{1}{a}x^2\cos ax+\frac{2}{a^2}x\sin ax+\frac{2}{a^3}\cos ax+C$$
-30. $$\int x\cos ax\ {\rm d}x=\frac{1}{a^2}\cos ax+\frac{1}{a}x\sin ax+C$$
-31. $$\int x^2\cos ax\ {\rm d}x=\frac{1}{a}x^2\sin ax+\frac{2}{a^2}x\cos ax-\frac{2}{a^3}\sin ax+C$$
+$$=-\frac{1}{m+n}\cos^{m+1}x\sin^{n-1}x+\frac{n-1}{m+n}\int\cos^mx\sin^{n-2}x\ {\rm d}x$$
+18. $$\int\sin ax\cos bx\ {\rm d}x=-\frac{1}{2(a+b)}\cos(a+b)x-\frac{1}{2(a-b)}\cos(a-b)x+C$$
+19. $$\int\sin ax\sin bx\ {\rm d}x=-\frac{1}{2(a+b)}\sin(a+b)x+\frac{1}{2(a-b)}\sin(a-b)x+C$$
+20. $$\int\cos ax\cos bx\ {\rm d}x=\frac{1}{2(a+b)}\sin(a+b)x+\frac{1}{2(a-b)}\sin(a-b)x+C$$
+21. $$\int\frac{{\rm d}x}{a+b\sin x}=\frac{2}{\sqrt{a^2-b^2}}\arctan\frac{a\tan \frac{x}{2}+b}{\sqrt{a^2-b^2}}+C(a^2>b^2)$$
+22. $$\int\frac{{\rm d}x}{a+b\sin x}=\frac{1}{\sqrt{b^2-a^2}}\ln\left|\frac{a\tan\frac{x}{2}+b-\sqrt{b^2-a^2}}{a\tan\frac{x}{2}+b+\sqrt{b^2-a^2}}\right|+C(a^2<b^2)$$
+23. $$\int\frac{{\rm d}x}{a+b\cos x}=\frac{2}{a+b}\sqrt\frac{a+b}{a-b}\arctan\left(\sqrt\frac{a-b}{a+b}\tan\frac{x}{2}\right)+C(a^2>b^2)$$
+24. $$\int\frac{{\rm d}x}{a+b\cos x}=\frac{1}{a+b}\sqrt\frac{a+b}{a-b}\ln\left|\frac{\tan\frac{x}{2}+\sqrt\frac{a+b}{b-a}}{\tan\frac{x}{2}-\sqrt\frac{a+b}{b-a}}\right|+C(a^2<b^2)$$
+25. $$\int\frac{{\rm d}x}{a^2\cos^2x+b^2\sin^2x}=\frac{1}{ab}\arctan\left(\frac{b}{a}\tan x\right)+C$$
+26. $$\int\frac{{\rm d}x}{a^2\cos^2x-b^2\sin^2x}=\frac{1}{2ab}\ln\left|\frac{b\tan x+a}{b\tan x-a}\right|+C$$
+27. $$\int x\sin ax\ {\rm d}x=\frac{1}{a^2}\sin ax-\frac{1}{a}x\cos ax+C$$
+28. $$\int x^2\sin ax\ {\rm d}x=-\frac{1}{a}x^2\cos ax+\frac{2}{a^2}x\sin ax+\frac{2}{a^3}\cos ax+C$$
+29. $$\int x\cos ax\ {\rm d}x=\frac{1}{a^2}\cos ax+\frac{1}{a}x\sin ax+C$$
+30. $$\int x^2\cos ax\ {\rm d}x=\frac{1}{a}x^2\sin ax+\frac{2}{a^2}x\cos ax-\frac{2}{a^3}\sin ax+C$$
 # (XII)
-1. $$\int\arcsin\frac{x}{a}\ {\rm d}x=x\arcsin\frac{x}{a}+\sqrt{a^2-x^2}+C$$
-2. $$\int x\arcsin\frac{x}{a}\ {\rm d}x=\left(\frac{x^2}{2}-\frac{a^2}{4}\right)\arcsin\frac{x}{a}+\frac{x}{4}\sqrt{a^2-x^2}+C$$
+1. $$\int\arcsin\frac{x}{a}\ {\rm d}x=x\arcsin\frac{x}{a}-\int x\ {\rm d}\arcsin\frac{x}{a}=x\arcsin\frac{x}{a}+\sqrt{a^2-x^2}+C$$
+2. $$\int x\arcsin\frac{x}{a}\ {\rm d}x=\frac{1}{2}\left[x^2\arcsin\frac{x}{a}-\int x^2{\rm d}\arcsin\frac{x}{a}\right]$$
+$$=\frac{1}{2}\left[x^2\arcsin\frac{x}{a}-\int\frac{x^2}{\sqrt{a^2-x^2}}{\rm d}x\right]$$
+$$=\left(\frac{x^2}{2}-\frac{a^2}{4}\right)\arcsin\frac{x}{a}+\frac{x}{4}\sqrt{a^2-x^2}+C$$
 3. $$\int x^2\arcsin\frac{x}{a}{\rm d}x=\frac{x^3}{3}\arcsin\frac{x}{a}+\frac{1}{9}\left(x^2+2a^2\right)\sqrt{a^2-x^2}+C$$
 4. $$\int\arccos\frac{x}{a}\ {\rm d}x=x\arccos\frac{x}{a}-\sqrt{a^2-x^2}+C$$
 5. $$\int x\arccos\frac{x}{a}\ {\rm d}x=\left(\frac{x^2}{2}-\frac{a^2}{4}\right)\arccos\frac{x}{a}-\frac{x}{4}\sqrt{a^2-x^2}+C$$
@@ -168,25 +171,27 @@ $$=\frac{1}{2a}\int\frac{1}{x-a}-\frac{1}{x+a}{\rm d}x=\frac{1}{2a}\ln\left|\fra
 9. $$\int x^2\arctan \frac{x}{a}\ {\rm d}x=\frac{x^3}{3}\arctan\frac{x}{a}-\frac{a}{6}x^2+\frac{a^3}{6}\ln\left(a^2+x^2\right)+C$$
 # (XIII)
 1. $$\int a^x{\rm d}x=\frac{1}{\ln a}a^x+C$$
-2. $$\int e^{ax}=\frac{1}{a}e^{ax}+C$$
-3. $$\int xe^{ax}=\frac{1}{a^2}(ax-1)e^{ax}+C$$
-4. $$\int x^ne^{ax}=\frac{1}{a}x^ne^{ax}-\frac{n}{a}\int x^{n-1}e^{ax}{\rm d}x$$
-5. $$\int xa^x{\rm d}x=\frac{1}{\ln a}a^x-\frac{1}{(\ln a)^2}a^x+C$$
+2. $$\int e^{ax}{\rm d}x=\frac{1}{a}\int e^{ax}{\rm d}(ax)=\frac{1}{a}e^{ax}+C$$
+3. $$\int xe^{ax}{\rm d}x=\frac{1}{a^2}\int axe^{ax}{\rm d}(ax)=\frac{1}{a^2}\int ax\ {\rm d}(e^{ax})$$
+   $$=\frac{1}{a^2}\left[axe^{ax}-\int e^{ax}{\rm d}(ax)\right]=\frac{1}{a^2}(ax-1)e^{ax}+C$$
+4. $$\int x^ne^{ax}{\rm d}x=\frac{1}{a}x^ne^{ax}-\frac{n}{a}\int x^{n-1}e^{ax}{\rm d}x$$
+5. $$\int xa^x{\rm d}x=\frac{1}{\ln a}\int x\ {\rm d}(a^x)=\frac{1}{\ln a}\left[xa^x-\int a^x{\rm d}x\right]$$
+$$=\frac{1}{\ln a}\left[xa^x-\frac{1}{\ln a}a^x\right]+C=\frac{x}{\ln a}a^x-\frac{1}{(\ln a)^2}a^x+C$$
 6. $$\int x^na^x{\rm d}x=\frac{1}{\ln a}x^na^x-\frac{n}{\ln a}\int x^{n-1}a^x{\rm d}x$$
 7. $$e^{ax}\sin bx\ {\rm d}x=\frac{1}{a^2+b^2}e^{ax}(a\sin bx-b\cos bx)+C$$
 8. $$e^{ax}\cos bx\ {\rm d}x=\frac{1}{a^2+b^2}e^{ax}(b\sin bx+a\cos bx)+C$$
 # (XIV)
-1. $$\int \ln x{\rm d}x=x\ln x-x+C$$
-2. $$\int\frac{{\rm d}x}{x\ln x}=\ln|\ln x|+C$$
-3. $$\int x^n\ln x{\rm d}x=\frac{1}{n+1}x^{n+1}(\ln x-\frac{1}{n+1})+C$$
+1. $$\int \ln x{\rm d}x=x\ln x-\int x\ {\rm d}\ln x=x\ln x-\int{\rm d}x=x\ln x-x+C$$
+2. $$\int\frac{{\rm d}x}{x\ln x}=\int\frac{{\rm d}\ln x}{\ln x}=\ln|\ln x|+C$$
+3. $$\int x^n\ln x\ {\rm d}x=\int\ln x\ {\rm d}\frac{1}{n+1}x^{n+1}=\frac{1}{n+1}\left[x^{n+1}\ln x-\int x^{n}{\rm d}x\right]$$$$=\frac{1}{n+1}\left[x^{n+1}\ln x-\frac{1}{n+1}x^{n+1}\right]+C=\frac{1}{n+1}x^{n+1}(\ln x-\frac{1}{n+1})+C$$
 4. $$\int (\ln x)^n{\rm d}x=x(\ln x)^n-n\int(\ln x)^{n-1}{\rm d}x$$
 5. $$\int x^m(\ln x)^n{\rm d}x=\frac{1}{m+1}x^{m+1}(\ln x)^n-\frac{n}{m+1}\int x^m(\ln x)^{n-1}{\rm d}x$$
 # (XV)
 1. $$\int\sinh x{\rm d}x=\cosh x+C$$
 2. $$\int\cosh x{\rm d}x=\sinh x+C$$
-3. $$\int\tanh x{\rm d}x=\ln\cosh x+C$$
-4. $$\int\sinh^2 x{\rm d}x=-\frac{x}{2}+\frac{1}{4}\sinh 2x+C$$
-5. $$\int\cosh^2x{\rm d}x=\frac{x}{2}+\frac{1}{4}\sinh2x+C$$
+3. $$\int\tanh x{\rm d}x=\int\frac{{\rm d}\cosh x}{\cosh x}=\ln\cosh x+C$$
+4. $$\int\sinh^2 x{\rm d}x=\int\frac{\cosh2x-1}{2}{\rm d}x=-\frac{x}{2}+\frac{1}{4}\sinh 2x+C$$
+5. $$\int\cosh^2x{\rm d}x=\int\frac{\cosh2x+1}{2}{\rm d}x=\frac{x}{2}+\frac{1}{4}\sinh2x+C$$
 # (XVI)
 1. $$\int_{-\pi}^\pi\cos nx{\rm d}x=\int_{-\pi}^\pi\sin nx{\rm d}x=0$$
 2. $$\int_{-\pi}^\pi\cos mx\sin nx{\rm d}x=0$$

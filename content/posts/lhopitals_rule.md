@@ -5,7 +5,7 @@ math: true
 tags:
   - math
 ---
-1. f and g which are differentiable
+1. $f$ and $g$ which are differentiable
 2. $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$
 3. $g^\prime(x)\neq 0$
 4. $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$

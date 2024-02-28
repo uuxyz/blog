@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>linear algebra</title>
+    <title>L&#39;Hôpital&#39;s rule</title>
     
     
     <style type="text/css" media="all">@import "/css/style.css";</style>
@@ -46,93 +46,100 @@
 <main>
   <article>
     <header>
-      <h1>linear algebra</h1>
+      <h1>L&#39;Hôpital&#39;s rule</h1>
     </header>
-    <time datetime='2023-12-09T00:00:00'>
-      2023.12.09 00:00
+    <time datetime='2023-12-06T00:00:00'>
+      2023.12.06 00:00
     </time>
+    
+    <div>
+      Tags:
+      
+      <a href='/tags/math'>math</a>
+      
+    </div>
     
     Reading time:
     
     
     
     
-    43 s.
+    22 s.
     <div>
       <h3>Table of contents</h3>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#matrix">matrix</a>
-      <ul>
-        <li><a href="#identity-matrix">identity matrix</a></li>
-      </ul>
-    </li>
-    <li><a href="#determinant">determinant</a></li>
-  </ul>
-</nav>
+      <nav id="TableOfContents"></nav>
     </div>
-    <h1 id="matrix">matrix</h1>
-<h2 id="identity-matrix">identity matrix</h2>
-
-\[
-I_1=\begin{bmatrix}
-1
-\end{bmatrix},
-I_2=\begin{bmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{bmatrix},
-I_3=\begin{bmatrix}
-1 & 0 & 0 \\
-0 & 1 & 0 \\
-0 & 0 & 1 \\
-\end{bmatrix},
-\dots,
-I_n=\begin{bmatrix}
-1 & 0 & 0 & \cdots & 0 \\
-0 & 1 & 0 & \cdots & 0 \\
-0 & 0 & 1 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & 0 & \cdots & 1 \\
-\end{bmatrix}.
-\]
-
-
-<h1 id="determinant">determinant</h1>
-<p>$$\det(cA)=c^n\det(A)$$
-$$A\ {\rm adj}(A)=\det(A)E$$
-$$A^{-1}=\frac{{\rm adj}(A)}{\det(A)}$$
-$$\det ({\rm adj}(A))=(\det{A})^{n-1}$$
-$${\rm adj}(cA)=c^{n-1}{\rm adj}(A)$$
-$${\rm adj}(AB)={\rm adj}(B){\rm adj}(A)$$
-$$\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A)=\det(A)^{\frac{(n-1)^k-(-1)^k}{n}}A^{(-1)^k}$$
-$$\det(\overbrace{{\rm adj}\cdots{\rm adj}}^{k}(A))=\det(A)^{(n-1)^k}$$
-$${\rm adj}({\rm adj}(A))=\det(A)^{n-2}A$$
-
-$$\det\begin{bmatrix}
-A & O \\
-O & D \\
-\end{bmatrix}=
-\det\begin{bmatrix}
-A & O \\
-C & D \\
-\end{bmatrix}=
-\det\begin{bmatrix}
-A & B \\
-O & D \\
-\end{bmatrix}=\det \left ( A \right ) \det \left ( D \right )$$
-
-</p>
+    <ol>
+<li>$f$ and $g$ which are differentiable</li>
+<li>$\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$</li>
+<li>$g^\prime(x)\neq 0$</li>
+<li>$\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$
+$$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>indeterminate</th>
+<th>form</th>
+<th>conditions</th>
+<th>transformation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\frac{0}{0}$</td>
+<td>$\frac{f(x)}{g(x)}$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$</td>
+<td>&mdash;</td>
+</tr>
+<tr>
+<td>$\frac{\infty}{\infty}$</td>
+<td>$\frac{f(x)}{g(x)}$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$</td>
+<td>$\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$</td>
+</tr>
+<tr>
+<td>$0\cdot\infty$</td>
+<td>$f(x)g(x)$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$</td>
+<td>$\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$</td>
+</tr>
+<tr>
+<td>$\infty-\infty$</td>
+<td>$f(x)-g(x)$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$</td>
+<td>$\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$</td>
+</tr>
+<tr>
+<td>$0^0$</td>
+<td>$f(x)^{g(x)}$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$</td>
+<td>$\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$</td>
+</tr>
+<tr>
+<td>$1^\infty$</td>
+<td>$f(x)^{g(x)}$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$</td>
+<td>$\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$</td>
+</tr>
+<tr>
+<td>$\infty^0$</td>
+<td>$f(x)^{g(x)}$</td>
+<td>$\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$</td>
+<td>$\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$</td>
+</tr>
+</tbody>
+</table>
 
     
   </article>
 </main>
 
-<a href="https://upunder.us/posts/coordinate_system/">Prev: coordinate system</a>
+<a href="https://upunder.us/posts/bijection/">Prev: bijection</a>
 
 <br>
 
-<a href="https://upunder.us/posts/arithmetic_overflow/">Next: arithmetic overflow</a>
+<a href="https://upunder.us/posts/coordinate_system/">Next: coordinate system</a>
 
 <aside class="latest-posts">
   <div>

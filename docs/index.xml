@@ -6,7 +6,27 @@
     <description>Recent content on up under us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://upunder.us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C Code with magic</title>
+      <link>https://upunder.us/posts/code_with_magic/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/code_with_magic/</guid>
+      <description>Here I want to list several C code powered by magic.
+fast inverse square root float Q_rsqrt(float number) { long i; float x2, y; const float threehalfs = 1.5F; x2 = number * 0.5F; y = number; i = *(long *)&amp;amp;y; i = 0x5f3759df - (i &amp;gt;&amp;gt; 1); y = *(float *)&amp;amp;i; y = y * (threehalfs - (x2 * y * y)); // y = y * (threehalfs - (x2 * y * y)); return y; } integer square root int isqrt(int n) { int x = 1; int decreased = 0; for (;;) { int nx = (x + n / x) &amp;gt;&amp;gt; 1; if (x == nx || (nx &amp;gt; x &amp;amp;&amp;amp; decreased)) break; decreased = nx &amp;lt; x; x = nx; } return x; } is square number or not int is_square(int n) { if (1 &amp;lt;&amp;lt; (n &amp;amp; 0x1f) &amp;amp; 0x2030213) { int n_sqrt2 = isqrt(n); return n_sqrt2 * n_sqrt2 == n; } else { return 0; } } </description>
+    </item>
+    
+    <item>
+      <title>quaternion</title>
+      <link>https://upunder.us/posts/quaternion/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://upunder.us/posts/quaternion/</guid>
+      <description>Rotate a point $P=(a, b, c)$ counterclockwise around an axis defined by a vector $Q=(x, y, z)$ by an angle $\theta$. This process can be described using the following formula. $$q=\cos\frac{\theta}{2}+\sin\frac{\theta}{2}\left(x\mathbf{i}+y\mathbf{j}+z\mathbf{k}\right)$$ $$q^{-1}=\frac{q^\ast}{|q|^2}$$ $$p=a\mathbf{i}+b\mathbf{j}+c\mathbf{k}$$ $$p^\prime=qpq^{-1}$$
+rodrigues&amp;rsquo; rotation formula $$\mathbf{v}_\mathrm{rot}=\mathbf{v}\cos\theta+(\mathbf{k}\times\mathbf{v})\sin\theta+\mathbf{k}~(\mathbf{k}\cdot\mathbf{v})(1-\cos\theta)$$</description>
+    </item>
+    
     <item>
       <title>lists of integrals</title>
       <link>https://upunder.us/posts/lists_of_integrals/</link>
@@ -72,7 +92,7 @@ verb tense </description>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://upunder.us/posts/linear_algebra/</guid>
-      <description>matrix identity matrix $$ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ \end{bmatrix}, I_3=\begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ \end{bmatrix},\dots,I_n=\begin{bmatrix} 1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1 \\ \end{bmatrix}.</description>
+      <description>matrix identity matrix \[ I_1=\begin{bmatrix} 1 \end{bmatrix}, I_2=\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \\ \end{bmatrix}, I_3=\begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \\ \end{bmatrix}, \dots, I_n=\begin{bmatrix} 1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; \cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1 \\ \end{bmatrix}.</description>
     </item>
     
     <item>
@@ -89,11 +109,11 @@ spherical coordinate $$r=\sqrt{x^2+y^2+z^2}$$ $$\theta=\arccos\frac{z}{r}$$ $$\v
     
     <item>
       <title>L&#39;Hôpital&#39;s rule</title>
-      <link>https://upunder.us/posts/l_hopital_s_rule/</link>
+      <link>https://upunder.us/posts/lhopitals_rule/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://upunder.us/posts/l_hopital_s_rule/</guid>
-      <description> f and g which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &amp;mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ </description>
+      <guid>https://upunder.us/posts/lhopitals_rule/</guid>
+      <description> $f$ and $g$ which are differentiable $\displaystyle\lim_{x\to c}f(x)=\lim_{x\to c}g(x)=0\ {\rm or} \pm\infty$ $g^\prime(x)\neq 0$ $\displaystyle\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}\ {\rm exists}$ $$\lim_{x\to c}\frac{f(x)}{g(x)}=\lim_{x\to c}\frac{f^\prime(x)}{g^\prime(x)}$$ indeterminate form conditions transformation $\frac{0}{0}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=0$ &amp;mdash; $\frac{\infty}{\infty}$ $\frac{f(x)}{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)}{1/f(x)}$ $0\cdot\infty$ $f(x)g(x)$ $\displaystyle\lim_{x\to c}f(x)=0,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{f(x)}{1/g(x)}$ $\infty-\infty$ $f(x)-g(x)$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\lim_{x\to c}\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$ $0^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=0^+,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ $1^\infty$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=1,\ \lim_{x\to c}g(x)=\infty$ $\displaystyle\exp\lim_{x\to c}\frac{\ln f(x)}{1/g(x)}$ $\infty^0$ $f(x)^{g(x)}$ $\displaystyle\lim_{x\to c}f(x)=\infty,\ \lim_{x\to c}g(x)=0$ $\displaystyle\exp\lim_{x\to c}\frac{g(x)}{1/\ln f(x)}$ </description>
     </item>
     
     <item>
@@ -710,7 +730,8 @@ Where is the party in opposition that has not been decried as communistic by its
       <guid>https://upunder.us/posts/bible/</guid>
       <description>old testament genesis genesis 1:1 In the beginning God created the heavens and the earth.
 exodus exodus 21:24 eye for eye, tooth for tooth, hand for hand, foot for foot,
-leviticus numbers deuteronomy joshua judges ruth 1 samuel 2 samuel 1 kings 2 kings 1 chronicles 2 chronicles ezra nehemiah esther job psalms proverbs ecclesiastes ecclesiastes 1:8 All things are wearisome, more than one can say. The eye never has enough of seeing, nor the ear its fill of hearing.</description>
+leviticus numbers deuteronomy deuteronomy 4:41 Then Moses set aside three cities east of the Jordan,
+deuteronomy 4:42 to which anyone who had killed a person could flee if they had unintentionally killed a neighbor without malice aforethought. They could flee into one of these cities and save their life.</description>
     </item>
     
     <item>
